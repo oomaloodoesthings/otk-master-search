@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OriginalTK — Master Search</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="container">
+    <h1>OriginalTK — Master Search</h1>
+    <p class="muted">Type to search by partial name. Filter by path and level tier. Click headers to sort.</p>
+  </header>
+
+  <section class="container controls">
+    <input id="q" type="text" placeholder="Search items by name… (e.g., 'sword', 'robe', 'amulet')" />
+    <div class="filters">
+      <div class="filter">
+        <label>Paths:</label>
+        <label><input type="checkbox" name="path" value="peasant" checked> Peasant</label>
+        <label><input type="checkbox" name="path" value="mage" checked> Mage</label>
+        <label><input type="checkbox" name="path" value="poet" checked> Poet</label>
+        <label><input type="checkbox" name="path" value="warrior" checked> Warrior</label>
+        <label><input type="checkbox" name="path" value="rogue" checked> Rogue</label>
+      </div>
+      <div class="filter">
+        <label>Level Tier:</label>
+        <select id="tier">
+          <option value="any" selected>Any</option>
+          <option value="0-99">0–99</option>
+          <option value="il-san">Il San</option>
+          <option value="ee-san">Ee San</option>
+          <option value="sam-san">Sam San</option>
+        </select>
+      </div>
+      <div class="actions">
+        <button id="export-json">Export JSON (filtered)</button>
+        <button id="export-csv">Export CSV (filtered)</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div id="results-info" class="muted"></div>
+    <div class="table-wrap">
+      <table id="results">
+        <thead>
+          <tr>
+            <th data-key="name">Name</th>
+            <th data-key="type">Type</th>
+            <th data-key="path">Path</th>
+            <th data-key="level_tier">Tier</th>
+            <th data-key="stats">Stats</th>
+            <th data-key="enchants">Enchants</th>
+            <th data-key="info">Info</th>
+            <th data-key="obtain">How to obtain</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer class="container muted">
+    <small>
+      Data is loaded from JSON chunk files defined in <code>data/manifest.json</code>. 
+      Replace the sample chunks with your scraped datasets (e.g., <code>armor.json</code>, <code>weapons.json</code>, <code>items.json</code>).
+    </small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

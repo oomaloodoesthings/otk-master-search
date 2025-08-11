@@ -1,0 +1,220 @@
+// Master Search frontend-only app
+// - Loads JSON chunk files listed in data/manifest.json
+// - Simple partial (substring) search on 'name'
+// - Filters by path and level tier
+// - Sorts by header click (asc/desc)
+// - Exports filtered view to JSON/CSV
+
+const state = {
+  items: [],
+  filtered: [],
+  sortKey: 'name',
+  sortDir: 'asc'
+};
+
+const els = {
+  q: null, tier: null, paths: [],
+  tableBody: null, resultsInfo: null,
+  exportJson: null, exportCsv: null
+};
+
+async function loadManifest() {
+  const res = await fetch('data/manifest.json');
+  if (!res.ok) throw new Error('Failed to load data/manifest.json');
+  const manifest = await res.json();
+  return manifest.files || [];
+}
+
+async function loadChunks(files) {
+  const all = [];
+  for (const file of files) {
+    const res = await fetch('data/' + file);
+    if (!res.ok) {
+      console.warn('Missing chunk:', file);
+      continue;
+    }
+    const json = await res.json();
+    if (Array.isArray(json.items)) all.push(...json.items);
+  }
+  return all;
+}
+
+function initEls() {
+  els.q = document.querySelector('#q');
+  els.tier = document.querySelector('#tier');
+  els.paths = Array.from(document.querySelectorAll('input[name="path"]'));
+  els.tableBody = document.querySelector('#results tbody');
+  els.resultsInfo = document.querySelector('#results-info');
+  els.exportJson = document.querySelector('#export-json');
+  els.exportCsv = document.querySelector('#export-csv');
+}
+
+function normalize(item) {
+  // Ensure consistent shapes for downstream code
+  return {
+    id: item.id || crypto.randomUUID(),
+    name: item.name || '',
+    type: item.type || '',
+    path: Array.isArray(item.path) ? item.path.map(p=>String(p).toLowerCase()) : (item.path ? [String(item.path).toLowerCase()] : []),
+    level_tier: (item.level_tier || '').toString().toLowerCase(),
+    stats: item.stats || {},
+    enchants: item.enchants || [],
+    info: item.info || '',
+    obtain: item.obtain || []
+  };
+}
+
+function applyFilters() {
+  const q = els.q.value.trim().toLowerCase();
+  const checkedPaths = new Set(els.paths.filter(p=>p.checked).map(p=>p.value));
+  const tier = els.tier.value; // 'any' or specific
+
+  state.filtered = state.items.filter(it => {
+    // name match (substring)
+    const nameHit = q === '' || it.name.toLowerCase().includes(q);
+    if (!nameHit) return false;
+
+    // path filter (OR across selected), treat empty path as passing
+    const pathHit = it.path.length === 0 || it.path.some(p => checkedPaths.has(p));
+    if (!pathHit) return false;
+
+    // tier filter
+    const tierHit = tier === 'any' || (it.level_tier || '').toLowerCase() === tier;
+    return tierHit;
+  });
+
+  sortData();
+  render();
+}
+
+function sortData() {
+  const { sortKey, sortDir } = state;
+  const dir = sortDir === 'asc' ? 1 : -1;
+
+  state.filtered.sort((a, b) => {
+    let va = a[sortKey], vb = b[sortKey];
+    if (sortKey === 'stats') {
+      va = Object.entries(va).map(([k,v])=>k+':'+v).join('|');
+      vb = Object.entries(vb).map(([k,v])=>k+':'+v).join('|');
+    } else if (sortKey === 'enchants' || sortKey === 'path' || sortKey === 'obtain') {
+      va = (va || []).join('|');
+      vb = (vb || []).join('|');
+    } else {
+      va = va ?? ''; vb = vb ?? '';
+    }
+    va = va.toString().toLowerCase();
+    vb = vb.toString().toLowerCase();
+    if (va < vb) return -1 * dir;
+    if (va > vb) return 1 * dir;
+    return 0;
+  });
+}
+
+function render() {
+  // Info
+  els.resultsInfo.textContent = `${state.filtered.length} result${state.filtered.length === 1 ? '' : 's'} (of ${state.items.length} items)`;
+
+  // Rows
+  const rows = state.filtered.map(it => {
+    const stats = Object.entries(it.stats).map(([k,v]) => `<span class="stat">${escapeHtml(k)}: ${escapeHtml(String(v))}</span>`).join('');
+    const ench = (it.enchants || []).map(e => `<span class="badge">${escapeHtml(String(e))}</span>`).join('');
+    const path = (it.path || []).map(p => `<span class="badge">${escapeHtml(String(p))}</span>`).join('');
+    const obtain = (it.obtain || []).map(o => `<div>${escapeHtml(String(o))}</div>`).join('');
+
+    return `<tr>
+      <td>${escapeHtml(it.name)}</td>
+      <td>${escapeHtml(it.type)}</td>
+      <td>${path}</td>
+      <td>${escapeHtml(it.level_tier)}</td>
+      <td>${stats}</td>
+      <td>${ench}</td>
+      <td>${escapeHtml(it.info)}</td>
+      <td>${obtain}</td>
+    </tr>`;
+  }).join('');
+
+  els.tableBody.innerHTML = rows || `<tr><td colspan="8" class="muted">No results.</td></tr>`;
+}
+
+function escapeHtml(s) {
+  return s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+}
+
+function bind() {
+  // Debounced search
+  let t;
+  els.q.addEventListener('input', () => {
+    clearTimeout(t);
+    t = setTimeout(applyFilters, 120);
+  });
+
+  els.tier.addEventListener('change', applyFilters);
+  els.paths.forEach(p => p.addEventListener('change', applyFilters));
+
+  // Sorting
+  document.querySelectorAll('#results thead th').forEach(th => {
+    th.addEventListener('click', () => {
+      const key = th.dataset.key;
+      if (state.sortKey === key) {
+        state.sortDir = state.sortDir === 'asc' ? 'desc' : 'asc';
+      } else {
+        state.sortKey = key;
+        state.sortDir = 'asc';
+      }
+      sortData();
+      render();
+    });
+  });
+
+  // Export
+  els.exportJson.addEventListener('click', () => {
+    const blob = new Blob([JSON.stringify({items: state.filtered}, null, 2)], {type: 'application/json'});
+    downloadBlob(blob, 'filtered-items.json');
+  });
+  els.exportCsv.addEventListener('click', () => {
+    const csv = toCSV(state.filtered);
+    const blob = new Blob([csv], {type: 'text/csv'});
+    downloadBlob(blob, 'filtered-items.csv');
+  });
+}
+
+function toCSV(items) {
+  const headers = ['name','type','path','level_tier','stats','enchants','info','obtain'];
+  const lines = [headers.join(',')];
+  for (const it of items) {
+    const row = [
+      it.name,
+      it.type,
+      (it.path || []).join('; '),
+      it.level_tier,
+      Object.entries(it.stats).map(([k,v])=>`${k}:${v}`).join('; '),
+      (it.enchants || []).join('; '),
+      (it.info || '').replace(/\n/g,' '),
+      (it.obtain || []).join(' | ')
+    ].map(v => '"' + String(v).replace(/"/g,'""') + '"');
+    lines.push(row.join(','));
+  }
+  return lines.join('\n');
+}
+
+function downloadBlob(blob, filename) {
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = filename;
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+async function main() {
+  initEls();
+  bind();
+  const files = await loadManifest();
+  const items = await loadChunks(files);
+  state.items = items.map(normalize);
+  applyFilters();
+}
+
+main().catch(err => {
+  console.error(err);
+  alert('Failed to load data. Check the console and data/manifest.json.');
+});
