@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OriginalTK — Master Search</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="container">
+    <h1>OriginalTK — Master Search</h1>
+    <p class="muted">Type to search by partial name. Filter by path and level tier. Click headers to sort.</p>
+  </header>
+
+  <section class="container controls">
+    <input id="q" type="text" placeholder="Search items by name… (e.g., 'sword', 'robe', 'amulet')" />
+    <div class="filters">
+      <div class="filter">
+        <label>Category:</label>
+        <label><input type="checkbox" name="category" value="armor" checked> Armor</label>
+        <label><input type="checkbox" name="category" value="weapon" checked> Weapon</label>
+        <label><input type="checkbox" name="category" value="hand" checked> Hand</label>
+        <label><input type="checkbox" name="category" value="head" checked> Head</label>
+        <label><input type="checkbox" name="category" value="helm" checked> Helm</label>
+        <label><input type="checkbox" name="category" value="shield" checked> Shield</label>
+        <label><input type="checkbox" name="category" value="subaccessory" checked> Subaccessory</label>
+        <label><input type="checkbox" name="category" value="item" checked> Item</label>
+      </div>
+      <div class="filter">
+        <label>Paths:</label>
+        <label><input type="checkbox" name="path" value="peasant" checked> Peasant</label>
+        <label><input type="checkbox" name="path" value="mage" checked> Mage</label>
+        <label><input type="checkbox" name="path" value="poet" checked> Poet</label>
+        <label><input type="checkbox" name="path" value="warrior" checked> Warrior</label>
+        <label><input type="checkbox" name="path" value="rogue" checked> Rogue</label>
+      </div>
+      
+    <div class="filter">
+      <label>Level Tiers:</label>
+      <label><input type="checkbox" name="tier" value="0-99" checked> 0–99</label>
+      <label><input type="checkbox" name="tier" value="il-san" checked> Il San</label>
+      <label><input type="checkbox" name="tier" value="ee-san" checked> Ee San</label>
+      <label><input type="checkbox" name="tier" value="sam-san" checked> Sam San</label>
+    </div>
+
+      <div id="sorted-indicator" class="muted small"></div>
+      <div class="actions">
+        <button id="debug-toggle" title="Show/hide debug">Debug</button>
+        <button id="theme-toggle" title="Toggle dark/light mode">🌓 Theme</button>
+        <button id="reset-filters" title="Reset filters and sorting">Reset filters</button>
+        <button id="export-json">Export JSON (filtered)</button>
+        <button id="export-csv">Export CSV (filtered)</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div id="load-status"
+    style="margin-bottom:0.5rem"></div>
+    <pre id="debug-panel" style="background:#111;color:#0f0;padding:0.5rem;font-size:0.8rem;max-height:200px;overflow:auto"></pre> class="muted"></div>
+    <div id="results-info" class="muted"></div>
+    <div class="table-wrap">
+      <table id="results">
+        <thead>
+          <tr>
+            <th data-key="name">Name</th>
+            <th data-key="category">Category</th>
+            <th data-key="path">Path</th>
+            <th data-key="level_tier">Tier</th>
+            <th data-key="stats">Stats</th>
+            <th data-key="enchants">Enchants</th>
+            <th data-key="info">Info</th>
+            <th data-key="obtain">How to obtain</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="container" style="padding-top:0.5rem">
+    <button id="show-more" style="width:100%">Show more results</button>
+  </div>
+  <div id="scroll-sentinel" style="height:1px;"></div>
+</section>
+
+  <footer class="container muted">
+    <small>
+      Data is loaded from JSON chunk files defined in <code>data/manifest.json</code>. 
+      Replace the sample chunks with your scraped datasets (e.g., <code>armor.json</code>, <code>weapons.json</code>, <code>items.json</code>).
+    </small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

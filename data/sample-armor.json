@@ -1,0 +1,43 @@
+{
+  "items": [
+    {
+      "id": "novice_robe",
+      "name": "Novice Robe",
+      "type": "Armor",
+      "path": [
+        "mage",
+        "poet"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": 2,
+        "MR": 1
+      },
+      "enchants": [
+        "+1 MR"
+      ],
+      "info": "Simple robe for new casters.",
+      "obtain": [
+        "Shop: Tutorial Tailor"
+      ]
+    },
+    {
+      "id": "leather_vest",
+      "name": "Leather Vest",
+      "type": "Armor",
+      "path": [
+        "warrior",
+        "rogue"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": 3
+      },
+      "enchants": [],
+      "info": "Light protection without spell penalties.",
+      "obtain": [
+        "Drop: Forest Boar"
+      ]
+    }
+  ]
+}
