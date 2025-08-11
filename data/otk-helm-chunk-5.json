@@ -1,0 +1,316 @@
+{
+  "items": [
+    {
+      "id": "lifebinder_circlet_i",
+      "name": "Lifebinder circlet I",
+      "category": "helm",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -8,
+        "Hit": 0,
+        "Dam": 1,
+        "Vita": 4500,
+        "Mana": 6000,
+        "Might": 0,
+        "Will": 7,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 4
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Found or crafted; upgradable via Melchior."
+      ]
+    },
+    {
+      "id": "eldritch_cowl_i",
+      "name": "Eldritch cowl I",
+      "category": "helm",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -8,
+        "Hit": 0,
+        "Dam": 4,
+        "Vita": 0,
+        "Mana": 12000,
+        "Might": 0,
+        "Will": 7,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 3
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Found or crafted; upgradable via Melchior."
+      ]
+    },
+    {
+      "id": "shadowstrike_mask_i",
+      "name": "Shadowstrike mask I",
+      "category": "helm",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -9,
+        "Hit": 4,
+        "Dam": 4,
+        "Vita": 14000,
+        "Mana": 8000,
+        "Might": 3,
+        "Will": 0,
+        "Grace": 7,
+        "Protection": 0,
+        "Healing": 2
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Found or crafted; upgradable via Melchior."
+      ]
+    },
+    {
+      "id": "valorplate_warhelm_i",
+      "name": "Valorplate warhelm I",
+      "category": "helm",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -10,
+        "Hit": 7,
+        "Dam": 7,
+        "Vita": 22000,
+        "Mana": 0,
+        "Might": 7,
+        "Will": 0,
+        "Grace": 5,
+        "Protection": 0,
+        "Healing": 2
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Found or crafted; upgradable via Melchior."
+      ]
+    },
+    {
+      "id": "seer_s_halo_i",
+      "name": "Seer's halo I",
+      "category": "helm",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -7,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 1200,
+        "Mana": 2600,
+        "Might": 0,
+        "Will": 9,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 4
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 1 - Bosses"
+      ]
+    },
+    {
+      "id": "windborne_masque_i",
+      "name": "Windborne masque I",
+      "category": "helm",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -8,
+        "Hit": 4,
+        "Dam": 3,
+        "Vita": 2200,
+        "Mana": 1500,
+        "Might": 5,
+        "Will": 0,
+        "Grace": 5,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 1 - Bosses"
+      ]
+    },
+    {
+      "id": "glacial_circlet_i",
+      "name": "Glacial circlet I",
+      "category": "helm",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -8,
+        "Hit": 0,
+        "Dam": 4,
+        "Vita": 0,
+        "Mana": 4500,
+        "Might": 0,
+        "Will": 11,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 1 - Bosses"
+      ]
+    },
+    {
+      "id": "green_circlet",
+      "name": "Green circlet",
+      "category": "helm",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -6,
+        "Hit": 2,
+        "Dam": 2,
+        "Vita": 700,
+        "Mana": 350,
+        "Might": 2,
+        "Will": 2,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 5
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "blue_circlet",
+      "name": "Blue circlet",
+      "category": "helm",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -6,
+        "Hit": 1,
+        "Dam": 1,
+        "Vita": 600,
+        "Mana": 300,
+        "Might": 1,
+        "Will": 1,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 5
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "red_circlet",
+      "name": "Red circlet",
+      "category": "helm",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -6,
+        "Hit": 1,
+        "Dam": 1,
+        "Vita": 600,
+        "Mana": 300,
+        "Might": 1,
+        "Will": 1,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 5
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "plain_cap",
+      "name": "Plain cap",
+      "category": "helm",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -4,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 50,
+        "Mana": 50,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Common drop / shops"
+      ]
+    },
+    {
+      "id": "warm_wool_hat",
+      "name": "Warm wool hat",
+      "category": "helm",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -5,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 150,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 1,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Event or seasonal"
+      ]
+    }
+  ]
+}
