@@ -1,0 +1,272 @@
+{
+  "items": [
+    {
+      "id": "heavy_crossbow",
+      "name": "Heavy crossbow",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 4,
+        "Dam": 9,
+        "Might": 4,
+        "Grace": 0,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Smithing"
+      ]
+    },
+    {
+      "id": "sling",
+      "name": "Sling",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 5,
+        "Dam": 4,
+        "Might": 1,
+        "Grace": 3,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Common drop / shops"
+      ]
+    },
+    {
+      "id": "stone_maul",
+      "name": "Stone maul",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 1,
+        "Dam": 10,
+        "Might": 9,
+        "Grace": 0,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Quest"
+      ]
+    },
+    {
+      "id": "battle_axe",
+      "name": "Battle axe",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 9,
+        "Might": 9,
+        "Grace": 0,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Smithing"
+      ]
+    },
+    {
+      "id": "hatchet",
+      "name": "Hatchet",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 6,
+        "Might": 5,
+        "Grace": 0,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Hunting"
+      ]
+    },
+    {
+      "id": "throwing_knives",
+      "name": "Throwing knives",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 6,
+        "Dam": 4,
+        "Might": 1,
+        "Grace": 3,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Quest"
+      ]
+    },
+    {
+      "id": "carved_wand",
+      "name": "Carved wand",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 3,
+        "Might": 0,
+        "Will": 5,
+        "Grace": 0,
+        "Vita": 0,
+        "Mana": 300
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Common drop / shops"
+      ]
+    },
+    {
+      "id": "runed_wand",
+      "name": "Runed wand",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 4,
+        "Might": 0,
+        "Will": 6,
+        "Grace": 0,
+        "Vita": 0,
+        "Mana": 350
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Smithing"
+      ]
+    },
+    {
+      "id": "sage_s_staff",
+      "name": "Sage's staff",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 4,
+        "Might": 0,
+        "Will": 7,
+        "Grace": 0,
+        "Vita": 0,
+        "Mana": 600
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Quest"
+      ]
+    },
+    {
+      "id": "gnarled_staff",
+      "name": "Gnarled staff",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 3,
+        "Might": 0,
+        "Will": 5,
+        "Grace": 0,
+        "Vita": 0,
+        "Mana": 550
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Common drop / shops"
+      ]
+    },
+    {
+      "id": "practice_sword",
+      "name": "Practice sword",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 4,
+        "Might": 3,
+        "Grace": 0,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Training"
+      ]
+    },
+    {
+      "id": "training_spear",
+      "name": "Training spear",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 5,
+        "Might": 3,
+        "Grace": 1,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Training"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "items": [
+    {
+      "id": "seer_s_touch_iv",
+      "name": "Seer's touch IV",
+      "category": "hand",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "sam-san",
+      "stats": {
+        "AC": -6,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 1600,
+        "Mana": 3000,
+        "Might": 0,
+        "Will": 12,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 6
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 4 - Bosses"
+      ]
+    }
+  ]
+}

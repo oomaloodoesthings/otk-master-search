@@ -1,0 +1,302 @@
+{
+  "items": [
+    {
+      "id": "gale_gauntlets",
+      "name": "Gale gauntlets",
+      "category": "hand",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "sam-san",
+      "stats": {
+        "AC": -8,
+        "Hit": 3,
+        "Dam": 5,
+        "Vita": 6000,
+        "Mana": 0,
+        "Might": 10,
+        "Will": 0,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [
+        "Devastating blow damage increased by 100%."
+      ],
+      "info": "",
+      "obtain": [
+        "Gale Armor Quest (Warrior)"
+      ]
+    },
+    {
+      "id": "shadeveil_grips",
+      "name": "Shadeveil grips",
+      "category": "hand",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "sam-san",
+      "stats": {
+        "AC": -7,
+        "Hit": 7,
+        "Dam": 5,
+        "Vita": 4500,
+        "Mana": 2500,
+        "Might": 4,
+        "Will": 0,
+        "Grace": 10,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Tribe - Grotto of Drums"
+      ]
+    },
+    {
+      "id": "lifebinder_handwraps_iv",
+      "name": "Lifebinder handwraps IV",
+      "category": "hand",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "sam-san",
+      "stats": {
+        "AC": -6,
+        "Hit": 0,
+        "Dam": 3,
+        "Vita": 5500,
+        "Mana": 9000,
+        "Might": 0,
+        "Will": 10,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 6
+      },
+      "enchants": [
+        "Can absorb certain hand enchants."
+      ],
+      "info": "",
+      "obtain": [
+        "Bring Lifebinder handwraps III, 3 Raw zircon OR 1 Refined zircon, and 100,000 Coins to Melchior."
+      ]
+    },
+    {
+      "id": "eldritch_bracers_iv",
+      "name": "Eldritch bracers IV",
+      "category": "hand",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "sam-san",
+      "stats": {
+        "AC": -6,
+        "Hit": 0,
+        "Dam": 7,
+        "Vita": 0,
+        "Mana": 12000,
+        "Might": 0,
+        "Will": 12,
+        "Grace": 6,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [
+        "Can absorb certain hand enchants."
+      ],
+      "info": "",
+      "obtain": [
+        "Bring Eldritch bracers III, 3 Raw spinel OR 1 Refined spinel, and 100,000 Coins to Melchior."
+      ]
+    },
+    {
+      "id": "valorplate_gauntlets_iii",
+      "name": "Valorplate gauntlets III",
+      "category": "hand",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "ee-san",
+      "stats": {
+        "AC": -7,
+        "Hit": 5,
+        "Dam": 5,
+        "Vita": 8000,
+        "Mana": 0,
+        "Might": 8,
+        "Will": 0,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [
+        "Can absorb certain hand enchants."
+      ],
+      "info": "",
+      "obtain": [
+        "Bring Valorplate gauntlets II, 3 Raw lapis lazuli OR 1 Refined lapis lazuli, and 60,000 Coins to Melchior."
+      ]
+    },
+    {
+      "id": "shadowstrike_grips_iii",
+      "name": "Shadowstrike grips III",
+      "category": "hand",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "ee-san",
+      "stats": {
+        "AC": -6,
+        "Hit": 6,
+        "Dam": 6,
+        "Vita": 5000,
+        "Mana": 2200,
+        "Might": 4,
+        "Will": 0,
+        "Grace": 9,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [
+        "Can absorb certain hand enchants."
+      ],
+      "info": "",
+      "obtain": [
+        "Bring Shadowstrike grips II, 3 Raw white agate OR 1 Refined white agate, and 60,000 Coins to Melchior."
+      ]
+    },
+    {
+      "id": "magus_cuffs_iii",
+      "name": "Magus' cuffs III",
+      "category": "hand",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "ee-san",
+      "stats": {
+        "AC": -5,
+        "Hit": 0,
+        "Dam": 5,
+        "Vita": 1200,
+        "Mana": 4000,
+        "Might": 0,
+        "Will": 11,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [
+        "Lesser mana flow aethers reduced by 2s."
+      ],
+      "info": "",
+      "obtain": [
+        "Magus 3 - Enchanted sorcerer"
+      ]
+    },
+    {
+      "id": "dread_s_touch_iii",
+      "name": "Dread's touch III",
+      "category": "hand",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "ee-san",
+      "stats": {
+        "AC": -5,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 2500,
+        "Mana": 3000,
+        "Might": 0,
+        "Will": 10,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 6
+      },
+      "enchants": "Bonded",
+      "info": "",
+      "obtain": [
+        "Dread 3 - Dread"
+      ]
+    },
+    {
+      "id": "amber_gloves",
+      "name": "Amber gloves",
+      "category": "hand",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -3,
+        "Hit": 1,
+        "Dam": 1,
+        "Vita": 150,
+        "Mana": 80,
+        "Might": 1,
+        "Will": 1,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 2
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "dark_gloves",
+      "name": "Dark gloves",
+      "category": "hand",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -3,
+        "Hit": 2,
+        "Dam": 2,
+        "Vita": 250,
+        "Mana": 120,
+        "Might": 2,
+        "Will": 2,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 2
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "white_gloves",
+      "name": "White gloves",
+      "category": "hand",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -3,
+        "Hit": 1,
+        "Dam": 1,
+        "Vita": 200,
+        "Mana": 100,
+        "Might": 1,
+        "Will": 1,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 2
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    }
+  ]
+}

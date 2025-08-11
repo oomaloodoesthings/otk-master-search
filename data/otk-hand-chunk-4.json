@@ -1,0 +1,30 @@
+{
+  "items": [
+    {
+      "id": "seer_s_touch_ii",
+      "name": "Seer's touch II",
+      "category": "hand",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -4,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 900,
+        "Mana": 1900,
+        "Might": 0,
+        "Will": 10,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 4
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 2 - Bosses"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "items": [
+    {
+      "id": "lifebinder_ward_ii",
+      "name": "Lifebinder ward II",
+      "category": "shield",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -8,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 3000,
+        "Mana": 6000,
+        "Might": 0,
+        "Will": 8,
+        "Grace": 2,
+        "Protection": 2,
+        "Healing": 4
+      },
+      "enchants": [
+        "Can absorb certain shield enchants."
+      ],
+      "info": "",
+      "obtain": [
+        "Bring Lifebinder ward I, 3 Raw zircon OR 1 Refined zircon, and 30,000 Coins to Melchior."
+      ]
+    },
+    {
+      "id": "eldritch_barrier_ii",
+      "name": "Eldritch barrier II",
+      "category": "shield",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -8,
+        "Hit": 0,
+        "Dam": 2,
+        "Vita": 0,
+        "Mana": 7000,
+        "Might": 0,
+        "Will": 9,
+        "Grace": 5,
+        "Protection": 2,
+        "Healing": 0
+      },
+      "enchants": [
+        "Can absorb certain shield enchants."
+      ],
+      "info": "",
+      "obtain": [
+        "Bring Eldritch barrier I, 3 Raw spinel OR 1 Refined spinel, and 30,000 Coins to Melchior."
+      ]
+    },
+    {
+      "id": "valorplate_bulwark_ii",
+      "name": "Valorplate bulwark II",
+      "category": "shield",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -13,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 8000,
+        "Mana": 0,
+        "Might": 8,
+        "Will": 0,
+        "Grace": 3,
+        "Protection": 2,
+        "Healing": 0
+      },
+      "enchants": [
+        "Can absorb certain shield enchants."
+      ],
+      "info": "",
+      "obtain": [
+        "Bring Valorplate bulwark I, 3 Raw lapis lazuli OR 1 Refined lapis lazuli, and 30,000 Coins to Melchior."
+      ]
+    },
+    {
+      "id": "stormguard_buckler",
+      "name": "Stormguard buckler",
+      "category": "shield",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "ee-san",
+      "stats": {
+        "AC": -11,
+        "Hit": 5,
+        "Dam": 3,
+        "Vita": 6000,
+        "Mana": 2000,
+        "Might": 3,
+        "Will": 0,
+        "Grace": 8,
+        "Protection": 2,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 3 - Bosses"
+      ]
+    }
+  ]
+}

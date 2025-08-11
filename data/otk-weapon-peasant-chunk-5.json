@@ -1,0 +1,270 @@
+{
+  "items": [
+    {
+      "id": "butcher_s_cleaver",
+      "name": "Butcher's cleaver",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 7,
+        "Might": 7,
+        "Grace": 0,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Quest"
+      ]
+    },
+    {
+      "id": "war_cleaver",
+      "name": "War cleaver",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 10,
+        "Might": 10,
+        "Grace": 0,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Quest"
+      ]
+    },
+    {
+      "id": "soldier_s_saber",
+      "name": "Soldier's saber",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 4,
+        "Dam": 7,
+        "Might": 5,
+        "Grace": 1,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Hunting"
+      ]
+    },
+    {
+      "id": "falchion",
+      "name": "Falchion",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 8,
+        "Might": 7,
+        "Grace": 0,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Smithing"
+      ]
+    },
+    {
+      "id": "greatsword",
+      "name": "Greatsword",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 11,
+        "Might": 10,
+        "Grace": 0,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Smithing"
+      ]
+    },
+    {
+      "id": "boar_spear",
+      "name": "Boar spear",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 7,
+        "Might": 5,
+        "Grace": 1,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Hunting"
+      ]
+    },
+    {
+      "id": "pike",
+      "name": "Pike",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 8,
+        "Might": 6,
+        "Grace": 1,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Smithing"
+      ]
+    },
+    {
+      "id": "heavy_mace",
+      "name": "Heavy mace",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 8,
+        "Might": 8,
+        "Grace": 0,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Smithing"
+      ]
+    },
+    {
+      "id": "morning_star",
+      "name": "Morning star",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 7,
+        "Might": 7,
+        "Grace": 0,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Quest"
+      ]
+    },
+    {
+      "id": "war_hammer",
+      "name": "War hammer",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 1,
+        "Dam": 10,
+        "Might": 10,
+        "Grace": 0,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Smithing"
+      ]
+    },
+    {
+      "id": "engraved_wand",
+      "name": "Engraved wand",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 4,
+        "Might": 0,
+        "Will": 7,
+        "Grace": 0,
+        "Vita": 0,
+        "Mana": 400
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Quest"
+      ]
+    },
+    {
+      "id": "elder_staff",
+      "name": "Elder staff",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 5,
+        "Might": 0,
+        "Will": 8,
+        "Grace": 0,
+        "Vita": 0,
+        "Mana": 700
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Quest"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "items": [
+    {
+      "id": "lifebinder_ward_i",
+      "name": "Lifebinder ward I",
+      "category": "shield",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -7,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 1800,
+        "Mana": 4200,
+        "Might": 0,
+        "Will": 7,
+        "Grace": 2,
+        "Protection": 1,
+        "Healing": 3
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Found or crafted; upgradable via Melchior."
+      ]
+    },
+    {
+      "id": "eldritch_barrier_i",
+      "name": "Eldritch barrier I",
+      "category": "shield",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -7,
+        "Hit": 0,
+        "Dam": 1,
+        "Vita": 0,
+        "Mana": 5000,
+        "Might": 0,
+        "Will": 8,
+        "Grace": 4,
+        "Protection": 1,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Found or crafted; upgradable via Melchior."
+      ]
+    },
+    {
+      "id": "valorplate_bulwark_i",
+      "name": "Valorplate bulwark I",
+      "category": "shield",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -12,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 5000,
+        "Mana": 0,
+        "Might": 6,
+        "Will": 0,
+        "Grace": 2,
+        "Protection": 1,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Found or crafted; upgradable via Melchior."
+      ]
+    },
+    {
+      "id": "seer_s_ward_i",
+      "name": "Seer's ward I",
+      "category": "shield",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -6,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 900,
+        "Mana": 1900,
+        "Might": 0,
+        "Will": 10,
+        "Grace": 1,
+        "Protection": 1,
+        "Healing": 3
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 1 - Bosses"
+      ]
+    }
+  ]
+}

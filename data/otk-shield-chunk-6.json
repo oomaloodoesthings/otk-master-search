@@ -1,0 +1,108 @@
+{
+  "items": [
+    {
+      "id": "seer_s_ward_iii",
+      "name": "Seer's ward III",
+      "category": "shield",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "ee-san",
+      "stats": {
+        "AC": -7,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 1500,
+        "Mana": 2800,
+        "Might": 0,
+        "Will": 12,
+        "Grace": 1,
+        "Protection": 2,
+        "Healing": 5
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 3 - Bosses"
+      ]
+    },
+    {
+      "id": "glacial_ward_ii",
+      "name": "Glacial ward II",
+      "category": "shield",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -7,
+        "Hit": 0,
+        "Dam": 3,
+        "Vita": 0,
+        "Mana": 3600,
+        "Might": 0,
+        "Will": 12,
+        "Grace": 2,
+        "Protection": 2,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 2 - Bosses"
+      ]
+    },
+    {
+      "id": "windborne_guard_ii",
+      "name": "Windborne guard II",
+      "category": "shield",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -8,
+        "Hit": 4,
+        "Dam": 3,
+        "Vita": 1800,
+        "Mana": 1200,
+        "Might": 4,
+        "Will": 0,
+        "Grace": 7,
+        "Protection": 2,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 2 - Bosses"
+      ]
+    },
+    {
+      "id": "seer_s_ward_iv",
+      "name": "Seer's ward IV",
+      "category": "shield",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "sam-san",
+      "stats": {
+        "AC": -8,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 1900,
+        "Mana": 3200,
+        "Might": 0,
+        "Will": 13,
+        "Grace": 1,
+        "Protection": 2,
+        "Healing": 6
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 4 - Bosses"
+      ]
+    }
+  ]
+}

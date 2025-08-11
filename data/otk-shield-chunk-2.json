@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "id": "valorplate_bulwark_iii",
+      "name": "Valorplate bulwark III",
+      "category": "shield",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "ee-san",
+      "stats": {
+        "AC": -14,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 12000,
+        "Mana": 0,
+        "Might": 10,
+        "Will": 0,
+        "Grace": 3,
+        "Protection": 2,
+        "Healing": 0
+      },
+      "enchants": [
+        "Can absorb certain shield enchants."
+      ],
+      "info": "",
+      "obtain": [
+        "Bring Valorplate bulwark II, 3 Raw lapis lazuli OR 1 Refined lapis lazuli, and 60,000 Coins to Melchior."
+      ]
+    }
+  ]
+}

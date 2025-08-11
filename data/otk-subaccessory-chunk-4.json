@@ -1,0 +1,82 @@
+{
+  "items": [
+    {
+      "id": "lifebinder_sash_i",
+      "name": "Lifebinder sash I",
+      "category": "subaccessory",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -1,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 1200,
+        "Mana": 3000,
+        "Might": 0,
+        "Will": 7,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 2
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Found or crafted; upgradable via Melchior."
+      ]
+    },
+    {
+      "id": "eldritch_cord_i",
+      "name": "Eldritch cord I",
+      "category": "subaccessory",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -1,
+        "Hit": 0,
+        "Dam": 2,
+        "Vita": 0,
+        "Mana": 4200,
+        "Might": 0,
+        "Will": 9,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Found or crafted; upgradable via Melchior."
+      ]
+    },
+    {
+      "id": "warden_s_cinch_i",
+      "name": "Warden\u2019s cinch I",
+      "category": "subaccessory",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -2,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 3500,
+        "Mana": 0,
+        "Might": 6,
+        "Will": 0,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 1 - Bosses"
+      ]
+    }
+  ]
+}

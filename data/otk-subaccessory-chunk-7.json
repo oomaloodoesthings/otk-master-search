@@ -1,0 +1,134 @@
+{
+  "items": [
+    {
+      "id": "amber_clasp",
+      "name": "Amber clasp",
+      "category": "subaccessory",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -1,
+        "Hit": 1,
+        "Dam": 1,
+        "Vita": 200,
+        "Mana": 100,
+        "Might": 1,
+        "Will": 1,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 2
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "dark_clasp",
+      "name": "Dark clasp",
+      "category": "subaccessory",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -1,
+        "Hit": 2,
+        "Dam": 2,
+        "Vita": 300,
+        "Mana": 150,
+        "Might": 2,
+        "Will": 2,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 2
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "white_clasp",
+      "name": "White clasp",
+      "category": "subaccessory",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -1,
+        "Hit": 1,
+        "Dam": 1,
+        "Vita": 250,
+        "Mana": 120,
+        "Might": 1,
+        "Will": 1,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 2
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "opal_clasp",
+      "name": "Opal clasp",
+      "category": "subaccessory",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -1,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 500,
+        "Mana": 250,
+        "Might": 3,
+        "Will": 3,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 4
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "sapphire_clasp",
+      "name": "Sapphire clasp",
+      "category": "subaccessory",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -1,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 500,
+        "Mana": 250,
+        "Might": 3,
+        "Will": 3,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 4
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    }
+  ]
+}

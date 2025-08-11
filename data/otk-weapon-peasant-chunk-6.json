@@ -1,0 +1,241 @@
+{
+  "items": [
+    {
+      "id": "bronze_spear",
+      "name": "Bronze spear",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 6,
+        "Might": 5,
+        "Grace": 1
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Smithing"
+      ]
+    },
+    {
+      "id": "iron_spear",
+      "name": "Iron spear",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 7,
+        "Might": 6,
+        "Grace": 1
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Smithing"
+      ]
+    },
+    {
+      "id": "steel_pike",
+      "name": "Steel pike",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 9,
+        "Might": 8,
+        "Grace": 1
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Smithing"
+      ]
+    },
+    {
+      "id": "farmer_s_sickle",
+      "name": "Farmer's sickle",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 5,
+        "Might": 4,
+        "Grace": 2
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Hunting / Quest"
+      ]
+    },
+    {
+      "id": "cleaver_machete",
+      "name": "Cleaver machete",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 7,
+        "Might": 6,
+        "Grace": 1
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Quest"
+      ]
+    },
+    {
+      "id": "woodcutter_s_axe",
+      "name": "Woodcutter's axe",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 8,
+        "Might": 7
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Hunting"
+      ]
+    },
+    {
+      "id": "oak_cudgel",
+      "name": "Oak cudgel",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 6,
+        "Might": 5
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Common drop / shops"
+      ]
+    },
+    {
+      "id": "war_club",
+      "name": "War club",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 8,
+        "Might": 8
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Quest"
+      ]
+    },
+    {
+      "id": "traveler_s_saber",
+      "name": "Traveler's saber",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 4,
+        "Dam": 6,
+        "Might": 4,
+        "Grace": 1
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Common drop / shops"
+      ]
+    },
+    {
+      "id": "bandit_scimitar",
+      "name": "Bandit scimitar",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 4,
+        "Dam": 7,
+        "Might": 5,
+        "Grace": 1
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Bandits / Quest"
+      ]
+    },
+    {
+      "id": "carved_rod",
+      "name": "Carved rod",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 3,
+        "Will": 6,
+        "Mana": 350
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Common drop / shops"
+      ]
+    },
+    {
+      "id": "shaman_staff",
+      "name": "Shaman staff",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 4,
+        "Will": 7,
+        "Mana": 650
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Quest"
+      ]
+    }
+  ]
+}

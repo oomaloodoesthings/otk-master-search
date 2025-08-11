@@ -1,0 +1,280 @@
+{
+  "items": [
+    {
+      "id": "peasant_s_dagger",
+      "name": "Peasant's dagger",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 3,
+        "Might": 2,
+        "Will": 0,
+        "Grace": 2,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Common drop / shops"
+      ]
+    },
+    {
+      "id": "peasant_s_short_sword",
+      "name": "Peasant's short sword",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 4,
+        "Dam": 5,
+        "Might": 3,
+        "Will": 0,
+        "Grace": 1,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Common drop / shops"
+      ]
+    },
+    {
+      "id": "peasant_s_longsword",
+      "name": "Peasant's longsword",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 4,
+        "Dam": 7,
+        "Might": 5,
+        "Will": 0,
+        "Grace": 0,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Common drop / shops"
+      ]
+    },
+    {
+      "id": "peasant_s_club",
+      "name": "Peasant's club",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 6,
+        "Might": 4,
+        "Will": 0,
+        "Grace": 0,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Common drop / shops"
+      ]
+    },
+    {
+      "id": "peasant_s_great_club",
+      "name": "Peasant's great club",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 9,
+        "Might": 7,
+        "Will": 0,
+        "Grace": 0,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Common drop / shops"
+      ]
+    },
+    {
+      "id": "peasant_s_spear",
+      "name": "Peasant's spear",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 6,
+        "Might": 4,
+        "Will": 0,
+        "Grace": 1,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Common drop / shops"
+      ]
+    },
+    {
+      "id": "peasant_s_bow",
+      "name": "Peasant's bow",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 5,
+        "Dam": 5,
+        "Might": 2,
+        "Will": 0,
+        "Grace": 3,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Common drop / shops"
+      ]
+    },
+    {
+      "id": "peasant_s_crossbow",
+      "name": "Peasant's crossbow",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 4,
+        "Dam": 7,
+        "Might": 3,
+        "Will": 0,
+        "Grace": 1,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Common drop / shops"
+      ]
+    },
+    {
+      "id": "peasant_s_wand",
+      "name": "Peasant's wand",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 1,
+        "Dam": 2,
+        "Might": 0,
+        "Will": 4,
+        "Grace": 0,
+        "Vita": 0,
+        "Mana": 300
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Common drop / shops"
+      ]
+    },
+    {
+      "id": "peasant_s_staff",
+      "name": "Peasant's staff",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 3,
+        "Might": 0,
+        "Will": 5,
+        "Grace": 0,
+        "Vita": 0,
+        "Mana": 500
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Common drop / shops"
+      ]
+    },
+    {
+      "id": "peasant_s_axe",
+      "name": "Peasant's axe",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 7,
+        "Might": 6,
+        "Will": 0,
+        "Grace": 0,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Common drop / shops"
+      ]
+    },
+    {
+      "id": "peasant_s_war_axe",
+      "name": "Peasant's war axe",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 10,
+        "Might": 9,
+        "Will": 0,
+        "Grace": 0,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Common drop / shops"
+      ]
+    }
+  ]
+}

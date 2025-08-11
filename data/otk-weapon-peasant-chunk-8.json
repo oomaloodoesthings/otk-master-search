@@ -1,0 +1,242 @@
+{
+  "items": [
+    {
+      "id": "hunter_s_bow",
+      "name": "Hunter's bow",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 6,
+        "Dam": 6,
+        "Might": 2,
+        "Grace": 3
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Hunting"
+      ]
+    },
+    {
+      "id": "hunter_s_spear",
+      "name": "Hunter's spear",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 7,
+        "Might": 6,
+        "Grace": 1
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Hunting"
+      ]
+    },
+    {
+      "id": "hunter_s_knife",
+      "name": "Hunter's knife",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 4,
+        "Dam": 5,
+        "Might": 3,
+        "Grace": 2
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Hunting"
+      ]
+    },
+    {
+      "id": "hunter_s_axe",
+      "name": "Hunter's axe",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 7,
+        "Might": 6
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Hunting"
+      ]
+    },
+    {
+      "id": "caravan_spear",
+      "name": "Caravan spear",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 6,
+        "Might": 5,
+        "Grace": 1
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Quest"
+      ]
+    },
+    {
+      "id": "courier_s_saber",
+      "name": "Courier's saber",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 4,
+        "Dam": 6,
+        "Might": 4,
+        "Grace": 1
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Quest"
+      ]
+    },
+    {
+      "id": "crossbow_pistol",
+      "name": "Crossbow pistol",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 5,
+        "Dam": 6,
+        "Might": 2,
+        "Grace": 2
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Quest"
+      ]
+    },
+    {
+      "id": "ulfberht_blade",
+      "name": "Ulfberht blade",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 4,
+        "Dam": 9,
+        "Might": 8
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Smithing"
+      ]
+    },
+    {
+      "id": "ironwood_staff",
+      "name": "Ironwood staff",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 4,
+        "Will": 7,
+        "Mana": 650
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Quest"
+      ]
+    },
+    {
+      "id": "wizard_s_wand",
+      "name": "Wizard's wand",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 4,
+        "Will": 7,
+        "Mana": 400
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Quest"
+      ]
+    },
+    {
+      "id": "knapped_spear",
+      "name": "Knapped spear",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 6,
+        "Might": 4,
+        "Grace": 1
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Common drop / shops"
+      ]
+    },
+    {
+      "id": "bone_knife",
+      "name": "Bone knife",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 3,
+        "Might": 2,
+        "Grace": 2
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Common drop / shops"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "items": [
+    {
+      "id": "warden_s_cinch_iv",
+      "name": "Warden\u2019s cinch IV",
+      "category": "subaccessory",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "sam-san",
+      "stats": {
+        "AC": -5,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 14000,
+        "Mana": 0,
+        "Might": 12,
+        "Will": 0,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 4 - Bosses"
+      ]
+    },
+    {
+      "id": "shadeveil_strap",
+      "name": "Shadeveil strap",
+      "category": "subaccessory",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "sam-san",
+      "stats": {
+        "AC": -3,
+        "Hit": 6,
+        "Dam": 4,
+        "Vita": 4500,
+        "Mana": 2500,
+        "Might": 3,
+        "Will": 0,
+        "Grace": 10,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Tribe - Grotto of Drums"
+      ]
+    },
+    {
+      "id": "stormwoven_cincture",
+      "name": "Stormwoven cincture",
+      "category": "subaccessory",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "sam-san",
+      "stats": {
+        "AC": -2,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 3000,
+        "Mana": 6000,
+        "Might": 0,
+        "Will": 12,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 6
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 4 - Bosses"
+      ]
+    },
+    {
+      "id": "frostbinding_cord",
+      "name": "Frostbinding cord",
+      "category": "subaccessory",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "sam-san",
+      "stats": {
+        "AC": -2,
+        "Hit": 0,
+        "Dam": 5,
+        "Vita": 0,
+        "Mana": 11000,
+        "Might": 0,
+        "Will": 12,
+        "Grace": 6,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 4 - Bosses"
+      ]
+    }
+  ]
+}

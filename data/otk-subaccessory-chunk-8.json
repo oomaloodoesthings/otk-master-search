@@ -1,0 +1,108 @@
+{
+  "items": [
+    {
+      "id": "ruby_clasp",
+      "name": "Ruby clasp",
+      "category": "subaccessory",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -1,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 500,
+        "Mana": 250,
+        "Might": 3,
+        "Will": 3,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 4
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "emerald_clasp",
+      "name": "Emerald clasp",
+      "category": "subaccessory",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -1,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 500,
+        "Mana": 250,
+        "Might": 3,
+        "Will": 3,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 4
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "onyx_clasp",
+      "name": "Onyx clasp",
+      "category": "subaccessory",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -1,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 500,
+        "Mana": 250,
+        "Might": 3,
+        "Will": 3,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 4
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "festival_ribbon",
+      "name": "Festival ribbon",
+      "category": "subaccessory",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -1,
+        "Hit": 1,
+        "Dam": 1,
+        "Vita": 300,
+        "Mana": 300,
+        "Might": 1,
+        "Will": 1,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 2
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Event"
+      ]
+    }
+  ]
+}

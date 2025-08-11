@@ -1,0 +1,268 @@
+{
+  "items": [
+    {
+      "id": "rusty_knife",
+      "name": "Rusty knife",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 2,
+        "Might": 1,
+        "Grace": 2,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Common drop / shops"
+      ]
+    },
+    {
+      "id": "hunting_knife",
+      "name": "Hunting knife",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 4,
+        "Might": 2,
+        "Grace": 2,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Hunting"
+      ]
+    },
+    {
+      "id": "smithing_dagger",
+      "name": "Smithing dagger",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 4,
+        "Dam": 5,
+        "Might": 2,
+        "Grace": 2,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Smithing"
+      ]
+    },
+    {
+      "id": "bronze_short_sword",
+      "name": "Bronze short sword",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 5,
+        "Might": 4,
+        "Grace": 0,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Smithing"
+      ]
+    },
+    {
+      "id": "iron_short_sword",
+      "name": "Iron short sword",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 4,
+        "Dam": 6,
+        "Might": 5,
+        "Grace": 0,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Smithing"
+      ]
+    },
+    {
+      "id": "steel_longsword",
+      "name": "Steel longsword",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 4,
+        "Dam": 8,
+        "Might": 7,
+        "Grace": 0,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Smithing"
+      ]
+    },
+    {
+      "id": "traveler_s_club",
+      "name": "Traveler's club",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 5,
+        "Might": 3,
+        "Grace": 0,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Common drop / shops"
+      ]
+    },
+    {
+      "id": "spiked_mace",
+      "name": "Spiked mace",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 7,
+        "Might": 6,
+        "Grace": 0,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Quest"
+      ]
+    },
+    {
+      "id": "great_mace",
+      "name": "Great mace",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 9,
+        "Might": 8,
+        "Grace": 0,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Quest"
+      ]
+    },
+    {
+      "id": "oak_spear",
+      "name": "Oak spear",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 6,
+        "Might": 4,
+        "Grace": 1,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Common drop / shops"
+      ]
+    },
+    {
+      "id": "recurve_bow",
+      "name": "Recurve bow",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 6,
+        "Dam": 6,
+        "Might": 2,
+        "Grace": 3,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Hunting / Smithing"
+      ]
+    },
+    {
+      "id": "light_crossbow",
+      "name": "Light crossbow",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 5,
+        "Dam": 7,
+        "Might": 3,
+        "Grace": 1,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Smithing"
+      ]
+    }
+  ]
+}

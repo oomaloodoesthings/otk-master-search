@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "id": "valorplate_gauntlets_iv",
+      "name": "Valorplate gauntlets IV",
+      "category": "hand",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "sam-san",
+      "stats": {
+        "AC": -8,
+        "Hit": 7,
+        "Dam": 7,
+        "Vita": 14000,
+        "Mana": 0,
+        "Might": 12,
+        "Will": 0,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [
+        "Can absorb certain hand enchants."
+      ],
+      "info": "",
+      "obtain": [
+        "Bring Valorplate gauntlets III, 3 Raw lapis lazuli OR 1 Refined lapis lazuli, and 100,000 Coins to Melchior."
+      ]
+    },
+    {
+      "id": "shadowstrike_grips_iv",
+      "name": "Shadowstrike grips IV",
+      "category": "hand",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "sam-san",
+      "stats": {
+        "AC": -7,
+        "Hit": 8,
+        "Dam": 8,
+        "Vita": 9000,
+        "Mana": 3000,
+        "Might": 6,
+        "Will": 0,
+        "Grace": 12,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [
+        "Can absorb certain hand enchants."
+      ],
+      "info": "",
+      "obtain": [
+        "Bring Shadowstrike grips III, 3 Raw white agate OR 1 Refined white agate, and 100,000 Coins to Melchior."
+      ]
+    }
+  ]
+}

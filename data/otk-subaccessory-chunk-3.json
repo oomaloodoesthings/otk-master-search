@@ -1,0 +1,86 @@
+{
+  "items": [
+    {
+      "id": "lifebinder_sash_ii",
+      "name": "Lifebinder sash II",
+      "category": "subaccessory",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -2,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 2000,
+        "Mana": 4800,
+        "Might": 0,
+        "Will": 8,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 4
+      },
+      "enchants": [
+        "Can absorb certain subaccessory enchants."
+      ],
+      "info": "",
+      "obtain": [
+        "Bring Lifebinder sash I, 3 Raw zircon OR 1 Refined zircon, and 30,000 Coins to Melchior."
+      ]
+    },
+    {
+      "id": "eldritch_cord_ii",
+      "name": "Eldritch cord II",
+      "category": "subaccessory",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -2,
+        "Hit": 0,
+        "Dam": 3,
+        "Vita": 0,
+        "Mana": 6500,
+        "Might": 0,
+        "Will": 10,
+        "Grace": 4,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [
+        "Can absorb certain subaccessory enchants."
+      ],
+      "info": "",
+      "obtain": [
+        "Bring Eldritch cord I, 3 Raw spinel OR 1 Refined spinel, and 30,000 Coins to Melchior."
+      ]
+    },
+    {
+      "id": "warden_s_cinch_ii",
+      "name": "Warden\u2019s cinch II",
+      "category": "subaccessory",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -3,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 6000,
+        "Mana": 0,
+        "Might": 8,
+        "Will": 0,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 2 - Bosses"
+      ]
+    }
+  ]
+}

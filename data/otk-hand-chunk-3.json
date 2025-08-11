@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "id": "valorplate_gauntlets_ii",
+      "name": "Valorplate gauntlets II",
+      "category": "hand",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -6,
+        "Hit": 4,
+        "Dam": 4,
+        "Vita": 5000,
+        "Mana": 0,
+        "Might": 7,
+        "Will": 0,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [
+        "Can absorb certain hand enchants."
+      ],
+      "info": "",
+      "obtain": [
+        "Bring Valorplate gauntlets I, 3 Raw lapis lazuli OR 1 Refined lapis lazuli, and 30,000 Coins to Melchior."
+      ]
+    }
+  ]
+}

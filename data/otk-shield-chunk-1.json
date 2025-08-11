@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "id": "valorplate_bulwark_iv",
+      "name": "Valorplate bulwark IV",
+      "category": "shield",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "sam-san",
+      "stats": {
+        "AC": -15,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 18000,
+        "Mana": 0,
+        "Might": 12,
+        "Will": 0,
+        "Grace": 4,
+        "Protection": 3,
+        "Healing": 0
+      },
+      "enchants": [
+        "Can absorb certain shield enchants."
+      ],
+      "info": "",
+      "obtain": [
+        "Bring Valorplate bulwark III, 3 Raw lapis lazuli OR 1 Refined lapis lazuli, and 100,000 Coins to Melchior."
+      ]
+    }
+  ]
+}

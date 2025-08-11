@@ -1,0 +1,316 @@
+{
+  "items": [
+    {
+      "id": "seer_s_braid_i",
+      "name": "Seer's braid I",
+      "category": "subaccessory",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -1,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 600,
+        "Mana": 1400,
+        "Might": 0,
+        "Will": 9,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 2
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 1 - Bosses"
+      ]
+    },
+    {
+      "id": "glacial_ribbon_i",
+      "name": "Glacial ribbon I",
+      "category": "subaccessory",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -1,
+        "Hit": 0,
+        "Dam": 2,
+        "Vita": 0,
+        "Mana": 2800,
+        "Might": 0,
+        "Will": 11,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 1 - Bosses"
+      ]
+    },
+    {
+      "id": "windborne_cord_i",
+      "name": "Windborne cord I",
+      "category": "subaccessory",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -2,
+        "Hit": 3,
+        "Dam": 2,
+        "Vita": 900,
+        "Mana": 600,
+        "Might": 4,
+        "Will": 0,
+        "Grace": 6,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 1 - Bosses"
+      ]
+    },
+    {
+      "id": "seer_s_braid_ii",
+      "name": "Seer's braid II",
+      "category": "subaccessory",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -1,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 900,
+        "Mana": 1900,
+        "Might": 0,
+        "Will": 10,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 3
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 2 - Bosses"
+      ]
+    },
+    {
+      "id": "glacial_ribbon_ii",
+      "name": "Glacial ribbon II",
+      "category": "subaccessory",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -1,
+        "Hit": 0,
+        "Dam": 3,
+        "Vita": 0,
+        "Mana": 3600,
+        "Might": 0,
+        "Will": 12,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 2 - Bosses"
+      ]
+    },
+    {
+      "id": "windborne_cord_ii",
+      "name": "Windborne cord II",
+      "category": "subaccessory",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -2,
+        "Hit": 4,
+        "Dam": 3,
+        "Vita": 1400,
+        "Mana": 900,
+        "Might": 5,
+        "Will": 0,
+        "Grace": 7,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 2 - Bosses"
+      ]
+    },
+    {
+      "id": "seer_s_braid_iii",
+      "name": "Seer's braid III",
+      "category": "subaccessory",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "ee-san",
+      "stats": {
+        "AC": -2,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 1200,
+        "Mana": 2400,
+        "Might": 0,
+        "Will": 11,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 4
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 3 - Bosses"
+      ]
+    },
+    {
+      "id": "glacial_ribbon_iii",
+      "name": "Glacial ribbon III",
+      "category": "subaccessory",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "ee-san",
+      "stats": {
+        "AC": -2,
+        "Hit": 0,
+        "Dam": 4,
+        "Vita": 0,
+        "Mana": 4400,
+        "Might": 0,
+        "Will": 13,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 3 - Bosses"
+      ]
+    },
+    {
+      "id": "windborne_cord_iii",
+      "name": "Windborne cord III",
+      "category": "subaccessory",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "ee-san",
+      "stats": {
+        "AC": -3,
+        "Hit": 5,
+        "Dam": 4,
+        "Vita": 1800,
+        "Mana": 1200,
+        "Might": 6,
+        "Will": 0,
+        "Grace": 8,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 3 - Bosses"
+      ]
+    },
+    {
+      "id": "seer_s_braid_iv",
+      "name": "Seer's braid IV",
+      "category": "subaccessory",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "sam-san",
+      "stats": {
+        "AC": -2,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 1600,
+        "Mana": 3000,
+        "Might": 0,
+        "Will": 12,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 5
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 4 - Bosses"
+      ]
+    },
+    {
+      "id": "glacial_ribbon_iv",
+      "name": "Glacial ribbon IV",
+      "category": "subaccessory",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "sam-san",
+      "stats": {
+        "AC": -2,
+        "Hit": 0,
+        "Dam": 5,
+        "Vita": 0,
+        "Mana": 5200,
+        "Might": 0,
+        "Will": 14,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 4 - Bosses"
+      ]
+    },
+    {
+      "id": "windborne_cord_iv",
+      "name": "Windborne cord IV",
+      "category": "subaccessory",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "sam-san",
+      "stats": {
+        "AC": -3,
+        "Hit": 6,
+        "Dam": 5,
+        "Vita": 2400,
+        "Mana": 1600,
+        "Might": 7,
+        "Will": 0,
+        "Grace": 9,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 4 - Bosses"
+      ]
+    }
+  ]
+}

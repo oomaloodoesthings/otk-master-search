@@ -1,0 +1,108 @@
+{
+  "items": [
+    {
+      "id": "seer_s_ward_ii",
+      "name": "Seer's ward II",
+      "category": "shield",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -6,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 1200,
+        "Mana": 2400,
+        "Might": 0,
+        "Will": 11,
+        "Grace": 1,
+        "Protection": 1,
+        "Healing": 4
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 2 - Bosses"
+      ]
+    },
+    {
+      "id": "glacial_ward_i",
+      "name": "Glacial ward I",
+      "category": "shield",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -6,
+        "Hit": 0,
+        "Dam": 2,
+        "Vita": 0,
+        "Mana": 2800,
+        "Might": 0,
+        "Will": 11,
+        "Grace": 2,
+        "Protection": 1,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 1 - Bosses"
+      ]
+    },
+    {
+      "id": "windborne_guard_i",
+      "name": "Windborne guard I",
+      "category": "shield",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -7,
+        "Hit": 3,
+        "Dam": 2,
+        "Vita": 1400,
+        "Mana": 800,
+        "Might": 3,
+        "Will": 0,
+        "Grace": 6,
+        "Protection": 1,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 1 - Bosses"
+      ]
+    },
+    {
+      "id": "guardian_s_round",
+      "name": "Guardian's round",
+      "category": "shield",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -9,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 2500,
+        "Mana": 0,
+        "Might": 5,
+        "Will": 0,
+        "Grace": 1,
+        "Protection": 1,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Hunting / Quest"
+      ]
+    }
+  ]
+}
