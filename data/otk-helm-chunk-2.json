@@ -1,0 +1,328 @@
+{
+  "items": [
+    {
+      "id": "yellow_circlet",
+      "name": "Yellow circlet",
+      "category": "helm",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -7,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 800,
+        "Mana": 400,
+        "Might": 4,
+        "Will": 4,
+        "Grace": 4,
+        "Protection": 0,
+        "Healing": 5
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "white_circlet",
+      "name": "White circlet",
+      "category": "helm",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -7,
+        "Hit": 2,
+        "Dam": 2,
+        "Vita": 1000,
+        "Mana": 500,
+        "Might": 3,
+        "Will": 3,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 5
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "magus_magical_cap",
+      "name": "Magus' magical cap",
+      "category": "helm",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -7,
+        "Hit": 0,
+        "Dam": 2,
+        "Vita": 1500,
+        "Mana": 1875,
+        "Might": 0,
+        "Will": 10,
+        "Grace": 2,
+        "Protection": 1,
+        "Healing": 0
+      },
+      "enchants": [
+        "Lesser mana flow aethers reduced by 2s."
+      ],
+      "info": "",
+      "obtain": [
+        "Magus 1 - Enchanted sorcerer"
+      ]
+    },
+    {
+      "id": "ju_jak_helm",
+      "name": "Ju Jak helm +",
+      "category": "helm",
+      "path": [
+        "ju jak"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -7,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 250,
+        "Mana": 2000,
+        "Might": 1,
+        "Will": 6,
+        "Grace": 3,
+        "Protection": 1,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Say \"Kimesh\" to Runag, the Hausson Smith, and sacrifice 200m EXP + 25,000 coins."
+      ]
+    },
+    {
+      "id": "mask_of_terror",
+      "name": "Mask of terror",
+      "category": "helm",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -7,
+        "Hit": 1,
+        "Dam": 1,
+        "Vita": 0,
+        "Mana": 2250,
+        "Might": 2,
+        "Will": 12,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Unknown / Event"
+      ]
+    },
+    {
+      "id": "dread_s_pride_ii",
+      "name": "Dread's pride II",
+      "category": "helm",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -8,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 6000,
+        "Mana": 500,
+        "Might": 0,
+        "Will": 11,
+        "Grace": 2,
+        "Protection": 1,
+        "Healing": 0
+      },
+      "enchants": [
+        "Phoenix aethers reduced by 2s."
+      ],
+      "info": "",
+      "obtain": [
+        "Dread 2 - Dread"
+      ]
+    },
+    {
+      "id": "magus_magical_cap_ii",
+      "name": "Magus' magical cap II",
+      "category": "helm",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -8,
+        "Hit": 0,
+        "Dam": 4,
+        "Vita": 3000,
+        "Mana": 3750,
+        "Might": 0,
+        "Will": 11,
+        "Grace": 2,
+        "Protection": 1,
+        "Healing": 0
+      },
+      "enchants": [
+        "Lesser mana flow aethers reduced by 2s."
+      ],
+      "info": "",
+      "obtain": [
+        "Magus 2 - Enchanted sorcerer"
+      ]
+    },
+    {
+      "id": "duke_s_sturdy_cowl_ii",
+      "name": "Duke's sturdy cowl II",
+      "category": "helm",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -9,
+        "Hit": 5,
+        "Dam": 5,
+        "Vita": 8000,
+        "Mana": 0,
+        "Might": 4,
+        "Will": 0,
+        "Grace": 2,
+        "Protection": 1,
+        "Healing": 2
+      },
+      "enchants": [
+        "Leap aethers reduced by 10s."
+      ],
+      "info": "",
+      "obtain": [
+        "Waster 2 - Crab Duke"
+      ]
+    },
+    {
+      "id": "ghaleb_s_kabuto_ii",
+      "name": "Ghaleb's kabuto II",
+      "category": "helm",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -9,
+        "Hit": 6,
+        "Dam": 5,
+        "Vita": 9000,
+        "Mana": 0,
+        "Might": 9,
+        "Will": 0,
+        "Grace": 2,
+        "Protection": 1,
+        "Healing": 3
+      },
+      "enchants": [
+        "Whirlwind aethers reduced by 2s."
+      ],
+      "info": "",
+      "obtain": [
+        "Assassin 2 - Ghaleb"
+      ]
+    },
+    {
+      "id": "waveless_abyss",
+      "name": "Waveless abyss",
+      "category": "helm",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "ee-san",
+      "stats": {
+        "AC": -9,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 3000,
+        "Mana": 5000,
+        "Might": 3,
+        "Will": 12,
+        "Grace": 3,
+        "Protection": 1,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Bonded",
+      "obtain": [
+        "7 Gorcesh Raid tokens"
+      ]
+    },
+    {
+      "id": "wasting_waves",
+      "name": "Wasting waves",
+      "category": "helm",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "ee-san",
+      "stats": {
+        "AC": -9,
+        "Hit": 0,
+        "Dam": 3,
+        "Vita": 0,
+        "Mana": 6500,
+        "Might": 2,
+        "Will": 10,
+        "Grace": 1,
+        "Protection": 1,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Bonded",
+      "obtain": [
+        "7 Gorcesh Raid tokens"
+      ]
+    },
+    {
+      "id": "magus_magical_cap_iii",
+      "name": "Magus' magical cap III",
+      "category": "helm",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "ee-san",
+      "stats": {
+        "AC": -9,
+        "Hit": 0,
+        "Dam": 6,
+        "Vita": 6000,
+        "Mana": 7500,
+        "Might": 0,
+        "Will": 12,
+        "Grace": 2,
+        "Protection": 1,
+        "Healing": 0
+      },
+      "enchants": [
+        "Lesser mana flow aethers reduced by 2s."
+      ],
+      "info": "",
+      "obtain": [
+        "Magus 3 - Enchanted sorcerer"
+      ]
+    }
+  ]
+}
