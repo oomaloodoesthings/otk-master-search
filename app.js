@@ -42,6 +42,8 @@ async function loadChunks(files) {
 
 function initEls() {
   els.q = document.querySelector('#q');
+  els.sortedIndicator = document.querySelector('#sorted-indicator');
+  els.resetBtn = document.querySelector('#reset-filters');
   els.categories = Array.from(document.querySelectorAll('input[name="category"]'));
   els.tiers = Array.from(document.querySelectorAll('input[name="tier"]'));
   els.paths = Array.from(document.querySelectorAll('input[name="path"]'));
@@ -159,6 +161,19 @@ function sortData() {
   });
 }
 
+function updateSortedIndicator(){
+  if (state.sortKey === 'stat' && state.statKey){
+    const dir = (state.statKey === 'AC') ? 'asc' : state.sortDir;
+    const arrow = dir === 'asc' ? '↑' : '↓';
+    els.sortedIndicator.textContent = `Sorted by ${state.statKey} ${arrow}`;
+  } else if (state.sortKey && state.sortKey !== 'name') {
+    const arrow = state.sortDir === 'asc' ? '↑' : '↓';
+    els.sortedIndicator.textContent = `Sorted by ${state.sortKey} ${arrow}`;
+  } else {
+    els.sortedIndicator.textContent = '';
+  }
+}
+
 function render() {
   // Info
   els.resultsInfo.textContent = `${state.filtered.length} result${state.filtered.length === 1 ? '' : 's'} (of ${state.items.length} items)`;
@@ -189,6 +204,7 @@ function render() {
   }).join('');
 
   els.tableBody.innerHTML = rows || `<tr><td colspan="8" class="muted">No results.</td></tr>`;
+  updateSortedIndicator();
 }
 
 function escapeHtml(s) {
@@ -240,8 +256,8 @@ function bind() {
     const el = e.target.closest('.stat');
     if (!el) return;
     const key = el.getAttribute('data-stat');
-    if (state.sortKey === 'stat' && state.statKey === key) {
-      // toggle off -> default
+    if (state.sortKey === 'stat' && state.statKey === key && !e.shiftKey) {
+      // toggle off -> default (unless shift held)
       state.sortKey = 'name';
       state.sortDir = 'asc';
       state.statKey = null;
@@ -250,9 +266,27 @@ function bind() {
       state.statKey = key;
       // default direction: AC asc (lower is better), others desc
       state.sortDir = (key === 'AC') ? 'asc' : 'desc';
+      if (e.shiftKey) {
+        // reverse on shift
+        state.sortDir = (state.sortDir === 'asc') ? 'desc' : 'asc';
+      }
     }
     sortData();
     render();
+  });
+
+  // Reset filters
+  els.resetBtn.addEventListener('click', () => {
+    els.q.value = '';
+    // select all categories/paths/tiers
+    els.categories.forEach(c => c.checked = true);
+    els.paths.forEach(p => p.checked = true);
+    els.tierChecks.forEach(t => t.checked = true);
+    // reset sorting
+    state.sortKey = 'name';
+    state.sortDir = 'asc';
+    state.statKey = null;
+    applyFilters();
   });
 
   // Export

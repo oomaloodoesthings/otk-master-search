@@ -82,3 +82,6 @@ td.obtain, td.info, td.enchants, td.stats {
 
 .filters { display: grid; grid-template-columns: 1fr; }
 .filters .filter { width: 100%; }
+
+.small { font-size: 0.9rem; }
+#sorted-indicator { padding: 0.2rem 0.4rem; }
