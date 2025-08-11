@@ -166,14 +166,6 @@ function sortData() {
     return 0;
   });
 }
- = state;
-  const dir = sortDir === 'asc' ? 1 : -1;
-
-  state.filtered.sort((a, b) => {
-    let va = a[sortKey], vb = b[sortKey];
-    if (sortKey === 'stats') {
-      va = Object.entries(va).map(([k,v])=>k+':'+v).join('|');
-      vb = Object.entries(vb).map(([k,v])=>k+':'+v).join('|');
     } else if (sortKey === 'enchants' || sortKey === 'path' || sortKey === 'obtain') {
       va = (va || []).join('|');
       vb = (vb || []).join('|');
@@ -333,7 +325,7 @@ function bind() {
     // select all categories/paths/tiers
     els.categories.forEach(c => c.checked = true);
     els.paths.forEach(p => p.checked = true);
-    els.tierChecks.forEach(t => t.checked = true);
+    els.tiers.forEach(t => t.checked = true);
     // reset sorting
     state.sortKey = 'name';
     state.sortDir = 'asc';
