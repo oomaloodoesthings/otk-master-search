@@ -1,0 +1,330 @@
+{
+  "items": [
+    {
+      "id": "duke_s_sturdy_cowl_iii",
+      "name": "Duke's sturdy cowl III",
+      "category": "helm",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "ee-san",
+      "stats": {
+        "AC": -10,
+        "Hit": 6,
+        "Dam": 6,
+        "Vita": 12000,
+        "Mana": 0,
+        "Might": 6,
+        "Will": 0,
+        "Grace": 3,
+        "Protection": 1,
+        "Healing": 3
+      },
+      "enchants": [
+        "Leap aethers reduced by 10s."
+      ],
+      "info": "",
+      "obtain": [
+        "Waster 3 - Crab Duke"
+      ]
+    },
+    {
+      "id": "ghaleb_s_kabuto_iii",
+      "name": "Ghaleb's kabuto III",
+      "category": "helm",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "ee-san",
+      "stats": {
+        "AC": -10,
+        "Hit": 7,
+        "Dam": 6,
+        "Vita": 13500,
+        "Mana": 0,
+        "Might": 11,
+        "Will": 0,
+        "Grace": 3,
+        "Protection": 1,
+        "Healing": 4
+      },
+      "enchants": [
+        "Whirlwind aethers reduced by 2s."
+      ],
+      "info": "",
+      "obtain": [
+        "Assassin 3 - Ghaleb"
+      ]
+    },
+    {
+      "id": "magus_magical_cap_iv",
+      "name": "Magus' magical cap IV",
+      "category": "helm",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "sam-san",
+      "stats": {
+        "AC": -10,
+        "Hit": 0,
+        "Dam": 8,
+        "Vita": 9000,
+        "Mana": 12000,
+        "Might": 0,
+        "Will": 13,
+        "Grace": 3,
+        "Protection": 1,
+        "Healing": 0
+      },
+      "enchants": [
+        "Lesser mana flow aethers reduced by 2s."
+      ],
+      "info": "",
+      "obtain": [
+        "Magus 4 - Enchanted sorcerer"
+      ]
+    },
+    {
+      "id": "dread_s_pride_iii",
+      "name": "Dread's pride III",
+      "category": "helm",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "ee-san",
+      "stats": {
+        "AC": -9,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 4500,
+        "Mana": 750,
+        "Might": 0,
+        "Will": 10,
+        "Grace": 0,
+        "Protection": 1,
+        "Healing": 12
+      },
+      "enchants": [],
+      "info": "Bonded",
+      "obtain": [
+        "Dread 3 - Dread"
+      ]
+    },
+    {
+      "id": "mad_king_s_faceguard_iii",
+      "name": "Mad king's faceguard III",
+      "category": "helm",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "ee-san",
+      "stats": {
+        "AC": -9,
+        "Hit": 0,
+        "Dam": 3,
+        "Vita": 750,
+        "Mana": 8000,
+        "Might": 4,
+        "Will": 7,
+        "Grace": 2,
+        "Protection": 1,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Bandit 3 - Mad King"
+      ]
+    },
+    {
+      "id": "shadowstrike_mask_iii",
+      "name": "Shadowstrike mask III",
+      "category": "helm",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "ee-san",
+      "stats": {
+        "AC": -11,
+        "Hit": 7,
+        "Dam": 7,
+        "Vita": 28000,
+        "Mana": 15000,
+        "Might": 6,
+        "Will": 0,
+        "Grace": 10,
+        "Protection": 0,
+        "Healing": 4
+      },
+      "enchants": [
+        "Can absorb certain helm enchants."
+      ],
+      "info": "",
+      "obtain": [
+        "Bring Shadowstrike mask II, 3 Raw white agate OR 1 Refined white agate, and 60,000 Coins to Melchior."
+      ]
+    },
+    {
+      "id": "lifebinder_circlet_iii",
+      "name": "Lifebinder circlet III",
+      "category": "helm",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "ee-san",
+      "stats": {
+        "AC": -10,
+        "Hit": 0,
+        "Dam": 4,
+        "Vita": 16000,
+        "Mana": 20000,
+        "Might": 0,
+        "Will": 10,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 9
+      },
+      "enchants": [
+        "Can absorb certain helm enchants."
+      ],
+      "info": "",
+      "obtain": [
+        "Bring Lifebinder circlet II, 3 Raw zircon OR 1 Refined zircon, and 60,000 Coins to Melchior."
+      ]
+    },
+    {
+      "id": "eldritch_cowl_iii",
+      "name": "Eldritch cowl III",
+      "category": "helm",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "ee-san",
+      "stats": {
+        "AC": -10,
+        "Hit": 0,
+        "Dam": 8,
+        "Vita": 0,
+        "Mana": 26000,
+        "Might": 0,
+        "Will": 10,
+        "Grace": 6,
+        "Protection": 0,
+        "Healing": 6
+      },
+      "enchants": [
+        "Can absorb certain helm enchants."
+      ],
+      "info": "",
+      "obtain": [
+        "Bring Eldritch cowl II, 3 Raw spinel OR 1 Refined spinel, and 60,000 Coins to Melchior."
+      ]
+    },
+    {
+      "id": "valorplate_warhelm_iii",
+      "name": "Valorplate warhelm III",
+      "category": "helm",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "ee-san",
+      "stats": {
+        "AC": -12,
+        "Hit": 10,
+        "Dam": 10,
+        "Vita": 50000,
+        "Mana": 0,
+        "Might": 10,
+        "Will": 0,
+        "Grace": 7,
+        "Protection": 0,
+        "Healing": 4
+      },
+      "enchants": [
+        "Can absorb certain helm enchants."
+      ],
+      "info": "",
+      "obtain": [
+        "Bring Valorplate warhelm II, 3 Raw lapis lazuli OR 1 Refined lapis lazuli, and 60,000 Coins to Melchior."
+      ]
+    },
+    {
+      "id": "seer_s_halo_ii",
+      "name": "Seer's halo II",
+      "category": "helm",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -8,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 1800,
+        "Mana": 3800,
+        "Might": 0,
+        "Will": 10,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 6
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 2 - Bosses"
+      ]
+    },
+    {
+      "id": "windborne_masque_ii",
+      "name": "Windborne masque II",
+      "category": "helm",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -9,
+        "Hit": 5,
+        "Dam": 4,
+        "Vita": 3000,
+        "Mana": 2000,
+        "Might": 6,
+        "Will": 0,
+        "Grace": 6,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 2 - Bosses"
+      ]
+    },
+    {
+      "id": "glacial_circlet_ii",
+      "name": "Glacial circlet II",
+      "category": "helm",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "AC": -9,
+        "Hit": 0,
+        "Dam": 5,
+        "Vita": 0,
+        "Mana": 5500,
+        "Might": 0,
+        "Will": 12,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 2 - Bosses"
+      ]
+    }
+  ]
+}
