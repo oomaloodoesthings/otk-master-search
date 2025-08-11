@@ -193,7 +193,7 @@ function render() {
 
     return `<tr>
       <td>${escapeHtml(it.name)}</td>
-      <td>${escapeHtml(it.type)}</td>
+      <td>${escapeHtml(it.category || inferCategory(it))}</td>
       <td>${path}</td>
       <td>${escapeHtml(it.level_tier)}</td>
       <td class="stats">${stats}</td>
