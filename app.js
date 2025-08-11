@@ -41,6 +41,7 @@ async function loadChunks(files) {
 
 function initEls() {
   els.q = document.querySelector('#q');
+  els.categories = Array.from(document.querySelectorAll('input[name="category"]'));
   els.tier = document.querySelector('#tier');
   els.paths = Array.from(document.querySelectorAll('input[name="path"]'));
   els.tableBody = document.querySelector('#results tbody');
@@ -56,6 +57,7 @@ function normalize(item) {
     name: item.name || '',
     type: item.type || '',
     path: Array.isArray(item.path) ? item.path.map(p=>String(p).toLowerCase()) : (item.path ? [String(item.path).toLowerCase()] : []),
+    category: (item.category || inferCategory(item)).toLowerCase(),
     level_tier: (item.level_tier || '').toString().toLowerCase(),
     stats: item.stats || {},
     enchants: item.enchants || [],
@@ -67,12 +69,17 @@ function normalize(item) {
 function applyFilters() {
   const q = els.q.value.trim().toLowerCase();
   const checkedPaths = new Set(els.paths.filter(p=>p.checked).map(p=>p.value));
+  const checkedCats = new Set(els.categories.filter(c=>c.checked).map(c=>c.value));
   const tier = els.tier.value; // 'any' or specific
 
   state.filtered = state.items.filter(it => {
     // name match (substring)
     const nameHit = q === '' || it.name.toLowerCase().includes(q);
     if (!nameHit) return false;
+
+    // category filter
+    const catHit = checkedCats.size === 0 || checkedCats.has(it.category || inferCategory(it));
+    if (!catHit) return false;
 
     // path filter (OR across selected), treat empty path as passing
     const pathHit = it.path.length === 0 || it.path.some(p => checkedPaths.has(p));
@@ -140,6 +147,19 @@ function escapeHtml(s) {
   return s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 }
 
+function inferCategory(item){
+  // If category not provided, infer from type or slot
+  const t = (item.type||'').toString().toLowerCase();
+  const slot = (item.slot||'').toString().toLowerCase();
+  if (item.category) return String(item.category).toLowerCase();
+  if (['armor','weapon','item','hand','head','helm','shield','subaccessory'].includes(t)) return t;
+  if (['hand','head','helm','shield','subaccessory'].includes(slot)) return slot;
+  if (t === 'armor') return 'armor';
+  if (t === 'weapon') return 'weapon';
+  if (t === 'item') return 'item';
+  return 'item';
+}
+
 function bind() {
   // Debounced search
   let t;
@@ -150,6 +170,7 @@ function bind() {
 
   els.tier.addEventListener('change', applyFilters);
   els.paths.forEach(p => p.addEventListener('change', applyFilters));
+  els.categories.forEach(c => c.addEventListener('change', applyFilters));
 
   // Sorting
   document.querySelectorAll('#results thead th').forEach(th => {
