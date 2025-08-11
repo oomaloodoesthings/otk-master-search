@@ -1,0 +1,212 @@
+{
+  "items": [
+    {
+      "id": "festival_crown",
+      "name": "Festival crown",
+      "category": "helm",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -6,
+        "Hit": 1,
+        "Dam": 1,
+        "Vita": 500,
+        "Mana": 500,
+        "Might": 1,
+        "Will": 1,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 2
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Event"
+      ]
+    },
+    {
+      "id": "lunar_veil",
+      "name": "Lunar veil",
+      "category": "helm",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -7,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 700,
+        "Mana": 1400,
+        "Might": 0,
+        "Will": 9,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 3
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Event"
+      ]
+    },
+    {
+      "id": "arcane_hood",
+      "name": "Arcane hood",
+      "category": "helm",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -7,
+        "Hit": 0,
+        "Dam": 2,
+        "Vita": 600,
+        "Mana": 1600,
+        "Might": 0,
+        "Will": 9,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Quest"
+      ]
+    },
+    {
+      "id": "gladiator_s_visor",
+      "name": "Gladiator's visor",
+      "category": "helm",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -9,
+        "Hit": 3,
+        "Dam": 4,
+        "Vita": 3200,
+        "Mana": 0,
+        "Might": 7,
+        "Will": 0,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Hunting / Quest"
+      ]
+    },
+    {
+      "id": "wraith_mask",
+      "name": "Wraith mask",
+      "category": "helm",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -9,
+        "Hit": 5,
+        "Dam": 4,
+        "Vita": 2200,
+        "Mana": 500,
+        "Might": 3,
+        "Will": 0,
+        "Grace": 6,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Quest"
+      ]
+    },
+    {
+      "id": "haloed_tiara",
+      "name": "Haloed tiara",
+      "category": "helm",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -7,
+        "Hit": 2,
+        "Dam": 2,
+        "Vita": 1100,
+        "Mana": 700,
+        "Might": 2,
+        "Will": 2,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 6
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "crystal_circlet",
+      "name": "Crystal circlet",
+      "category": "helm",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -7,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 1400,
+        "Mana": 700,
+        "Might": 3,
+        "Will": 3,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 7
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "carnival_cap",
+      "name": "Carnival cap",
+      "category": "helm",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -6,
+        "Hit": 1,
+        "Dam": 1,
+        "Vita": 600,
+        "Mana": 200,
+        "Might": 1,
+        "Will": 1,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Event / Seasonal"
+      ]
+    }
+  ]
+}

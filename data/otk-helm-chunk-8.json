@@ -1,0 +1,264 @@
+{
+  "items": [
+    {
+      "id": "traveler_s_hood",
+      "name": "Traveler's hood",
+      "category": "helm",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -5,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 120,
+        "Mana": 80,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Common drop / shops"
+      ]
+    },
+    {
+      "id": "silken_hood",
+      "name": "Silken hood",
+      "category": "helm",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -6,
+        "Hit": 0,
+        "Dam": 1,
+        "Vita": 250,
+        "Mana": 900,
+        "Might": 0,
+        "Will": 6,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Common drop / shops"
+      ]
+    },
+    {
+      "id": "chanting_veil",
+      "name": "Chanting veil",
+      "category": "helm",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -6,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 200,
+        "Mana": 950,
+        "Might": 0,
+        "Will": 7,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 2
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Quest"
+      ]
+    },
+    {
+      "id": "night_visor",
+      "name": "Night visor",
+      "category": "helm",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -8,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 2800,
+        "Mana": 0,
+        "Might": 6,
+        "Will": 0,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Smithing"
+      ]
+    },
+    {
+      "id": "silent_mask",
+      "name": "Silent mask",
+      "category": "helm",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -8,
+        "Hit": 4,
+        "Dam": 3,
+        "Vita": 1800,
+        "Mana": 400,
+        "Might": 3,
+        "Will": 0,
+        "Grace": 5,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Common drop / shops"
+      ]
+    },
+    {
+      "id": "opal_circlet",
+      "name": "Opal circlet",
+      "category": "helm",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -7,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 1300,
+        "Mana": 650,
+        "Might": 3,
+        "Will": 3,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 6
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "amethyst_circlet",
+      "name": "Amethyst circlet",
+      "category": "helm",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -7,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 1300,
+        "Mana": 650,
+        "Might": 3,
+        "Will": 3,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 6
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "garnet_circlet",
+      "name": "Garnet circlet",
+      "category": "helm",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -7,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 1300,
+        "Mana": 650,
+        "Might": 3,
+        "Will": 3,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 6
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "quartz_circlet",
+      "name": "Quartz circlet",
+      "category": "helm",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -7,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 1300,
+        "Mana": 650,
+        "Might": 3,
+        "Will": 3,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 6
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "obsidian_circlet",
+      "name": "Obsidian circlet",
+      "category": "helm",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -7,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 1300,
+        "Mana": 650,
+        "Might": 3,
+        "Will": 3,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 6
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "items": [
+    {
+      "id": "black_circlet",
+      "name": "Black circlet",
+      "category": "helm",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -6,
+        "Hit": 2,
+        "Dam": 2,
+        "Vita": 800,
+        "Mana": 400,
+        "Might": 2,
+        "Will": 2,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 5
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "purple_circlet",
+      "name": "Purple circlet",
+      "category": "helm",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -6,
+        "Hit": 2,
+        "Dam": 2,
+        "Vita": 800,
+        "Mana": 400,
+        "Might": 2,
+        "Will": 2,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 5
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "orange_circlet",
+      "name": "Orange circlet",
+      "category": "helm",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -6,
+        "Hit": 1,
+        "Dam": 1,
+        "Vita": 650,
+        "Mana": 325,
+        "Might": 1,
+        "Will": 1,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 5
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "topaz_circlet",
+      "name": "Topaz circlet",
+      "category": "helm",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -7,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 1200,
+        "Mana": 600,
+        "Might": 3,
+        "Will": 3,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 6
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "sapphire_circlet",
+      "name": "Sapphire circlet",
+      "category": "helm",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -7,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 1200,
+        "Mana": 600,
+        "Might": 3,
+        "Will": 3,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 6
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "ruby_circlet",
+      "name": "Ruby circlet",
+      "category": "helm",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -7,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 1200,
+        "Mana": 600,
+        "Might": 3,
+        "Will": 3,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 6
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "emerald_circlet",
+      "name": "Emerald circlet",
+      "category": "helm",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -7,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 1200,
+        "Mana": 600,
+        "Might": 3,
+        "Will": 3,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 6
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "onyx_circlet",
+      "name": "Onyx circlet",
+      "category": "helm",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -7,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 1200,
+        "Mana": 600,
+        "Might": 3,
+        "Will": 3,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 6
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "bronze_visor",
+      "name": "Bronze visor",
+      "category": "helm",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -7,
+        "Hit": 2,
+        "Dam": 2,
+        "Vita": 2000,
+        "Mana": 0,
+        "Might": 4,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Smithing"
+      ]
+    },
+    {
+      "id": "iron_visor",
+      "name": "Iron visor",
+      "category": "helm",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -8,
+        "Hit": 2,
+        "Dam": 2,
+        "Vita": 2500,
+        "Mana": 0,
+        "Might": 5,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Smithing"
+      ]
+    },
+    {
+      "id": "steel_visor",
+      "name": "Steel visor",
+      "category": "helm",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -9,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 3000,
+        "Mana": 0,
+        "Might": 6,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Smithing"
+      ]
+    },
+    {
+      "id": "cloth_hood",
+      "name": "Cloth hood",
+      "category": "helm",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -6,
+        "Hit": 0,
+        "Dam": 1,
+        "Vita": 200,
+        "Mana": 800,
+        "Might": 0,
+        "Will": 6,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Common drop / shops"
+      ]
+    },
+    {
+      "id": "prayer_hood",
+      "name": "Prayer hood",
+      "category": "helm",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -6,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 250,
+        "Mana": 750,
+        "Might": 0,
+        "Will": 7,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 2
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Common drop / shops"
+      ]
+    },
+    {
+      "id": "shadow_mask",
+      "name": "Shadow mask",
+      "category": "helm",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -8,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 1200,
+        "Mana": 400,
+        "Might": 2,
+        "Will": 0,
+        "Grace": 4,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Common drop / shops"
+      ]
+    }
+  ]
+}
