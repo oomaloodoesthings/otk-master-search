@@ -34,16 +34,15 @@
         <label><input type="checkbox" name="path" value="warrior" checked> Warrior</label>
         <label><input type="checkbox" name="path" value="rogue" checked> Rogue</label>
       </div>
-      <div class="filter">
-        <label>Level Tier:</label>
-        <select id="tier">
-          <option value="any" selected>Any</option>
-          <option value="0-99">0–99</option>
-          <option value="il-san">Il San</option>
-          <option value="ee-san">Ee San</option>
-          <option value="sam-san">Sam San</option>
-        </select>
-      </div>
+      
+    <div class="filter">
+      <label>Level Tiers:</label>
+      <label><input type="checkbox" name="tier" value="0-99" checked> 0–99</label>
+      <label><input type="checkbox" name="tier" value="il-san" checked> Il San</label>
+      <label><input type="checkbox" name="tier" value="ee-san" checked> Ee San</label>
+      <label><input type="checkbox" name="tier" value="sam-san" checked> Sam San</label>
+    </div>
+
       <div class="actions">
         <button id="export-json">Export JSON (filtered)</button>
         <button id="export-csv">Export CSV (filtered)</button>

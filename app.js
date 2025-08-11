@@ -9,7 +9,8 @@ const state = {
   items: [],
   filtered: [],
   sortKey: 'name',
-  sortDir: 'asc'
+  sortDir: 'asc',
+  statKey: null
 };
 
 const els = {
@@ -42,7 +43,7 @@ async function loadChunks(files) {
 function initEls() {
   els.q = document.querySelector('#q');
   els.categories = Array.from(document.querySelectorAll('input[name="category"]'));
-  els.tier = document.querySelector('#tier');
+  els.tiers = Array.from(document.querySelectorAll('input[name="tier"]'));
   els.paths = Array.from(document.querySelectorAll('input[name="path"]'));
   els.tableBody = document.querySelector('#results tbody');
   els.resultsInfo = document.querySelector('#results-info');
@@ -70,7 +71,7 @@ function applyFilters() {
   const q = els.q.value.trim().toLowerCase();
   const checkedPaths = new Set(els.paths.filter(p=>p.checked).map(p=>p.value));
   const checkedCats = new Set(els.categories.filter(c=>c.checked).map(c=>c.value));
-  const tier = els.tier.value; // 'any' or specific
+  const checkedTiers = new Set(els.tiers.filter(t=>t.checked).map(t=>t.value));
 
   state.filtered = state.items.filter(it => {
     // name match (substring)
@@ -85,8 +86,8 @@ function applyFilters() {
     const pathHit = it.path.length === 0 || it.path.some(p => checkedPaths.has(p));
     if (!pathHit) return false;
 
-    // tier filter
-    const tierHit = tier === 'any' || (it.level_tier || '').toLowerCase() === tier;
+    // tier filter (OR match)
+    const tierHit = checkedTiers.size === 0 || checkedTiers.has((it.level_tier || '').toLowerCase());
     return tierHit;
   });
 
@@ -94,8 +95,49 @@ function applyFilters() {
   render();
 }
 
+
 function sortData() {
   const { sortKey, sortDir } = state;
+  const dir = sortDir === 'asc' ? 1 : -1;
+
+  if (sortKey === 'stat') {
+    const key = state.statKey || '';
+    state.filtered.sort((a, b) => {
+      const av = Number(a.stats?.[key] ?? (key === 'AC' ? 9999 : -9999));
+      const bv = Number(b.stats?.[key] ?? (key === 'AC' ? 9999 : -9999));
+      // AC special-case: lower is better (more negative first)
+      if (key === 'AC') {
+        if (av < bv) return -1; // always ascending for AC by value
+        if (av > bv) return 1;
+        return 0;
+      }
+      // Generic numeric sort by dir
+      if (av < bv) return -1 * dir;
+      if (av > bv) return 1 * dir;
+      return 0;
+    });
+    return;
+  }
+
+  state.filtered.sort((a, b) => {
+    let va = a[sortKey], vb = b[sortKey];
+    if (sortKey === 'stats') {
+      va = Object.entries(va).map(([k,v])=>k+':'+v).join('|');
+      vb = Object.entries(vb).map(([k,v])=>k+':'+v).join('|');
+    } else if (sortKey === 'enchants' || sortKey === 'path' || sortKey === 'obtain') {
+      va = (va || []).join('|');
+      vb = (vb || []).join('|');
+    } else {
+      va = va ?? ''; vb = vb ?? '';
+    }
+    va = va.toString().toLowerCase();
+    vb = vb.toString().toLowerCase();
+    if (va < vb) return -1 * dir;
+    if (va > vb) return 1 * dir;
+    return 0;
+  });
+}
+ = state;
   const dir = sortDir === 'asc' ? 1 : -1;
 
   state.filtered.sort((a, b) => {
@@ -123,7 +165,13 @@ function render() {
 
   // Rows
   const rows = state.filtered.map(it => {
-    const stats = Object.entries(it.stats).map(([k,v]) => `<span class="stat">${escapeHtml(k)}: ${escapeHtml(String(v))}</span>`).join('');
+    const stats = Object.entries(it.stats).map(([k,v]) => {
+      const kStr = String(k);
+      const vStr = String(v);
+      const isActive = (state.sortKey === 'stat' && state.statKey === kStr);
+      const cls = 'stat' + (isActive ? ' active' : '');
+      return `<span class="${cls}" data-stat="${escapeHtml(kStr)}" data-value="${escapeHtml(vStr)}">${escapeHtml(kStr)}: ${escapeHtml(vStr)}</span>`;
+    }).join('');
     const ench = (it.enchants || []).map(e => `<span class="badge">${escapeHtml(String(e))}</span>`).join('');
     const path = (it.path || []).map(p => `<span class="badge">${escapeHtml(String(p))}</span>`).join('');
     const obtain = (it.obtain || []).map(o => `<div>${escapeHtml(String(o))}</div>`).join('');
@@ -168,7 +216,7 @@ function bind() {
     t = setTimeout(applyFilters, 120);
   });
 
-  els.tier.addEventListener('change', applyFilters);
+  els.tiers.forEach(t => t.addEventListener('change', applyFilters));
   els.paths.forEach(p => p.addEventListener('change', applyFilters));
   els.categories.forEach(c => c.addEventListener('change', applyFilters));
 
@@ -185,6 +233,26 @@ function bind() {
       sortData();
       render();
     });
+  });
+
+  // Stat click sorting
+  document.querySelector('#results').addEventListener('click', (e) => {
+    const el = e.target.closest('.stat');
+    if (!el) return;
+    const key = el.getAttribute('data-stat');
+    if (state.sortKey === 'stat' && state.statKey === key) {
+      // toggle off -> default
+      state.sortKey = 'name';
+      state.sortDir = 'asc';
+      state.statKey = null;
+    } else {
+      state.sortKey = 'stat';
+      state.statKey = key;
+      // default direction: AC asc (lower is better), others desc
+      state.sortDir = (key === 'AC') ? 'asc' : 'desc';
+    }
+    sortData();
+    render();
   });
 
   // Export
