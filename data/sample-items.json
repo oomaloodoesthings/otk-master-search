@@ -1,0 +1,45 @@
+{
+  "items": [
+    {
+      "id": "amulet_of_spark",
+      "name": "Amulet of Spark",
+      "type": "Item",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "il-san",
+      "stats": {
+        "MATK": 10,
+        "MP": 50
+      },
+      "enchants": [
+        "+2 MATK",
+        "+20 MP"
+      ],
+      "info": "Crackling with latent energy.",
+      "obtain": [
+        "Quest: Trial of Ember"
+      ]
+    },
+    {
+      "id": "warrior_band",
+      "name": "Warrior's Band",
+      "type": "Item",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "ee-san",
+      "stats": {
+        "ATK": 12,
+        "HP": 100
+      },
+      "enchants": [
+        "+3 ATK"
+      ],
+      "info": "A ring bestowed upon proven fighters.",
+      "obtain": [
+        "Boss: Arena Champion"
+      ]
+    }
+  ]
+}

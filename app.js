@@ -10,7 +10,9 @@ const state = {
   filtered: [],
   sortKey: 'name',
   sortDir: 'asc',
-  statKey: null
+  statKey: null,
+  page: 1,
+  pageSize: 20
 };
 
 const els = {
@@ -20,24 +22,45 @@ const els = {
 };
 
 async function loadManifest() {
-  const res = await fetch('data/manifest.json');
-  if (!res.ok) throw new Error('Failed to load data/manifest.json');
+  setLoadStatus('Loading manifest…');
+  const res = await fetch('data/manifest.json', {cache: 'no-store'});
+  if (!res.ok) { setLoadStatus('Failed to load data/manifest.json'); throw new Error('Failed to load data/manifest.json'); }
   const manifest = await res.json();
   return manifest.files || [];
 }
 
 async function loadChunks(files) {
+  setLoadStatus(`Loading ${files.length} data file(s)…`);
   const all = [];
   for (const file of files) {
-    const res = await fetch('data/' + file);
+    const res = await fetch('data/' + file, {cache: 'no-store'});
     if (!res.ok) {
       console.warn('Missing chunk:', file);
+      setLoadStatus(`Missing chunk: ${file}`);
       continue;
     }
     const json = await res.json();
     if (Array.isArray(json.items)) all.push(...json.items);
   }
   return all;
+}
+
+function setLoadStatus(msg){ if (els.loadStatus) els.loadStatus.textContent = msg; }
+
+let io;
+function setupInfiniteScroll(){
+  if (!els.sentinel) return;
+  if (io && io.disconnect) io.disconnect();
+  io = new IntersectionObserver((entries) => {
+    if (!entries.some(e => e.isIntersecting)) return;
+    const total = state.filtered.length;
+    const visible = Math.min(total, state.page * state.pageSize);
+    if (visible < total){
+      state.page += 1;
+      render();
+    }
+  }, { root: null, rootMargin: '0px 0px 300px 0px' });
+  io.observe(els.sentinel);
 }
 
 function initEls() {
@@ -50,8 +73,11 @@ function initEls() {
   els.paths = Array.from(document.querySelectorAll('input[name="path"]'));
   els.tableBody = document.querySelector('#results tbody');
   els.resultsInfo = document.querySelector('#results-info');
+  els.loadStatus = document.querySelector('#load-status');
   els.exportJson = document.querySelector('#export-json');
   els.exportCsv = document.querySelector('#export-csv');
+  els.sentinel = document.querySelector('#scroll-sentinel');
+  els.showMore = document.querySelector('#show-more');
 }
 
 function normalize(item) {
@@ -59,7 +85,6 @@ function normalize(item) {
   return {
     id: item.id || crypto.randomUUID(),
     name: item.name || '',
-    type: item.type || '',
     path: Array.isArray(item.path) ? item.path.map(p=>String(p).toLowerCase()) : (item.path ? [String(item.path).toLowerCase()] : []),
     category: (item.category || inferCategory(item)).toLowerCase(),
     level_tier: (item.level_tier || '').toString().toLowerCase(),
@@ -94,6 +119,7 @@ function applyFilters() {
     return tierHit;
   });
 
+  state.page = 1;
   sortData();
   render();
 }
@@ -175,12 +201,16 @@ function updateSortedIndicator(){
   }
 }
 
+
 function render() {
   // Info
-  els.resultsInfo.textContent = `${state.filtered.length} result${state.filtered.length === 1 ? '' : 's'} (of ${state.items.length} items)`;
+  const total = state.filtered.length;
+  const visibleCount = Math.min(total, state.page * state.pageSize);
+  els.resultsInfo.textContent = `${visibleCount} of ${total} result${total === 1 ? '' : 's'}`;
 
   // Rows
-  const rows = state.filtered.map(it => {
+  const subset = state.filtered.slice(0, visibleCount);
+  const rows = subset.map(it => {
     const stats = Object.entries(it.stats).map(([k,v]) => {
       const kStr = String(k);
       const vStr = String(v);
@@ -205,8 +235,13 @@ function render() {
   }).join('');
 
   els.tableBody.innerHTML = rows || `<tr><td colspan="8" class="muted">No results.</td></tr>`;
+
+  // Toggle "Show more" visibility
+  /* Infinite scroll active; no Show More button needed */
+
   updateSortedIndicator();
 }
+
 
 function escapeHtml(s) {
   return s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -247,6 +282,7 @@ function bind() {
         state.sortKey = key;
         state.sortDir = 'asc';
       }
+      state.page = 1;
       sortData();
       render();
     });
@@ -272,6 +308,7 @@ function bind() {
         state.sortDir = (state.sortDir === 'asc') ? 'desc' : 'asc';
       }
     }
+    state.page = 1;
     sortData();
     render();
   });
@@ -346,10 +383,12 @@ function downloadBlob(blob, filename) {
 async function main() {
   initEls();
   setTheme(getTheme());
+  setupInfiniteScroll();
   bind();
   const files = await loadManifest();
   const items = await loadChunks(files);
   state.items = items.map(normalize);
+  setLoadStatus(`Loaded ${state.items.length} item(s)`);
   applyFilters();
 }
 

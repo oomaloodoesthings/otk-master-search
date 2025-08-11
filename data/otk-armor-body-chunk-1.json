@@ -3,7 +3,6 @@
     {
       "id": "stellarweave_skirt",
       "name": "Stellarweave skirt",
-      "type": "Armor",
       "category": "armor",
       "path": [
         "mage"
@@ -30,7 +29,6 @@
     {
       "id": "stellarweave_shroud",
       "name": "Stellarweave shroud",
-      "type": "Armor",
       "category": "armor",
       "path": [
         "mage"
@@ -57,7 +55,6 @@
     {
       "id": "lightwoven_gown",
       "name": "Lightwoven gown",
-      "type": "Armor",
       "category": "armor",
       "path": [
         "poet"
@@ -84,7 +81,6 @@
     {
       "id": "lightwoven_robe",
       "name": "Lightwoven robe",
-      "type": "Armor",
       "category": "armor",
       "path": [
         "poet"
@@ -111,7 +107,6 @@
     {
       "id": "vortex_gown",
       "name": "Vortex gown",
-      "type": "Armor",
       "category": "armor",
       "path": [
         "poet"
@@ -138,7 +133,6 @@
     {
       "id": "vortex_robe",
       "name": "Vortex robe",
-      "type": "Armor",
       "category": "armor",
       "path": [
         "poet"
@@ -165,7 +159,6 @@
     {
       "id": "vortex_battledress",
       "name": "Vortex battledress",
-      "type": "Armor",
       "category": "armor",
       "path": [
         "mage"
@@ -192,7 +185,6 @@
     {
       "id": "vortex_garb",
       "name": "Vortex garb",
-      "type": "Armor",
       "category": "armor",
       "path": [
         "mage"
@@ -219,7 +211,6 @@
     {
       "id": "vortex_armor_dress",
       "name": "Vortex armor dress",
-      "type": "Armor",
       "category": "armor",
       "path": [
         "rogue"
@@ -246,7 +237,6 @@
     {
       "id": "vortex_armor",
       "name": "Vortex armor",
-      "type": "Armor",
       "category": "armor",
       "path": [
         "rogue"
@@ -273,7 +263,6 @@
     {
       "id": "dreadsmith_platemail",
       "name": "Dreadsmith platemail",
-      "type": "Armor",
       "category": "armor",
       "path": [
         "warrior"
@@ -300,7 +289,6 @@
     {
       "id": "unstoppable",
       "name": "Unstoppable",
-      "type": "Armor",
       "category": "armor",
       "path": [
         "peasant"
@@ -327,7 +315,6 @@
     {
       "id": "vortex_platemail_dress",
       "name": "Vortex platemail dress",
-      "type": "Armor",
       "category": "armor",
       "path": [
         "warrior"
@@ -354,7 +341,6 @@
     {
       "id": "vortex_platemail",
       "name": "Vortex platemail",
-      "type": "Armor",
       "category": "armor",
       "path": [
         "warrior"
@@ -381,7 +367,6 @@
     {
       "id": "chongun_uniform",
       "name": "Chongun uniform",
-      "type": "Armor",
       "category": "armor",
       "path": [
         "chongun"
@@ -408,7 +393,6 @@
     {
       "id": "shade_drapery",
       "name": "Shade drapery",
-      "type": "Armor",
       "category": "armor",
       "path": [
         "poet"
@@ -435,7 +419,6 @@
     {
       "id": "shade_mantle",
       "name": "Shade mantle",
-      "type": "Armor",
       "category": "armor",
       "path": [
         "poet"
@@ -462,7 +445,6 @@
     {
       "id": "star_kurma_drapery",
       "name": "Star kurma drapery",
-      "type": "Armor",
       "category": "armor",
       "path": [
         "poet"
@@ -489,7 +471,6 @@
     {
       "id": "star_kurma_mantle",
       "name": "Star kurma mantle",
-      "type": "Armor",
       "category": "armor",
       "path": [
         "poet"
@@ -516,7 +497,6 @@
     {
       "id": "star_kurma_drapery",
       "name": "Star kurma drapery +",
-      "type": "Armor",
       "category": "armor",
       "path": [
         "poet"
@@ -545,7 +525,6 @@
     {
       "id": "star_kurma_mantle",
       "name": "Star kurma mantle +",
-      "type": "Armor",
       "category": "armor",
       "path": [
         "poet"
@@ -574,7 +553,6 @@
     {
       "id": "shade_garment",
       "name": "Shade garment",
-      "type": "Armor",
       "category": "armor",
       "path": [
         "mage"
@@ -603,7 +581,6 @@
     {
       "id": "shade_raiment",
       "name": "Shade raiment",
-      "type": "Armor",
       "category": "armor",
       "path": [
         "mage"
@@ -630,7 +607,6 @@
     {
       "id": "gale_gown",
       "name": "Gale gown",
-      "type": "Armor",
       "category": "armor",
       "path": [
         "poet"
@@ -659,7 +635,6 @@
     {
       "id": "gale_robe",
       "name": "Gale robe",
-      "type": "Armor",
       "category": "armor",
       "path": [
         "poet"
@@ -688,7 +663,6 @@
     {
       "id": "moon_drapery",
       "name": "Moon drapery",
-      "type": "Armor",
       "category": "armor",
       "path": [
         "poet"
@@ -715,7 +689,6 @@
     {
       "id": "moon_mantle",
       "name": "Moon mantle",
-      "type": "Armor",
       "category": "armor",
       "path": [
         "poet"
@@ -742,7 +715,6 @@
     {
       "id": "star_phoenix_skirt",
       "name": "Star phoenix skirt",
-      "type": "Armor",
       "category": "armor",
       "path": [
         "mage"
