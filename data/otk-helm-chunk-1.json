@@ -1,0 +1,740 @@
+{
+  "items": [
+    {
+      "id": "cookie_s_hat",
+      "name": "Cookie's hat",
+      "category": "helm",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "sam-san",
+      "stats": {
+        "AC": -5,
+        "Hit": 10,
+        "Dam": 10,
+        "Vita": 10000,
+        "Mana": 5000,
+        "Might": 8,
+        "Will": 8,
+        "Grace": 8,
+        "Protection": 0,
+        "Healing": 12
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Cookie"
+      ]
+    },
+    {
+      "id": "mad_king_s_faceguard_iv",
+      "name": "Mad king's faceguard IV",
+      "category": "helm",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "sam-san",
+      "stats": {
+        "AC": -10,
+        "Hit": 0,
+        "Dam": 4,
+        "Vita": 1125,
+        "Mana": 10000,
+        "Might": 6,
+        "Will": 8,
+        "Grace": 3,
+        "Protection": 1,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Bandit 4 - Mad King"
+      ]
+    },
+    {
+      "id": "fiery_hyun_moo_casque",
+      "name": "Fiery hyun moo casque",
+      "category": "helm",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "sam-san",
+      "stats": {
+        "AC": -10,
+        "Hit": 0,
+        "Dam": 6,
+        "Vita": 15000,
+        "Mana": 24000,
+        "Might": 0,
+        "Will": 10,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 20
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "shadeveil_visor",
+      "name": "Shadeveil visor",
+      "category": "helm",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "sam-san",
+      "stats": {
+        "AC": -10,
+        "Hit": 10,
+        "Dam": 6,
+        "Vita": 22500,
+        "Mana": 27000,
+        "Might": 0,
+        "Will": 2,
+        "Grace": 11,
+        "Protection": 0,
+        "Healing": 7
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Tribe - Grotto of Drums"
+      ]
+    },
+    {
+      "id": "fiery_ju_jak_casque",
+      "name": "Fiery ju jak casque",
+      "category": "helm",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "sam-san",
+      "stats": {
+        "AC": -10,
+        "Hit": 0,
+        "Dam": 9,
+        "Vita": 0,
+        "Mana": 30000,
+        "Might": 0,
+        "Will": 10,
+        "Grace": 4,
+        "Protection": 0,
+        "Healing": 10
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "fiery_baekho_casque",
+      "name": "Fiery baekho casque",
+      "category": "helm",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "sam-san",
+      "stats": {
+        "AC": -11,
+        "Hit": 8,
+        "Dam": 8,
+        "Vita": 30000,
+        "Mana": 15000,
+        "Might": 6,
+        "Will": 0,
+        "Grace": 11,
+        "Protection": 0,
+        "Healing": 10
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "lifebinder_circlet_iv",
+      "name": "Lifebinder circlet IV",
+      "category": "helm",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "sam-san",
+      "stats": {
+        "AC": -11,
+        "Hit": 0,
+        "Dam": 6,
+        "Vita": 23000,
+        "Mana": 28000,
+        "Might": 0,
+        "Will": 12,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 12
+      },
+      "enchants": [
+        "Can absorb certain helm enchants."
+      ],
+      "info": "",
+      "obtain": [
+        "Bring Lifebinder circlet III, 3 Raw zircon OR 1 Refined zircon, and 100,000 Coins to Melchior."
+      ]
+    },
+    {
+      "id": "eldritch_cowl_iv",
+      "name": "Eldritch cowl IV",
+      "category": "helm",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "sam-san",
+      "stats": {
+        "AC": -11,
+        "Hit": 0,
+        "Dam": 10,
+        "Vita": 0,
+        "Mana": 35000,
+        "Might": 0,
+        "Will": 12,
+        "Grace": 8,
+        "Protection": 0,
+        "Healing": 8
+      },
+      "enchants": [
+        "Can absorb certain helm enchants."
+      ],
+      "info": "",
+      "obtain": [
+        "Bring Eldritch cowl III, 3 Raw spinel OR 1 Refined spinel, and 100,000 Coins to Melchior."
+      ]
+    },
+    {
+      "id": "fiery_chung_ryong_casque",
+      "name": "Fiery chung ryong casque",
+      "category": "helm",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "sam-san",
+      "stats": {
+        "AC": -12,
+        "Hit": 11,
+        "Dam": 11,
+        "Vita": 60000,
+        "Mana": 0,
+        "Might": 10,
+        "Will": 0,
+        "Grace": 7,
+        "Protection": 0,
+        "Healing": 10
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "shadowstrike_mask_iv",
+      "name": "Shadowstrike mask IV",
+      "category": "helm",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "sam-san",
+      "stats": {
+        "AC": -12,
+        "Hit": 9,
+        "Dam": 9,
+        "Vita": 40000,
+        "Mana": 18000,
+        "Might": 8,
+        "Will": 0,
+        "Grace": 12,
+        "Protection": 0,
+        "Healing": 5
+      },
+      "enchants": [
+        "Can absorb certain helm enchants."
+      ],
+      "info": "",
+      "obtain": [
+        "Bring Shadowstrike mask III, 3 Raw white agate OR 1 Refined white agate, and 100,000 Coins to Melchior."
+      ]
+    },
+    {
+      "id": "king_s_crown",
+      "name": "King's crown",
+      "category": "helm",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "sam-san",
+      "stats": {
+        "AC": -12,
+        "Hit": 10,
+        "Dam": 13,
+        "Vita": 46000,
+        "Mana": 20000,
+        "Might": 15,
+        "Will": 15,
+        "Grace": 15,
+        "Protection": 0,
+        "Healing": 13
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Johnny"
+      ]
+    },
+    {
+      "id": "valorplate_warhelm_iv",
+      "name": "Valorplate warhelm IV",
+      "category": "helm",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "sam-san",
+      "stats": {
+        "AC": -13,
+        "Hit": 12,
+        "Dam": 12,
+        "Vita": 70000,
+        "Mana": 0,
+        "Might": 12,
+        "Will": 0,
+        "Grace": 8,
+        "Protection": 0,
+        "Healing": 5
+      },
+      "enchants": [
+        "Can absorb certain helm enchants."
+      ],
+      "info": "",
+      "obtain": [
+        "Bring Valorplate warhelm III, 3 Raw lapis lazuli OR 1 Refined lapis lazuli, and 100,000 Coins to Melchior."
+      ]
+    },
+    {
+      "id": "crown_of_sylvan",
+      "name": "Crown of sylvan",
+      "category": "helm",
+      "path": [
+        "druid"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Ranks available: 99, Il, Ee, and Sam san.",
+      "obtain": [
+        "Membership in the Druid subpath."
+      ]
+    },
+    {
+      "id": "elemental_orbs",
+      "name": "Elemental orbs",
+      "category": "helm",
+      "path": [
+        "geomancer"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Ranks available: 99, Il, Ee, and Sam san.",
+      "obtain": [
+        "Membership in the Geomancer subpath."
+      ]
+    },
+    {
+      "id": "espionage_wrap",
+      "name": "Espionage wrap",
+      "category": "helm",
+      "path": [
+        "spy"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Ranks available: 99, Il, Ee, and Sam san.",
+      "obtain": [
+        "Membership in the Spy subpath."
+      ]
+    },
+    {
+      "id": "kabuto",
+      "name": "Kabuto",
+      "category": "helm",
+      "path": [
+        "do"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Ranks available: 99, Il, Ee, and Sam san.",
+      "obtain": [
+        "Membership in the Do subpath."
+      ]
+    },
+    {
+      "id": "kaleidoscope",
+      "name": "Kaleidoscope",
+      "category": "helm",
+      "path": [
+        "muse"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Ranks available: 99, Il, Ee, and Sam san.",
+      "obtain": [
+        "Membership in the Muse subpath."
+      ]
+    },
+    {
+      "id": "phantom_mask",
+      "name": "Phantom mask",
+      "category": "helm",
+      "path": [
+        "shadow"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Ranks available: 99, Il, Ee, and Sam san.",
+      "obtain": [
+        "Membership in the Shadow subpath."
+      ]
+    },
+    {
+      "id": "spirit_s_headdress",
+      "name": "Spirit's headdress",
+      "category": "helm",
+      "path": [
+        "shaman"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Ranks available: 99, Il, Ee, and Sam san.",
+      "obtain": [
+        "Membership in the Shaman subpath."
+      ]
+    },
+    {
+      "id": "straw_hat",
+      "name": "Straw hat",
+      "category": "helm",
+      "path": [
+        "monk"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Ranks available: 99, Il, Ee, and Sam san.",
+      "obtain": [
+        "Membership in the Monk subpath."
+      ]
+    },
+    {
+      "id": "tiger_skull_helm",
+      "name": "Tiger skull helm",
+      "category": "helm",
+      "path": [
+        "barbarian"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Ranks available: 99, Il, Ee, and Sam san.",
+      "obtain": [
+        "Membership in the Barbarian subpath."
+      ]
+    },
+    {
+      "id": "treasure_band",
+      "name": "Treasure band",
+      "category": "helm",
+      "path": [
+        "merchant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Ranks available: 99, Il, Ee, and Sam san.",
+      "obtain": [
+        "Membership in the Merchant subpath."
+      ]
+    },
+    {
+      "id": "war_helm",
+      "name": "War helm",
+      "category": "helm",
+      "path": [
+        "chongun"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Ranks available: 99, Il, Ee, and Sam san.",
+      "obtain": [
+        "Membership in the Chongun subpath."
+      ]
+    },
+    {
+      "id": "woven_fate",
+      "name": "Woven fate",
+      "category": "helm",
+      "path": [
+        "diviner"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Ranks available: 99, Il, Ee, and Sam san.",
+      "obtain": [
+        "Membership in the Diviner subpath."
+      ]
+    },
+    {
+      "id": "amber_circlet",
+      "name": "Amber circlet",
+      "category": "helm",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -6,
+        "Hit": 1,
+        "Dam": 1,
+        "Vita": 400,
+        "Mana": 200,
+        "Might": 1,
+        "Will": 1,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 5
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "dark_circlet",
+      "name": "Dark circlet",
+      "category": "helm",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -6,
+        "Hit": 2,
+        "Dam": 2,
+        "Vita": 600,
+        "Mana": 300,
+        "Might": 2,
+        "Will": 2,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 5
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "clouded_vision",
+      "name": "Clouded vision",
+      "category": "helm",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -7,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 4500,
+        "Mana": 0,
+        "Might": 5,
+        "Will": 2,
+        "Grace": 2,
+        "Protection": 1,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Bonded",
+      "obtain": [
+        "8 Nightmare Raid tokens"
+      ]
+    },
+    {
+      "id": "dread_s_pride",
+      "name": "Dread's pride",
+      "category": "helm",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -7,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 3000,
+        "Mana": 250,
+        "Might": 0,
+        "Will": 8,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 10
+      },
+      "enchants": [],
+      "info": "Bonded",
+      "obtain": [
+        "Bring Shade drapery, 25 Nightmare fungus, 1 Black dye to Sa san."
+      ]
+    }
+  ]
+}
