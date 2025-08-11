@@ -1,5 +1,8 @@
 {
   "files": [
+    "sample-armor.json",
+    "sample-weapons.json",
+    "sample-items.json",
     "otk-armor-body-chunk-1.json"
   ]
 }

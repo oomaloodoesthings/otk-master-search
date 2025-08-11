@@ -133,10 +133,10 @@ function render() {
       <td>${escapeHtml(it.type)}</td>
       <td>${path}</td>
       <td>${escapeHtml(it.level_tier)}</td>
-      <td>${stats}</td>
-      <td>${ench}</td>
-      <td>${escapeHtml(it.info)}</td>
-      <td>${obtain}</td>
+      <td class="stats">${stats}</td>
+      <td class="enchants">${ench}</td>
+      <td class="info">${escapeHtml(it.info)}</td>
+      <td class="obtain">${obtain}</td>
     </tr>`;
   }).join('');
 

@@ -1,0 +1,718 @@
+{
+  "items": [
+    {
+      "id": "star_phoenix_skirt",
+      "name": "Star phoenix skirt",
+      "type": "Armor",
+      "category": "armor",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -30,
+        "Hit": 0,
+        "Dam": 2,
+        "Vita": 350,
+        "Mana": 3100,
+        "Might": 0,
+        "Will": 7,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Sheep 1 - Avenger/King"
+      ]
+    },
+    {
+      "id": "star_phoenix_clothes",
+      "name": "Star phoenix clothes",
+      "type": "Armor",
+      "category": "armor",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -30,
+        "Hit": 0,
+        "Dam": 2,
+        "Vita": 350,
+        "Mana": 3100,
+        "Might": 0,
+        "Will": 7,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Male",
+      "obtain": [
+        "Sheep 1 - Avenger/King"
+      ]
+    },
+    {
+      "id": "star_phoenix_skirt",
+      "name": "Star phoenix skirt +",
+      "type": "Armor",
+      "category": "armor",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -30,
+        "Hit": 0,
+        "Dam": 3,
+        "Vita": 500,
+        "Mana": 3750,
+        "Might": 0,
+        "Will": 8,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [
+        "Star's blessing: Triggers ASV, Atone, Vita, or Mana regen when hit."
+      ],
+      "info": "",
+      "obtain": [
+        "Bring Star phoenix skirt, 250 Rare wool, 5 Star fragment, 25 Fine cloth, and 50,000 Coins to the Center Mythic NPC."
+      ]
+    },
+    {
+      "id": "star_phoenix_clothes",
+      "name": "Star phoenix clothes +",
+      "type": "Armor",
+      "category": "armor",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -30,
+        "Hit": 0,
+        "Dam": 3,
+        "Vita": 500,
+        "Mana": 3750,
+        "Might": 0,
+        "Will": 8,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [
+        "Star's blessing: Triggers ASV, Atone, Vita, or Mana regen when hit."
+      ],
+      "info": "Male",
+      "obtain": [
+        "Bring Star phoenix clothes, 250 Rare wool, 5 Star fragment, 25 Fine cloth, and 50,000 Coins to the Center Mythic NPC."
+      ]
+    },
+    {
+      "id": "ice_gown",
+      "name": "Ice gown",
+      "type": "Armor",
+      "category": "armor",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -30,
+        "Hit": 0,
+        "Dam": 1,
+        "Vita": 1500,
+        "Mana": 4375,
+        "Might": 0,
+        "Will": 10,
+        "Grace": 0,
+        "Protection": 1,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 1 - Bosses"
+      ]
+    },
+    {
+      "id": "ice_robe",
+      "name": "Ice robe",
+      "type": "Armor",
+      "category": "armor",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -30,
+        "Hit": 0,
+        "Dam": 1,
+        "Vita": 1500,
+        "Mana": 4375,
+        "Might": 0,
+        "Will": 10,
+        "Grace": 0,
+        "Protection": 1,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Male",
+      "obtain": [
+        "Vortex 1 - Bosses"
+      ]
+    },
+    {
+      "id": "ice_skirt",
+      "name": "Ice skirt",
+      "type": "Armor",
+      "category": "armor",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -32,
+        "Hit": 0,
+        "Dam": 3,
+        "Vita": 0,
+        "Mana": 5000,
+        "Might": 0,
+        "Will": 15,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "",
+      "obtain": [
+        "Vortex 1 - Bosses"
+      ]
+    },
+    {
+      "id": "ice_garb",
+      "name": "Ice garb",
+      "type": "Armor",
+      "category": "armor",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -32,
+        "Hit": 0,
+        "Dam": 3,
+        "Vita": 0,
+        "Mana": 5000,
+        "Might": 0,
+        "Will": 15,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Male",
+      "obtain": [
+        "Vortex 1 - Bosses"
+      ]
+    },
+    {
+      "id": "gale_skirt",
+      "name": "Gale skirt",
+      "type": "Armor",
+      "category": "armor",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -32,
+        "Hit": 0,
+        "Dam": 6,
+        "Vita": 10000,
+        "Mana": 10000,
+        "Might": 0,
+        "Will": 15,
+        "Grace": 6,
+        "Protection": 0,
+        "Healing": 8
+      },
+      "enchants": [
+        "Hellfire burns for 3s longer."
+      ],
+      "info": "",
+      "obtain": [
+        "Gale Armor Quest (Mage)"
+      ]
+    },
+    {
+      "id": "gale_garb",
+      "name": "Gale garb",
+      "type": "Armor",
+      "category": "armor",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -32,
+        "Hit": 0,
+        "Dam": 6,
+        "Vita": 10000,
+        "Mana": 10000,
+        "Might": 0,
+        "Will": 15,
+        "Grace": 6,
+        "Protection": 0,
+        "Healing": 8
+      },
+      "enchants": [
+        "Hellfire burns for 3s longer."
+      ],
+      "info": "Male",
+      "obtain": [
+        "Gale Armor Quest (Mage)"
+      ]
+    },
+    {
+      "id": "shade_armor_dress",
+      "name": "Shade armor dress",
+      "type": "Armor",
+      "category": "armor",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -35,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 2000,
+        "Mana": 1000,
+        "Might": 6,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Bonded; Female",
+      "obtain": [
+        "12 Nightmare Raid tokens"
+      ]
+    },
+    {
+      "id": "shade_armor",
+      "name": "Shade armor",
+      "type": "Armor",
+      "category": "armor",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -35,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 3000,
+        "Mana": 3000,
+        "Might": 6,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Bonded; Male",
+      "obtain": [
+        "12 Nightmare Raid tokens"
+      ]
+    },
+    {
+      "id": "star_tiger_dress",
+      "name": "Star tiger dress",
+      "type": "Armor",
+      "category": "armor",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -35,
+        "Hit": 2,
+        "Dam": 2,
+        "Vita": 2200,
+        "Mana": 2100,
+        "Might": 6,
+        "Will": 0,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Female",
+      "obtain": [
+        "Tiger 1 - Avenger/King"
+      ]
+    },
+    {
+      "id": "star_tiger_armor",
+      "name": "Star tiger armor",
+      "type": "Armor",
+      "category": "armor",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -35,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 3300,
+        "Mana": 2625,
+        "Might": 6,
+        "Will": 0,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 3
+      },
+      "enchants": [],
+      "info": "Male",
+      "obtain": [
+        "Tiger 1 - Avenger/King"
+      ]
+    },
+    {
+      "id": "ice_armor_dress",
+      "name": "Ice armor dress",
+      "type": "Armor",
+      "category": "armor",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -36,
+        "Hit": 4,
+        "Dam": 4,
+        "Vita": 6000,
+        "Mana": 2500,
+        "Might": 6,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Female",
+      "obtain": [
+        "Vortex 1 - Bosses"
+      ]
+    },
+    {
+      "id": "ice_armor",
+      "name": "Ice armor",
+      "type": "Armor",
+      "category": "armor",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -36,
+        "Hit": 4,
+        "Dam": 4,
+        "Vita": 6000,
+        "Mana": 2500,
+        "Might": 6,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 1,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Male",
+      "obtain": [
+        "Vortex 1 - Bosses"
+      ]
+    },
+    {
+      "id": "ice_platemail_dress",
+      "name": "Ice platemail dress",
+      "type": "Armor",
+      "category": "armor",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -38,
+        "Hit": 4,
+        "Dam": 4,
+        "Vita": 12000,
+        "Mana": 0,
+        "Might": 10,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 3
+      },
+      "enchants": [],
+      "info": "Female",
+      "obtain": [
+        "Vortex 1 - Bosses"
+      ]
+    },
+    {
+      "id": "ice_platemail",
+      "name": "Ice platemail",
+      "type": "Armor",
+      "category": "armor",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -38,
+        "Hit": 4,
+        "Dam": 4,
+        "Vita": 12000,
+        "Mana": 0,
+        "Might": 10,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 3
+      },
+      "enchants": [],
+      "info": "Male",
+      "obtain": [
+        "Vortex 1 - Bosses"
+      ]
+    },
+    {
+      "id": "shade_war_dress",
+      "name": "Shade war dress",
+      "type": "Armor",
+      "category": "armor",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -38,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 9000,
+        "Mana": 0,
+        "Might": 8,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Bonded; Female",
+      "obtain": [
+        "12 Nightmare Raid tokens"
+      ]
+    },
+    {
+      "id": "shade_war_platemail",
+      "name": "Shade war platemail",
+      "type": "Armor",
+      "category": "armor",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -38,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 9000,
+        "Mana": 0,
+        "Might": 8,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Bonded; Male",
+      "obtain": [
+        "12 Nightmare Raid tokens"
+      ]
+    },
+    {
+      "id": "star_tigress",
+      "name": "Star tigress",
+      "type": "Armor",
+      "category": "armor",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -38,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 8400,
+        "Mana": 250,
+        "Might": 7,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Female",
+      "obtain": [
+        "Dragon 1 - Avenger/King"
+      ]
+    },
+    {
+      "id": "star_tiger_mail",
+      "name": "Star tiger mail",
+      "type": "Armor",
+      "category": "armor",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -38,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 8400,
+        "Mana": 250,
+        "Might": 7,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Male",
+      "obtain": [
+        "Dragon 1 - Avenger/King"
+      ]
+    },
+    {
+      "id": "moon_armor_dress",
+      "name": "Moon armor dress",
+      "type": "Armor",
+      "category": "armor",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -38,
+        "Hit": 2,
+        "Dam": 2,
+        "Vita": 800,
+        "Mana": 300,
+        "Might": 8,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Bonded; Female",
+      "obtain": [
+        "Carnage tokens: 50, Sunfest tokens: 250, Smithing"
+      ]
+    },
+    {
+      "id": "moon_armor",
+      "name": "Moon armor",
+      "type": "Armor",
+      "category": "armor",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -38,
+        "Hit": 2,
+        "Dam": 2,
+        "Vita": 800,
+        "Mana": 300,
+        "Might": 8,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Bonded; Male",
+      "obtain": [
+        "Carnage tokens: 50, Sunfest tokens: 250, Smithing"
+      ]
+    },
+    {
+      "id": "gale_armor_dress",
+      "name": "Gale armor dress",
+      "type": "Armor",
+      "category": "armor",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -38,
+        "Hit": 7,
+        "Dam": 7,
+        "Vita": 16000,
+        "Mana": 7000,
+        "Might": 14,
+        "Will": 0,
+        "Grace": 6,
+        "Protection": 0,
+        "Healing": 5
+      },
+      "enchants": [
+        "Lethal strike now has a chance to deal double damage."
+      ],
+      "info": "Bonded; Female",
+      "obtain": [
+        "Gale Armor Quest (Rogue)"
+      ]
+    },
+    {
+      "id": "gale_armor",
+      "name": "Gale armor",
+      "type": "Armor",
+      "category": "armor",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -38,
+        "Hit": 7,
+        "Dam": 7,
+        "Vita": 16000,
+        "Mana": 7000,
+        "Might": 14,
+        "Will": 0,
+        "Grace": 6,
+        "Protection": 0,
+        "Healing": 5
+      },
+      "enchants": [
+        "Lethal strike now has a chance to deal double damage."
+      ],
+      "info": "Bonded; Male",
+      "obtain": [
+        "Gale Armor Quest (Rogue)"
+      ]
+    }
+  ]
+}

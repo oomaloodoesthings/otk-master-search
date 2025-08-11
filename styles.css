@@ -16,7 +16,7 @@ body {
   font: 16px/1.5 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji';
 }
 h1 { margin: 0.2rem 0 0.4rem; font-size: 1.6rem; }
-.container { max-width: 1200px; margin: 0 auto; padding: 1rem; }
+.container { max-width: 1600px; margin: 0 auto; padding: 1rem; }
 .muted { color: var(--muted); }
 .controls {
   display: grid;
@@ -53,7 +53,7 @@ button:hover { background: #0d9488; }
   border-radius: 12px;
   background: var(--card);
 }
-table { border-collapse: collapse; width: 100%; min-width: 900px; }
+table { border-collapse: collapse; width: 100%; min-width: 1600px; }
 thead th {
   position: sticky; top: 0;
   background: #0b1220;
@@ -70,3 +70,7 @@ tbody td {
 code { background: #0b1220; padding: 2px 6px; border-radius: 6px; }
 .badge { display: inline-block; padding: 2px 8px; border-radius: 999px; background: #0b1220; border: 1px solid var(--border); margin-right: 6px; }
 .stat { display: inline-block; padding: 2px 6px; border-radius: 6px; background: #0b1220; border: 1px solid var(--border); margin: 2px 4px 0 0; }
+
+td.obtain, td.info, td.enchants, td.stats {
+  white-space: normal;
+}
