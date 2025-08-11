@@ -1,0 +1,524 @@
+{
+  "items": [
+    {
+      "id": "sun_armor_dress",
+      "name": "Sun armor dress",
+      "category": "armor",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -35,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 1000,
+        "Mana": 1000,
+        "Might": 9,
+        "Will": 0,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Female; Bonded",
+      "obtain": [
+        "Sun Armor Quest (Rogue)"
+      ]
+    },
+    {
+      "id": "sun_armor",
+      "name": "Sun armor",
+      "category": "armor",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -35,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 1000,
+        "Mana": 1000,
+        "Might": 9,
+        "Will": 0,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Male; Bonded",
+      "obtain": [
+        "Sun Armor Quest (Rogue)"
+      ]
+    },
+    {
+      "id": "sun_platemail_dress",
+      "name": "Sun platemail dress",
+      "category": "armor",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -38,
+        "Hit": 2,
+        "Dam": 2,
+        "Vita": 2000,
+        "Mana": 0,
+        "Might": 11,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Female; Bonded",
+      "obtain": [
+        "Sun Armor Quest (Warrior)"
+      ]
+    },
+    {
+      "id": "sun_platemail",
+      "name": "Sun platemail",
+      "category": "armor",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -38,
+        "Hit": 2,
+        "Dam": 2,
+        "Vita": 2000,
+        "Mana": 0,
+        "Might": 11,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Male; Bonded",
+      "obtain": [
+        "Sun Armor Quest (Warrior)"
+      ]
+    },
+    {
+      "id": "earth_gown",
+      "name": "Earth gown",
+      "category": "armor",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -26,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 800,
+        "Mana": 800,
+        "Might": 0,
+        "Will": 6,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Female; Bonded",
+      "obtain": [
+        "Earth Armor Quest (Poet)"
+      ]
+    },
+    {
+      "id": "earth_robe",
+      "name": "Earth robe",
+      "category": "armor",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -26,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 800,
+        "Mana": 800,
+        "Might": 0,
+        "Will": 6,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Male; Bonded",
+      "obtain": [
+        "Earth Armor Quest (Poet)"
+      ]
+    },
+    {
+      "id": "earth_dress",
+      "name": "Earth dress",
+      "category": "armor",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -29,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 1200,
+        "Mana": 400,
+        "Might": 0,
+        "Will": 6,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Female; Bonded",
+      "obtain": [
+        "Earth Armor Quest (Mage)"
+      ]
+    },
+    {
+      "id": "earth_garb",
+      "name": "Earth garb",
+      "category": "armor",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -29,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 1200,
+        "Mana": 400,
+        "Might": 0,
+        "Will": 6,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Male; Bonded",
+      "obtain": [
+        "Earth Armor Quest (Mage)"
+      ]
+    },
+    {
+      "id": "earth_armor_dress",
+      "name": "Earth armor dress",
+      "category": "armor",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -33,
+        "Hit": 2,
+        "Dam": 2,
+        "Vita": 1500,
+        "Mana": 0,
+        "Might": 7,
+        "Will": 0,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Female; Bonded",
+      "obtain": [
+        "Earth Armor Quest (Rogue)"
+      ]
+    },
+    {
+      "id": "earth_armor",
+      "name": "Earth armor",
+      "category": "armor",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -33,
+        "Hit": 2,
+        "Dam": 2,
+        "Vita": 1500,
+        "Mana": 0,
+        "Might": 7,
+        "Will": 0,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Male; Bonded",
+      "obtain": [
+        "Earth Armor Quest (Rogue)"
+      ]
+    },
+    {
+      "id": "earth_platemail_dress",
+      "name": "Earth platemail dress",
+      "category": "armor",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -36,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 3000,
+        "Mana": 0,
+        "Might": 9,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Female; Bonded",
+      "obtain": [
+        "Earth Armor Quest (Warrior)"
+      ]
+    },
+    {
+      "id": "earth_platemail",
+      "name": "Earth platemail",
+      "category": "armor",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -36,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 3000,
+        "Mana": 0,
+        "Might": 9,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Male; Bonded",
+      "obtain": [
+        "Earth Armor Quest (Warrior)"
+      ]
+    },
+    {
+      "id": "ocean_gown",
+      "name": "Ocean gown",
+      "category": "armor",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -22,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 600,
+        "Mana": 600,
+        "Might": 0,
+        "Will": 4,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Female; Bonded",
+      "obtain": [
+        "Ocean Armor Quest (Poet)"
+      ]
+    },
+    {
+      "id": "ocean_robe",
+      "name": "Ocean robe",
+      "category": "armor",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -22,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 600,
+        "Mana": 600,
+        "Might": 0,
+        "Will": 4,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Male; Bonded",
+      "obtain": [
+        "Ocean Armor Quest (Poet)"
+      ]
+    },
+    {
+      "id": "ocean_dress",
+      "name": "Ocean dress",
+      "category": "armor",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -25,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 800,
+        "Mana": 400,
+        "Might": 0,
+        "Will": 4,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Female; Bonded",
+      "obtain": [
+        "Ocean Armor Quest (Mage)"
+      ]
+    },
+    {
+      "id": "ocean_garb",
+      "name": "Ocean garb",
+      "category": "armor",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -25,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 800,
+        "Mana": 400,
+        "Might": 0,
+        "Will": 4,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Male; Bonded",
+      "obtain": [
+        "Ocean Armor Quest (Mage)"
+      ]
+    },
+    {
+      "id": "ocean_armor_dress",
+      "name": "Ocean armor dress",
+      "category": "armor",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -29,
+        "Hit": 1,
+        "Dam": 1,
+        "Vita": 1000,
+        "Mana": 0,
+        "Might": 5,
+        "Will": 0,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Female; Bonded",
+      "obtain": [
+        "Ocean Armor Quest (Rogue)"
+      ]
+    },
+    {
+      "id": "ocean_armor",
+      "name": "Ocean armor",
+      "category": "armor",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -29,
+        "Hit": 1,
+        "Dam": 1,
+        "Vita": 1000,
+        "Mana": 0,
+        "Might": 5,
+        "Will": 0,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Male; Bonded",
+      "obtain": [
+        "Ocean Armor Quest (Rogue)"
+      ]
+    },
+    {
+      "id": "ocean_platemail_dress",
+      "name": "Ocean platemail dress",
+      "category": "armor",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -32,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 1500,
+        "Mana": 0,
+        "Might": 7,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Female; Bonded",
+      "obtain": [
+        "Ocean Armor Quest (Warrior)"
+      ]
+    },
+    {
+      "id": "ocean_platemail",
+      "name": "Ocean platemail",
+      "category": "armor",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -32,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 1500,
+        "Mana": 0,
+        "Might": 7,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Male; Bonded",
+      "obtain": [
+        "Ocean Armor Quest (Warrior)"
+      ]
+    }
+  ]
+}

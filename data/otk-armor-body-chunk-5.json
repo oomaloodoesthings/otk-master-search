@@ -1,0 +1,420 @@
+{
+  "items": [
+    {
+      "id": "fire_gown",
+      "name": "Fire gown",
+      "category": "armor",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -18,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 400,
+        "Mana": 400,
+        "Might": 0,
+        "Will": 2,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Female; Bonded",
+      "obtain": [
+        "Fire Armor Quest (Poet)"
+      ]
+    },
+    {
+      "id": "fire_robe",
+      "name": "Fire robe",
+      "category": "armor",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -18,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 400,
+        "Mana": 400,
+        "Might": 0,
+        "Will": 2,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Male; Bonded",
+      "obtain": [
+        "Fire Armor Quest (Poet)"
+      ]
+    },
+    {
+      "id": "fire_dress",
+      "name": "Fire dress",
+      "category": "armor",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -21,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 600,
+        "Mana": 200,
+        "Might": 0,
+        "Will": 2,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Female; Bonded",
+      "obtain": [
+        "Fire Armor Quest (Mage)"
+      ]
+    },
+    {
+      "id": "fire_garb",
+      "name": "Fire garb",
+      "category": "armor",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -21,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 600,
+        "Mana": 200,
+        "Might": 0,
+        "Will": 2,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Male; Bonded",
+      "obtain": [
+        "Fire Armor Quest (Mage)"
+      ]
+    },
+    {
+      "id": "fire_armor_dress",
+      "name": "Fire armor dress",
+      "category": "armor",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -25,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 800,
+        "Mana": 0,
+        "Might": 3,
+        "Will": 0,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Female; Bonded",
+      "obtain": [
+        "Fire Armor Quest (Rogue)"
+      ]
+    },
+    {
+      "id": "fire_armor",
+      "name": "Fire armor",
+      "category": "armor",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -25,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 800,
+        "Mana": 0,
+        "Might": 3,
+        "Will": 0,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Male; Bonded",
+      "obtain": [
+        "Fire Armor Quest (Rogue)"
+      ]
+    },
+    {
+      "id": "fire_platemail_dress",
+      "name": "Fire platemail dress",
+      "category": "armor",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -28,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 1000,
+        "Mana": 0,
+        "Might": 5,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Female; Bonded",
+      "obtain": [
+        "Fire Armor Quest (Warrior)"
+      ]
+    },
+    {
+      "id": "fire_platemail",
+      "name": "Fire platemail",
+      "category": "armor",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -28,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 1000,
+        "Mana": 0,
+        "Might": 5,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Male; Bonded",
+      "obtain": [
+        "Fire Armor Quest (Warrior)"
+      ]
+    },
+    {
+      "id": "training_gown",
+      "name": "Training gown",
+      "category": "armor",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -5,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 50,
+        "Mana": 50,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Female",
+      "obtain": [
+        "Given during tutorial"
+      ]
+    },
+    {
+      "id": "training_robe",
+      "name": "Training robe",
+      "category": "armor",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -5,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 50,
+        "Mana": 50,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Male",
+      "obtain": [
+        "Given during tutorial"
+      ]
+    },
+    {
+      "id": "training_dress",
+      "name": "Training dress",
+      "category": "armor",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -6,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 50,
+        "Mana": 50,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Female",
+      "obtain": [
+        "Given during tutorial"
+      ]
+    },
+    {
+      "id": "training_garb",
+      "name": "Training garb",
+      "category": "armor",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -6,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 50,
+        "Mana": 50,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Male",
+      "obtain": [
+        "Given during tutorial"
+      ]
+    },
+    {
+      "id": "training_armor_dress",
+      "name": "Training armor dress",
+      "category": "armor",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -8,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 50,
+        "Mana": 0,
+        "Might": 1,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Female",
+      "obtain": [
+        "Given during tutorial"
+      ]
+    },
+    {
+      "id": "training_armor",
+      "name": "Training armor",
+      "category": "armor",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -8,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 50,
+        "Mana": 0,
+        "Might": 1,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Male",
+      "obtain": [
+        "Given during tutorial"
+      ]
+    },
+    {
+      "id": "training_platemail_dress",
+      "name": "Training platemail dress",
+      "category": "armor",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -10,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 50,
+        "Mana": 0,
+        "Might": 2,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Female",
+      "obtain": [
+        "Given during tutorial"
+      ]
+    },
+    {
+      "id": "training_platemail",
+      "name": "Training platemail",
+      "category": "armor",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -10,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 50,
+        "Mana": 0,
+        "Might": 2,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Male",
+      "obtain": [
+        "Given during tutorial"
+      ]
+    }
+  ]
+}

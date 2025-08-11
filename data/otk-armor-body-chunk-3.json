@@ -1,0 +1,484 @@
+{
+  "items": [
+    {
+      "id": "moon_war_dress",
+      "name": "Moon war dress",
+      "category": "armor",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -39,
+        "Hit": 2,
+        "Dam": 3,
+        "Vita": 1400,
+        "Mana": 0,
+        "Might": 8,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Female; Bonded",
+      "obtain": [
+        "Carnage tokens: 50, Sunfest tokens: 250, Smithing"
+      ]
+    },
+    {
+      "id": "moon_war_platemail",
+      "name": "Moon war platemail",
+      "category": "armor",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -39,
+        "Hit": 2,
+        "Dam": 3,
+        "Vita": 1400,
+        "Mana": 0,
+        "Might": 8,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Male; Bonded",
+      "obtain": [
+        "Carnage tokens: 50, Sunfest tokens: 250, Smithing"
+      ]
+    },
+    {
+      "id": "star_tigress",
+      "name": "Star tigress +",
+      "category": "armor",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -39,
+        "Hit": 4,
+        "Dam": 4,
+        "Vita": 11250,
+        "Mana": 313,
+        "Might": 8,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 1
+      },
+      "enchants": [
+        "Star's blessing: Triggers ASV, Atone, Vita, or Mana regen when hit."
+      ],
+      "info": "Female",
+      "obtain": [
+        "Bring Star tigress, 250 Dragon tongue, 5 Star fragment, 25 Fine metal, and 50,000 Coins to the Center Mythic NPC."
+      ]
+    },
+    {
+      "id": "star_tiger_mail",
+      "name": "Star tiger mail +",
+      "category": "armor",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -39,
+        "Hit": 4,
+        "Dam": 4,
+        "Vita": 11250,
+        "Mana": 313,
+        "Might": 8,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 1
+      },
+      "enchants": [
+        "Star's blessing: Triggers ASV, Atone, Vita, or Mana regen when hit."
+      ],
+      "info": "Male",
+      "obtain": [
+        "Bring Star tiger mail, 250 Dragon tongue, 5 Star fragment, 25 Fine metal, and 50,000 Coins to the Center Mythic NPC."
+      ]
+    },
+    {
+      "id": "gale_platemail_dress",
+      "name": "Gale platemail dress",
+      "category": "armor",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -41,
+        "Hit": 5,
+        "Dam": 5,
+        "Vita": 20000,
+        "Mana": 5000,
+        "Might": 15,
+        "Will": 0,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 5
+      },
+      "enchants": [
+        "Devastating blow damage increased by 100%."
+      ],
+      "info": "Female",
+      "obtain": [
+        "Gale Armor Quest (Warrior)"
+      ]
+    },
+    {
+      "id": "gale_platemail",
+      "name": "Gale platemail",
+      "category": "armor",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -41,
+        "Hit": 5,
+        "Dam": 5,
+        "Vita": 20000,
+        "Mana": 5000,
+        "Might": 15,
+        "Will": 0,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 5
+      },
+      "enchants": [
+        "Devastating blow damage increased by 100%."
+      ],
+      "info": "Male",
+      "obtain": [
+        "Gale Armor Quest (Warrior)"
+      ]
+    },
+    {
+      "id": "wind_gown",
+      "name": "Wind gown",
+      "category": "armor",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -28,
+        "Hit": 2,
+        "Dam": 1,
+        "Vita": 500,
+        "Mana": 2500,
+        "Might": 2,
+        "Will": 12,
+        "Grace": 4,
+        "Protection": 0,
+        "Healing": 10
+      },
+      "enchants": [],
+      "info": "Female; Bonded",
+      "obtain": [
+        "Wind Armor Quest (Poet)"
+      ]
+    },
+    {
+      "id": "wind_robe",
+      "name": "Wind robe",
+      "category": "armor",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -28,
+        "Hit": 2,
+        "Dam": 1,
+        "Vita": 500,
+        "Mana": 2500,
+        "Might": 2,
+        "Will": 12,
+        "Grace": 4,
+        "Protection": 0,
+        "Healing": 10
+      },
+      "enchants": [],
+      "info": "Male; Bonded",
+      "obtain": [
+        "Wind Armor Quest (Poet)"
+      ]
+    },
+    {
+      "id": "wind_skirt",
+      "name": "Wind skirt",
+      "category": "armor",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -31,
+        "Hit": 1,
+        "Dam": 2,
+        "Vita": 500,
+        "Mana": 2500,
+        "Might": 2,
+        "Will": 12,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 4
+      },
+      "enchants": [
+        "Bonded"
+      ],
+      "info": "Female",
+      "obtain": [
+        "Wind Armor Quest (Mage)"
+      ]
+    },
+    {
+      "id": "wind_garb",
+      "name": "Wind garb",
+      "category": "armor",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -31,
+        "Hit": 1,
+        "Dam": 2,
+        "Vita": 500,
+        "Mana": 2500,
+        "Might": 2,
+        "Will": 12,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 4
+      },
+      "enchants": [
+        "Bonded"
+      ],
+      "info": "Male",
+      "obtain": [
+        "Wind Armor Quest (Mage)"
+      ]
+    },
+    {
+      "id": "wind_armor_dress",
+      "name": "Wind armor dress",
+      "category": "armor",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -37,
+        "Hit": 5,
+        "Dam": 5,
+        "Vita": 2000,
+        "Mana": 2000,
+        "Might": 12,
+        "Will": 2,
+        "Grace": 4,
+        "Protection": 0,
+        "Healing": 1
+      },
+      "enchants": [],
+      "info": "Female; Bonded",
+      "obtain": [
+        "Wind Armor Quest (Rogue)"
+      ]
+    },
+    {
+      "id": "wind_armor",
+      "name": "Wind armor",
+      "category": "armor",
+      "path": [
+        "rogue"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -37,
+        "Hit": 5,
+        "Dam": 5,
+        "Vita": 2000,
+        "Mana": 2000,
+        "Might": 12,
+        "Will": 2,
+        "Grace": 4,
+        "Protection": 0,
+        "Healing": 1
+      },
+      "enchants": [],
+      "info": "Male; Bonded",
+      "obtain": [
+        "Wind Armor Quest (Rogue)"
+      ]
+    },
+    {
+      "id": "wind_platemail_dress",
+      "name": "Wind platemail dress",
+      "category": "armor",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -40,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 3000,
+        "Mana": 1000,
+        "Might": 14,
+        "Will": 2,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Female; Bonded",
+      "obtain": [
+        "Wind Armor Quest (Warrior)"
+      ]
+    },
+    {
+      "id": "wind_platemail",
+      "name": "Wind platemail",
+      "category": "armor",
+      "path": [
+        "warrior"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -40,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 3000,
+        "Mana": 1000,
+        "Might": 14,
+        "Will": 2,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Male; Bonded",
+      "obtain": [
+        "Wind Armor Quest (Warrior)"
+      ]
+    },
+    {
+      "id": "sun_gown",
+      "name": "Sun gown",
+      "category": "armor",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -30,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 400,
+        "Mana": 1200,
+        "Might": 0,
+        "Will": 9,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Female; Bonded",
+      "obtain": [
+        "Sun Armor Quest (Poet)"
+      ]
+    },
+    {
+      "id": "sun_robe",
+      "name": "Sun robe",
+      "category": "armor",
+      "path": [
+        "poet"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -30,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 400,
+        "Mana": 1200,
+        "Might": 0,
+        "Will": 9,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Male; Bonded",
+      "obtain": [
+        "Sun Armor Quest (Poet)"
+      ]
+    },
+    {
+      "id": "sun_dress",
+      "name": "Sun dress",
+      "category": "armor",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -33,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 1000,
+        "Mana": 1000,
+        "Might": 0,
+        "Will": 9,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Female; Bonded",
+      "obtain": [
+        "Sun Armor Quest (Mage)"
+      ]
+    },
+    {
+      "id": "sun_garb",
+      "name": "Sun garb",
+      "category": "armor",
+      "path": [
+        "mage"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "AC": -33,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 1000,
+        "Mana": 1000,
+        "Might": 0,
+        "Will": 9,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0
+      },
+      "enchants": [],
+      "info": "Male; Bonded",
+      "obtain": [
+        "Sun Armor Quest (Mage)"
+      ]
+    }
+  ]
+}
