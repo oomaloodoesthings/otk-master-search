@@ -85,3 +85,43 @@ td.obtain, td.info, td.enchants, td.stats {
 
 .small { font-size: 0.9rem; }
 #sorted-indicator { padding: 0.2rem 0.4rem; }
+
+
+:root.light {
+  --bg: #f5f5f5;
+  --fg: #111;
+  --accent: #007acc;
+  --muted: #666;
+  --table-header: #ddd;
+}
+:root.light body {
+  background: var(--bg);
+  color: var(--fg);
+}
+:root.light table {
+  background: white;
+}
+:root.light th {
+  background: var(--table-header);
+  color: var(--fg);
+}
+:root.light .stat.active {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* Light theme overrides */
+.theme-light {
+  --bg: #f7fafc;
+  --card: #ffffff;
+  --text: #0b0f14;
+  --muted: #4b5563;
+  --accent: #2563eb;
+  --border: #e5e7eb;
+}
+.theme-light body, .theme-light {
+  color-scheme: light;
+}
+/* Adjust sticky header background to use card/bg vars */
+thead th { background: var(--card); }
+table { background: var(--card); }

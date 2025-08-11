@@ -43,6 +43,7 @@ async function loadChunks(files) {
 function initEls() {
   els.q = document.querySelector('#q');
   els.sortedIndicator = document.querySelector('#sorted-indicator');
+  els.themeToggle = document.querySelector('#theme-toggle');
   els.resetBtn = document.querySelector('#reset-filters');
   els.categories = Array.from(document.querySelectorAll('input[name="category"]'));
   els.tiers = Array.from(document.querySelectorAll('input[name="tier"]'));
@@ -275,6 +276,20 @@ function bind() {
     render();
   });
 
+
+  // Theme toggle
+  function setTheme(theme) {
+    document.documentElement.classList.remove('light', 'dark');
+    document.documentElement.classList.add(theme);
+    localStorage.setItem('theme', theme);
+  }
+  const savedTheme = localStorage.getItem('theme') || 'dark';
+  setTheme(savedTheme);
+  els.themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.classList.contains('light') ? 'light' : 'dark';
+    setTheme(current === 'light' ? 'dark' : 'light');
+  });
+
   // Reset filters
   els.resetBtn.addEventListener('click', () => {
     els.q.value = '';
@@ -330,6 +345,7 @@ function downloadBlob(blob, filename) {
 
 async function main() {
   initEls();
+  setTheme(getTheme());
   bind();
   const files = await loadManifest();
   const items = await loadChunks(files);
