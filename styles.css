@@ -125,5 +125,3 @@ td.obtain, td.info, td.enchants, td.stats {
 /* Adjust sticky header background to use card/bg vars */
 thead th { background: var(--card); }
 table { background: var(--card); }
-
-#scroll-sentinel { height: 1px; }

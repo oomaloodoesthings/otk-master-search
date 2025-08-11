@@ -10,9 +10,7 @@ const state = {
   filtered: [],
   sortKey: 'name',
   sortDir: 'asc',
-  statKey: null,
-  page: 1,
-  pageSize: 20
+  statKey: null
 };
 
 const els = {
@@ -47,22 +45,6 @@ async function loadChunks(files) {
 
 function setLoadStatus(msg){ if (els.loadStatus) els.loadStatus.textContent = msg; }
 
-let io;
-function setupInfiniteScroll(){
-  if (!els.sentinel) return;
-  if (io && io.disconnect) io.disconnect();
-  io = new IntersectionObserver((entries) => {
-    if (!entries.some(e => e.isIntersecting)) return;
-    const total = state.filtered.length;
-    const visible = Math.min(total, state.page * state.pageSize);
-    if (visible < total){
-      state.page += 1;
-      render();
-    }
-  }, { root: null, rootMargin: '0px 0px 300px 0px' });
-  io.observe(els.sentinel);
-}
-
 function initEls() {
   els.q = document.querySelector('#q');
   els.sortedIndicator = document.querySelector('#sorted-indicator');
@@ -76,8 +58,6 @@ function initEls() {
   els.loadStatus = document.querySelector('#load-status');
   els.exportJson = document.querySelector('#export-json');
   els.exportCsv = document.querySelector('#export-csv');
-  els.sentinel = document.querySelector('#scroll-sentinel');
-  els.showMore = document.querySelector('#show-more');
 }
 
 function normalize(item) {
@@ -119,7 +99,6 @@ function applyFilters() {
     return tierHit;
   });
 
-  state.page = 1;
   sortData();
   render();
 }
@@ -166,6 +145,14 @@ function sortData() {
     return 0;
   });
 }
+ = state;
+  const dir = sortDir === 'asc' ? 1 : -1;
+
+  state.filtered.sort((a, b) => {
+    let va = a[sortKey], vb = b[sortKey];
+    if (sortKey === 'stats') {
+      va = Object.entries(va).map(([k,v])=>k+':'+v).join('|');
+      vb = Object.entries(vb).map(([k,v])=>k+':'+v).join('|');
     } else if (sortKey === 'enchants' || sortKey === 'path' || sortKey === 'obtain') {
       va = (va || []).join('|');
       vb = (vb || []).join('|');
@@ -193,16 +180,12 @@ function updateSortedIndicator(){
   }
 }
 
-
 function render() {
   // Info
-  const total = state.filtered.length;
-  const visibleCount = Math.min(total, state.page * state.pageSize);
-  els.resultsInfo.textContent = `${visibleCount} of ${total} result${total === 1 ? '' : 's'}`;
+  els.resultsInfo.textContent = `${state.filtered.length} result${state.filtered.length === 1 ? '' : 's'} (of ${state.items.length} items)`;
 
   // Rows
-  const subset = state.filtered.slice(0, visibleCount);
-  const rows = subset.map(it => {
+  const rows = state.filtered.map(it => {
     const stats = Object.entries(it.stats).map(([k,v]) => {
       const kStr = String(k);
       const vStr = String(v);
@@ -227,13 +210,8 @@ function render() {
   }).join('');
 
   els.tableBody.innerHTML = rows || `<tr><td colspan="8" class="muted">No results.</td></tr>`;
-
-  // Toggle "Show more" visibility
-  /* Infinite scroll active; no Show More button needed */
-
   updateSortedIndicator();
 }
-
 
 function escapeHtml(s) {
   return s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -274,7 +252,6 @@ function bind() {
         state.sortKey = key;
         state.sortDir = 'asc';
       }
-      state.page = 1;
       sortData();
       render();
     });
@@ -300,7 +277,6 @@ function bind() {
         state.sortDir = (state.sortDir === 'asc') ? 'desc' : 'asc';
       }
     }
-    state.page = 1;
     sortData();
     render();
   });
@@ -325,7 +301,7 @@ function bind() {
     // select all categories/paths/tiers
     els.categories.forEach(c => c.checked = true);
     els.paths.forEach(p => p.checked = true);
-    els.tiers.forEach(t => t.checked = true);
+    els.tierChecks.forEach(t => t.checked = true);
     // reset sorting
     state.sortKey = 'name';
     state.sortDir = 'asc';
@@ -375,7 +351,6 @@ function downloadBlob(blob, filename) {
 async function main() {
   initEls();
   setTheme(getTheme());
-  setupInfiniteScroll();
   bind();
   const files = await loadManifest();
   const items = await loadChunks(files);
