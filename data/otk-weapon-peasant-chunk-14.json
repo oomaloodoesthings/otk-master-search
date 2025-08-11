@@ -1,0 +1,237 @@
+{
+  "items": [
+    {
+      "id": "ancient_bronze_sword",
+      "name": "Ancient bronze sword",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 4,
+        "Dam": 7,
+        "Might": 6
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Treasure hunt"
+      ]
+    },
+    {
+      "id": "ancient_bronze_spear",
+      "name": "Ancient bronze spear",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 6,
+        "Might": 5,
+        "Grace": 1
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Treasure hunt"
+      ]
+    },
+    {
+      "id": "ancient_bronze_axe",
+      "name": "Ancient bronze axe",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 8,
+        "Might": 7
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Treasure hunt"
+      ]
+    },
+    {
+      "id": "ancient_bronze_great_axe",
+      "name": "Ancient bronze great axe",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 10,
+        "Might": 9
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Treasure hunt"
+      ]
+    },
+    {
+      "id": "ancient_bronze_bow",
+      "name": "Ancient bronze bow",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 5,
+        "Dam": 6,
+        "Might": 2,
+        "Grace": 3
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Treasure hunt"
+      ]
+    },
+    {
+      "id": "ancient_bronze_mace",
+      "name": "Ancient bronze mace",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 7,
+        "Might": 6
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Treasure hunt"
+      ]
+    },
+    {
+      "id": "ancient_bronze_staff",
+      "name": "Ancient bronze staff",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 4,
+        "Will": 6,
+        "Mana": 600
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Treasure hunt"
+      ]
+    },
+    {
+      "id": "ancient_bronze_wand",
+      "name": "Ancient bronze wand",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 3,
+        "Will": 5,
+        "Mana": 400
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Treasure hunt"
+      ]
+    },
+    {
+      "id": "ancient_bronze_dagger",
+      "name": "Ancient bronze dagger",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 5,
+        "Dam": 5,
+        "Might": 3,
+        "Grace": 2
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Treasure hunt"
+      ]
+    },
+    {
+      "id": "ancient_bronze_club",
+      "name": "Ancient bronze club",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 5,
+        "Might": 4
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Treasure hunt"
+      ]
+    },
+    {
+      "id": "ancient_bronze_cudgel",
+      "name": "Ancient bronze cudgel",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 6,
+        "Might": 5
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Treasure hunt"
+      ]
+    },
+    {
+      "id": "ancient_bronze_war_pick",
+      "name": "Ancient bronze war pick",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 7,
+        "Might": 6
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Treasure hunt"
+      ]
+    }
+  ]
+}

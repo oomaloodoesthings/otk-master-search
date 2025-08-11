@@ -1,0 +1,241 @@
+{
+  "items": [
+    {
+      "id": "festival_firework_wand",
+      "name": "Festival firework wand",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 3,
+        "Will": 6,
+        "Mana": 500
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Event"
+      ]
+    },
+    {
+      "id": "festival_sparklestaff",
+      "name": "Festival sparklestaff",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 3,
+        "Will": 7,
+        "Mana": 650
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Event"
+      ]
+    },
+    {
+      "id": "festival_pop_bow",
+      "name": "Festival pop bow",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 6,
+        "Dam": 5,
+        "Might": 2,
+        "Grace": 3
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Event"
+      ]
+    },
+    {
+      "id": "jeweled_dagger",
+      "name": "Jeweled dagger",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 5,
+        "Dam": 6,
+        "Might": 2,
+        "Grace": 2
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "jeweled_sword",
+      "name": "Jeweled sword",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 5,
+        "Dam": 8,
+        "Might": 6
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "jeweled_axe",
+      "name": "Jeweled axe",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 4,
+        "Dam": 8,
+        "Might": 8
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "jeweled_mace",
+      "name": "Jeweled mace",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 7,
+        "Might": 7
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "jeweled_spear",
+      "name": "Jeweled spear",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 7,
+        "Might": 6,
+        "Grace": 1
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "jeweled_bow",
+      "name": "Jeweled bow",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 6,
+        "Dam": 6,
+        "Might": 2,
+        "Grace": 3
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "jeweled_staff",
+      "name": "Jeweled staff",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 4,
+        "Will": 7,
+        "Mana": 650
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "jeweled_wand",
+      "name": "Jeweled wand",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 4,
+        "Will": 7,
+        "Mana": 400
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Jeweling"
+      ]
+    },
+    {
+      "id": "jeweled_crossbow",
+      "name": "Jeweled crossbow",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 5,
+        "Dam": 7,
+        "Might": 3,
+        "Grace": 1
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Jeweling"
+      ]
+    }
+  ]
+}

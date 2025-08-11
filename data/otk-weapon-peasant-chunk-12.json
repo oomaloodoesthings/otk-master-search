@@ -1,0 +1,238 @@
+{
+  "items": [
+    {
+      "id": "guard_s_short_sword",
+      "name": "Guard's short sword",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 4,
+        "Dam": 6,
+        "Might": 5
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Guard quest"
+      ]
+    },
+    {
+      "id": "guard_s_longsword",
+      "name": "Guard's longsword",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 9,
+        "Might": 9
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Guard quest"
+      ]
+    },
+    {
+      "id": "guard_s_halberd",
+      "name": "Guard's halberd",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 10,
+        "Might": 10,
+        "Grace": 1
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Guard quest"
+      ]
+    },
+    {
+      "id": "guard_s_mace",
+      "name": "Guard's mace",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 7,
+        "Might": 7
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Guard quest"
+      ]
+    },
+    {
+      "id": "guard_s_pike",
+      "name": "Guard's pike",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 8,
+        "Might": 8,
+        "Grace": 1
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Guard quest"
+      ]
+    },
+    {
+      "id": "guard_s_crossbow",
+      "name": "Guard's crossbow",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 5,
+        "Dam": 7,
+        "Might": 3,
+        "Grace": 1
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Guard quest"
+      ]
+    },
+    {
+      "id": "guard_s_bow",
+      "name": "Guard's bow",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 6,
+        "Dam": 6,
+        "Might": 2,
+        "Grace": 3
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Guard quest"
+      ]
+    },
+    {
+      "id": "guard_s_wand",
+      "name": "Guard's wand",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 4,
+        "Will": 7,
+        "Mana": 400
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Guard quest"
+      ]
+    },
+    {
+      "id": "guard_s_staff",
+      "name": "Guard's staff",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 4,
+        "Will": 7,
+        "Mana": 650
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Guard quest"
+      ]
+    },
+    {
+      "id": "guard_s_axe",
+      "name": "Guard's axe",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 8,
+        "Might": 8
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Guard quest"
+      ]
+    },
+    {
+      "id": "guard_s_great_axe",
+      "name": "Guard's great axe",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 10,
+        "Might": 10
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Guard quest"
+      ]
+    },
+    {
+      "id": "guard_s_war_pick",
+      "name": "Guard's war pick",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 8,
+        "Might": 8
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Guard quest"
+      ]
+    }
+  ]
+}

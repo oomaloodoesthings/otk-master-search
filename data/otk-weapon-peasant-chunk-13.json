@@ -1,0 +1,238 @@
+{
+  "items": [
+    {
+      "id": "royal_guard_sword",
+      "name": "Royal guard sword",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 5,
+        "Dam": 8,
+        "Might": 7
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Royal quest"
+      ]
+    },
+    {
+      "id": "royal_guard_greatsword",
+      "name": "Royal guard greatsword",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 4,
+        "Dam": 11,
+        "Might": 11
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Royal quest"
+      ]
+    },
+    {
+      "id": "royal_guard_spear",
+      "name": "Royal guard spear",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 8,
+        "Might": 7,
+        "Grace": 1
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Royal quest"
+      ]
+    },
+    {
+      "id": "royal_guard_halberd",
+      "name": "Royal guard halberd",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 10,
+        "Might": 10,
+        "Grace": 1
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Royal quest"
+      ]
+    },
+    {
+      "id": "royal_guard_bow",
+      "name": "Royal guard bow",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 6,
+        "Dam": 7,
+        "Might": 2,
+        "Grace": 3
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Royal quest"
+      ]
+    },
+    {
+      "id": "royal_guard_crossbow",
+      "name": "Royal guard crossbow",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 5,
+        "Dam": 8,
+        "Might": 3,
+        "Grace": 1
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Royal quest"
+      ]
+    },
+    {
+      "id": "royal_guard_mace",
+      "name": "Royal guard mace",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 8,
+        "Might": 8
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Royal quest"
+      ]
+    },
+    {
+      "id": "royal_guard_hammer",
+      "name": "Royal guard hammer",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 2,
+        "Dam": 11,
+        "Might": 11
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Royal quest"
+      ]
+    },
+    {
+      "id": "royal_guard_axe",
+      "name": "Royal guard axe",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 4,
+        "Dam": 9,
+        "Might": 9
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Royal quest"
+      ]
+    },
+    {
+      "id": "royal_guard_great_axe",
+      "name": "Royal guard great axe",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 11,
+        "Might": 11
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Royal quest"
+      ]
+    },
+    {
+      "id": "royal_guard_staff",
+      "name": "Royal guard staff",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 4,
+        "Dam": 5,
+        "Will": 8,
+        "Mana": 700
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Royal quest"
+      ]
+    },
+    {
+      "id": "royal_guard_wand",
+      "name": "Royal guard wand",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0-99",
+      "stats": {
+        "Hit": 3,
+        "Dam": 4,
+        "Will": 7,
+        "Mana": 500
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Royal quest"
+      ]
+    }
+  ]
+}
