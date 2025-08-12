@@ -212,6 +212,7 @@ function applyFilters() {
   state.page = 1;
   sortData();
   render();
+  syncFilterChips();
 }
 
 function sortData() {
@@ -313,6 +314,7 @@ function setupInfiniteScroll(){
     if (visible < total){
       state.page += 1;
       render();
+  syncFilterChips();
     }
   }, { root: null, rootMargin: '0px 0px 300px 0px' });
   io.observe(els.sentinel);
@@ -341,6 +343,7 @@ function bind() {
       state.page = 1;
       sortData();
       render();
+  syncFilterChips();
     });
   });
 
@@ -362,6 +365,7 @@ function bind() {
     state.page = 1;
     sortData();
     render();
+  syncFilterChips();
   });
 
   // Export
@@ -405,6 +409,7 @@ function bind() {
     els.tiers.forEach(t=>t.checked=true);
     state.sortKey='name'; state.sortDir='asc'; state.statKey=null;
     applyFilters();
+    syncFilterChips();
   hideLoader();
   });
   if (els.selectNone) els.selectNone.addEventListener('click', () => {
@@ -414,6 +419,7 @@ function bind() {
     els.tiers.forEach(t=>t.checked=false);
     state.sortKey='name'; state.sortDir='asc'; state.statKey=null;
     applyFilters();
+    syncFilterChips();
   hideLoader();
   });
 
@@ -602,6 +608,17 @@ function ensureFilterChipStyles() {
 `;
   document.head.appendChild(style);
 }
+
+function syncFilterChips(){
+  // Keep chip pressed state in sync with underlying inputs
+  document.querySelectorAll('.filter-chips .chip[data-input-id]').forEach(chip => {
+    const id = chip.getAttribute('data-input-id');
+    const inp = document.getElementById(id);
+    if (!inp) return;
+    chip.setAttribute('aria-pressed', inp.checked ? 'true' : 'false');
+  });
+}
+
 function enhanceFilterChips() {
   // Clean up redundant captions like "Category:", "Paths:", "Level Tiers:" near the filter form
   try{
@@ -631,12 +648,13 @@ function enhanceFilterChips() {
     row.appendChild(label); row.appendChild(chips);
 
     inputs.forEach(inp => {
+      if(!inp.id){ inp.id = 'f_' + Math.random().toString(36).slice(2,9); }
       // normalize 0-99 -> 1-99 for levels
       if (title === 'Level' && String(inp.value).trim().toLowerCase() === '0-99') {
         inp.value = '1-99';
         const lbl = inp.closest('label'); if (lbl) lbl.innerHTML = lbl.innerHTML.replace(/0-99/g, '1-99');
       }
-      const chip = document.createElement('button'); chip.type='button'; chip.className='chip';
+      const chip = document.createElement('button'); chip.type='button'; chip.className='chip'; chip.dataset.inputId = inp.id;
       const txt = (inp.closest('label')?.textContent || inp.value || '').trim();
       chip.textContent = txt.replace(/Level\s*Tiers?\s*:\s*/i, '').replace(/:\s*$/, '');
       chip.setAttribute('aria-pressed', inp.checked ? 'true' : 'false');
@@ -661,6 +679,20 @@ function enhanceFilterChips() {
   buildChips(Array.from(els.categories || []), 'Category');
   buildChips(Array.from(els.paths || []), 'Paths');
   buildChips(Array.from(els.tiers || []), 'Level');
+
+  
+  // Extra cleanup: hide duplicate inline labels and native checkbox rows (keep a11y)
+  try {
+    const texts = /^(Category|Paths|Level(\s*Tiers)?)\s*:?$/i;
+    document.querySelectorAll('#filters * , #search * , .filters *').forEach(el => {
+      const t = (el.textContent || '').trim();
+      if (texts.test(t) && el.tagName !== 'DIV') el.classList.add('visually-hidden');
+    });
+    // Hide native checkbox containers (labels) once chips exist
+    if (document.querySelector('.filter-chips')) {
+      document.querySelectorAll('label > input[type="checkbox"]').forEach(inp => inp.closest('label')?.classList.add('visually-hidden'));
+    }
+  } catch(e) {}
 
   // Rename any leftover "Level Tiers" labels
   document.querySelectorAll('.filter-group h3, .filter-group legend, .filter-group-label').forEach(el => {
@@ -698,6 +730,7 @@ async function main() {
   bind();
   ensureItemCardStyles();
   enhanceFilterChips();
+  syncFilterChips();
   showLoader('Loading data…');
 
   const files = await loadManifest();
@@ -707,6 +740,7 @@ async function main() {
   setLoadStatus(`Loaded ${state.items.length} item(s)`);
   if (state.items.length === 0 && els.debugPanel) els.debugPanel.classList.remove('hidden');
   applyFilters();
+    syncFilterChips();
   hideLoader();
 }
 
