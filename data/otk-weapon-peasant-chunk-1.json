@@ -1,279 +1,1637 @@
 {
   "items": [
     {
-      "id": "peasant_s_dagger",
-      "name": "Peasant's dagger",
+      "id": "blacksmith_hammer",
+      "name": "Blacksmith hammer",
       "category": "weapon",
       "path": [
         "peasant"
       ],
-      "level_tier": "0-99",
+      "level_tier": "0",
       "stats": {
-        "Hit": 3,
-        "Dam": 3,
-        "Might": 2,
-        "Will": 0,
-        "Grace": 2,
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
         "Vita": 0,
-        "Mana": 0
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 2
       },
       "enchants": [],
       "info": "1-handed",
       "obtain": [
-        "Common drop / shops"
+        "Blacksmithing"
       ]
     },
     {
-      "id": "peasant_s_short_sword",
-      "name": "Peasant's short sword",
+      "id": "blacksmith_tongs",
+      "name": "Blacksmith tongs",
       "category": "weapon",
       "path": [
         "peasant"
       ],
-      "level_tier": "0-99",
+      "level_tier": "0",
       "stats": {
-        "Hit": 4,
-        "Dam": 5,
-        "Might": 3,
-        "Will": 0,
-        "Grace": 1,
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
         "Vita": 0,
-        "Mana": 0
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 2
       },
       "enchants": [],
       "info": "1-handed",
       "obtain": [
-        "Common drop / shops"
+        "Blacksmithing"
       ]
     },
     {
-      "id": "peasant_s_longsword",
-      "name": "Peasant's longsword",
+      "id": "carpenter_s_knife",
+      "name": "Carpenter's knife",
       "category": "weapon",
       "path": [
         "peasant"
       ],
-      "level_tier": "0-99",
+      "level_tier": "0",
       "stats": {
-        "Hit": 4,
-        "Dam": 7,
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 2
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Blacksmithing"
+      ]
+    },
+    {
+      "id": "basic_sickle",
+      "name": "Basic sickle",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "1",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Sold by Ssal."
+      ]
+    },
+    {
+      "id": "mining_pick",
+      "name": "Mining pick",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "1",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Sold by Thane."
+      ]
+    },
+    {
+      "id": "bomb_kit",
+      "name": "Bomb kit",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "1",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Bomber Blitz"
+      ]
+    },
+    {
+      "id": "elixir_spear",
+      "name": "Elixir spear",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "1",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Elixir wars"
+      ]
+    },
+    {
+      "id": "pillow",
+      "name": "Pillow",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "1",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Pillow Fight"
+      ]
+    },
+    {
+      "id": "ilbon_knife",
+      "name": "Ilbon knife",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "20",
+      "stats": {
+        "AC": 0,
+        "Hit": 1,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Carnage tokens: 35"
+      ]
+    },
+    {
+      "id": "pinwheel",
+      "name": "Pinwheel",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "25 Ninja Mountain tokens"
+      ]
+    },
+    {
+      "id": "red_wine",
+      "name": "Red wine",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "100 Muse Community Points"
+      ]
+    },
+    {
+      "id": "wooden_stick",
+      "name": "Wooden stick",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Sold by Grave Robber."
+      ]
+    },
+    {
+      "id": "wooden_saber",
+      "name": "Wooden saber",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 7
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Sold by Kingdom Smiths."
+      ]
+    },
+    {
+      "id": "museum_kite",
+      "name": "Museum kite",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 15
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Museum"
+      ]
+    },
+    {
+      "id": "ji_pang_i",
+      "name": "Ji Pang I",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "0",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 100
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "100 Do Community Points"
+      ]
+    },
+    {
+      "id": "novice_sword",
+      "name": "Novice sword",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "1",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 11
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Introduction Quest"
+      ]
+    },
+    {
+      "id": "viperhead_woodsaber",
+      "name": "Viperhead woodsaber",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "1",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 20
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Sold by Kingdom Smiths."
+      ]
+    },
+    {
+      "id": "long_spear",
+      "name": "Long spear",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "1",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 42
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Sold at Gan's shop in Kaming's Encampment."
+      ]
+    },
+    {
+      "id": "steel_sword",
+      "name": "Steel sword",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "1",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 72
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Sold by Kingdom Smiths."
+      ]
+    },
+    {
+      "id": "viper_stick",
+      "name": "Viper stick",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "1",
+      "stats": {
+        "AC": 0,
+        "Hit": 2,
+        "Dam": 2,
+        "Vita": 50,
+        "Mana": 50,
         "Might": 5,
         "Will": 0,
         "Grace": 0,
-        "Vita": 0,
-        "Mana": 0
-      },
-      "enchants": [],
-      "info": "2-handed",
-      "obtain": [
-        "Common drop / shops"
-      ]
-    },
-    {
-      "id": "peasant_s_club",
-      "name": "Peasant's club",
-      "category": "weapon",
-      "path": [
-        "peasant"
-      ],
-      "level_tier": "0-99",
-      "stats": {
-        "Hit": 2,
-        "Dam": 6,
-        "Might": 4,
-        "Will": 0,
-        "Grace": 0,
-        "Vita": 0,
-        "Mana": 0
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 62
       },
       "enchants": [],
       "info": "1-handed",
       "obtain": [
-        "Common drop / shops"
+        "Kugnae Snake - Earth Snake"
       ]
     },
     {
-      "id": "peasant_s_great_club",
-      "name": "Peasant's great club",
+      "id": "military_fork",
+      "name": "Military fork",
       "category": "weapon",
       "path": [
         "peasant"
       ],
-      "level_tier": "0-99",
+      "level_tier": "1",
       "stats": {
-        "Hit": 2,
-        "Dam": 9,
-        "Might": 7,
-        "Will": 0,
-        "Grace": 0,
-        "Vita": 0,
-        "Mana": 0
-      },
-      "enchants": [],
-      "info": "2-handed",
-      "obtain": [
-        "Common drop / shops"
-      ]
-    },
-    {
-      "id": "peasant_s_spear",
-      "name": "Peasant's spear",
-      "category": "weapon",
-      "path": [
-        "peasant"
-      ],
-      "level_tier": "0-99",
-      "stats": {
+        "AC": 0,
         "Hit": 3,
-        "Dam": 6,
-        "Might": 4,
-        "Will": 0,
-        "Grace": 1,
+        "Dam": 3,
         "Vita": 0,
-        "Mana": 0
-      },
-      "enchants": [],
-      "info": "2-handed",
-      "obtain": [
-        "Common drop / shops"
-      ]
-    },
-    {
-      "id": "peasant_s_bow",
-      "name": "Peasant's bow",
-      "category": "weapon",
-      "path": [
-        "peasant"
-      ],
-      "level_tier": "0-99",
-      "stats": {
-        "Hit": 5,
-        "Dam": 5,
-        "Might": 2,
-        "Will": 0,
-        "Grace": 3,
-        "Vita": 0,
-        "Mana": 0
-      },
-      "enchants": [],
-      "info": "2-handed",
-      "obtain": [
-        "Common drop / shops"
-      ]
-    },
-    {
-      "id": "peasant_s_crossbow",
-      "name": "Peasant's crossbow",
-      "category": "weapon",
-      "path": [
-        "peasant"
-      ],
-      "level_tier": "0-99",
-      "stats": {
-        "Hit": 4,
-        "Dam": 7,
+        "Mana": 0,
         "Might": 3,
         "Will": 0,
         "Grace": 1,
-        "Vita": 0,
-        "Mana": 0
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 95
       },
       "enchants": [],
       "info": "2-handed",
       "obtain": [
-        "Common drop / shops"
+        "Iron Labyrinth chest"
       ]
     },
     {
-      "id": "peasant_s_wand",
-      "name": "Peasant's wand",
+      "id": "short_bow",
+      "name": "Short bow",
       "category": "weapon",
       "path": [
         "peasant"
       ],
-      "level_tier": "0-99",
+      "level_tier": "2",
       "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 3
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Sold by Gan."
+      ]
+    },
+    {
+      "id": "spring_bow",
+      "name": "Spring bow",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "2",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 3
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Sold by Kingdom Smiths."
+      ]
+    },
+    {
+      "id": "anniversary_blade_1",
+      "name": "Anniversary blade (1)",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "5",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 10
+      },
+      "enchants": [
+        "200% increase to all outgoing damage."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Given during OTK's 1st Anniversary event."
+      ]
+    },
+    {
+      "id": "wyldwood_bamboo",
+      "name": "Wyldwood bamboo",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "5",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 375,
+        "Mana": 156,
+        "Might": 3,
+        "Will": 3,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 70
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Buya Forest - Faewyn"
+      ]
+    },
+    {
+      "id": "anniversary_blade_2",
+      "name": "Anniversary blade (2)",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "5",
+      "stats": {
+        "AC": 0,
+        "Hit": 20,
+        "Dam": 20,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 750
+      },
+      "enchants": [
+        "200% increase to all outgoing damage."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Given during OTK's 2nd Anniversary event."
+      ]
+    },
+    {
+      "id": "frost_sabre",
+      "name": "Frost sabre",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "8",
+      "stats": {
+        "AC": 0,
         "Hit": 1,
+        "Dam": 1,
+        "Vita": 50,
+        "Mana": 50,
+        "Might": 1,
+        "Will": 1,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 50
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Ice Beast Quest"
+      ]
+    },
+    {
+      "id": "runed_staff",
+      "name": "Runed staff",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "10",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 50,
+        "Mana": 100,
+        "Might": 0,
+        "Will": 3,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Sold by Kingdom Smiths."
+      ]
+    },
+    {
+      "id": "fortuity",
+      "name": "Fortuity",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "10",
+      "stats": {
+        "AC": 0,
+        "Hit": 1,
+        "Dam": 1,
+        "Vita": 100,
+        "Mana": 150,
+        "Might": 0,
+        "Will": 3,
+        "Grace": 0,
+        "Protection": 1,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Buya Rat - Splinter"
+      ]
+    },
+    {
+      "id": "trident",
+      "name": "Trident",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "10",
+      "stats": {
+        "AC": 0,
+        "Hit": 3,
+        "Dam": 4,
+        "Vita": 250,
+        "Mana": 125,
+        "Might": 4,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 102
+      },
+      "enchants": [
+        "The length of the weapon provides backstab!"
+      ],
+      "info": "2-handed",
+      "obtain": [
+        "Monkey 1 - King, Mysterious Ring - Goblin King chest"
+      ]
+    },
+    {
+      "id": "trident",
+      "name": "Trident +",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "10",
+      "stats": {
+        "AC": 0,
+        "Hit": 5,
+        "Dam": 6,
+        "Vita": 450,
+        "Mana": 188,
+        "Might": 5,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 112
+      },
+      "enchants": [
+        "The length of the weapon provides flank AND backstab!"
+      ],
+      "info": "2-handed",
+      "obtain": [
+        "Bring Trident, 100 Sharp metal, 2 Wooden base, 10 Basic ginko log, and 25,000 Coins to the Center Mythic NPC."
+      ]
+    },
+    {
+      "id": "fan",
+      "name": "Fan",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "11",
+      "stats": {
+        "AC": 0,
+        "Hit": 1,
+        "Dam": 1,
+        "Vita": 75,
+        "Mana": 75,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 20,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Sold by Hermit after completing the Leviathan Quest."
+      ]
+    },
+    {
+      "id": "runed_dagger",
+      "name": "Runed dagger",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "11",
+      "stats": {
+        "AC": 0,
+        "Hit": 1,
+        "Dam": 1,
+        "Vita": 50,
+        "Mana": 0,
+        "Might": 1,
+        "Will": 0,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 35
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Sold by Kingdom Smiths."
+      ]
+    },
+    {
+      "id": "battle_axe",
+      "name": "Battle axe",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "11",
+      "stats": {
+        "AC": 0,
+        "Hit": 1,
+        "Dam": 1,
+        "Vita": 100,
+        "Mana": 0,
+        "Might": 2,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 60
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Kugnae Rabbit - Blood/Giant mantis, Buya Rabbit - Blood Tick"
+      ]
+    },
+    {
+      "id": "battle_sword",
+      "name": "Battle sword",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "11",
+      "stats": {
+        "AC": 0,
+        "Hit": 1,
+        "Dam": 1,
+        "Vita": 50,
+        "Mana": 50,
+        "Might": 1,
+        "Will": 0,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 60
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Kugnae Rabbit - Blood and Giant mantis."
+      ]
+    },
+    {
+      "id": "steel_dagger",
+      "name": "Steel dagger",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "15",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 45
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Smithing"
+      ]
+    },
+    {
+      "id": "military_staff",
+      "name": "Military staff",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "20",
+      "stats": {
+        "AC": 0,
+        "Hit": 1,
+        "Dam": 1,
+        "Vita": 150,
+        "Mana": 500,
+        "Might": 0,
+        "Will": 3,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Iron Labyrinth chests, Rabbit 2 - Sentry/Queen"
+      ]
+    },
+    {
+      "id": "honor_sword",
+      "name": "Honor sword",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "20",
+      "stats": {
+        "AC": 0,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 500,
+        "Mana": 500,
+        "Might": 4,
+        "Will": 4,
+        "Grace": 4,
+        "Protection": 1,
+        "Healing": 0,
+        "DPS": 97
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Hyun Gambling, Young Goblin"
+      ]
+    },
+    {
+      "id": "honor_sword",
+      "name": "Honor sword +",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "20",
+      "stats": {
+        "AC": 0,
+        "Hit": 5,
+        "Dam": 5,
+        "Vita": 1050,
+        "Mana": 750,
+        "Might": 5,
+        "Will": 5,
+        "Grace": 5,
+        "Protection": 1,
+        "Healing": 0,
+        "DPS": 107
+      },
+      "enchants": [
+        "Chance to restore 250 mana when casting spells or swinging."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Bring Honor sword, 100 Bright material, 2 Shiny hilt, 10 Metal, and 25,000 Coins to the Center Mythic NPC."
+      ]
+    },
+    {
+      "id": "tainted_staff",
+      "name": "Tainted staff",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "25",
+      "stats": {
+        "AC": 0,
+        "Hit": 1,
+        "Dam": 1,
+        "Vita": 25,
+        "Mana": 25,
+        "Might": 1,
+        "Will": 3,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Sold by Hermit in the Leviathan Hut."
+      ]
+    },
+    {
+      "id": "tainted_blade",
+      "name": "Tainted blade",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "25",
+      "stats": {
+        "AC": 0,
+        "Hit": 2,
+        "Dam": 1,
+        "Vita": 75,
+        "Mana": 75,
+        "Might": 2,
+        "Will": 2,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 51
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Sold by Hermit in the Leviathan Hut."
+      ]
+    },
+    {
+      "id": "silver_sword",
+      "name": "Silver sword",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "30",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 85
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Smithing"
+      ]
+    },
+    {
+      "id": "fox_blade",
+      "name": "Fox blade",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "30",
+      "stats": {
+        "AC": -4,
+        "Hit": 2,
         "Dam": 2,
+        "Vita": 100,
+        "Mana": 200,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 67
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Kugnae/Buya Fox - Nine Tailed Fox, Carnage Tokens - 2"
+      ]
+    },
+    {
+      "id": "iron_sword",
+      "name": "Iron sword",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "35",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 67
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Sold by Gan."
+      ]
+    },
+    {
+      "id": "gold_sword",
+      "name": "Gold sword",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "35",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 90
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Smithing"
+      ]
+    },
+    {
+      "id": "death_s_head",
+      "name": "Death's head",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "35",
+      "stats": {
+        "AC": 0,
+        "Hit": 3,
+        "Dam": 1,
+        "Vita": 100,
+        "Mana": 400,
         "Might": 0,
         "Will": 4,
         "Grace": 0,
-        "Vita": 0,
-        "Mana": 300
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
       },
       "enchants": [],
-      "info": "1-handed",
+      "info": "2-handed",
       "obtain": [
-        "Common drop / shops"
+        "Vale Skeletons - Skeleton Sa, Kugnae Haunted House - Witch Shaman, Iron Labyrinth chests, Dog 1 - Sentry"
       ]
     },
     {
-      "id": "peasant_s_staff",
-      "name": "Peasant's staff",
+      "id": "maxcaliber",
+      "name": "Maxcaliber",
       "category": "weapon",
       "path": [
         "peasant"
       ],
-      "level_tier": "0-99",
+      "level_tier": "35",
       "stats": {
+        "AC": 0,
         "Hit": 2,
+        "Dam": 4,
+        "Vita": 350,
+        "Mana": 100,
+        "Might": 3,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 77
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Vale Skeletons - Skeleton Sa, Buya Haunted House - Wicked Ghost/Skeleton Ju, Wilderness chests, Iron Labyrinth chests, Kugnae Haunted House - Skeleton Warrior"
+      ]
+    },
+    {
+      "id": "wicked_staff",
+      "name": "Wicked staff",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "40",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 100,
+        "Mana": 300,
+        "Might": 0,
+        "Will": 6,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Kugnae Skeleton - Skeleton Mage, Rooster 1 - King, Black Skeletons - Skeleton Sa, Iron Labyrinth chests"
+      ]
+    },
+    {
+      "id": "silver_saber",
+      "name": "Silver saber",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "40",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 90
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Smithing"
+      ]
+    },
+    {
+      "id": "sunshard",
+      "name": "Sunshard",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "40",
+      "stats": {
+        "AC": 0,
+        "Hit": 2,
+        "Dam": 2,
+        "Vita": 300,
+        "Mana": 750,
+        "Might": 0,
+        "Will": 8,
+        "Grace": 0,
+        "Protection": 1,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Wilderness Chest"
+      ]
+    },
+    {
+      "id": "moonblade",
+      "name": "Moonblade",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "40",
+      "stats": {
+        "AC": 0,
+        "Hit": 3,
         "Dam": 3,
+        "Vita": 100,
+        "Mana": 150,
+        "Might": 3,
+        "Will": 3,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 72
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Vale Skeletons - Skeleton Sa, Buya Haunted House - Wicked Ghost, Carnage Tokens - 2"
+      ]
+    },
+    {
+      "id": "gold_saber",
+      "name": "Gold saber",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "45",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 100
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Smithing"
+      ]
+    },
+    {
+      "id": "hunang_s_axe",
+      "name": "Hunang's axe",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "45",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 1,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 75
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Kugnae Spider - Trapdoor Spider"
+      ]
+    },
+    {
+      "id": "blue_wind_toy",
+      "name": "Blue wind toy",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "50",
+      "stats": {
+        "AC": -5,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 17315,
+        "Mana": 38586,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 2
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "2nd Anniversary event"
+      ]
+    },
+    {
+      "id": "cursed_staff",
+      "name": "Cursed staff",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "50",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 500,
         "Might": 0,
         "Will": 5,
         "Grace": 0,
-        "Vita": 0,
-        "Mana": 500
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 35
       },
       "enchants": [],
       "info": "2-handed",
       "obtain": [
-        "Common drop / shops"
+        "Rat 1 - Sentry/King, Dog 1 - Avenger"
       ]
     },
     {
-      "id": "peasant_s_axe",
-      "name": "Peasant's axe",
+      "id": "giasomo_stick",
+      "name": "Giasomo stick",
       "category": "weapon",
       "path": [
         "peasant"
       ],
-      "level_tier": "0-99",
+      "level_tier": "50",
       "stats": {
-        "Hit": 3,
-        "Dam": 7,
-        "Might": 6,
-        "Will": 0,
-        "Grace": 0,
+        "AC": 0,
+        "Hit": -1,
+        "Dam": 0,
         "Vita": 0,
-        "Mana": 0
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 40
       },
       "enchants": [],
       "info": "1-handed",
       "obtain": [
-        "Common drop / shops"
+        "Say \"Laptev\" to the Othotsk Blacksmith in Arctic Village."
       ]
     },
     {
-      "id": "peasant_s_war_axe",
-      "name": "Peasant's war axe",
+      "id": "cursed_blade",
+      "name": "Cursed blade",
       "category": "weapon",
       "path": [
         "peasant"
       ],
-      "level_tier": "0-99",
+      "level_tier": "50",
       "stats": {
-        "Hit": 3,
-        "Dam": 10,
-        "Might": 9,
-        "Will": 0,
+        "AC": 0,
+        "Hit": 2,
+        "Dam": 2,
+        "Vita": 100,
+        "Mana": 100,
+        "Might": 2,
+        "Will": 2,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 87
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Kugnae Spider - Massive Scorpion"
+      ]
+    },
+    {
+      "id": "big_axe",
+      "name": "Big axe",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "50",
+      "stats": {
+        "AC": 0,
+        "Hit": 5,
+        "Dam": 5,
+        "Vita": 1500,
+        "Mana": 1250,
+        "Might": 4,
+        "Will": 6,
         "Grace": 0,
-        "Vita": 0,
-        "Mana": 0
+        "Protection": 3,
+        "Healing": 25,
+        "DPS": 97
+      },
+      "enchants": [
+        "Throws boulders at enemies in front of you on swing with 15s aethers."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Nagnang -  Strange Thing"
+      ]
+    },
+    {
+      "id": "faerie_light",
+      "name": "Faerie light",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "70",
+      "stats": {
+        "AC": 0,
+        "Hit": 2,
+        "Dam": 2,
+        "Vita": 500,
+        "Mana": 1000,
+        "Might": 0,
+        "Will": 10,
+        "Grace": 0,
+        "Protection": 2,
+        "Healing": 0,
+        "DPS": 0
       },
       "enchants": [],
       "info": "2-handed",
       "obtain": [
-        "Common drop / shops"
+        "Horse 3 - Avenger"
+      ]
+    },
+    {
+      "id": "faerie_light",
+      "name": "Faerie light +",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "70",
+      "stats": {
+        "AC": 0,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 1050,
+        "Mana": 1500,
+        "Might": 0,
+        "Will": 11,
+        "Grace": 0,
+        "Protection": 2,
+        "Healing": 31,
+        "DPS": 0
+      },
+      "enchants": [
+        "Heals allies in an X pattern when you swing. 9s aethers, heals 5k flat."
+      ],
+      "info": "2-handed",
+      "obtain": [
+        "Bring Faerlie light, 100 Faerie dust, 2 Star-staff, 10 Fine cloth, and 25,000 Coins to the Center Mythic NPC."
       ]
     }
   ]

@@ -1,267 +1,1403 @@
 {
   "items": [
     {
-      "id": "rusty_knife",
-      "name": "Rusty knife",
+      "id": "faerie_dark",
+      "name": "Faerie dark",
       "category": "weapon",
       "path": [
         "peasant"
       ],
-      "level_tier": "0-99",
+      "level_tier": "70",
       "stats": {
-        "Hit": 2,
-        "Dam": 2,
-        "Might": 1,
-        "Grace": 2,
-        "Vita": 0,
-        "Mana": 0
-      },
-      "enchants": [],
-      "info": "1-handed",
-      "obtain": [
-        "Common drop / shops"
-      ]
-    },
-    {
-      "id": "hunting_knife",
-      "name": "Hunting knife",
-      "category": "weapon",
-      "path": [
-        "peasant"
-      ],
-      "level_tier": "0-99",
-      "stats": {
+        "AC": 0,
         "Hit": 3,
-        "Dam": 4,
-        "Might": 2,
-        "Grace": 2,
-        "Vita": 0,
-        "Mana": 0
-      },
-      "enchants": [],
-      "info": "1-handed",
-      "obtain": [
-        "Hunting"
-      ]
-    },
-    {
-      "id": "smithing_dagger",
-      "name": "Smithing dagger",
-      "category": "weapon",
-      "path": [
-        "peasant"
-      ],
-      "level_tier": "0-99",
-      "stats": {
-        "Hit": 4,
-        "Dam": 5,
-        "Might": 2,
-        "Grace": 2,
-        "Vita": 0,
-        "Mana": 0
-      },
-      "enchants": [],
-      "info": "1-handed",
-      "obtain": [
-        "Smithing"
-      ]
-    },
-    {
-      "id": "bronze_short_sword",
-      "name": "Bronze short sword",
-      "category": "weapon",
-      "path": [
-        "peasant"
-      ],
-      "level_tier": "0-99",
-      "stats": {
-        "Hit": 3,
-        "Dam": 5,
-        "Might": 4,
-        "Grace": 0,
-        "Vita": 0,
-        "Mana": 0
-      },
-      "enchants": [],
-      "info": "1-handed",
-      "obtain": [
-        "Smithing"
-      ]
-    },
-    {
-      "id": "iron_short_sword",
-      "name": "Iron short sword",
-      "category": "weapon",
-      "path": [
-        "peasant"
-      ],
-      "level_tier": "0-99",
-      "stats": {
-        "Hit": 4,
-        "Dam": 6,
-        "Might": 5,
-        "Grace": 0,
-        "Vita": 0,
-        "Mana": 0
-      },
-      "enchants": [],
-      "info": "1-handed",
-      "obtain": [
-        "Smithing"
-      ]
-    },
-    {
-      "id": "steel_longsword",
-      "name": "Steel longsword",
-      "category": "weapon",
-      "path": [
-        "peasant"
-      ],
-      "level_tier": "0-99",
-      "stats": {
-        "Hit": 4,
-        "Dam": 8,
+        "Dam": 3,
+        "Vita": 3000,
+        "Mana": 313,
         "Might": 7,
+        "Will": 4,
         "Grace": 0,
-        "Vita": 0,
-        "Mana": 0
+        "Protection": 2,
+        "Healing": 31,
+        "DPS": 107
       },
       "enchants": [],
-      "info": "2-handed",
+      "info": "1-handed",
       "obtain": [
-        "Smithing"
+        "Rabbit 2 - Queen, Daki Raid - Daki, Wilderness Lobster - Golden Lobster"
       ]
     },
     {
-      "id": "traveler_s_club",
-      "name": "Traveler's club",
+      "id": "faerie_dark",
+      "name": "Faerie dark +",
       "category": "weapon",
       "path": [
         "peasant"
       ],
-      "level_tier": "0-99",
+      "level_tier": "70",
       "stats": {
+        "AC": 0,
+        "Hit": 4,
+        "Dam": 4,
+        "Vita": 4200,
+        "Mana": 375,
+        "Might": 8,
+        "Will": 5,
+        "Grace": 0,
+        "Protection": 2,
+        "Healing": 31,
+        "DPS": 127
+      },
+      "enchants": [
+        "Calls upon the Faerie god to drop a beam of darkness in front of you."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Bring Faerie dark, 100 Faerie shard, 2 Electra, 10 Fine metal, and 25,000 Coins to the Center Mythic NPC."
+      ]
+    },
+    {
+      "id": "flameblade",
+      "name": "Flameblade",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "70",
+      "stats": {
+        "AC": 0,
+        "Hit": 7,
+        "Dam": 5,
+        "Vita": 1500,
+        "Mana": 500,
+        "Might": 6,
+        "Will": 6,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 155
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Horse 1/2/3 - King/Queen/Avenger/Deity"
+      ]
+    },
+    {
+      "id": "flameblade",
+      "name": "Flameblade +",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "70",
+      "stats": {
+        "AC": 0,
+        "Hit": 10,
+        "Dam": 6,
+        "Vita": 3150,
+        "Mana": 750,
+        "Might": 7,
+        "Will": 7,
+        "Grace": 7,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 175
+      },
+      "enchants": [
+        "Chance to cast \"Ember spew\" which pulses every 2-3 seconds dealing damage in a diamond pattern around self."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Bring Flameblade, 100 Flame powder, 2 Flamefang, 10 Fine metal, and 25,000 Coins to the Center Mythic NPC."
+      ]
+    },
+    {
+      "id": "warping_staff",
+      "name": "Warping staff",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "75",
+      "stats": {
+        "AC": 0,
+        "Hit": 3,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 1875,
+        "Might": 0,
+        "Will": 10,
+        "Grace": 3,
+        "Protection": 2,
+        "Healing": 6,
+        "DPS": 0
+      },
+      "enchants": [
+        "Teaches the user \"Teleport.\""
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Goblins, Gorcesh/Abhorrent Raid chests"
+      ]
+    },
+    {
+      "id": "small_polearm",
+      "name": "Small polearm",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "75",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 172
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "25 Basic ginko log and 20 Fine metal to craft."
+      ]
+    },
+    {
+      "id": "steelthorn",
+      "name": "Steelthorn",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "75",
+      "stats": {
+        "AC": 0,
+        "Hit": 6,
+        "Dam": 2,
+        "Vita": 200,
+        "Mana": 200,
+        "Might": 4,
+        "Will": 0,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 100
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Grim Ogres - Slime/Muck Ogre, Deep Woods Mantis - Shadow/Dirt Mantis, Ox 1 - Sentry"
+      ]
+    },
+    {
+      "id": "titanium_lance",
+      "name": "Titanium lance",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "75",
+      "stats": {
+        "AC": 0,
+        "Hit": 2,
+        "Dam": 3,
+        "Vita": 100,
+        "Mana": 250,
+        "Might": 4,
+        "Will": 8,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Grim Ogre - Slime/Muck Ogre, Deep Woods Mantis - Dirt/Shadow Mantis, Rabbit 2 - Sentry/Avenger/Queen"
+      ]
+    },
+    {
+      "id": "palmyra_punch",
+      "name": "Palmyra punch",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "75",
+      "stats": {
+        "AC": 0,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 750,
+        "Mana": 750,
+        "Might": 6,
+        "Will": 6,
+        "Grace": 6,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 100
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Seuldo chest"
+      ]
+    },
+    {
+      "id": "juk_do",
+      "name": "Juk-do",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "75",
+      "stats": {
+        "AC": 0,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 100,
+        "Mana": 100,
+        "Might": 2,
+        "Will": 2,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 104
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Carpentry"
+      ]
+    },
+    {
+      "id": "stone_axe",
+      "name": "Stone axe",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "75",
+      "stats": {
+        "AC": 0,
+        "Hit": 4,
+        "Dam": 4,
+        "Vita": 2000,
+        "Mana": 2000,
+        "Might": 8,
+        "Will": 8,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 145
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Ox 2 - Avenger"
+      ]
+    },
+    {
+      "id": "electra",
+      "name": "Electra",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "75",
+      "stats": {
+        "AC": 0,
         "Hit": 2,
         "Dam": 5,
-        "Might": 3,
-        "Grace": 0,
-        "Vita": 0,
-        "Mana": 0
-      },
-      "enchants": [],
-      "info": "1-handed",
-      "obtain": [
-        "Common drop / shops"
-      ]
-    },
-    {
-      "id": "spiked_mace",
-      "name": "Spiked mace",
-      "category": "weapon",
-      "path": [
-        "peasant"
-      ],
-      "level_tier": "0-99",
-      "stats": {
-        "Hit": 2,
-        "Dam": 7,
-        "Might": 6,
-        "Grace": 0,
-        "Vita": 0,
-        "Mana": 0
-      },
-      "enchants": [],
-      "info": "1-handed",
-      "obtain": [
-        "Quest"
-      ]
-    },
-    {
-      "id": "great_mace",
-      "name": "Great mace",
-      "category": "weapon",
-      "path": [
-        "peasant"
-      ],
-      "level_tier": "0-99",
-      "stats": {
-        "Hit": 2,
-        "Dam": 9,
-        "Might": 8,
-        "Grace": 0,
-        "Vita": 0,
-        "Mana": 0
-      },
-      "enchants": [],
-      "info": "2-handed",
-      "obtain": [
-        "Quest"
-      ]
-    },
-    {
-      "id": "oak_spear",
-      "name": "Oak spear",
-      "category": "weapon",
-      "path": [
-        "peasant"
-      ],
-      "level_tier": "0-99",
-      "stats": {
-        "Hit": 3,
-        "Dam": 6,
+        "Vita": 400,
+        "Mana": 100,
         "Might": 4,
-        "Grace": 1,
-        "Vita": 0,
-        "Mana": 0
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 100
       },
       "enchants": [],
-      "info": "2-handed",
+      "info": "1-handed",
       "obtain": [
-        "Common drop / shops"
+        "Grim Ogre - Slime/Muck Ogre, Deep Woods Mantis - Shadow/Dirt Mantis, Monkey 2 - Sentry/Avenger/Queen, Ox 1 - Sentry/Avenger"
       ]
     },
     {
-      "id": "recurve_bow",
-      "name": "Recurve bow",
+      "id": "stone_axe",
+      "name": "Stone axe +",
       "category": "weapon",
       "path": [
         "peasant"
       ],
-      "level_tier": "0-99",
+      "level_tier": "75",
       "stats": {
+        "AC": 0,
         "Hit": 6,
         "Dam": 6,
-        "Might": 2,
+        "Vita": 4200,
+        "Mana": 3000,
+        "Might": 10,
+        "Will": 10,
         "Grace": 3,
-        "Vita": 0,
-        "Mana": 0
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 165
       },
-      "enchants": [],
+      "enchants": [
+        "The rare stone grants the user 5% damage reduction. The spell Stone skin is cast on the user with a 100,000s duration."
+      ],
       "info": "2-handed",
       "obtain": [
-        "Hunting / Smithing"
+        "Bring Stone axe, 100 Special stone, 2 Hunang's axe, 10 Improved ginko log, and 25,000 Coins to the Center Mythic NPC."
       ]
     },
     {
-      "id": "light_crossbow",
-      "name": "Light crossbow",
+      "id": "elegant_juk_do",
+      "name": "Elegant juk-do",
       "category": "weapon",
       "path": [
         "peasant"
       ],
-      "level_tier": "0-99",
+      "level_tier": "80",
       "stats": {
-        "Hit": 5,
-        "Dam": 7,
+        "AC": 0,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 275,
+        "Mana": 275,
         "Might": 3,
-        "Grace": 1,
-        "Vita": 0,
-        "Mana": 0
+        "Will": 3,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 125
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Carpentry"
+      ]
+    },
+    {
+      "id": "ice_sabre",
+      "name": "Ice sabre",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "80",
+      "stats": {
+        "AC": 0,
+        "Hit": 5,
+        "Dam": 4,
+        "Vita": 250,
+        "Mana": 250,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 115
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Vale Polar Bear - Deathwish, Northern Ogres - Citelam"
+      ]
+    },
+    {
+      "id": "goblin_war_staff",
+      "name": "Goblin war staff",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "80",
+      "stats": {
+        "AC": 0,
+        "Hit": 3,
+        "Dam": 5,
+        "Vita": 300,
+        "Mana": 1250,
+        "Might": 4,
+        "Will": 12,
+        "Grace": 0,
+        "Protection": 2,
+        "Healing": 31,
+        "DPS": 0
+      },
+      "enchants": [
+        "\"Gear forged by the Goblin King's blacksmith. It holds terrifying raw power.\""
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Mysterious Ring Quest - Goblin King"
+      ]
+    },
+    {
+      "id": "goblin_eternal_rest",
+      "name": "Goblin eternal rest",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "80",
+      "stats": {
+        "AC": 0,
+        "Hit": 6,
+        "Dam": 6,
+        "Vita": 3000,
+        "Mana": 125,
+        "Might": 4,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 180
+      },
+      "enchants": [
+        "\"Gear forged by the Goblin King's blacksmith. It holds terrifying raw power.\""
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Mysterious Ring Quest - Goblin King"
+      ]
+    },
+    {
+      "id": "corrupted_blade",
+      "name": "Corrupted blade",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "85",
+      "stats": {
+        "AC": 0,
+        "Hit": 2,
+        "Dam": 2,
+        "Vita": 250,
+        "Mana": 125,
+        "Might": 2,
+        "Will": 2,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 100
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Dog 2 Sentry/Queen"
+      ]
+    },
+    {
+      "id": "flamefang",
+      "name": "Flamefang",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "85",
+      "stats": {
+        "AC": 0,
+        "Hit": 6,
+        "Dam": 3,
+        "Vita": 250,
+        "Mana": 500,
+        "Might": 5,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 135
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Forest Crossroad - Sting, Rat/Pig 1 - Avenger"
+      ]
+    },
+    {
+      "id": "darkwood_staff",
+      "name": "Darkwood staff",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "86",
+      "stats": {
+        "AC": 0,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 1500,
+        "Mana": 1875,
+        "Might": 4,
+        "Will": 10,
+        "Grace": 0,
+        "Protection": 2,
+        "Healing": 31,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Death Knight"
+      ]
+    },
+    {
+      "id": "sunblade",
+      "name": "Sunblade",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "86",
+      "stats": {
+        "AC": 0,
+        "Hit": 7,
+        "Dam": 5,
+        "Vita": 1000,
+        "Mana": 500,
+        "Might": 5,
+        "Will": 3,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 160
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Pig 1 - King"
+      ]
+    },
+    {
+      "id": "sunblade",
+      "name": "Sunblade +",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "86",
+      "stats": {
+        "AC": 0,
+        "Hit": 10,
+        "Dam": 6,
+        "Vita": 2100,
+        "Mana": 750,
+        "Might": 6,
+        "Will": 4,
+        "Grace": 4,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 180
+      },
+      "enchants": [
+        "While swinging, you have a chance to cast Sun flare."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Bring Sunblade, 100 Flare scrap, 2 Moonblade, 10 Fine metal, and 25,000 Coins to the Center Mythic NPC."
+      ]
+    },
+    {
+      "id": "fiend_s_grasp",
+      "name": "Fiend's grasp",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "90",
+      "stats": {
+        "AC": 0,
+        "Hit": 6,
+        "Dam": 6,
+        "Vita": 1125,
+        "Mana": 938,
+        "Might": 5,
+        "Will": 0,
+        "Grace": 4,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 190
+      },
+      "enchants": [
+        "Grant's the passive ability \"Fiend smash.\" Periodically has a chance to smash targets in front of you in a \"T\" shape!"
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Death Knight"
+      ]
+    },
+    {
+      "id": "corrupted_staff",
+      "name": "Corrupted staff",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "99",
+      "stats": {
+        "AC": 0,
+        "Hit": -2,
+        "Dam": 0,
+        "Vita": -500,
+        "Mana": 2800,
+        "Might": -2,
+        "Will": -16,
+        "Grace": -2,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
       },
       "enchants": [],
       "info": "2-handed",
       "obtain": [
+        "Dog 2 - Sentry, Rat 2 - Sentry/Queen"
+      ]
+    },
+    {
+      "id": "dark_staff",
+      "name": "Dark staff",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "99",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 3000,
+        "Mana": 6875,
+        "Might": 3,
+        "Will": 15,
+        "Grace": 2,
+        "Protection": 2,
+        "Healing": 38,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Hyun Gamble: 50,000 coin option"
+      ]
+    },
+    {
+      "id": "ghastly_aspiration",
+      "name": "Ghastly aspiration",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "99",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 3000,
+        "Mana": 8750,
+        "Might": 0,
+        "Will": 15,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [
+        "Sleep enemies surrounding you for 3s."
+      ],
+      "info": "2-handed",
+      "obtain": [
+        "Daki Raid - Daki, Nightmare Raid - Nightmare"
+      ]
+    },
+    {
+      "id": "tome_of_legends",
+      "name": "Tome of legends",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "99",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 10000,
+        "Mana": 10000,
+        "Might": 10,
+        "Will": 10,
+        "Grace": 10,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Visit Sok-yong in the Kugnae Study and say \"Legend\" with at least 75 legend marks."
+      ]
+    },
+    {
+      "id": "sevenleaf_sword",
+      "name": "Sevenleaf sword",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "99",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 50000,
+        "Mana": 25000,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 500
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Sevenleaf Sword Quest"
+      ]
+    },
+    {
+      "id": "minor_magus_staff",
+      "name": "Minor magus staff",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "99",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 2,
+        "Vita": 0,
+        "Mana": 10000,
+        "Might": 0,
+        "Will": 8,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [
+        "Scaling heal increased by 10%."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Magus 1 - Enchanted Sorcerer"
+      ]
+    },
+    {
+      "id": "minor_demented_lance",
+      "name": "Minor demented lance",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "99",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 3,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [
+        "Restore amount increased by 15%."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Bandit 1 - Mad King"
+      ]
+    },
+    {
+      "id": "minor_bloodbane",
+      "name": "Minor bloodbane",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "99",
+      "stats": {
+        "AC": 0,
+        "Hit": 1,
+        "Dam": 3,
+        "Vita": 4875,
+        "Mana": 8125,
+        "Might": 0,
+        "Will": 15,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [
+        "Hellfire damage increased by 15%."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Anchorite 1 - Jaded Enchantress"
+      ]
+    },
+    {
+      "id": "minor_soothsayer_staff",
+      "name": "Minor soothsayer staff",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "99",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 3,
+        "Vita": 1500,
+        "Mana": 10938,
+        "Might": 0,
+        "Will": 12,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [
+        "Phoenix explosion damage increased by 25%."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Dread 1 - Water Wizard"
+      ]
+    },
+    {
+      "id": "minor_sea_staff",
+      "name": "Minor sea staff",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "99",
+      "stats": {
+        "AC": 0,
+        "Hit": 1,
+        "Dam": 3,
+        "Vita": 7500,
+        "Mana": 11250,
+        "Might": 0,
+        "Will": 7,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [
+        "Increases Hellfire overflow targets by 1. Group recovery duration increased by 4s."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Water 1 - Crab Duke"
+      ]
+    },
+    {
+      "id": "minor_ardent_spear",
+      "name": "Minor ardent spear",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "99",
+      "stats": {
+        "AC": 0,
+        "Hit": 1,
+        "Dam": 3,
+        "Vita": 0,
+        "Mana": 12500,
+        "Might": 0,
+        "Will": 7,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [
+        "Healing rain damage and heal increased by 15%."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Earth 1 - Earth Elemental"
+      ]
+    },
+    {
+      "id": "forsaken_blade",
+      "name": "Forsaken blade",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "99",
+      "stats": {
+        "AC": 0,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 500,
+        "Mana": 250,
+        "Might": 5,
+        "Will": 5,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 190
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Dog 3 Sentry/Deity"
+      ]
+    },
+    {
+      "id": "penumbra_blade",
+      "name": "Penumbra blade",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "99",
+      "stats": {
+        "AC": 0,
+        "Hit": 4,
+        "Dam": 4,
+        "Vita": 4000,
+        "Mana": 3000,
+        "Might": 1,
+        "Will": 1,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 235
+      },
+      "enchants": [
+        "Teaches you the Invisible spell."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "10 Nightmare Raid tokens"
+      ]
+    },
+    {
+      "id": "minor_wind_spear",
+      "name": "Minor wind spear",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "99",
+      "stats": {
+        "AC": 0,
+        "Hit": 4,
+        "Dam": 4,
+        "Vita": 9000,
+        "Mana": 1250,
+        "Might": 5,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 270
+      },
+      "enchants": [
+        "Occasionally summon tornados that deal damage."
+      ],
+      "info": "2-handed",
+      "obtain": [
+        "Wind 1 - Wind"
+      ]
+    },
+    {
+      "id": "minor_bloodlust",
+      "name": "Minor bloodlust",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "99",
+      "stats": {
+        "AC": 0,
+        "Hit": 6,
+        "Dam": 4,
+        "Vita": 7500,
+        "Mana": 625,
+        "Might": 5,
+        "Will": 0,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 1,
+        "DPS": 315
+      },
+      "enchants": [
+        "Bomb barrage damage increased by 15%."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Grey Hand 1 - Bal Bloodlust"
+      ]
+    },
+    {
+      "id": "frozen_spear",
+      "name": "Frozen spear",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "99",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 5,
+        "Vita": 250,
+        "Mana": 875,
+        "Might": 2,
+        "Will": 8,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 20,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Arctic Ogres - Blizzard King"
+      ]
+    },
+    {
+      "id": "minor_chakram",
+      "name": "Minor chakram",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "99",
+      "stats": {
+        "AC": 0,
+        "Hit": 5,
+        "Dam": 5,
+        "Vita": 4500,
+        "Mana": 6250,
+        "Might": 5,
+        "Will": 5,
+        "Grace": 5,
+        "Protection": 1,
+        "Healing": 1,
+        "DPS": 0
+      },
+      "enchants": [
+        "Retribution damage increased by 15%."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Hillmen 1 - Kamalattee"
+      ]
+    },
+    {
+      "id": "minor_duke_s_invocation",
+      "name": "Minor duke's invocation",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "99",
+      "stats": {
+        "AC": 0,
+        "Hit": 6,
+        "Dam": 5,
+        "Vita": 3750,
+        "Mana": 1875,
+        "Might": 5,
+        "Will": 2,
+        "Grace": 0,
+        "Protection": 1,
+        "Healing": 0,
+        "DPS": 280
+      },
+      "enchants": [
+        "Leap damage and radius increased by 15%."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Water 1 - Crab Duke"
+      ]
+    },
+    {
+      "id": "minor_ceremonial_blade",
+      "name": "Minor ceremonial blade",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "99",
+      "stats": {
+        "AC": 0,
+        "Hit": 5,
+        "Dam": 5,
+        "Vita": 7500,
+        "Mana": 3125,
+        "Might": 1,
+        "Will": 0,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 3,
+        "DPS": 280
+      },
+      "enchants": [
+        "Lethal strike damage increased by 15%."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Shadow 1 - Fatal Ninja"
+      ]
+    },
+    {
+      "id": "minor_ravage_sword",
+      "name": "Minor ravage sword",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "99",
+      "stats": {
+        "AC": 0,
+        "Hit": 6,
+        "Dam": 6,
+        "Vita": 3000,
+        "Mana": 2500,
+        "Might": 5,
+        "Will": 1,
+        "Grace": 2,
+        "Protection": 1,
+        "Healing": 3,
+        "DPS": 215
+      },
+      "enchants": [
+        "Dagger toss damage increased by 50%."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Hunter 1 - Ravage"
+      ]
+    },
+    {
+      "id": "minor_ghaleb_sword",
+      "name": "Minor ghaleb sword",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "99",
+      "stats": {
+        "AC": 0,
+        "Hit": 9,
+        "Dam": 9,
+        "Vita": 9000,
+        "Mana": 0,
+        "Might": 8,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 235
+      },
+      "enchants": [
+        "Whirlwind damage increased by 15%."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Assassin 1 - Ghaleb"
+      ]
+    },
+    {
+      "id": "minor_spectral_leaf",
+      "name": "Minor spectral leaf",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "99",
+      "stats": {
+        "AC": 0,
+        "Hit": 9,
+        "Dam": 9,
+        "Vita": 6000,
+        "Mana": 1250,
+        "Might": 8,
+        "Will": 0,
+        "Grace": 3,
+        "Protection": 1,
+        "Healing": 0,
+        "DPS": 255
+      },
+      "enchants": [
+        "Devastating blow now restores more vita and mana."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Wind 1 - Wind"
+      ]
+    },
+    {
+      "id": "aquablade",
+      "name": "Aquablade",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "99",
+      "stats": {
+        "AC": 0,
+        "Hit": 9,
+        "Dam": 9,
+        "Vita": 30000,
+        "Mana": 6250,
+        "Might": 6,
+        "Will": 6,
+        "Grace": 6,
+        "Protection": 1,
+        "Healing": 0,
+        "DPS": 365
+      },
+      "enchants": [
+        "Chance to cast \"Water spew\" which pulses every 2-3 seconds dealing damage in a diamond pattern around self."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Aquablade Quest"
+      ]
+    },
+    {
+      "id": "pruning_shears",
+      "name": "Pruning shears",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "1",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Sold at Artic Chapel."
+      ]
+    },
+    {
+      "id": "star_sword",
+      "name": "Star sword",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "1",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Bring a Stardrop to Nagnang smith Chul during the Wind Armor Quest."
+      ]
+    },
+    {
+      "id": "fine_steel_dagger",
+      "name": "Fine steel dagger",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "20",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 52
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
         "Smithing"
+      ]
+    },
+    {
+      "id": "axe",
+      "name": "Axe",
+      "category": "weapon",
+      "path": [
+        "peasant"
+      ],
+      "level_tier": "1",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Sold by Splinter."
       ]
     }
   ]
