@@ -1,17 +1,98 @@
-<!-- Updated index.html -->
-<html>
+<!doctype html>
+<html lang="en" data-theme="dark">
 <head>
-<title>OTK Master Search</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OTK Master Search</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<div id="loader-overlay">
-  <div class="spinner"></div>
-  <div id="loader-status">Loading data...</div>
-</div>
-<div id="controls">
-  <!-- Filter controls and chip filters here -->
-</div>
-<script src="app.js"></script>
+  <!-- Loader overlay -->
+  <div id="loader-overlay" aria-hidden="true">
+    <div class="loader-card">
+      <div class="row">
+        <div class="spinner"></div>
+        <div class="text">
+          <div id="loader-title">Loading…</div>
+          <div id="loader-sub" class="small"></div>
+        </div>
+      </div>
+      <div class="progress"><div class="bar" id="loader-bar" style="width:0%"></div></div>
+    </div>
+  </div>
+
+  <header class="topbar">
+    <h1>OTK Master Search</h1>
+  </header>
+
+  <main class="wrap">
+    <aside class="panel" id="filters">
+      <div class="controls">
+        <div class="field">
+          <label for="q" class="group-label">Search</label>
+          <input id="q" type="search" placeholder="Search by name…" />
+        </div>
+
+        <div class="field filter-group" data-group="category">
+          <div class="group-label">Category</div>
+          <label><input type="checkbox" name="category" value="armor" checked> Armor</label>
+          <label><input type="checkbox" name="category" value="weapon" checked> Weapon</label>
+          <label><input type="checkbox" name="category" value="item" checked> Item</label>
+        </div>
+
+        <div class="field filter-group" data-group="path">
+          <div class="group-label">Paths</div>
+          <label><input type="checkbox" name="path" value="peasant" checked> Peasant</label>
+          <label><input type="checkbox" name="path" value="mage" checked> Mage</label>
+          <label><input type="checkbox" name="path" value="poet" checked> Poet</label>
+          <label><input type="checkbox" name="path" value="warrior" checked> Warrior</label>
+          <label><input type="checkbox" name="path" value="rogue" checked> Rogue</label>
+        </div>
+
+        <div class="field filter-group" data-group="level">
+          <div class="group-label">Level</div>
+          <label><input type="checkbox" name="tier" value="1-99" checked> 1–99</label>
+          <label><input type="checkbox" name="tier" value="il san" checked> Il San</label>
+          <label><input type="checkbox" name="tier" value="ee san" checked> Ee San</label>
+          <label><input type="checkbox" name="tier" value="sam san" checked> Sam San</label>
+        </div>
+
+        <div class="field buttons">
+          <button id="select-all" class="btn">Select all</button>
+          <button id="select-none" class="btn btn-ghost">Select none</button>
+        </div>
+      </div>
+    </aside>
+
+    <section class="content">
+      <div class="meta">
+        <div id="load-status" class="muted">Loading…</div>
+        <div id="results-info"></div>
+        <div id="sorted-indicator" class="muted"></div>
+      </div>
+      <div class="table-wrap">
+        <table id="results">
+          <thead>
+            <tr>
+              <th data-key="name">Name</th>
+              <th data-key="category">Category</th>
+              <th data-key="path">Path</th>
+              <th data-key="level_tier">Level</th>
+              <th data-key="stats">Stats</th>
+              <th data-key="enchants">Enchants</th>
+              <th data-key="info">Info</th>
+              <th data-key="obtain">How to obtain</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td colspan="8" class="muted">Loading…</td></tr>
+          </tbody>
+        </table>
+        <div id="scroll-sentinel"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
 </body>
 </html>
