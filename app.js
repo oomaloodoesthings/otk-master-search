@@ -19,6 +19,67 @@ const els = {
 };
 
 function setLoadStatus(msg){ if (els.loadStatus) els.loadStatus.textContent = msg; }
+
+// --- Loading overlay (minimal, attractive) ---
+function ensureLoader() {
+  if (!document.getElementById('otk-loader-style')) {
+    const style = document.createElement('style');
+    style.id = 'otk-loader-style';
+    style.textContent = `
+#otk-loader-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(14,14,18,0.6);
+  backdrop-filter: blur(2px);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+#otk-loader-overlay.visible { display: flex; }
+#otk-loader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  border-radius: 14px;
+  background: var(--panel-bg, #111827);
+  color: var(--fg, #f3f4f6);
+  box-shadow: 0 10px 25px rgba(0,0,0,.35);
+  border: 1px solid rgba(255,255,255,.08);
+}
+#otk-loader .spinner {
+  width: 28px; height: 28px;
+  border-radius: 50%;
+  border: 3px solid rgba(255,255,255,.25);
+  border-top-color: currentColor;
+  animation: otkspin 0.9s linear infinite;
+}
+#otk-loader .text { font-weight: 500; letter-spacing: .2px; }
+@keyframes otkspin { to { transform: rotate(360deg); } }
+:root[data-theme="light"] #otk-loader { background: #ffffff; color: #111827; border-color: rgba(0,0,0,.08); }
+`;
+    document.head.appendChild(style);
+  }
+  if (!document.getElementById('otk-loader-overlay')) {
+    const overlay = document.createElement('div');
+    overlay.id = 'otk-loader-overlay';
+    overlay.innerHTML = '<div id="otk-loader"><div class="spinner"></div><div class="text">Loading data…</div></div>';
+    document.body.appendChild(overlay);
+  }
+}
+function showLoader(text) {
+  ensureLoader();
+  const overlay = document.getElementById('otk-loader-overlay');
+  const label = overlay?.querySelector('.text');
+  if (label && text) label.textContent = text;
+  overlay?.classList.add('visible');
+}
+function hideLoader() {
+  const overlay = document.getElementById('otk-loader-overlay');
+  overlay?.classList.remove('visible');
+}
+
 function dbg(msg, obj){
   try { const line = (obj!==undefined) ? msg + ' ' + JSON.stringify(obj) : msg;
         if (els.debugLog){ els.debugLog.textContent += line + '\n'; } }
@@ -29,7 +90,7 @@ function setDebugMeta(){
   const selCats = Array.from(document.querySelectorAll('input[name="category"]:checked')).map(x=>x.value);
   const selPaths = Array.from(document.querySelectorAll('input[name="path"]:checked')).map(x=>x.value);
   const selTiers = Array.from(document.querySelectorAll('input[name="tier"]:checked')).map(x=>x.value);
-  els.debugMeta.textContent = `items:${state.items.length} filtered:${state.filtered.length} sort:${state.sortKey}${state.statKey?'/'+state.statKey:''} dir:${state.sortDir} page:${state.page} size:${state.pageSize} | cats:${selCats.join(',')} paths:${selPaths.join(',')} tiers:${selTiers.join(',')}`;
+  els.debugMeta.textContent = `items:${state.items.length} filtered:${state.filtered.length} sort:${state.sortKey}${state.statKey?'/'+state.statKey:''} dir:${state.sortDir} page:${state.page} size:${state.pageSize} | cats:${selCats.join(',')} paths:${selPaths.join(',')} levels:${selTiers.join(',')}`;
 }
 
 function escapeHtml(s) { return String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
@@ -219,6 +280,74 @@ function render() {
   setDebugMeta();
 }
 
+
+function patchUILevelsAndStyles() {
+  // Rename table header "Tier" -> "Level"
+  try {
+    const thLevel = document.querySelector('#results thead th[data-key="level_tier"]');
+    if (thLevel) thLevel.textContent = 'Level';
+    else {
+      const ths = Array.from(document.querySelectorAll('#results thead th'));
+      const guess = ths.find(th => /\btier\b/i.test(th.textContent.trim()));
+      if (guess) guess.textContent = 'Level';
+    }
+  } catch {}
+  // Rename the filter group title in the sidebar from "Tier(s)" to "Level"
+  try {
+    const filterTitles = Array.from(document.querySelectorAll('.filter-group h3, .filter-group legend, .filter-group-label'));
+    filterTitles.forEach(el => {
+      const txt = (el.textContent || '').trim();
+      if (/tier/i.test(txt)) {
+        el.textContent = txt.replace(/tier(s)?/i, 'Level');
+      }
+    });
+  } catch {}
+
+
+  // Update '0-99' checkbox label/value -> '1-99'
+  try {
+    document.querySelectorAll('input[name="tier"]').forEach(input => {
+      if (String(input.value).trim().toLowerCase() === '0-99') {
+        input.value = '1-99';
+        const label = input.closest('label');
+        if (label) {
+          // Replace plain text "0-99" with "1-99" while preserving other content
+          label.innerHTML = label.innerHTML.replace(/0-99/g, '1-99');
+        }
+      }
+    });
+  } catch {}
+
+  // Add classes to header cells so we can style widths
+  try {
+    const ths = Array.from(document.querySelectorAll('#results thead th'));
+    if (ths[4]) ths[4].classList.add('stats');
+    if (ths[5]) ths[5].classList.add('enchants');
+    if (ths[6]) ths[6].classList.add('info');
+  } catch {}
+
+  // Inject table width/style tweaks: reduce Stats col width ~1/3 and allow wrapping
+  try {
+    if (!document.getElementById('results-style-patch')) {
+      const css = `
+#results td.stats, #results th.stats {
+  max-width: 240px;
+  width: 240px;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+#results td.enchants, #results td.info { white-space: normal; }
+@media (max-width: 900px) {
+  #results td.stats, #results th.stats { max-width: none; width: auto; }
+}`;
+      const style = document.createElement('style');
+      style.id = 'results-style-patch';
+      style.textContent = css;
+      document.head.appendChild(style);
+    }
+  } catch {}
+}
+
 function updateSortedIndicator(){
   if (state.sortKey === 'stat' && state.statKey){
     const dir = (state.statKey === 'AC') ? 'asc' : state.sortDir;
@@ -300,7 +429,7 @@ function bind() {
     const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'filtered-items.json'; a.click(); URL.revokeObjectURL(a.href);
   });
   els.exportCsv.addEventListener('click', () => {
-    const headers = ['name','category','path','level_tier','stats','enchants','info','obtain'];
+    const headers = ['name','category','path','level','stats','enchants','info','obtain'];
     const lines = [headers.join(',')];
     for (const it of state.filtered) {
       const row = [
@@ -335,6 +464,7 @@ function bind() {
     els.tiers.forEach(t => t.checked = true);
     state.sortKey = 'name'; state.sortDir = 'asc'; state.statKey = null;
     applyFilters();
+  hideLoader();
   });
 
   // Debug panel
@@ -359,6 +489,8 @@ async function main() {
   setTheme(getTheme());
   setupInfiniteScroll();
   bind();
+  patchUILevelsAndStyles();
+  showLoader('Loading items…');
 
   const files = await loadManifest();
   const items = await loadChunks(files);
@@ -367,6 +499,7 @@ async function main() {
   setLoadStatus(`Loaded ${state.items.length} item(s)`);
   if (state.items.length === 0 && els.debugPanel) els.debugPanel.classList.remove('hidden');
   applyFilters();
+  hideLoader();
 }
 
 main().catch(err => {
