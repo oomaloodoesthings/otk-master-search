@@ -15,7 +15,9 @@ const els = {
   exportJson: null, exportCsv: null,
   themeToggle: null, resetBtn: null, sortedIndicator: null,
   debugToggle: null, debugPanel: null, debugLog: null, debugCopy: null, debugClear: null, debugMeta: null,
-  sentinel: null
+  sentinel: null,
+  selectAll: null,
+  selectNone: null
 };
 
 function setLoadStatus(msg){ if (els.loadStatus) els.loadStatus.textContent = msg; }
@@ -143,6 +145,17 @@ function initEls() {
   els.exportCsv = document.querySelector('#export-csv');
   els.themeToggle = document.querySelector('#theme-toggle');
   els.resetBtn = document.querySelector('#reset-filters');
+  // Replace reset with Select all / Select none
+  if (els.resetBtn && !document.getElementById('select-all')) {
+    const allBtn = document.createElement('button');
+    allBtn.id = 'select-all'; allBtn.className = 'btn'; allBtn.textContent = 'Select all';
+    const noneBtn = document.createElement('button');
+    noneBtn.id = 'select-none'; noneBtn.className = 'btn'; noneBtn.textContent = 'Select none';
+    els.resetBtn.insertAdjacentElement('beforebegin', allBtn);
+    els.resetBtn.insertAdjacentElement('beforebegin', noneBtn);
+    els.resetBtn.style.display = 'none';
+    els.selectAll = allBtn; els.selectNone = noneBtn;
+  }
   els.sortedIndicator = document.querySelector('#sorted-indicator');
   els.debugToggle = document.querySelector('#debug-toggle');
   els.debugPanel = document.querySelector('#debug-panel');
@@ -194,7 +207,8 @@ function applyFilters() {
     if (!pathHit) return false;
     const tierRaw = String(it.level_tier || '').toLowerCase();
     const isNumericLevel = /^\d{1,3}$/.test(tierRaw);
-    const tierHit = checkedTiers.size === 0
+    const isItem = String(it.category || '').toLowerCase() === 'item';
+    const tierHit = isItem || checkedTiers.size === 0
       || checkedTiers.has(tierRaw)
       || (isNumericLevel && checkedTiers.has('1-99'));
     return tierHit;
@@ -456,23 +470,19 @@ function bind() {
     });
   }
 
-  // Reset filters
-  els.resetBtn.addEventListener('click', () => {
-    els.q.value = '';
+  // Select all / Select none
+  if (els.selectAll) els.selectAll.addEventListener('click', () => {
     els.categories.forEach(c => c.checked = true);
     els.paths.forEach(p => p.checked = true);
     els.tiers.forEach(t => t.checked = true);
-    state.sortKey = 'name'; state.sortDir = 'asc'; state.statKey = null;
     applyFilters();
-  hideLoader();
   });
-
-  // Debug panel
-  if (els.debugToggle && els.debugPanel){
-    els.debugToggle.addEventListener('click', () => {
-      els.debugPanel.classList.toggle('hidden');
-      setDebugMeta();
-    });
+  if (els.selectNone) els.selectNone.addEventListener('click', () => {
+    els.categories.forEach(c => c.checked = false);
+    els.paths.forEach(p => p.checked = false);
+    els.tiers.forEach(t => t.checked = false);
+    applyFilters();
+  });
   }
   if (els.debugCopy && els.debugLog){
     els.debugCopy.addEventListener('click', async () => {
