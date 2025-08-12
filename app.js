@@ -15,8 +15,71 @@ const els = {
   exportJson: null, exportCsv: null,
   themeToggle: null, resetBtn: null, sortedIndicator: null,
   debugToggle: null, debugPanel: null, debugLog: null, debugCopy: null, debugClear: null, debugMeta: null,
-  sentinel: null
+  sentinel: null,
+  selectAll: null,
+  selectNone: null
 };
+
+
+// --- Loading overlay with progress ---
+function ensureLoader() {
+  if (document.getElementById('otk-loader-style')) return;
+  const style = document.createElement('style');
+  style.id = 'otk-loader-style';
+  style.textContent = `
+#otk-loader-overlay { position: fixed; inset: 0; background: rgba(14,14,18,0.55); backdrop-filter: blur(2px);
+  display: none; align-items: center; justify-content: center; z-index: 9999; }
+#otk-loader-overlay.visible { display: flex; }
+#otk-loader { min-width: 320px; max-width: 520px; padding: 16px 18px; border-radius: 14px;
+  background: var(--panel-bg, #111827); color: var(--fg, #f3f4f6); box-shadow: 0 12px 28px rgba(0,0,0,.38);
+  border: 1px solid rgba(255,255,255,.08); }
+#otk-loader .row { display:flex; align-items:center; gap:10px; }
+#otk-loader .spinner { width: 22px; height: 22px; border-radius: 50%; border: 3px solid rgba(255,255,255,.25);
+  border-top-color: currentColor; animation: otkspin 0.9s linear infinite; }
+#otk-loader .text { font-weight: 600; font-size: 14px; }
+#otk-loader .small { opacity:.8; font-size: 12px; margin-top: 2px; }
+#otk-loader .progress { margin-top: 10px; height: 8px; background: rgba(255,255,255,.15); border-radius: 999px; overflow: hidden; }
+#otk-loader .bar { height: 100%; width: 0%; background: currentColor; transition: width .25s ease; }
+@keyframes otkspin { to { transform: rotate(360deg); } }
+:root[data-theme="light"] #otk-loader { background: #ffffff; color: #111827; border-color: rgba(0,0,0,.08); }
+`;
+  document.head.appendChild(style);
+  if (!document.getElementById('otk-loader-overlay')) {
+    const overlay = document.createElement('div');
+    overlay.id = 'otk-loader-overlay';
+    overlay.innerHTML = `
+      <div id="otk-loader">
+        <div class="row"><div class="spinner"></div><div class="text">Loading…</div></div>
+        <div class="small" id="otk-loader-sub"></div>
+        <div class="progress"><div class="bar" id="otk-loader-progress"></div></div>
+      </div>`;
+    document.body.appendChild(overlay);
+  }
+}
+function showLoader(text, subtext) {
+  ensureLoader();
+  const overlay = document.getElementById('otk-loader-overlay');
+  overlay.classList.add('visible');
+  setLoader(text, subtext, 0, 0);
+}
+function setLoader(text, subtext, current, total) {
+  ensureLoader();
+  const overlay = document.getElementById('otk-loader-overlay');
+  const label = overlay.querySelector('.text');
+  const sub = overlay.querySelector('#otk-loader-sub');
+  const bar = overlay.querySelector('#otk-loader-progress');
+  if (label && text) label.textContent = text;
+  if (sub) sub.textContent = subtext || '';
+  if (bar) {
+    let pct = 0;
+    if (total && total > 0) pct = Math.max(0, Math.min(100, Math.round((current/total)*100)));
+    bar.style.width = pct + '%';
+  }
+}
+function hideLoader() {
+  const overlay = document.getElementById('otk-loader-overlay');
+  if (overlay) overlay.classList.remove('visible');
+}
 
 function setLoadStatus(msg){ if (els.loadStatus) els.loadStatus.textContent = msg; }
 function dbg(msg, obj){
@@ -82,6 +145,14 @@ function initEls() {
   els.exportCsv = document.querySelector('#export-csv');
   els.themeToggle = document.querySelector('#theme-toggle');
   els.resetBtn = document.querySelector('#reset-filters');
+  if (els.resetBtn && !document.getElementById('select-all')) {
+    const noneBtn = document.createElement('button'); noneBtn.id='select-none'; noneBtn.className='btn'; noneBtn.textContent='Select none';
+    const allBtn = document.createElement('button'); allBtn.id='select-all'; allBtn.className='btn'; allBtn.textContent='Select all';
+    els.resetBtn.insertAdjacentElement('beforebegin', allBtn);
+    els.resetBtn.insertAdjacentElement('beforebegin', noneBtn);
+    els.resetBtn.style.display='none';
+    els.selectAll = allBtn; els.selectNone = noneBtn;
+  }
   els.sortedIndicator = document.querySelector('#sorted-indicator');
   els.debugToggle = document.querySelector('#debug-toggle');
   els.debugPanel = document.querySelector('#debug-panel');
@@ -131,7 +202,10 @@ function applyFilters() {
     if (!catHit) return false;
     const pathHit = it.path.length === 0 || it.path.some(p => checkedPaths.has(p));
     if (!pathHit) return false;
-    const tierHit = checkedTiers.size === 0 || checkedTiers.has((it.level_tier || '').toLowerCase());
+    const isItemCat = (it.category || inferCategory(it)) === 'item';
+    const levelRaw = String(it.level_tier || '').toLowerCase();
+    const isNumericLevel = /^\d{1,3}$/.test(levelRaw);
+    const tierHit = isItemCat || checkedTiers.size === 0 || checkedTiers.has(levelRaw) || (isNumericLevel && checkedTiers.has('1-99'));
     return tierHit;
   });
 
@@ -323,13 +397,21 @@ function bind() {
     });
   }
 
-  // Reset filters
-  els.resetBtn.addEventListener('click', () => {
-    els.q.value = '';
-    els.categories.forEach(c => c.checked = true);
-    els.paths.forEach(p => p.checked = true);
-    els.tiers.forEach(t => t.checked = true);
-    state.sortKey = 'name'; state.sortDir = 'asc'; state.statKey = null;
+  // Select all / Select none
+  if (els.selectAll) els.selectAll.addEventListener('click', () => {
+    els.q.value='';
+    els.categories.forEach(c=>c.checked=true);
+    els.paths.forEach(p=>p.checked=true);
+    els.tiers.forEach(t=>t.checked=true);
+    state.sortKey='name'; state.sortDir='asc'; state.statKey=null;
+    applyFilters();
+  });
+  if (els.selectNone) els.selectNone.addEventListener('click', () => {
+    els.q.value='';
+    els.categories.forEach(c=>c.checked=false);
+    els.paths.forEach(p=>p.checked=false);
+    els.tiers.forEach(t=>t.checked=false);
+    state.sortKey='name'; state.sortDir='asc'; state.statKey=null;
     applyFilters();
   });
 
@@ -499,11 +581,105 @@ function ensureChangelogUI() {
   };
 }
 
+
+function ensureFilterChipStyles() {
+  if (document.getElementById('otk-chip-styles')) return;
+  const style = document.createElement('style');
+  style.id = 'otk-chip-styles';
+  style.textContent = `
+.filter-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0 12px; }
+.filter-chips .chip { border-radius: 999px; padding: 6px 12px; font-size: 13px;
+  background: rgba(127,127,127,0.16); border: 1px solid rgba(127,127,127,0.22);
+  cursor: pointer; user-select: none; }
+.filter-chips .chip[aria-pressed="true"] { background: rgba(59,130,246,0.18); border-color: rgba(59,130,246,0.42); }
+.filter-row { margin: 6px 0 10px; }
+.filter-row .title { font-weight: 600; margin-right: 8px; opacity: .9; }
+.visually-hidden { position: absolute !important; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); border:0; }
+:root[data-theme="light"] .filter-chips .chip { background:#f3f4f6; border-color:#e5e7eb; }
+:root[data-theme="light"] .filter-chips .chip[aria-pressed='true'] { background:#dbeafe; border-color:#93c5fd; }
+`;
+  document.head.appendChild(style);
+}
+function enhanceFilterChips() {
+  ensureFilterChipStyles();
+
+  function buildChips(inputs, title) {
+    if (!inputs || inputs.length === 0) return;
+    const row = document.createElement('div');
+    row.className = 'filter-row';
+    const label = document.createElement('span');
+    label.className = 'title';
+    label.textContent = title;
+    const chips = document.createElement('div');
+    chips.className = 'filter-chips';
+    row.appendChild(label); row.appendChild(chips);
+
+    inputs.forEach(inp => {
+      // normalize 0-99 -> 1-99 for levels
+      if (title === 'Level' && String(inp.value).trim().toLowerCase() === '0-99') {
+        inp.value = '1-99';
+        const lbl = inp.closest('label'); if (lbl) lbl.innerHTML = lbl.innerHTML.replace(/0-99/g, '1-99');
+      }
+      const chip = document.createElement('button'); chip.type='button'; chip.className='chip';
+      const txt = (inp.closest('label')?.textContent || inp.value || '').trim();
+      chip.textContent = txt.replace(/Level\s*Tiers?\s*:\s*/i, '').replace(/:\s*$/, '');
+      chip.setAttribute('aria-pressed', inp.checked ? 'true' : 'false');
+      chip.addEventListener('click', () => {
+        const active = chip.getAttribute('aria-pressed') === 'true';
+        chip.setAttribute('aria-pressed', active ? 'false' : 'true');
+        inp.checked = !active;
+        inp.dispatchEvent(new Event('change', { bubbles: true }));
+      });
+      chips.appendChild(chip);
+      if (inp.closest('label')) inp.closest('label').classList.add('visually-hidden'); else inp.classList.add('visually-hidden');
+    });
+
+    const anchor = inputs[0]?.closest('.filter-group') || document.getElementById('filters');
+    if (anchor && anchor.parentElement) anchor.parentElement.insertBefore(row, anchor);
+    else document.body.insertBefore(row, document.body.firstChild);
+  }
+
+  buildChips(Array.from(els.categories || []), 'Category');
+  buildChips(Array.from(els.paths || []), 'Paths');
+  buildChips(Array.from(els.tiers || []), 'Level');
+
+  // Rename any leftover "Level Tiers" labels
+  document.querySelectorAll('.filter-group h3, .filter-group legend, .filter-group-label').forEach(el => {
+    const t = (el.textContent || '').trim(); if (/^level\s*tiers?/i.test(t)) el.textContent = 'Level';
+  });
+}
+
+
+function ensureItemCardStyles() {
+  if (document.getElementById('otk-item-card-style')) return;
+  const style = document.createElement('style');
+  style.id = 'otk-item-card-style';
+  style.textContent = `
+.item-card-row td { padding: 0 !important; border: none !important; }
+.item-card { display: grid; grid-template-columns: 1.1fr 1fr; gap: 14px; padding: 14px 16px;
+  background: var(--panel-bg, rgba(255,255,255,0.02)); border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 14px; box-shadow: 0 8px 18px rgba(0,0,0,0.06); margin: 8px 10px; }
+:root[data-theme="dark"] .item-card { border-color: rgba(255,255,255,0.08); }
+.item-card .name { font-weight: 600; font-size: 1.05rem; margin-bottom: 6px; }
+.item-meta { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 8px; }
+.item-meta .badge, .item-meta .pill { border-radius: 999px; padding: 2px 10px; font-size: 12px; line-height: 18px; display: inline-block; background: rgba(127,127,127,0.15); }
+.item-section { font-size: 0.92rem; }
+.item-section .label { font-weight: 600; margin-right: 6px; }
+.item-right .muted { opacity: .8; font-size: 0.9rem; margin-top: 6px; }
+.item-right .list div { margin-bottom: 4px; }
+@media (max-width: 900px) { .item-card { grid-template-columns: 1fr; } }
+`;
+  document.head.appendChild(style);
+}
+
 async function main() {
   initEls();
   setTheme(getTheme());
   setupInfiniteScroll();
   bind();
+  ensureItemCardStyles();
+  enhanceFilterChips();
+  showLoader('Loading data…');
 
   const files = await loadManifest();
   const items = await loadChunks(files);
