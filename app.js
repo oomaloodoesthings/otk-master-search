@@ -283,14 +283,14 @@ function bind(){
   });
 
   // Select all / none
-  els.selectAll.addEventListener('click', (e)=>{
+  if (els.selectAll) els.selectAll.addEventListener('click', (e)=>{
     e.preventDefault();
     els.categories.forEach(c=>c.checked=true);
     els.paths.forEach(p=>p.checked=true);
     els.tiers.forEach(t=>t.checked=true);
     applyFilters(); syncFilterChips();
   });
-  els.selectNone.addEventListener('click', (e)=>{
+  if (els.selectNone) els.selectNone.addEventListener('click', (e)=>{
     e.preventDefault();
     els.categories.forEach(c=>c.checked=false);
     els.paths.forEach(p=>p.checked=false);
