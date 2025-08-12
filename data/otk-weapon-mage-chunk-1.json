@@ -1,0 +1,972 @@
+{
+  "items": [
+    {
+      "id": "crystal_staff",
+      "name": "Crystal staff",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 3,
+        "Dam": 6,
+        "Vita": 15413,
+        "Mana": 38281,
+        "Might": 0,
+        "Will": 15,
+        "Grace": 0,
+        "Protection": 2,
+        "Healing": 25,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Pig 3 - Avenger/Deity"
+      ]
+    },
+    {
+      "id": "crystal_staff",
+      "name": "Crystal staff +",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 3,
+        "Dam": 7,
+        "Vita": 22500,
+        "Mana": 43750,
+        "Might": 0,
+        "Will": 18,
+        "Grace": 0,
+        "Protection": 2,
+        "Healing": 25,
+        "DPS": 0
+      },
+      "enchants": [
+        "Inferno damage increased by 25%. Trance now damages an enemy for .5 x current mana."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Bring Crystal staff",
+        "250 Crystal segment",
+        "10 Perfect ruby",
+        "100 Masterful ginko log",
+        "and 200",
+        "000 Coins to the Center Mythic NPC."
+      ]
+    },
+    {
+      "id": "dark_surge",
+      "name": "Dark surge",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 1000,
+        "Mana": 3000,
+        "Might": 0,
+        "Will": 14,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed — Bonded /",
+      "obtain": [
+        "5 Nightmare Raid tokens"
+      ]
+    },
+    {
+      "id": "dream_wand",
+      "name": "Dream wand",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 3,
+        "Dam": 0,
+        "Vita": 500,
+        "Mana": 2500,
+        "Might": 0,
+        "Will": 12,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "30 Bronze badges"
+      ]
+    },
+    {
+      "id": "due_dilligence",
+      "name": "Due dilligence",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 2000,
+        "Mana": 15000,
+        "Might": 0,
+        "Will": 13,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed — Bonded",
+      "obtain": [
+        "8 Tower Raid tokens"
+      ]
+    },
+    {
+      "id": "ee_san_dream_wand",
+      "name": "Ee san dream wand",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 6,
+        "Vita": 6000,
+        "Mana": 17500,
+        "Might": 0,
+        "Will": 12,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "30 Platinum badges"
+      ]
+    },
+    {
+      "id": "ee_san_surge",
+      "name": "Ee san surge",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 8,
+        "Vita": 0,
+        "Mana": 20000,
+        "Might": 0,
+        "Will": 12,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Enchanted by any Ee san at Bon-Hwa",
+        "Sheep 3 - Spirit"
+      ]
+    },
+    {
+      "id": "enchanted_dream_wand",
+      "name": "Enchanted dream wand",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 500,
+        "Mana": 6000,
+        "Might": 0,
+        "Will": 12,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "30 Silver badges"
+      ]
+    },
+    {
+      "id": "enchanted_star_staff",
+      "name": "Enchanted star-staff",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 250,
+        "Mana": 5500,
+        "Might": 0,
+        "Will": 2,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed — / Unrepairable",
+      "obtain": [
+        "Tiger Palace - Twostripe",
+        "Sheep 1 - Sentry/King",
+        "Rooster 2 - Sentry"
+      ]
+    },
+    {
+      "id": "enchanted_surge",
+      "name": "Enchanted surge",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 5000,
+        "Might": 0,
+        "Will": 12,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Enchanted by an Enchanted Mage at Bon-Hwa."
+      ]
+    },
+    {
+      "id": "glacier_fan",
+      "name": "Glacier fan",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 4,
+        "Vita": 3500,
+        "Mana": 32000,
+        "Might": 0,
+        "Will": 9,
+        "Grace": 0,
+        "Protection": 1,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Abhorrent Raid chests"
+      ]
+    },
+    {
+      "id": "iceshard",
+      "name": "Iceshard",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 2,
+        "Dam": 8,
+        "Vita": 5000,
+        "Mana": 52000,
+        "Might": 0,
+        "Will": 20,
+        "Grace": 0,
+        "Protection": 1,
+        "Healing": 1,
+        "DPS": 0
+      },
+      "enchants": [
+        "Launches a snowball on swing."
+      ],
+      "info": "1-handed — Bonded",
+      "obtain": [
+        "30 Abhorrent Raid tokens"
+      ]
+    },
+    {
+      "id": "il_san_dream_wand",
+      "name": "Il san dream wand",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 2000,
+        "Mana": 9000,
+        "Might": 0,
+        "Will": 12,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "30 Gold badges"
+      ]
+    },
+    {
+      "id": "il_san_surge",
+      "name": "Il san surge",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 6,
+        "Vita": 0,
+        "Mana": 10000,
+        "Might": 0,
+        "Will": 12,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Enchanted by any Il san at Bon-Hwa",
+        "Sheep 2 - Spirit"
+      ]
+    },
+    {
+      "id": "jolt_trident",
+      "name": "Jolt trident",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": 10,
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 100,
+        "Mana": 300,
+        "Might": 0,
+        "Will": 4,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Kugnae Snake - Mudbull"
+      ]
+    },
+    {
+      "id": "kitsune_s_fan",
+      "name": "Kitsune's fan",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 13,
+        "Vita": 25000,
+        "Mana": 69000,
+        "Might": 0,
+        "Will": 20,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 12,
+        "DPS": 0
+      },
+      "enchants": [
+        "Your attacks have a chance to cast a random Mage ability every 30s without a vita or mana cost."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Border Wall - Skyll",
+        "Santa"
+      ]
+    },
+    {
+      "id": "lycan_staff",
+      "name": "Lycan staff",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 25,
+        "Vita": 20000,
+        "Mana": 125000,
+        "Might": 0,
+        "Will": 32,
+        "Grace": 8,
+        "Protection": 0,
+        "Healing": 10,
+        "DPS": 0
+      },
+      "enchants": [
+        "You feel empowered against Lycanthropes."
+      ],
+      "info": "1-handed — Unrepairable",
+      "obtain": [
+        "Woodlands Wolves - Altered Beast"
+      ]
+    },
+    {
+      "id": "mirrored_sea",
+      "name": "Mirrored sea",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 1,
+        "Dam": 10,
+        "Vita": 15000,
+        "Mana": 47500,
+        "Might": 3,
+        "Will": 13,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [
+        "Increases maximum mana by 5% and might/will/grace/healing by 15. Healing received by poets ONLY is increased."
+      ],
+      "info": "2-handed — Bonded",
+      "obtain": [
+        "30 Gorcesh Raid tokens"
+      ]
+    },
+    {
+      "id": "moonlit_demon_staff",
+      "name": "Moonlit demon staff",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": 50,
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 300,
+        "Mana": 1000,
+        "Might": 0,
+        "Will": 8,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [
+        "Chance to cast Demon gaze when attacked."
+      ],
+      "info": "2-handed",
+      "obtain": [
+        "Daki Raid - Daki"
+      ]
+    },
+    {
+      "id": "peace_keeper",
+      "name": "Peace keeper",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 1,
+        "Dam": 4,
+        "Vita": 0,
+        "Mana": 25000,
+        "Might": 2,
+        "Will": 10,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Sheep 2 - Queen"
+      ]
+    },
+    {
+      "id": "peace_keeper",
+      "name": "Peace keeper +",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 5,
+        "Dam": 4,
+        "Vita": 0,
+        "Mana": 30000,
+        "Might": 2,
+        "Will": 12,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [
+        "Pillar of flames damage increased by 10% and extends the range."
+      ],
+      "info": "2-handed",
+      "obtain": [
+        "Bring Peace keeper",
+        "250 Petrified oak",
+        "3 Perfect ruby",
+        "50 Masterful ginko log",
+        "and 100",
+        "000 Coins to the Center Mythic NPC."
+      ]
+    },
+    {
+      "id": "queen_s_eye",
+      "name": "Queen's eye",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 28,
+        "Vita": 30000,
+        "Mana": 170000,
+        "Might": 0,
+        "Will": 25,
+        "Grace": 8,
+        "Protection": 0,
+        "Healing": 25,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Spider Queen Raid"
+      ]
+    },
+    {
+      "id": "sam_san_dream_wand",
+      "name": "Sam san dream wand",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 7500,
+        "Mana": 20000,
+        "Might": 0,
+        "Will": 12,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "50 Platinum badges"
+      ]
+    },
+    {
+      "id": "sam_san_surge",
+      "name": "Sam san surge",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 10,
+        "Vita": 0,
+        "Mana": 30000,
+        "Might": 0,
+        "Will": 12,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Enchanted by any Sam san at Bon-Hwa",
+        "Sheep 4 - Chaos Ram"
+      ]
+    },
+    {
+      "id": "sapphire_strike",
+      "name": "Sapphire strike",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 5000,
+        "Mana": 25000,
+        "Might": 2,
+        "Will": 9,
+        "Grace": 1,
+        "Protection": 1,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed — Bonded",
+      "obtain": [
+        "15 Gorcesh Raid tokens"
+      ]
+    },
+    {
+      "id": "sheep_s_lost_lance",
+      "name": "Sheep's lost lance",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 750,
+        "Mana": 4000,
+        "Might": 0,
+        "Will": 13,
+        "Grace": 0,
+        "Protection": 1,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Sheep 1 - Avenger/King"
+      ]
+    },
+    {
+      "id": "sheep_s_lost_lance",
+      "name": "Sheep's lost lance +",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 4,
+        "Dam": 4,
+        "Vita": 1050,
+        "Mana": 4800,
+        "Might": 0,
+        "Will": 14,
+        "Grace": 0,
+        "Protection": 1,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [
+        "Chance to reset Teleport aethers when struck."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Bring Sheep's lost lance",
+        "250 Sheeps scalp",
+        "5 Ruby",
+        "25 Improved ginko relic",
+        "and 50",
+        "000 Coins to the Center Mythic NPC."
+      ]
+    },
+    {
+      "id": "sinful_staff",
+      "name": "Sinful staff",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": 45,
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 100,
+        "Mana": 500,
+        "Might": 0,
+        "Will": 7,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "2-handed — Bonded",
+      "obtain": [
+        "10 Daki Raid tokens"
+      ]
+    },
+    {
+      "id": "staff_of_power",
+      "name": "Staff of power",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": 5,
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 10,
+        "Mana": 10,
+        "Might": 0,
+        "Will": 1,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Introduction"
+      ]
+    },
+    {
+      "id": "star_staff",
+      "name": "Star-staff",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": 75,
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 200,
+        "Mana": 500,
+        "Might": 0,
+        "Will": 10,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Grim Ogre - Muck/Slime Ogre",
+        "Deep Woods Mantis - Dirt/Shadow Mantis",
+        "Sheep 1 - Avenger/King"
+      ]
+    },
+    {
+      "id": "surge",
+      "name": "Surge",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": 90,
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 1,
+        "Vita": 0,
+        "Mana": 1500,
+        "Might": 0,
+        "Will": 12,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Sheep 1 - Avenger",
+        "Northern Ogre - Maletic",
+        "Carnage tokens: 7",
+        "Wilderness chest"
+      ]
+    },
+    {
+      "id": "swirling_staff",
+      "name": "Swirling staff",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 3,
+        "Vita": 1500,
+        "Mana": 8750,
+        "Might": 0,
+        "Will": 16,
+        "Grace": 0,
+        "Protection": 1,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Rooster 3 - Deity"
+      ]
+    },
+    {
+      "id": "swirling_staff",
+      "name": "Swirling staff +",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 3,
+        "Vita": 4000,
+        "Mana": 13000,
+        "Might": 0,
+        "Will": 17,
+        "Grace": 0,
+        "Protection": 1,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [
+        "\"This weapon holds extraordinary raw power.\""
+      ],
+      "info": "2-handed",
+      "obtain": [
+        "Bring Swirling staff",
+        "250 Mysterious feather",
+        "5 Ruby",
+        "25 Improved ginko log",
+        "and 50",
+        "000 Coins to the Center Mythic NPC."
+      ]
+    },
+    {
+      "id": "wand_of_fire",
+      "name": "Wand of fire",
+      "category": "weapon",
+      "path": [
+        "Mage"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 1,
+        "Dam": 1,
+        "Vita": 0,
+        "Mana": 15000,
+        "Might": 0,
+        "Will": 12,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Tower Raid chest",
+        "Sheep 2 - Avenger"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,998 @@
+{
+  "items": [
+    {
+      "id": "bekyun_s_spear",
+      "name": "Bekyun's spear",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": 10,
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 100,
+        "Mana": 200,
+        "Might": 0,
+        "Will": 2,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Kugnae Snake - Mudbull"
+      ]
+    },
+    {
+      "id": "charm",
+      "name": "Charm",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": 90,
+      "stats": {
+        "AC": -1,
+        "Hit": 0,
+        "Dam": 1,
+        "Vita": 1000,
+        "Mana": 1000,
+        "Might": 8,
+        "Will": 8,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 5,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Snake 1 Avenger/King",
+        "Northern Ogre - Maletic",
+        "Wilderness chest",
+        "Carnage tokens: 7"
+      ]
+    },
+    {
+      "id": "dark_charm",
+      "name": "Dark charm",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 2000,
+        "Mana": 3000,
+        "Might": 2,
+        "Will": 6,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed — Bonded /",
+      "obtain": [
+        "5 Nightmare Raid tokens"
+      ]
+    },
+    {
+      "id": "diamond_staff",
+      "name": "Diamond staff",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 2,
+        "Dam": 0,
+        "Vita": 20550,
+        "Mana": 25625,
+        "Might": 0,
+        "Will": 13,
+        "Grace": 3,
+        "Protection": 2,
+        "Healing": 40,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Snake 3 - Avenger/Deity"
+      ]
+    },
+    {
+      "id": "diamond_staff",
+      "name": "Diamond staff +",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 3,
+        "Dam": 0,
+        "Vita": 37500,
+        "Mana": 37500,
+        "Might": 0,
+        "Will": 15,
+        "Grace": 3,
+        "Protection": 2,
+        "Healing": 63,
+        "DPS": 0
+      },
+      "enchants": [
+        "Crashing wake damage increased by 25% and aethers reduced by 2s."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Bring Diamond staff",
+        "250 Diamond chip",
+        "10 Perfect obsidian",
+        "100 Masterful ginko log",
+        "and 200",
+        "000 Coins to the Center Mythic NPC."
+      ]
+    },
+    {
+      "id": "dream_fan",
+      "name": "Dream fan",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 1250,
+        "Mana": 2000,
+        "Might": 4,
+        "Will": 8,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "30 Bronze badges"
+      ]
+    },
+    {
+      "id": "ee_san_charm",
+      "name": "Ee san charm",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": -2,
+        "Hit": 0,
+        "Dam": 6,
+        "Vita": 5000,
+        "Mana": 9000,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 5,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Enchanted by any Ee san at Bon-Hwa",
+        "Snake 3 - Spirit"
+      ]
+    },
+    {
+      "id": "ee_san_dream_fan",
+      "name": "Ee san dream fan",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 6000,
+        "Mana": 17500,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "30 Platinum badges"
+      ]
+    },
+    {
+      "id": "enchanted_charm",
+      "name": "Enchanted charm",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 1500,
+        "Mana": 3000,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 5,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Enchanted by an Enchanted Poet at Bon-Hwa."
+      ]
+    },
+    {
+      "id": "enchanted_dream_fan",
+      "name": "Enchanted dream fan",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 500,
+        "Mana": 5000,
+        "Might": 0,
+        "Will": 8,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "30 Silver badges"
+      ]
+    },
+    {
+      "id": "enchanted_titanium_lance",
+      "name": "Enchanted titanium lance",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 4500,
+        "Mana": 4500,
+        "Might": 2,
+        "Will": 12,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "2-handed — / Unrepairable",
+      "obtain": [
+        "Tiger Palace - Twostripe",
+        "Snake 1 - Sentry/King"
+      ]
+    },
+    {
+      "id": "frostbreeze",
+      "name": "Frostbreeze",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 12500,
+        "Mana": 27500,
+        "Might": 2,
+        "Will": 15,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Abhorrent Raid chests"
+      ]
+    },
+    {
+      "id": "frozen_orb",
+      "name": "Frozen orb",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 2,
+        "Dam": 5,
+        "Vita": 10000,
+        "Mana": 46500,
+        "Might": 0,
+        "Will": 20,
+        "Grace": 0,
+        "Protection": 1,
+        "Healing": 1,
+        "DPS": 0
+      },
+      "enchants": [
+        "Increases the duration and tick rate of Zenmode."
+      ],
+      "info": "1-handed — Bonded",
+      "obtain": [
+        "30 Abhorrent Raid tokens"
+      ]
+    },
+    {
+      "id": "holymight_mace",
+      "name": "Holymight mace",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 10,
+        "Dam": 15,
+        "Vita": 104500,
+        "Mana": 123500,
+        "Might": 0,
+        "Will": 23,
+        "Grace": 9,
+        "Protection": 0,
+        "Healing": 33,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Tribe - Seongji Temple Grounds"
+      ]
+    },
+    {
+      "id": "il_san_charm",
+      "name": "Il san charm",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": -1,
+        "Hit": 0,
+        "Dam": 4,
+        "Vita": 3000,
+        "Mana": 6000,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 5,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Enchanted by any Il san at Bon-Hwa",
+        "Snake 2 - Spirit"
+      ]
+    },
+    {
+      "id": "il_san_dream_fan",
+      "name": "Il san dream fan",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 5000,
+        "Mana": 5000,
+        "Might": 0,
+        "Will": 8,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "30 Gold badges"
+      ]
+    },
+    {
+      "id": "lycan_rod",
+      "name": "Lycan rod",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 19,
+        "Vita": 90000,
+        "Mana": 90000,
+        "Might": 0,
+        "Will": 35,
+        "Grace": 9,
+        "Protection": 0,
+        "Healing": 80,
+        "DPS": 0
+      },
+      "enchants": [
+        "You feel empowered against Lycanthropes."
+      ],
+      "info": "1-handed — Unrepairable",
+      "obtain": [
+        "Woodlands Wolves - Altered Beast"
+      ]
+    },
+    {
+      "id": "oakwood_branch",
+      "name": "Oakwood branch",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 4,
+        "Dam": 4,
+        "Vita": 3000,
+        "Mana": 6250,
+        "Might": 12,
+        "Will": 12,
+        "Grace": 0,
+        "Protection": 1,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Rabbit 3 - Deity"
+      ]
+    },
+    {
+      "id": "oakwood_branch",
+      "name": "Oakwood branch +",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 5,
+        "Vita": 5000,
+        "Mana": 10000,
+        "Might": 13,
+        "Will": 13,
+        "Grace": 0,
+        "Protection": 1,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [
+        "\"This weapon holds extraordinary raw power.\""
+      ],
+      "info": "2-handed",
+      "obtain": [
+        "Bring Oakwood branch",
+        "250 Hare hide",
+        "5 Obsidian",
+        "25 Improved ginko log",
+        "and 50",
+        "000 Coins to the Center Mythic NPC."
+      ]
+    },
+    {
+      "id": "ocean_strike",
+      "name": "Ocean strike",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 1,
+        "Dam": 1,
+        "Vita": 15000,
+        "Mana": 37500,
+        "Might": 2,
+        "Will": 15,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [
+        "You can feel the power of the ocean residing within the staff. Heals allies and damages enemies in a given area in front of the user by swinging."
+      ],
+      "info": "2-handed — Bonded",
+      "obtain": [
+        "30 Gorcesh Raid tokens"
+      ]
+    },
+    {
+      "id": "poet_whip",
+      "name": "Poet whip",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": 50,
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 250,
+        "Might": 0,
+        "Will": 5,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 30
+      },
+      "enchants": [],
+      "info": "1-handed — Bonded",
+      "obtain": [
+        "Nagnang Poet",
+        "Buya Scorpion - Crimson Scorpion"
+      ]
+    },
+    {
+      "id": "queen_s_leg",
+      "name": "Queen's leg",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 28,
+        "Vita": 110000,
+        "Mana": 130000,
+        "Might": 0,
+        "Will": 25,
+        "Grace": 10,
+        "Protection": 0,
+        "Healing": 35,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Spider Queen Raid"
+      ]
+    },
+    {
+      "id": "reaper_s_head",
+      "name": "Reaper's head",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": 45,
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 200,
+        "Mana": 400,
+        "Might": 0,
+        "Will": 5,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 42
+      },
+      "enchants": [],
+      "info": "2-handed — Bonded",
+      "obtain": [
+        "10 Daki Raid tokens"
+      ]
+    },
+    {
+      "id": "repentance",
+      "name": "Repentance",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 1,
+        "Dam": 1,
+        "Vita": 2250,
+        "Mana": 21875,
+        "Might": 6,
+        "Will": 8,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Snake 2 - Queen"
+      ]
+    },
+    {
+      "id": "repentance",
+      "name": "Repentance +",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 1,
+        "Dam": 2,
+        "Vita": 3150,
+        "Mana": 26250,
+        "Might": 7,
+        "Will": 10,
+        "Grace": 4,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [
+        "If cast on an enemy, Repentance deals massive damage. If cast on a player below 20% health, Repentance fully restores."
+      ],
+      "info": "2-handed",
+      "obtain": [
+        "Bring Repentance",
+        "250 Snake scale",
+        "3 Perfect obsidian",
+        "50 Masterful ginko log",
+        "and 100",
+        "000 Coins to the center Mythic NPC."
+      ]
+    },
+    {
+      "id": "sam_san_charm",
+      "name": "Sam san charm",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": -3,
+        "Hit": 0,
+        "Dam": 10,
+        "Vita": 7000,
+        "Mana": 12000,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 5,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Enchanted by any Sam san at Bon-Hwa",
+        "Snake 4 - Chaos Cobra"
+      ]
+    },
+    {
+      "id": "sam_san_dream_fan",
+      "name": "Sam san dream fan",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 7500,
+        "Mana": 20000,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "50 Platinum badges"
+      ]
+    },
+    {
+      "id": "snake_s_slither",
+      "name": "Snake's slither",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 1,
+        "Dam": 1,
+        "Vita": 1000,
+        "Mana": 4000,
+        "Might": 0,
+        "Will": 12,
+        "Grace": 3,
+        "Protection": 1,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Tiger Palace - Twostripe",
+        "Snake 1 - Avenger/King"
+      ]
+    },
+    {
+      "id": "snake_s_slither",
+      "name": "Snake's slither +",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 1,
+        "Dam": 2,
+        "Vita": 2100,
+        "Mana": 6000,
+        "Might": 0,
+        "Will": 13,
+        "Grace": 4,
+        "Protection": 1,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [
+        "Has a chance to cast Poisonous bite and ambush your target on swing."
+      ],
+      "info": "2-handed",
+      "obtain": [
+        "Bring Snake's slither",
+        "250 Fine snake skin",
+        "5 Obsidian",
+        "25 Improved ginko log",
+        "and 50",
+        "000 Coins to the Center Mythic NPC."
+      ]
+    },
+    {
+      "id": "staff_of_defense",
+      "name": "Staff of defense",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": 5,
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 10,
+        "Mana": 10,
+        "Might": 0,
+        "Will": 1,
+        "Grace": 0,
+        "Protection": 1,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Introduction"
+      ]
+    },
+    {
+      "id": "stillwater",
+      "name": "Stillwater",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 10000,
+        "Mana": 20000,
+        "Might": 2,
+        "Will": 10,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed — Bonded",
+      "obtain": [
+        "15 Gorcesh Raid tokens"
+      ]
+    },
+    {
+      "id": "tanuki_s_fan",
+      "name": "Tanuki's fan",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 7,
+        "Vita": 12500,
+        "Mana": 73000,
+        "Might": 0,
+        "Will": 18,
+        "Grace": 4,
+        "Protection": 0,
+        "Healing": 29,
+        "DPS": 0
+      },
+      "enchants": [
+        "Chance to turn a target into a Tanuki for 10s when casting, which grants +25 AC to that target."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Border Wall - Skyll",
+        "Santa"
+      ]
+    },
+    {
+      "id": "twostripe_s_illusion",
+      "name": "Twostripe's illusion",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 3,
+        "Dam": 1,
+        "Vita": 6000,
+        "Mana": 8750,
+        "Might": 3,
+        "Will": 10,
+        "Grace": 5,
+        "Protection": 1,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [
+        "Transforms the user into Twostripe for a duration."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Tiger Palace - Twostripe"
+      ]
+    },
+    {
+      "id": "winter_scepter",
+      "name": "Winter scepter",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 4000,
+        "Mana": 7500,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Tower Raid chest",
+        "Snake 2 - Avenger"
+      ]
+    },
+    {
+      "id": "worldshaper",
+      "name": "Worldshaper",
+      "category": "weapon",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 0,
+        "Vita": 2500,
+        "Mana": 13000,
+        "Might": 0,
+        "Will": 12,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 0
+      },
+      "enchants": [],
+      "info": "1-handed — Bonded",
+      "obtain": [
+        "8 Tower Raid tokens"
+      ]
+    }
+  ]
+}

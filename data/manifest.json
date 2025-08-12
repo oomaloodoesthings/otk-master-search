@@ -35,8 +35,12 @@
     "otk-subaccessory-chunk-8.json",
     "otk-weapon-peasant-chunk-1.json",
     "otk-weapon-peasant-chunk-2.json",
-	"otk-items-chunk-1.json",
-	"otk-items-chunk-2.json",
-	"otk-items-chunk-3.json"
+    "otk-items-chunk-1.json",
+    "otk-items-chunk-2.json",
+    "otk-items-chunk-3.json",
+    "otk-weapon-mage-chunk-1.json",
+    "otk-weapon-poet-chunk-1.json",
+    "otk-weapon-rogue-chunk-1.json",
+    "otk-weapon-warrior-chunk-1.json"
   ]
 }

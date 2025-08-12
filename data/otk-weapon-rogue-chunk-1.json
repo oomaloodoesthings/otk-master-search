@@ -1,0 +1,1000 @@
+{
+  "items": [
+    {
+      "id": "baekho_s_dire_scimitar",
+      "name": "Baekho's dire scimitar",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 6,
+        "Dam": 6,
+        "Vita": 3750,
+        "Mana": 3125,
+        "Might": 7,
+        "Will": 0,
+        "Grace": 4,
+        "Protection": 1,
+        "Healing": 0,
+        "DPS": 205
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Dog3 - Deity"
+      ]
+    },
+    {
+      "id": "baekho_s_dire_scimitar",
+      "name": "Baekho's dire scimitar +",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 9,
+        "Dam": 9,
+        "Vita": 5250,
+        "Mana": 3750,
+        "Might": 8,
+        "Will": 0,
+        "Grace": 5,
+        "Protection": 1,
+        "Healing": 3,
+        "DPS": 235
+      },
+      "enchants": [
+        "\"This weapon holds extraordinary raw power.\""
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Bring Baekho's dire scimitar",
+        "250 Fossilized bone",
+        "5 Amethyst",
+        "25 Improved ginko relic",
+        "and 50",
+        "000 Coins to the Center Mythic NPC."
+      ]
+    },
+    {
+      "id": "blood",
+      "name": "Blood",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": 90,
+      "stats": {
+        "AC": 0,
+        "Hit": 6,
+        "Dam": 3,
+        "Vita": 0,
+        "Mana": 1000,
+        "Might": 5,
+        "Will": 0,
+        "Grace": 4,
+        "Protection": 0,
+        "Healing": 1,
+        "DPS": 190
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Northern Ogres - Citelam",
+        "Tiger 1 Sentry/Avenger/King",
+        "Rat 2 - Sentry",
+        "Carnage tokens: 7"
+      ]
+    },
+    {
+      "id": "demonic_blood",
+      "name": "Demonic blood",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 4,
+        "Dam": 4,
+        "Vita": 0,
+        "Mana": 3500,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 185
+      },
+      "enchants": [],
+      "info": "1-handed — Bonded /",
+      "obtain": [
+        "5 Nightmare Raid tokens"
+      ]
+    },
+    {
+      "id": "dream_dagger",
+      "name": "Dream dagger",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 6,
+        "Dam": 2,
+        "Vita": 0,
+        "Mana": 4000,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 5,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 210
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "30 Bronze badges"
+      ]
+    },
+    {
+      "id": "ee_san_blood",
+      "name": "Ee san blood",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 6,
+        "Dam": 8,
+        "Vita": 5000,
+        "Mana": 12000,
+        "Might": 5,
+        "Will": 0,
+        "Grace": 4,
+        "Protection": 0,
+        "Healing": 1,
+        "DPS": 482
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Enchanted by any Ee san at Bon-Hwa",
+        "Tiger 3 - Spirit"
+      ]
+    },
+    {
+      "id": "ee_san_dream_dagger",
+      "name": "Ee san dream dagger",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 4000,
+        "Mana": 13500,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 335
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "30 Platinum badges"
+      ]
+    },
+    {
+      "id": "enchanted_blood",
+      "name": "Enchanted blood",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 6,
+        "Dam": 0,
+        "Vita": 0,
+        "Mana": 5000,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 220
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Enchanted by an Enchanted Rogue at Bon-Hwa."
+      ]
+    },
+    {
+      "id": "enchanted_dream_dagger",
+      "name": "Enchanted dream dagger",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 2,
+        "Dam": 6,
+        "Vita": 1000,
+        "Mana": 5500,
+        "Might": 4,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 230
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "30 Silver badges"
+      ]
+    },
+    {
+      "id": "enchanted_steelthorn",
+      "name": "Enchanted steelthorn",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 5,
+        "Dam": 5,
+        "Vita": 1500,
+        "Mana": 1500,
+        "Might": 0,
+        "Will": 2,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 225
+      },
+      "enchants": [],
+      "info": "1-handed — / Unrepairable",
+      "obtain": [
+        "Tiger Palace - Twostripe",
+        "Dog 2 - Sentry/Queen"
+      ]
+    },
+    {
+      "id": "espada",
+      "name": "Espada",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 8,
+        "Dam": 8,
+        "Vita": 6000,
+        "Mana": 4000,
+        "Might": 12,
+        "Will": 0,
+        "Grace": 3,
+        "Protection": 1,
+        "Healing": 0,
+        "DPS": 270
+      },
+      "enchants": [],
+      "info": "1-handed — Bonded",
+      "obtain": [
+        "8 Tower Raid tokens"
+      ]
+    },
+    {
+      "id": "eternal_rest",
+      "name": "Eternal rest",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 7,
+        "Dam": 8,
+        "Vita": 15000,
+        "Mana": 7500,
+        "Might": 10,
+        "Will": 0,
+        "Grace": 10,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 325
+      },
+      "enchants": [],
+      "info": "1-handed — Bonded",
+      "obtain": [
+        "15 Gorcesh Raid tokens"
+      ]
+    },
+    {
+      "id": "eviscerator",
+      "name": "Eviscerator",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 28,
+        "Dam": 28,
+        "Vita": 190000,
+        "Mana": 90000,
+        "Might": 10,
+        "Will": 0,
+        "Grace": 28,
+        "Protection": 0,
+        "Healing": 10,
+        "DPS": 1050
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Spider Queen Raid"
+      ]
+    },
+    {
+      "id": "gloomedge_shuriken",
+      "name": "Gloomedge shuriken",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 27,
+        "Dam": 27,
+        "Vita": 180500,
+        "Mana": 85500,
+        "Might": 9,
+        "Will": 0,
+        "Grace": 26,
+        "Protection": 0,
+        "Healing": 9,
+        "DPS": 1024
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Tribe - Sohwa Grove"
+      ]
+    },
+    {
+      "id": "icicle_edge",
+      "name": "Icicle edge",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 8,
+        "Dam": 8,
+        "Vita": 18500,
+        "Mana": 8500,
+        "Might": 12,
+        "Will": 0,
+        "Grace": 5,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 385
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Abhorrent Raid chests"
+      ]
+    },
+    {
+      "id": "il_san_blood",
+      "name": "Il san blood",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 6,
+        "Dam": 6,
+        "Vita": 0,
+        "Mana": 10000,
+        "Might": 5,
+        "Will": 0,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 1,
+        "DPS": 315
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Enchanted by any Il san at Bon-Hwa",
+        "Tiger 2 - Spirit"
+      ]
+    },
+    {
+      "id": "il_san_dream_dagger",
+      "name": "Il san dream dagger",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 6,
+        "Dam": 2,
+        "Vita": 2000,
+        "Mana": 9000,
+        "Might": 2,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 260
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "30 Gold badges"
+      ]
+    },
+    {
+      "id": "light_broadsword",
+      "name": "Light broadsword",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 3,
+        "Vita": 0,
+        "Mana": 18000,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 260
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Tower Raid chests",
+        "Tiger 2 - Avenger"
+      ]
+    },
+    {
+      "id": "light_sword",
+      "name": "Light sword",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": 30,
+      "stats": {
+        "AC": 0,
+        "Hit": 5,
+        "Dam": 6,
+        "Vita": 750,
+        "Mana": 438,
+        "Might": 5,
+        "Will": 5,
+        "Grace": 2,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 90
+      },
+      "enchants": [
+        "... An ancient item from the forgotten past. Collectors will go crazy for such an antique."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Hyun the Greedy"
+      ]
+    },
+    {
+      "id": "mythic_sabre",
+      "name": "Mythic sabre",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 1,
+        "Dam": 1,
+        "Vita": 4050,
+        "Mana": 6000,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 290
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Tiger 2 - Avenger"
+      ]
+    },
+    {
+      "id": "nichirin_sword",
+      "name": "Nichirin sword",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 6,
+        "Dam": 8,
+        "Vita": 10000,
+        "Mana": 6000,
+        "Might": 8,
+        "Will": 0,
+        "Grace": 8,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 360
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Tiger 3 - Avenger/Deity"
+      ]
+    },
+    {
+      "id": "nichirin_sword",
+      "name": "Nichirin sword +",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 9,
+        "Dam": 11,
+        "Vita": 21000,
+        "Mana": 9000,
+        "Might": 10,
+        "Will": 0,
+        "Grace": 10,
+        "Protection": 0,
+        "Healing": 3,
+        "DPS": 390
+      },
+      "enchants": [
+        "Decreases Bladestorm aethers by 10s."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Bring Nichirin sword",
+        "250 Nichirin relic",
+        "10 Perfect amethyst",
+        "100 Masterful ginko relic",
+        "and 200",
+        "000 Coins to the Center Mythic NPC."
+      ]
+    },
+    {
+      "id": "sam_san_blood",
+      "name": "Sam san blood",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 6,
+        "Dam": 10,
+        "Vita": 7000,
+        "Mana": 14000,
+        "Might": 5,
+        "Will": 0,
+        "Grace": 4,
+        "Protection": 0,
+        "Healing": 1,
+        "DPS": 712
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Enchanted by any Sam san at Bon-Hwa",
+        "Tiger 4 - Chaos Tiger"
+      ]
+    },
+    {
+      "id": "sam_san_dream_dagger",
+      "name": "Sam san dream dagger",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 7,
+        "Dam": 5,
+        "Vita": 5000,
+        "Mana": 15000,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 4,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 412
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "50 Platinum badges"
+      ]
+    },
+    {
+      "id": "starblade",
+      "name": "Starblade",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": 45,
+      "stats": {
+        "AC": 0,
+        "Hit": 3,
+        "Dam": 4,
+        "Vita": 200,
+        "Mana": 400,
+        "Might": 4,
+        "Will": 3,
+        "Grace": 3,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 85
+      },
+      "enchants": [],
+      "info": "1-handed — Bonded",
+      "obtain": [
+        "10 Daki Raid tokens"
+      ]
+    },
+    {
+      "id": "swift_dagger",
+      "name": "Swift dagger",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": 5,
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 1,
+        "Vita": 10,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 22
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Introduction"
+      ]
+    },
+    {
+      "id": "thunderstorm_katana",
+      "name": "Thunderstorm katana",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 10,
+        "Dam": 10,
+        "Vita": 26250,
+        "Mana": 11250,
+        "Might": 10,
+        "Will": 3,
+        "Grace": 4,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 395
+      },
+      "enchants": [
+        "Chance on hit to cast an AoE thunderstorm."
+      ],
+      "info": "1-handed — Bonded",
+      "obtain": [
+        "30 Gorcesh Raid tokens"
+      ]
+    },
+    {
+      "id": "tiger_s_jagged_claw",
+      "name": "Tiger's jagged claw",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 6,
+        "Dam": 6,
+        "Vita": 0,
+        "Mana": 3000,
+        "Might": 8,
+        "Will": 0,
+        "Grace": 4,
+        "Protection": 1,
+        "Healing": 0,
+        "DPS": 200
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Tiger 1 - Avenger/King"
+      ]
+    },
+    {
+      "id": "tiger_s_jagged_claw",
+      "name": "Tiger's jagged claw +",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 7,
+        "Dam": 7,
+        "Vita": 0,
+        "Mana": 3600,
+        "Might": 9,
+        "Will": 0,
+        "Grace": 5,
+        "Protection": 1,
+        "Healing": 0,
+        "DPS": 220
+      },
+      "enchants": [
+        "Chance to reset Dagger toss aethers while swinging."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Bring Tiger's jagged claw",
+        "250 Tiger claw",
+        "5 Amethyst",
+        "25 Improved ginko log",
+        "and 50",
+        "000 Coins to the Center Mythic NPC."
+      ]
+    },
+    {
+      "id": "tundra_katana",
+      "name": "Tundra katana",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 10,
+        "Dam": 5,
+        "Vita": 32500,
+        "Mana": 25000,
+        "Might": 10,
+        "Will": 10,
+        "Grace": 10,
+        "Protection": 1,
+        "Healing": 2,
+        "DPS": 455
+      },
+      "enchants": [
+        "This katana has a chance to summon a snow storm."
+      ],
+      "info": "1-handed — Bonded",
+      "obtain": [
+        "30 Abhorrent Raid tokens"
+      ]
+    },
+    {
+      "id": "wereblade",
+      "name": "Wereblade",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 19,
+        "Dam": 18,
+        "Vita": 130000,
+        "Mana": 70000,
+        "Might": 15,
+        "Will": 0,
+        "Grace": 25,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 875
+      },
+      "enchants": [
+        "You feel empowered against Lycanthropes."
+      ],
+      "info": "1-handed — Unrepairable",
+      "obtain": [
+        "Woodlands Wolves - Altered Beast"
+      ]
+    },
+    {
+      "id": "white_moon_axe",
+      "name": "White moon axe",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": 55,
+      "stats": {
+        "AC": 0,
+        "Hit": 4,
+        "Dam": 4,
+        "Vita": 0,
+        "Mana": 800,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 87
+      },
+      "enchants": [],
+      "info": "1-handed — Bonded",
+      "obtain": [
+        "White Moon Axe"
+      ]
+    },
+    {
+      "id": "widow_maker",
+      "name": "Widow maker",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 9,
+        "Dam": 9,
+        "Vita": 9000,
+        "Mana": 6250,
+        "Might": 7,
+        "Will": 7,
+        "Grace": 7,
+        "Protection": 1,
+        "Healing": 3,
+        "DPS": 305
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Tiger 2 - Queen"
+      ]
+    },
+    {
+      "id": "widow_maker",
+      "name": "Widow maker +",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 10,
+        "Dam": 10,
+        "Vita": 12600,
+        "Mana": 7500,
+        "Might": 8,
+        "Will": 8,
+        "Grace": 8,
+        "Protection": 1,
+        "Healing": 1,
+        "DPS": 335
+      },
+      "enchants": [
+        "Vital point: Essentially Spy ka that ignores AC with 40s aethers. Does .25 x Current Vita + .5 x Current Mana."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Bring Widow maker",
+        "250 Tiger's tooth",
+        "3 Perfect amethyst",
+        "50 Masterful ginko relic",
+        "and 100",
+        "000 Coins to the Center Mythic NPC."
+      ]
+    },
+    {
+      "id": "widow_maker",
+      "name": "Widow maker ++",
+      "category": "weapon",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 10,
+        "Dam": 12,
+        "Vita": 16000,
+        "Mana": 16000,
+        "Might": 8,
+        "Will": 0,
+        "Grace": 8,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 400
+      },
+      "enchants": [
+        "Vital point: Essentially Spy ka that ignores AC with 40s aethers. Does .25 x Current Vita + .5 x Current Mana."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Bring Widow maker +",
+        "250 Tiger shard",
+        "10 Perfect sapphire",
+        "100 Well cftd dk amber",
+        "and 200",
+        "000 Coins to the Center Mythic NPC."
+      ]
+    }
+  ]
+}

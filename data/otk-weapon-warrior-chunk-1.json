@@ -1,0 +1,1001 @@
+{
+  "items": [
+    {
+      "id": "azure_spike",
+      "name": "Azure spike",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 8,
+        "Dam": 6,
+        "Vita": 10500,
+        "Mana": 0,
+        "Might": 8,
+        "Will": 0,
+        "Grace": 2,
+        "Protection": 1,
+        "Healing": 1,
+        "DPS": 225
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Monkey 3 - Avenger/Deity"
+      ]
+    },
+    {
+      "id": "azure_spike",
+      "name": "Azure spike +",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 9,
+        "Dam": 8,
+        "Vita": 14700,
+        "Mana": 0,
+        "Might": 9,
+        "Will": 0,
+        "Grace": 2,
+        "Protection": 1,
+        "Healing": 0,
+        "DPS": 255
+      },
+      "enchants": [
+        "\"This weapon holds extraordinary raw power.\""
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Bring Azure spike",
+        "200 Dragon fang",
+        "5 Black bamboo",
+        "25 Improved ginko relic",
+        "and 50",
+        "000 Coins to the Center Mythic NPC."
+      ]
+    },
+    {
+      "id": "call_of_the_depths",
+      "name": "Call of the depths",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 8,
+        "Dam": 8,
+        "Vita": 10000,
+        "Mana": 10000,
+        "Might": 7,
+        "Will": 7,
+        "Grace": 7,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 335
+      },
+      "enchants": [],
+      "info": "1-handed — Bonded",
+      "obtain": [
+        "15 Gorcesh Raid tokens"
+      ]
+    },
+    {
+      "id": "dark_simitar",
+      "name": "Dark simitar",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 7,
+        "Vita": 19250,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 255
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Tower Raid chests",
+        "Dragon 2 - Avenger"
+      ]
+    },
+    {
+      "id": "demonic_spike",
+      "name": "Demonic spike",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 7,
+        "Vita": 3500,
+        "Mana": 0,
+        "Might": 5,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 185
+      },
+      "enchants": [],
+      "info": "1-handed — Bonded /",
+      "obtain": [
+        "5 Nightmare Raid tokens"
+      ]
+    },
+    {
+      "id": "dragon_s_snarled_fang",
+      "name": "Dragon's snarled fang",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 6,
+        "Dam": 6,
+        "Vita": 6000,
+        "Mana": 0,
+        "Might": 10,
+        "Will": 0,
+        "Grace": 5,
+        "Protection": 1,
+        "Healing": 0,
+        "DPS": 220
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Dragon 1 - Avenger/King"
+      ]
+    },
+    {
+      "id": "dragon_s_snarled_fang",
+      "name": "Dragon's snarled fang +",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 9,
+        "Dam": 9,
+        "Vita": 12600,
+        "Mana": 0,
+        "Might": 11,
+        "Will": 0,
+        "Grace": 5,
+        "Protection": 1,
+        "Healing": 3,
+        "DPS": 235
+      },
+      "enchants": [
+        "Chance to reset Devastating blow's aethers while swinging."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Bring Dragon's snarled fang",
+        "250 Dragon fang",
+        "5 Sapphire",
+        "25 Improved ginko relic",
+        "and 50",
+        "000 Coins to the Center Mythic NPC"
+      ]
+    },
+    {
+      "id": "dream_sword",
+      "name": "Dream sword",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 5,
+        "Dam": 5,
+        "Vita": 2000,
+        "Mana": 450,
+        "Might": 7,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 190
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "30 Bronze badges"
+      ]
+    },
+    {
+      "id": "ee_san_dream_sword",
+      "name": "Ee san dream sword",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 2,
+        "Dam": 7,
+        "Vita": 21000,
+        "Mana": 0,
+        "Might": 2,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 285
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "30 Platinum badges"
+      ]
+    },
+    {
+      "id": "ee_san_spike",
+      "name": "Ee san spike",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 7,
+        "Vita": 20000,
+        "Mana": 0,
+        "Might": 2,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 1,
+        "DPS": 462
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Enchanted by any Ee san at Bon-Hwa",
+        "Dragon 3 - Spirit"
+      ]
+    },
+    {
+      "id": "enchanted_dream_sword",
+      "name": "Enchanted dream sword",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 2,
+        "Dam": 7,
+        "Vita": 5500,
+        "Mana": 0,
+        "Might": 2,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 215
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "30 Silver badges"
+      ]
+    },
+    {
+      "id": "enchanted_electra",
+      "name": "Enchanted electra",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 3,
+        "Dam": 3,
+        "Vita": 5500,
+        "Mana": 1250,
+        "Might": 1,
+        "Will": 0,
+        "Grace": 1,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 207
+      },
+      "enchants": [],
+      "info": "1-handed — / Unrepairable",
+      "obtain": [
+        "Tiger Palace - Twostripe",
+        "Monkey 2 - Sentry/Queen"
+      ]
+    },
+    {
+      "id": "enchanted_spike",
+      "name": "Enchanted spike",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": 99,
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 7,
+        "Vita": 5000,
+        "Mana": 0,
+        "Might": 2,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 205
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Enchanted by an Enchanted Warrior at Bon-Hwa."
+      ]
+    },
+    {
+      "id": "frostbite",
+      "name": "Frostbite",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 9,
+        "Dam": 9,
+        "Vita": 22500,
+        "Mana": 0,
+        "Might": 4,
+        "Will": 4,
+        "Grace": 4,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 392
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Abhorrent Raid chests"
+      ]
+    },
+    {
+      "id": "goblin_club",
+      "name": "Goblin club",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": 90,
+      "stats": {
+        "AC": 0,
+        "Hit": 5,
+        "Dam": 5,
+        "Vita": 1250,
+        "Mana": 250,
+        "Might": 6,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 160
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Hyun Gamble: 50",
+        "000 coin option."
+      ]
+    },
+    {
+      "id": "il_san_dream_sword",
+      "name": "Il san dream sword",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 2,
+        "Dam": 7,
+        "Vita": 9000,
+        "Mana": 1000,
+        "Might": 2,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 257
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "30 Gold badges"
+      ]
+    },
+    {
+      "id": "il_san_spike",
+      "name": "Il san spike",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 6,
+        "Vita": 10000,
+        "Mana": 0,
+        "Might": 2,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 2,
+        "DPS": 305
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Enchanted by any Il san at Bon-Hwa",
+        "Dragon 2 - Spirit"
+      ]
+    },
+    {
+      "id": "legendary_spike_test_item_ignore_me",
+      "name": "Legendary Spike (TEST ITEM IGNORE ME)",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": 90,
+      "stats": {
+        "AC": 0,
+        "Hit": 5,
+        "Dam": 5,
+        "Vita": 1250,
+        "Mana": 250,
+        "Might": 6,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 2,
+        "DPS": 170
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Dragon 1 - Avenger/King",
+        "Northern Ogre - Citelam",
+        "Rat 2 - Sentry",
+        "Carnage tokens: 7"
+      ]
+    },
+    {
+      "id": "mythic_spike_test_item_ignore_me",
+      "name": "Mythic Spike (TEST ITEM IGNORE ME)",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": 90,
+      "stats": {
+        "AC": 0,
+        "Hit": 5,
+        "Dam": 5,
+        "Vita": 1250,
+        "Mana": 250,
+        "Might": 6,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 2,
+        "DPS": 170
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Dragon 1 - Avenger/King",
+        "Northern Ogre - Citelam",
+        "Rat 2 - Sentry",
+        "Carnage tokens: 7"
+      ]
+    },
+    {
+      "id": "nethersbane",
+      "name": "Nethersbane",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 4,
+        "Dam": 4,
+        "Vita": 30000,
+        "Mana": 2500,
+        "Might": 6,
+        "Will": 0,
+        "Grace": 1,
+        "Protection": 2,
+        "Healing": 1,
+        "DPS": 400
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Dragon 3 - Avenger/Deity"
+      ]
+    },
+    {
+      "id": "nethersbane",
+      "name": "Nethersbane +",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 5,
+        "Dam": 5,
+        "Vita": 37500,
+        "Mana": 2500,
+        "Might": 8,
+        "Will": 0,
+        "Grace": 1,
+        "Protection": 2,
+        "Healing": 1,
+        "DPS": 420
+      },
+      "enchants": [
+        "Increases Dragon's convulsion damage by 10%. Reduces Dragon's convulsion aethers by 5s."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Bring Nethersbane",
+        "250 Huge metal",
+        "10 Perfect sapphire",
+        "100 Masterful ginko relic",
+        "and 200",
+        "000 Coins to the Center Mythic NPC."
+      ]
+    },
+    {
+      "id": "noxus",
+      "name": "Noxus",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": 45,
+      "stats": {
+        "AC": 0,
+        "Hit": 3,
+        "Dam": 5,
+        "Vita": 750,
+        "Mana": 100,
+        "Might": 5,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 87
+      },
+      "enchants": [],
+      "info": "1-handed — Bonded",
+      "obtain": [
+        "10 Daki Raid tokens"
+      ]
+    },
+    {
+      "id": "poseidon_s_prophecy",
+      "name": "Poseidon's prophecy",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 6,
+        "Dam": 6,
+        "Vita": 30000,
+        "Mana": 0,
+        "Might": 5,
+        "Will": 3,
+        "Grace": 5,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 450
+      },
+      "enchants": [
+        "You are called to fulfill Poseidon's prophecy. Provides an AoE DPS on swing every 45s."
+      ],
+      "info": "2-handed — Bonded",
+      "obtain": [
+        "30 Gorcesh Raid tokens"
+      ]
+    },
+    {
+      "id": "requiem",
+      "name": "Requiem",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 7,
+        "Dam": 7,
+        "Vita": 10000,
+        "Mana": 0,
+        "Might": 7,
+        "Will": 7,
+        "Grace": 7,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 320
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Dragon 2 - Queen"
+      ]
+    },
+    {
+      "id": "requiem",
+      "name": "Requiem +",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 10,
+        "Dam": 10,
+        "Vita": 21000,
+        "Mana": 0,
+        "Might": 8,
+        "Will": 8,
+        "Grace": 8,
+        "Protection": 1,
+        "Healing": 1,
+        "DPS": 350
+      },
+      "enchants": [
+        "Play a beautiful requiem, damaging and confusing nearby enemies."
+      ],
+      "info": "1-handed",
+      "obtain": [
+        "Bring Requiem",
+        "250 Dragon's claw",
+        "3 Perfect sapphire",
+        "50 Masterful ginko relic",
+        "and 100",
+        "000 Coins to the Center Mythic NPC."
+      ]
+    },
+    {
+      "id": "sam_san_dream_sword",
+      "name": "Sam san dream sword",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 3,
+        "Dam": 8,
+        "Vita": 35000,
+        "Mana": 0,
+        "Might": 4,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 325
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "50 Platinum badges"
+      ]
+    },
+    {
+      "id": "sam_san_spike",
+      "name": "Sam san spike",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 0,
+        "Dam": 8,
+        "Vita": 40000,
+        "Mana": 0,
+        "Might": 2,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 692
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Enchanted by any Sam san at Bon-Hwa",
+        "Dragon 4 - Chaos Wyvern"
+      ]
+    },
+    {
+      "id": "spider_bane",
+      "name": "Spider bane",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 28,
+        "Dam": 28,
+        "Vita": 250000,
+        "Mana": 60000,
+        "Might": 28,
+        "Will": 0,
+        "Grace": 10,
+        "Protection": 0,
+        "Healing": 10,
+        "DPS": 1050
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Spider Queen Raid"
+      ]
+    },
+    {
+      "id": "spike",
+      "name": "Spike",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": 90,
+      "stats": {
+        "AC": 0,
+        "Hit": 5,
+        "Dam": 5,
+        "Vita": 1250,
+        "Mana": 250,
+        "Might": 6,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 2,
+        "DPS": 170
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Dragon 1 - Avenger/King",
+        "Northern Ogre - Citelam",
+        "Rat 2 - Sentry",
+        "Carnage tokens: 7"
+      ]
+    },
+    {
+      "id": "sword_of_power",
+      "name": "Sword of power",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": 5,
+      "stats": {
+        "AC": 0,
+        "Hit": 1,
+        "Dam": 0,
+        "Vita": 10,
+        "Mana": 0,
+        "Might": 1,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 22
+      },
+      "enchants": [],
+      "info": "1-handed",
+      "obtain": [
+        "Introduction"
+      ]
+    },
+    {
+      "id": "tanuki_s_paw",
+      "name": "Tanuki's paw",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 6,
+        "Dam": 8,
+        "Vita": 0,
+        "Mana": 0,
+        "Might": 0,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 637
+      },
+      "enchants": [],
+      "info": "2-handed",
+      "obtain": [
+        "Border Wall - Skyll",
+        "Santa"
+      ]
+    },
+    {
+      "id": "tsunami_spellblade",
+      "name": "Tsunami spellblade",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 6,
+        "Dam": 6,
+        "Vita": 18750,
+        "Mana": 0,
+        "Might": 6,
+        "Will": 2,
+        "Grace": 2,
+        "Protection": 1,
+        "Healing": 3,
+        "DPS": 400
+      },
+      "enchants": [
+        "A blade enchanted with Gorcesh's ancient magic. Provides a group-wide HoT on swing every 90s."
+      ],
+      "info": "1-handed — Bonded",
+      "obtain": [
+        "30 Gorcesh Raid tokens"
+      ]
+    },
+    {
+      "id": "tundrablade",
+      "name": "Tundrablade",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 5,
+        "Dam": 10,
+        "Vita": 45000,
+        "Mana": 12500,
+        "Might": 10,
+        "Will": 0,
+        "Grace": 10,
+        "Protection": 1,
+        "Healing": 0,
+        "DPS": 462
+      },
+      "enchants": [
+        "This blade is enchanted with the power of frost."
+      ],
+      "info": "1-handed — Bonded",
+      "obtain": [
+        "30 Abhorrent Raid tokens"
+      ]
+    },
+    {
+      "id": "werebane",
+      "name": "Werebane",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 14,
+        "Dam": 20,
+        "Vita": 190000,
+        "Mana": 40000,
+        "Might": 25,
+        "Will": 0,
+        "Grace": 15,
+        "Protection": 0,
+        "Healing": 0,
+        "DPS": 857
+      },
+      "enchants": [
+        "You feel empowered against Lycanthropes."
+      ],
+      "info": "1-handed — Unrepairable",
+      "obtain": [
+        "Woodlands Wolves - Altered Beast"
+      ]
+    },
+    {
+      "id": "worldslayer",
+      "name": "Worldslayer",
+      "category": "weapon",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": "",
+      "stats": {
+        "AC": 0,
+        "Hit": 8,
+        "Dam": 8,
+        "Vita": 8000,
+        "Mana": 3000,
+        "Might": 12,
+        "Will": 0,
+        "Grace": 0,
+        "Protection": 1,
+        "Healing": 0,
+        "DPS": 290
+      },
+      "enchants": [],
+      "info": "1-handed — Bonded",
+      "obtain": [
+        "8 Tower Raid tokens"
+      ]
+    }
+  ]
+}
