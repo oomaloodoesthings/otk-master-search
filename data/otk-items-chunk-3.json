@@ -1,31 +1,44 @@
 {
   "items": [
     {
-      "id": "vita_0_mana_0_level_99_path_rogue_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_used_by_rogue_level_99_how_to_obtain_buya_arena_shop_comments_none_shop_prices_npc_sells_200_npc_buys_100",
-      "name": "Vita : 0 Mana : 0 Level: 99 Path: Rogue Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Used by Rogue Level 99 How to Obtain: Buya Arena Shop Comments: None Shop prices: NPC Sells: 200 NPC Buys: 100",
+      "id": "seaweed",
+      "name": "Seaweed",
       "category": "item",
-      "path": [
-        "Rogue"
+      "level_tier": "",
+      "stats": {
+        "Vita": 400,
+        "Mana": 0
+      },
+      "stack_size": 25,
+      "crafts": [],
+      "other_uses": [],
+      "effect": "Vita restoration",
+      "obtain": [
+        "Dropped by Island Lobsters in Hausson. Dropped by most snakes in Woodlands Snake Cave."
       ],
+      "comments": null,
+      "npc_buys": 0
+    },
+    {
+      "id": "shard_bomb",
+      "name": "Shard bomb",
+      "category": "item",
       "level_tier": "",
       "stats": {
         "Vita": 0,
         "Mana": 0
       },
       "stack_size": 1,
-      "effect": "Used by Rogue Level 99",
+      "effect": "Explosion",
       "obtain": [
-        "Buya Arena Shop"
+        "Arena Shops"
       ],
-      "npc_buys": 100
+      "npc_buys": 40
     },
     {
-      "id": "vita_0_mana_0_level_99_path_warrior_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_explosion_how_to_obtain_arena_shops_comments_none_shop_prices_npc_sells_400_npc_buys_200",
-      "name": "Vita : 0 Mana : 0 Level: 99 Path: Warrior Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Explosion How to Obtain: Arena Shops Comments: None Shop prices: NPC Sells: 400 NPC Buys: 200",
+      "id": "shatter_bomb",
+      "name": "Shatter bomb",
       "category": "item",
-      "path": [
-        "Warrior"
-      ],
       "level_tier": "",
       "stats": {
         "Vita": 0,
@@ -39,108 +52,66 @@
       "npc_buys": 200
     },
     {
-      "id": "vita_0_mana_250_level_0_path_peasant_max_held_in_1_slot_1_uses_40_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_mana_restoration_how_to_obtain_dropped_by_gim_yi_in_iron_labrynth_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 0 Mana : 250 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 40 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Mana restoration How to Obtain: Dropped by Gim-yi in Iron Labrynth Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "id": "silk",
+      "name": "Silk",
       "category": "item",
       "level_tier": "",
       "stats": {
         "Vita": 0,
-        "Mana": 250
-      },
-      "stack_size": 1,
-      "crafts": [],
-      "other_uses": [],
-      "effect": "Mana restoration",
-      "obtain": [
-        "Dropped by Gim-yi in Iron Labrynth"
-      ],
-      "comments": null,
-      "npc_buys": 0,
-      "path": [
-        "Peasant"
-      ]
-    },
-    {
-      "id": "vita_0_mana_30_level_0_path_peasant_max_held_in_1_slot_1_uses_200_crafts_none_other_uses_mana_restoration_merchant_suggested_price_minimum_0_maximum_0_effect_restores_30_mana_how_to_obtain_taverns_comments_none_shop_prices_npc_sells_10_npc_buys_5",
-      "name": "Vita : 0 Mana : 30 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 200 Crafts: None Other Uses: Mana restoration Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Restores 30 mana How to Obtain: Taverns Comments: None Shop prices: NPC Sells: 10 NPC Buys: 5",
-      "category": "item",
-      "level_tier": "",
-      "stats": {
-        "Vita": 0,
-        "Mana": 30
-      },
-      "stack_size": 1,
-      "crafts": [],
-      "other_uses": [
-        "Mana restoration"
-      ],
-      "effect": "Restores 30 mana",
-      "obtain": [
-        "Taverns"
-      ],
-      "comments": null,
-      "npc_buys": 5,
-      "path": [
-        "Peasant"
-      ]
-    },
-    {
-      "id": "vita_0_mana_30_level_0_path_peasant_max_held_in_1_slot_1_uses_200_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_mana_restoration_how_to_obtain_bohdi_s_sanctum_monk_subpath_area_comments_none_shop_prices_npc_sells_400_npc_buys_200",
-      "name": "Vita : 0 Mana : 30 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 200 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Mana restoration How to Obtain: Bohdi's Sanctum - Monk subpath area Comments: None Shop prices: NPC Sells: 400 NPC Buys: 200",
-      "category": "item",
-      "level_tier": "",
-      "stats": {
-        "Vita": 0,
-        "Mana": 30
-      },
-      "stack_size": 1,
-      "crafts": [],
-      "other_uses": [],
-      "effect": "Mana restoration",
-      "obtain": [
-        "Bohdi's Sanctum - Monk subpath area"
-      ],
-      "comments": null,
-      "npc_buys": 200,
-      "path": [
-        "Peasant"
-      ]
-    },
-    {
-      "id": "vita_100_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_restores_100_vita_how_to_obtain_potion_shops_comments_restores_100_vita_shop_prices_npc_sells_10_npc_buys_5",
-      "name": "Vita : 100 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Restores 100 vita How to Obtain: Potion Shops Comments: Restores 100 vita Shop prices: NPC Sells: 10 NPC Buys: 5",
-      "category": "item",
-      "path": [
-        "Peasant"
-      ],
-      "level_tier": "",
-      "stats": {
-        "Vita": 100,
         "Mana": 0
       },
       "stack_size": 1,
-      "effect": "Restores 100 vita",
       "obtain": [
-        "Potion Shops"
+        "Woodlands Rabbit Cave"
       ],
-      "comments": "Restores 100 vita",
-      "npc_buys": 5
+      "npc_buys": 0
     },
     {
-      "id": "vita_100_mana_0_level_0_path_peasant_max_held_in_1_slot_10_uses_1_crafts_fishing_other_uses_needed_for_food_preparation_skill_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_fishing_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 100 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 10 Uses: 1 Crafts: Fishing Other Uses: Needed for food preparation skill Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Fishing Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "id": "silver_coins_roll",
+      "name": "Silver coins roll",
       "category": "item",
-      "path": [
-        "Peasant"
-      ],
       "level_tier": "",
       "stats": {
-        "Vita": 100,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "100 to 999 coins",
+      "obtain": [
+        "None"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "skeleton_key",
+      "name": "Skeleton key",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Key used to open various locks",
+      "obtain": [
+        "Spy subpath"
+      ],
+      "comments": "Those who helped rescue elders from Spy Dungeon in Yuri 58",
+      "npc_buys": 0
+    },
+    {
+      "id": "small_fish",
+      "name": "Small fish",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 400,
         "Mana": 0
       },
       "stack_size": 10,
       "crafts": [
-        "Fishing"
+        "Fishing",
+        "Food preparation"
       ],
       "other_uses": [
         "Needed for food preparation skill"
@@ -149,11 +120,370 @@
       "obtain": [
         "Fishing"
       ],
+      "comments": null,
       "npc_buys": 0
     },
     {
-      "id": "vita_100_mana_0_level_0_path_peasant_max_held_in_1_slot_10_uses_1_crafts_food_preparation_other_uses_subpath_quest_item_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_dropped_by_iron_lab_tigers_comments_none_shop_prices_npc_sells_100_npc_buys_50",
-      "name": "Vita : 100 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 10 Uses: 1 Crafts: Food preparation Other Uses: Subpath quest item Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Dropped by Iron lab tigers Comments: None Shop prices: NPC Sells: 100 NPC Buys: 50",
+      "id": "smelting_agreement",
+      "name": "Smelting agreement",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "crafts": [],
+      "other_uses": [
+        "Needed to Smelt ore"
+      ],
+      "effect": "Needed by Smelters",
+      "obtain": [
+        "Messenger shops"
+      ],
+      "comments": null,
+      "npc_buys": 50
+    },
+    {
+      "id": "snake_leather",
+      "name": "Snake leather",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 10,
+      "obtain": [
+        "Woodlands Snake Cave"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "snake_meat",
+      "name": "Snake meat",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 100,
+        "Mana": 0
+      },
+      "stack_size": 100,
+      "crafts": [],
+      "other_uses": [
+        "Crafts"
+      ],
+      "effect": "Vita restoration",
+      "obtain": [
+        "Various snakes"
+      ],
+      "comments": null,
+      "npc_buys": 0
+    },
+    {
+      "id": "snake_tongue",
+      "name": "Snake tongue",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 5,
+      "obtain": [
+        "Woodlands Snake Cave"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "sonhi_pipe",
+      "name": "Sonhi pipe",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": -50,
+        "Mana": 450
+      },
+      "stack_size": 1,
+      "crafts": [],
+      "other_uses": [],
+      "effect": "Mana restoration",
+      "obtain": [
+        "KaMing's Encampment Messenger"
+      ],
+      "comments": null,
+      "npc_buys": 100
+    },
+    {
+      "id": "soup_bowl",
+      "name": "Soup bowl",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Needed to make Nagn",
+      "obtain": [
+        "Taverns"
+      ],
+      "npc_buys": 5
+    },
+    {
+      "id": "spark_powder",
+      "name": "Spark powder",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Used by Peasent Level 50+",
+      "obtain": [
+        "Arena Shops"
+      ],
+      "npc_buys": 20
+    },
+    {
+      "id": "splendid_silk",
+      "name": "Splendid silk",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "obtain": [
+        "Woodlands Rabbit Cave"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "spring_water",
+      "name": "Spring water",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "obtain": [
+        "Woodlands Raheem Desert Cave"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "spy_s_explosives",
+      "name": "Spy's explosives",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Explosion",
+      "obtain": [
+        "Arena Shops"
+      ],
+      "npc_buys": 50
+    },
+    {
+      "id": "star_powder",
+      "name": "Star powder",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Used by Peasent Level 80+Can be used as a star item in Mage Armor Quest",
+      "obtain": [
+        "Arena Shops"
+      ],
+      "npc_buys": 50
+    },
+    {
+      "id": "stealth_explosives",
+      "name": "Stealth explosives",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Used by Rogue Level 99",
+      "obtain": [
+        "Buya Arena Shop"
+      ],
+      "npc_buys": 100
+    },
+    {
+      "id": "stealth_powder",
+      "name": "Stealth powder",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Used by Rogue Level 62+",
+      "obtain": [
+        "Buya Arena Shop"
+      ],
+      "npc_buys": 40
+    },
+    {
+      "id": "sun_powder",
+      "name": "Sun powder",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Explosion",
+      "obtain": [
+        "Arena Shops"
+      ],
+      "npc_buys": 100
+    },
+    {
+      "id": "sunken_silk",
+      "name": "Sunken silk",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "obtain": [
+        "Woodlands Raheem Desert Cave"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "sute_key",
+      "name": "Sute key",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "crafts": [],
+      "other_uses": [],
+      "effect": null,
+      "obtain": [
+        "Sute"
+      ],
+      "comments": null,
+      "npc_buys": 0
+    },
+    {
+      "id": "tako_ink",
+      "name": "Tako ink",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 10,
+      "obtain": [
+        "Woodlands Snake Cave"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "tasty_fish",
+      "name": "Tasty fish",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 540,
+        "Mana": 0
+      },
+      "stack_size": 10,
+      "crafts": [
+        "Fishing",
+        "Food preparation"
+      ],
+      "other_uses": [
+        "Needed for food preparation skill"
+      ],
+      "effect": "Vita restoration",
+      "obtain": [
+        "Fishing"
+      ],
+      "comments": null,
+      "npc_buys": 0
+    },
+    {
+      "id": "tattered_leather",
+      "name": "Tattered leather",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 20,
+      "obtain": [
+        "Woodlands Snake Cave"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "the_wandering_monk",
+      "name": "The Wandering Monk",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Read Monk's Scroll",
+      "obtain": [
+        "Library"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "thick_wine",
+      "name": "Thick wine",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 5,
+        "Mana": 40
+      },
+      "stack_size": 1,
+      "crafts": [],
+      "other_uses": [
+        "Mana restoration"
+      ],
+      "effect": "Restores 40 mana and 5 vita",
+      "obtain": [
+        "Taverns"
+      ],
+      "comments": null,
+      "npc_buys": 5
+    },
+    {
+      "id": "tiger_meat",
+      "name": "Tiger meat",
       "category": "item",
       "level_tier": "",
       "stats": {
@@ -172,134 +502,11 @@
         "Dropped by Iron lab tigers"
       ],
       "comments": null,
-      "npc_buys": 50,
-      "path": [
-        "Peasant"
-      ]
+      "npc_buys": 50
     },
     {
-      "id": "vita_100_mana_0_level_0_path_peasant_max_held_in_1_slot_100_uses_1_crafts_none_other_uses_crafts_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_various_snakes_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 100 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 100 Uses: 1 Crafts: None Other Uses: Crafts Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Various snakes Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "level_tier": "",
-      "stats": {
-        "Vita": 100,
-        "Mana": 0
-      },
-      "stack_size": 100,
-      "crafts": [],
-      "other_uses": [
-        "Crafts"
-      ],
-      "effect": "Vita restoration",
-      "obtain": [
-        "Various snakes"
-      ],
-      "comments": null,
-      "npc_buys": 0,
-      "path": [
-        "Peasant"
-      ]
-    },
-    {
-      "id": "vita_100_mana_0_level_0_path_peasant_max_held_in_1_slot_12_uses_1_crafts_food_preparation_other_uses_made_by_food_preparation_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_none_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 100 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 12 Uses: 1 Crafts: Food preparation Other Uses: Made by food preparation Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: None Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "path": [
-        "Peasant"
-      ],
-      "level_tier": "",
-      "stats": {
-        "Vita": 100,
-        "Mana": 0
-      },
-      "stack_size": 12,
-      "crafts": [
-        "Food preparation"
-      ],
-      "other_uses": [
-        "Made by food preparation"
-      ],
-      "effect": "Vita restoration",
-      "obtain": [
-        "None"
-      ],
-      "npc_buys": 0
-    },
-    {
-      "id": "vita_100_mana_0_level_0_path_peasant_max_held_in_1_slot_25_uses_1_crafts_chef_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_made_by_chefs_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 100 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 25 Uses: 1 Crafts: Chef Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Made by chefs Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "path": [
-        "Peasant"
-      ],
-      "level_tier": "",
-      "stats": {
-        "Vita": 100,
-        "Mana": 0
-      },
-      "stack_size": 25,
-      "crafts": [
-        "Chef"
-      ],
-      "effect": "Vita restoration",
-      "obtain": [
-        "Made by chefs"
-      ],
-      "npc_buys": 0
-    },
-    {
-      "id": "vita_100_mana_0_level_0_path_peasant_max_held_in_1_slot_30_uses_1_crafts_food_preparation_other_uses_needed_for_food_preparation_skill_merchant_suggested_price_minimum_0_maximum_0_effect_vita_how_to_obtain_dropped_by_pheasants_in_the_woodlands_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 100 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 30 Uses: 1 Crafts: Food preparation Other Uses: Needed for food preparation skill Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita How to Obtain: Dropped by Pheasants in the Woodlands Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "level_tier": "",
-      "stats": {
-        "Vita": 100,
-        "Mana": 0
-      },
-      "stack_size": 30,
-      "crafts": [
-        "Food preparation"
-      ],
-      "other_uses": [
-        "Needed for food preparation skill"
-      ],
-      "effect": "Vita",
-      "obtain": [
-        "Dropped by Pheasants in the Woodlands"
-      ],
-      "comments": null,
-      "npc_buys": 0,
-      "path": [
-        "Peasant"
-      ]
-    },
-    {
-      "id": "vita_100_mana_0_level_0_path_peasant_max_held_in_1_slot_5_uses_1_crafts_gardening_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_none_comments_dug_from_kugnae_and_wilderness_gardens_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 100 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 5 Uses: 1 Crafts: Gardening Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: None Comments: Dug from Kugnae and Wilderness Gardens Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "path": [
-        "Peasant"
-      ],
-      "level_tier": "",
-      "stats": {
-        "Vita": 100,
-        "Mana": 0
-      },
-      "stack_size": 5,
-      "crafts": [
-        "Gardening"
-      ],
-      "effect": "Vita restoration",
-      "obtain": [
-        "None"
-      ],
-      "comments": "Dug from Kugnae and Wilderness Gardens",
-      "npc_buys": 0
-    },
-    {
-      "id": "vita_1000_mana_0_level_0_path_peasant_max_held_in_1_slot_20_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_shops_monsters_poet_call_of_the_wild_spell_comments_none_shop_prices_npc_sells_60_npc_buys_30",
-      "name": "Vita : 1000 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 20 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Shops, monsters, poet Call of the Wild spell Comments: None Shop prices: NPC Sells: 60 NPC Buys: 30",
+      "id": "tiger_s_heart",
+      "name": "Tiger's heart",
       "category": "item",
       "level_tier": "",
       "stats": {
@@ -314,165 +521,21 @@
         "Shops, monsters, poet Call of the Wild spell"
       ],
       "comments": null,
-      "npc_buys": 30,
-      "path": [
-        "Peasant"
-      ]
+      "npc_buys": 30
     },
     {
-      "id": "vita_1000_mana_0_level_0_path_peasant_max_held_in_1_slot_25_uses_1_crafts_food_preparation_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_food_preparers_comments_prepared_from_bird_or_chicken_meat_by_players_with_food_preparation_skill_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 1000 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 25 Uses: 1 Crafts: Food preparation Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Food preparers Comments: Prepared from Bird or Chicken meat by players with Food preparation skill. Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "path": [
-        "Peasant"
-      ],
-      "level_tier": "",
-      "stats": {
-        "Vita": 1000,
-        "Mana": 0
-      },
-      "stack_size": 25,
-      "crafts": [
-        "Food preparation"
-      ],
-      "effect": "Vita restoration",
-      "obtain": [
-        "Food preparers"
-      ],
-      "comments": "Prepared from Bird or Chicken meat by players with Food preparation skill.",
-      "npc_buys": 0
-    },
-    {
-      "id": "vita_1000_mana_0_level_0_path_peasant_max_held_in_1_slot_25_uses_1_crafts_food_preparation_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_made_by_food_preparers_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 1000 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 25 Uses: 1 Crafts: Food preparation Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Made by food preparers Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "path": [
-        "Peasant"
-      ],
-      "level_tier": "",
-      "stats": {
-        "Vita": 1000,
-        "Mana": 0
-      },
-      "stack_size": 25,
-      "crafts": [
-        "Food preparation"
-      ],
-      "effect": "Vita restoration",
-      "obtain": [
-        "Made by food preparers"
-      ],
-      "npc_buys": 0
-    },
-    {
-      "id": "vita_10000_mana_0_level_0_path_peasant_max_held_in_1_slot_10_uses_1_crafts_none_other_uses_spells_merchant_suggested_price_minimum_2_000_maximum_5_000_effect_vita_restoration_how_to_obtain_clan_shops_comments_dropped_by_town_rabbit_cave_bosses_shop_prices_npc_sells_2_000_npc_buys_1_000",
-      "name": "Vita : 10000 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 10 Uses: 1 Crafts: None Other Uses: Spells Merchant suggested price: Minimum: 2,000 Maximum: 5,000 Effect: Vita restoration How to Obtain: Clan Shops Comments: Dropped by Town Rabbit Cave bosses Shop prices: NPC Sells: 2,000 NPC Buys: 1,000",
+      "id": "tiny_fish",
+      "name": "Tiny fish",
       "category": "item",
       "level_tier": "",
       "stats": {
-        "Vita": 10000,
-        "Mana": 0
-      },
-      "stack_size": 10,
-      "crafts": [],
-      "other_uses": [
-        "Spells"
-      ],
-      "effect": "Vita restoration",
-      "obtain": [
-        "Clan Shops"
-      ],
-      "comments": "Dropped by Town Rabbit Cave bosses",
-      "npc_buys": 1,
-      "path": [
-        "Peasant"
-      ]
-    },
-    {
-      "id": "vita_120_mana_0_level_0_path_peasant_max_held_in_1_slot_100_uses_1_crafts_none_other_uses_trade_for_items_in_chum_s_fish_hut_hamgyong_nam_do_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_river_ogres_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 120 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 100 Uses: 1 Crafts: None Other Uses: Trade for items in Chum's Fish Hut, Hamgyong nam-do Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: River Ogres Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "level_tier": "",
-      "stats": {
-        "Vita": 120,
-        "Mana": 0
-      },
-      "stack_size": 100,
-      "crafts": [],
-      "other_uses": [
-        "Trade for items in Chum's Fish Hut",
-        "Hamgyong nam-do"
-      ],
-      "effect": "Vita restoration",
-      "obtain": [
-        "River Ogres"
-      ],
-      "comments": null,
-      "npc_buys": 0,
-      "path": [
-        "Peasant"
-      ]
-    },
-    {
-      "id": "vita_128_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_dropped_in_mythic_pig_cave_and_kugnae_snake_cave_comments_none_shop_prices_npc_sells_10_npc_buys_5",
-      "name": "Vita : 128 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Dropped in Mythic Pig Cave and Kugnae Snake Cave Comments: None Shop prices: NPC Sells: 10 NPC Buys: 5",
-      "category": "item",
-      "level_tier": "",
-      "stats": {
-        "Vita": 128,
-        "Mana": 0
-      },
-      "stack_size": 1,
-      "crafts": [],
-      "other_uses": [],
-      "effect": "Vita restoration",
-      "obtain": [
-        "Dropped in Mythic Pig Cave and Kugnae Snake Cave"
-      ],
-      "comments": null,
-      "npc_buys": 5,
-      "path": [
-        "Peasant"
-      ]
-    },
-    {
-      "id": "vita_1500_mana_0_level_0_path_peasant_max_held_in_1_slot_10_uses_1_crafts_food_preparation_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_cooking_tiger_meat_comments_made_from_tiger_meat_but_barbarians_may_be_forced_to_hurt_you_if_you_cook_this_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 1500 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 10 Uses: 1 Crafts: Food preparation Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Cooking Tiger meat. Comments: Made from Tiger meat but Barbarians may be forced to hurt you if you cook this! Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "path": [
-        "Peasant"
-      ],
-      "level_tier": "",
-      "stats": {
-        "Vita": 1500,
+        "Vita": 100,
         "Mana": 0
       },
       "stack_size": 10,
       "crafts": [
+        "Fishing",
         "Food preparation"
-      ],
-      "effect": "Vita restoration",
-      "obtain": [
-        "Cooking Tiger meat."
-      ],
-      "comments": "Made from Tiger meat but Barbarians may be forced to hurt you if you cook this!",
-      "npc_buys": 0
-    },
-    {
-      "id": "vita_180_mana_0_level_0_path_peasant_max_held_in_1_slot_10_uses_1_crafts_fishing_other_uses_needed_for_food_preparation_skill_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_fishing_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 180 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 10 Uses: 1 Crafts: Fishing Other Uses: Needed for food preparation skill Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Fishing Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "path": [
-        "Peasant"
-      ],
-      "level_tier": "",
-      "stats": {
-        "Vita": 180,
-        "Mana": 0
-      },
-      "stack_size": 10,
-      "crafts": [
-        "Fishing"
       ],
       "other_uses": [
         "Needed for food preparation skill"
@@ -481,80 +544,104 @@
       "obtain": [
         "Fishing"
       ],
-      "npc_buys": 0
-    },
-    {
-      "id": "vita_20_mana_0_level_0_path_peasant_max_held_in_1_slot_100_uses_1_crafts_food_preparation_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_mythic_oxen_kugnae_mud_snake_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 20 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 100 Uses: 1 Crafts: Food preparation Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: Mythic Oxen, Kugnae Mud Snake Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "path": [
-        "Peasant"
-      ],
-      "level_tier": "",
-      "stats": {
-        "Vita": 20,
-        "Mana": 0
-      },
-      "stack_size": 100,
-      "crafts": [
-        "Food preparation"
-      ],
-      "obtain": [
-        "Mythic Oxen, Kugnae Mud Snake"
-      ],
-      "npc_buys": 0
-    },
-    {
-      "id": "vita_200_mana_0_level_0_path_peasant_max_held_in_1_slot_100_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_mythic_horse_cave_comments_can_be_sold_in_shops_shop_prices_npc_sells_12_npc_buys_12",
-      "name": "Vita : 200 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 100 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Mythic horse cave Comments: Can be sold in shops Shop prices: NPC Sells: 12 NPC Buys: 12",
-      "category": "item",
-      "level_tier": "",
-      "stats": {
-        "Vita": 200,
-        "Mana": 0
-      },
-      "stack_size": 100,
-      "crafts": [],
-      "other_uses": [],
-      "effect": "Vita restoration",
-      "obtain": [
-        "Mythic horse cave"
-      ],
-      "comments": "Can be sold in shops",
-      "npc_buys": 12,
-      "path": [
-        "Peasant"
-      ]
-    },
-    {
-      "id": "vita_200_mana_0_level_0_path_peasant_max_held_in_1_slot_100_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_mythic_rabbits_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 200 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 100 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Mythic rabbits Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "level_tier": "",
-      "stats": {
-        "Vita": 200,
-        "Mana": 0
-      },
-      "stack_size": 100,
-      "crafts": [],
-      "other_uses": [],
-      "effect": "Vita restoration",
-      "obtain": [
-        "Mythic rabbits"
-      ],
       "comments": null,
-      "npc_buys": 0,
-      "path": [
-        "Peasant"
-      ]
+      "npc_buys": 0
     },
     {
-      "id": "vita_200_mana_0_level_0_path_peasant_max_held_in_1_slot_50_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_restores_200_vita_how_to_obtain_potion_shops_comments_restores_200_vita_shop_prices_npc_sells_30_npc_buys_15",
-      "name": "Vita : 200 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 50 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Restores 200 vita How to Obtain: Potion Shops Comments: Restores 200 vita Shop prices: NPC Sells: 30 NPC Buys: 15",
+      "id": "tomes_of_the_earth",
+      "name": "Tomes of the Earth",
       "category": "item",
-      "path": [
-        "Peasant"
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Read Druid's Scroll",
+      "obtain": [
+        "Library"
       ],
+      "npc_buys": 0
+    },
+    {
+      "id": "tormented_tome",
+      "name": "Tormented tome",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "obtain": [
+        "Woodlands Raheem Desert Cave"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "torn_paw",
+      "name": "Torn paw",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 2,
+      "obtain": [
+        "Woodlands Dog Cave"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "unleashed_anger",
+      "name": "Unleashed anger",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "obtain": [
+        "Woodlands Bear Cave"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "venom_sac",
+      "name": "Venom sac",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 5,
+      "obtain": [
+        "Woodlands Snake Cave"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "vile_vial",
+      "name": "Vile vial",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "obtain": [
+        "Woodlands Lobster Cave"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "violet_potion",
+      "name": "Violet potion",
+      "category": "item",
       "level_tier": "",
       "stats": {
         "Vita": 200,
@@ -569,12 +656,43 @@
       "npc_buys": 15
     },
     {
-      "id": "vita_2000_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_various_rats_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 2000 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Various rats Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "id": "wagging_tail",
+      "name": "Wagging tail",
       "category": "item",
       "level_tier": "",
       "stats": {
-        "Vita": 2000,
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 3,
+      "obtain": [
+        "Woodlands Dog Cave"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "war_poem",
+      "name": "War poem",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Casts Sanctuary",
+      "obtain": [
+        "Buy in Kugnae, Baek's shop"
+      ],
+      "npc_buys": 1
+    },
+    {
+      "id": "watermelon",
+      "name": "Watermelon",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 800,
         "Mana": 0
       },
       "stack_size": 1,
@@ -582,329 +700,75 @@
       "other_uses": [],
       "effect": "Vita restoration",
       "obtain": [
-        "Various rats"
+        "Halloween events"
       ],
       "comments": null,
-      "npc_buys": 0,
-      "path": [
-        "Peasant"
-      ]
+      "npc_buys": 0
     },
     {
-      "id": "vita_248_mana_0_level_0_path_peasant_max_held_in_1_slot_52_uses_1_crafts_alchemy_other_uses_crafts_merchant_suggested_price_minimum_0_maximum_0_effect_restores_248_vitaused_by_alchemists_how_to_obtain_arena_shops_dropped_by_deers_comments_none_shop_prices_npc_sells_10_npc_buys_5",
-      "name": "Vita : 248 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 52 Uses: 1 Crafts: Alchemy Other Uses: Crafts Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Restores 248 vitaUsed by Alchemists How to Obtain: Arena Shops, Dropped by Deers Comments: None Shop prices: NPC Sells: 10 NPC Buys: 5",
+      "id": "white_amber",
+      "name": "White amber",
       "category": "item",
       "level_tier": "",
       "stats": {
-        "Vita": 248,
+        "Vita": 0,
         "Mana": 0
       },
-      "stack_size": 52,
+      "stack_size": 20,
       "crafts": [
-        "Alchemy"
+        "Gemcutting"
       ],
       "other_uses": [
         "Crafts"
       ],
-      "effect": "Restores 248 vitaUsed by Alchemists",
+      "effect": null,
       "obtain": [
-        "Arena Shops, Dropped by Deers"
+        "Dropped by many creatures"
       ],
       "comments": null,
-      "npc_buys": 5,
-      "path": [
-        "Peasant"
-      ]
+      "npc_buys": 0
     },
     {
-      "id": "vita_300_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_chef_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_none_comments_prepared_from_salt_block_water_jug_and_flour_by_players_with_food_preparation_skill_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 300 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: Chef Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: None Comments: Prepared from Salt Block, Water Jug, and Flour by players with Food preparation skill. Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "id": "white_paper",
+      "name": "White paper",
       "category": "item",
-      "path": [
-        "Peasant"
-      ],
       "level_tier": "",
       "stats": {
-        "Vita": 300,
+        "Vita": 0,
         "Mana": 0
       },
       "stack_size": 1,
       "crafts": [
-        "Chef"
+        "Scribe"
       ],
-      "effect": "Vita restoration",
+      "other_uses": [
+        "Needed to make most Scrolls"
+      ],
+      "effect": null,
       "obtain": [
-        "None"
+        "Buy in Messenger shops"
       ],
-      "comments": "Prepared from Salt Block, Water Jug, and Flour by players with Food preparation skill.",
-      "npc_buys": 0
+      "comments": null,
+      "npc_buys": 50
     },
     {
-      "id": "vita_300_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_20_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_none_comments_bought_from_bodhi_s_sanctum_monk_s_subpath_area_shop_prices_npc_sells_600_npc_buys_300",
-      "name": "Vita : 300 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 20 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: None Comments: Bought from Bodhi's sanctum, Monk's Subpath Area Shop prices: NPC Sells: 600 NPC Buys: 300",
+      "id": "wicked_wool",
+      "name": "Wicked wool",
       "category": "item",
       "level_tier": "",
       "stats": {
-        "Vita": 300,
+        "Vita": 0,
         "Mana": 0
       },
       "stack_size": 1,
-      "crafts": [],
-      "other_uses": [],
-      "effect": "Vita restoration",
       "obtain": [
-        "None"
-      ],
-      "comments": "Bought from Bodhi's sanctum, Monk's Subpath Area",
-      "npc_buys": 300,
-      "path": [
-        "Peasant"
-      ]
-    },
-    {
-      "id": "vita_320_mana_0_level_0_path_peasant_max_held_in_1_slot_40_uses_1_crafts_alchemy_other_uses_alchemy_lime_potions_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_mythic_snakes_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 320 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 40 Uses: 1 Crafts: Alchemy Other Uses: Alchemy - lime potions Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Mythic Snakes Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "level_tier": "",
-      "stats": {
-        "Vita": 320,
-        "Mana": 0
-      },
-      "stack_size": 40,
-      "crafts": [
-        "Alchemy"
-      ],
-      "other_uses": [
-        "Alchemy - lime potions"
-      ],
-      "effect": "Vita restoration",
-      "obtain": [
-        "Mythic Snakes"
-      ],
-      "comments": null,
-      "npc_buys": 0,
-      "path": [
-        "Peasant"
-      ]
-    },
-    {
-      "id": "vita_360_mana_0_level_0_path_peasant_max_held_in_1_slot_10_uses_1_crafts_fishing_other_uses_needed_for_food_preparation_skill_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_fishing_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 360 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 10 Uses: 1 Crafts: Fishing Other Uses: Needed for food preparation skill Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Fishing Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "path": [
-        "Peasant"
-      ],
-      "level_tier": "",
-      "stats": {
-        "Vita": 360,
-        "Mana": 0
-      },
-      "stack_size": 10,
-      "crafts": [
-        "Fishing"
-      ],
-      "other_uses": [
-        "Needed for food preparation skill"
-      ],
-      "effect": "Vita restoration",
-      "obtain": [
-        "Fishing"
+        "Woodlands Raheem Desert Cave"
       ],
       "npc_buys": 0
     },
     {
-      "id": "vita_40_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_chu_rua_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 40 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Chu rua Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "level_tier": "",
-      "stats": {
-        "Vita": 40,
-        "Mana": 0
-      },
-      "stack_size": 1,
-      "crafts": [],
-      "other_uses": [],
-      "effect": "Vita restoration",
-      "obtain": [
-        "Chu rua"
-      ],
-      "comments": null,
-      "npc_buys": 0,
-      "path": [
-        "Peasant"
-      ]
-    },
-    {
-      "id": "vita_40_mana_0_level_0_path_peasant_max_held_in_1_slot_30_uses_1_crafts_food_preparation_other_uses_food_preparation_skill_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_none_comments_dropped_by_various_chicken_creatures_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 40 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 30 Uses: 1 Crafts: Food preparation Other Uses: Food preparation skill Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: None Comments: Dropped by various chicken creatures Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "level_tier": "",
-      "stats": {
-        "Vita": 40,
-        "Mana": 0
-      },
-      "stack_size": 30,
-      "crafts": [
-        "Food preparation"
-      ],
-      "other_uses": [
-        "Food preparation skill"
-      ],
-      "effect": "Vita restoration",
-      "obtain": [
-        "None"
-      ],
-      "comments": "Dropped by various chicken creatures",
-      "npc_buys": 0,
-      "path": [
-        "Peasant"
-      ]
-    },
-    {
-      "id": "vita_400_mana_0_level_0_path_peasant_max_held_in_1_slot_10_uses_1_crafts_fishing_other_uses_needed_for_food_preparation_skill_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_fishing_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 400 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 10 Uses: 1 Crafts: Fishing Other Uses: Needed for food preparation skill Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Fishing Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "path": [
-        "Peasant"
-      ],
-      "level_tier": "",
-      "stats": {
-        "Vita": 400,
-        "Mana": 0
-      },
-      "stack_size": 10,
-      "crafts": [
-        "Fishing"
-      ],
-      "other_uses": [
-        "Needed for food preparation skill"
-      ],
-      "effect": "Vita restoration",
-      "obtain": [
-        "Fishing"
-      ],
-      "npc_buys": 0
-    },
-    {
-      "id": "vita_400_mana_0_level_0_path_peasant_max_held_in_1_slot_25_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_dropped_by_island_lobsters_in_hausson_dropped_by_most_snakes_in_woodlands_snake_cave_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 400 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 25 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Dropped by Island Lobsters in Hausson. Dropped by most snakes in Woodlands Snake Cave. Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "level_tier": "",
-      "stats": {
-        "Vita": 400,
-        "Mana": 0
-      },
-      "stack_size": 25,
-      "crafts": [],
-      "other_uses": [],
-      "effect": "Vita restoration",
-      "obtain": [
-        "Dropped by Island Lobsters in Hausson. Dropped by most snakes in Woodlands Snake Cave."
-      ],
-      "comments": null,
-      "npc_buys": 0,
-      "path": [
-        "Peasant"
-      ]
-    },
-    {
-      "id": "vita_440_mana_0_level_0_path_peasant_max_held_in_1_slot_10_uses_1_crafts_fishing_other_uses_needed_for_food_preparation_skill_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_fishing_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 440 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 10 Uses: 1 Crafts: Fishing Other Uses: Needed for food preparation skill Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Fishing Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "path": [
-        "Peasant"
-      ],
-      "level_tier": "",
-      "stats": {
-        "Vita": 440,
-        "Mana": 0
-      },
-      "stack_size": 10,
-      "crafts": [
-        "Fishing"
-      ],
-      "other_uses": [
-        "Needed for food preparation skill"
-      ],
-      "effect": "Vita restoration",
-      "obtain": [
-        "Fishing"
-      ],
-      "npc_buys": 0
-    },
-    {
-      "id": "vita_48_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_keep_your_feet_warm_stand_on_it_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_dropped_by_bears_in_vale_north_of_the_buya_entrance_near_the_great_gate_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 48 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: Keep your feet warm; stand on it! Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: Dropped by Bears in Vale north of the Buya entrance near the Great Gate. Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "path": [
-        "Peasant"
-      ],
-      "level_tier": "",
-      "stats": {
-        "Vita": 48,
-        "Mana": 0
-      },
-      "stack_size": 1,
-      "other_uses": [
-        "Keep your feet warm",
-        "stand on it!"
-      ],
-      "obtain": [
-        "Dropped by Bears in Vale north of the Buya entrance near the Great Gate."
-      ],
-      "npc_buys": 0
-    },
-    {
-      "id": "vita_48_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_needed_for_chung_ryong_helm_et_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_dropped_by_various_wolves_comments_none_shop_prices_npc_sells_4_npc_buys_2",
-      "name": "Vita : 48 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: Needed for chung ryong helm(et) Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Dropped by various wolves Comments: None Shop prices: NPC Sells: 4 NPC Buys: 2",
-      "category": "item",
-      "level_tier": "",
-      "stats": {
-        "Vita": 48,
-        "Mana": 0
-      },
-      "stack_size": 1,
-      "crafts": [],
-      "other_uses": [
-        "Needed for chung ryong helm(et)"
-      ],
-      "effect": "Vita restoration",
-      "obtain": [
-        "Dropped by various wolves"
-      ],
-      "comments": null,
-      "npc_buys": 2,
-      "path": [
-        "Peasant"
-      ]
-    },
-    {
-      "id": "vita_48_mana_0_level_0_path_peasant_max_held_in_1_slot_200_uses_1_crafts_none_other_uses_spell_item_merchant_suggested_price_minimum_0_maximum_0_effect_needs_for_spells_how_to_obtain_dropped_by_various_rabbits_comments_none_shop_prices_npc_sells_2_npc_buys_2",
-      "name": "Vita : 48 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 200 Uses: 1 Crafts: None Other Uses: Spell item Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Needs for spells How to Obtain: Dropped by various rabbits Comments: None Shop prices: NPC Sells: 2 NPC Buys: 2",
-      "category": "item",
-      "level_tier": "",
-      "stats": {
-        "Vita": 48,
-        "Mana": 0
-      },
-      "stack_size": 200,
-      "crafts": [],
-      "other_uses": [
-        "Spell item"
-      ],
-      "effect": "Needs for spells",
-      "obtain": [
-        "Dropped by various rabbits"
-      ],
-      "comments": null,
-      "npc_buys": 2,
-      "path": [
-        "Peasant"
-      ]
-    },
-    {
-      "id": "vita_5_mana_25_level_0_path_peasant_max_held_in_1_slot_1_uses_50_crafts_none_other_uses_mana_restoration_merchant_suggested_price_minimum_0_maximum_0_effect_restores_25_mana_and_5_vita_how_to_obtain_taverns_comments_none_shop_prices_npc_sells_10_npc_buys_5",
-      "name": "Vita : 5 Mana : 25 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 50 Crafts: None Other Uses: Mana restoration Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Restores 25 mana and 5 vita How to Obtain: Taverns Comments: None Shop prices: NPC Sells: 10 NPC Buys: 5",
+      "id": "wine",
+      "name": "Wine",
       "category": "item",
       "level_tier": "",
       "stats": {
@@ -921,42 +785,56 @@
         "Taverns"
       ],
       "comments": null,
-      "npc_buys": 5,
-      "path": [
-        "Peasant"
-      ]
+      "npc_buys": 5
     },
     {
-      "id": "vita_5_mana_40_level_0_path_peasant_max_held_in_1_slot_1_uses_50_crafts_none_other_uses_mana_restoration_merchant_suggested_price_minimum_0_maximum_0_effect_restores_40_mana_and_5_vita_how_to_obtain_taverns_comments_none_shop_prices_npc_sells_10_npc_buys_5",
-      "name": "Vita : 5 Mana : 40 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 50 Crafts: None Other Uses: Mana restoration Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Restores 40 mana and 5 vita How to Obtain: Taverns Comments: None Shop prices: NPC Sells: 10 NPC Buys: 5",
+      "id": "wolf_meat",
+      "name": "Wolf meat",
       "category": "item",
       "level_tier": "",
       "stats": {
-        "Vita": 5,
-        "Mana": 40
+        "Vita": 48,
+        "Mana": 0
       },
       "stack_size": 1,
       "crafts": [],
       "other_uses": [
-        "Mana restoration"
+        "Needed for chung ryong helm(et)"
       ],
-      "effect": "Restores 40 mana and 5 vita",
+      "effect": "Vita restoration",
       "obtain": [
-        "Taverns"
+        "Dropped by various wolves"
       ],
       "comments": null,
-      "npc_buys": 5,
-      "path": [
-        "Peasant"
-      ]
+      "npc_buys": 2
     },
     {
-      "id": "vita_50_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_restores_50_vita_how_to_obtain_potion_shops_comments_restores_50_vita_shop_prices_npc_sells_10_npc_buys_5",
-      "name": "Vita : 50 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Restores 50 vita How to Obtain: Potion Shops Comments: Restores 50 vita Shop prices: NPC Sells: 10 NPC Buys: 5",
+      "id": "yellow_amber",
+      "name": "Yellow amber",
       "category": "item",
-      "path": [
-        "Peasant"
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 20,
+      "crafts": [
+        "Gemcutting"
       ],
+      "other_uses": [
+        "Crafts"
+      ],
+      "effect": null,
+      "obtain": [
+        "Dropped by many creatures"
+      ],
+      "comments": null,
+      "npc_buys": 0
+    },
+    {
+      "id": "yellow_potion",
+      "name": "Yellow potion",
+      "category": "item",
       "level_tier": "",
       "stats": {
         "Vita": 50,
@@ -971,344 +849,29 @@
       "npc_buys": 5
     },
     {
-      "id": "vita_500_mana_0_level_0_path_peasant_max_held_in_1_slot_100_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_shops_monsters_poet_call_of_the_wild_spell_comments_none_shop_prices_npc_sells_20_npc_buys_10",
-      "name": "Vita : 500 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 100 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Shops, monsters, poet Call of the Wild spell Comments: None Shop prices: NPC Sells: 20 NPC Buys: 10",
+      "id": "yellow_scroll",
+      "name": "Yellow scroll",
       "category": "item",
       "level_tier": "",
       "stats": {
-        "Vita": 500,
+        "Vita": 0,
         "Mana": 0
       },
       "stack_size": 100,
-      "crafts": [],
-      "other_uses": [],
-      "effect": "Vita restoration",
-      "obtain": [
-        "Shops, monsters, poet Call of the Wild spell"
-      ],
-      "comments": null,
-      "npc_buys": 10,
-      "path": [
-        "Peasant"
-      ]
-    },
-    {
-      "id": "vita_500_mana_0_level_0_path_peasant_max_held_in_1_slot_50_uses_1_crafts_food_preparation_other_uses_needed_for_food_preparation_skill_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_mythic_oxen_kugnae_mud_snake_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 500 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 50 Uses: 1 Crafts: Food preparation Other Uses: Needed for food preparation skill Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Mythic Oxen, Kugnae Mud Snake Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "level_tier": "",
-      "stats": {
-        "Vita": 500,
-        "Mana": 0
-      },
-      "stack_size": 50,
-      "crafts": [
-        "Food preparation"
-      ],
-      "other_uses": [
-        "Needed for food preparation skill"
-      ],
-      "effect": "Vita restoration",
-      "obtain": [
-        "Mythic Oxen, Kugnae Mud Snake"
-      ],
-      "comments": null,
-      "npc_buys": 0,
-      "path": [
-        "Peasant"
-      ]
-    },
-    {
-      "id": "vita_540_mana_0_level_0_path_peasant_max_held_in_1_slot_10_uses_1_crafts_fishing_other_uses_needed_for_food_preparation_skill_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_fishing_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 540 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 10 Uses: 1 Crafts: Fishing Other Uses: Needed for food preparation skill Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Fishing Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "path": [
-        "Peasant"
-      ],
-      "level_tier": "",
-      "stats": {
-        "Vita": 540,
-        "Mana": 0
-      },
-      "stack_size": 10,
-      "crafts": [
-        "Fishing"
-      ],
-      "other_uses": [
-        "Needed for food preparation skill"
-      ],
-      "effect": "Vita restoration",
-      "obtain": [
-        "Fishing"
-      ],
-      "npc_buys": 0
-    },
-    {
-      "id": "vita_60_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_various_rats_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 60 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Various rats Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "level_tier": "",
-      "stats": {
-        "Vita": 60,
-        "Mana": 0
-      },
-      "stack_size": 1,
-      "crafts": [],
-      "other_uses": [],
-      "effect": "Vita restoration",
-      "obtain": [
-        "Various rats"
-      ],
-      "comments": null,
-      "npc_buys": 0,
-      "path": [
-        "Peasant"
-      ]
-    },
-    {
-      "id": "vita_8_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_move_to_other_towns_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_various_squirrels_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 8 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: Move to other towns Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Various squirrels Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "path": [
-        "Peasant"
-      ],
-      "level_tier": "",
-      "stats": {
-        "Vita": 8,
-        "Mana": 0
-      },
-      "stack_size": 1,
-      "other_uses": [
-        "Move to other towns"
-      ],
-      "effect": "Vita restoration",
-      "obtain": [
-        "Various squirrels"
-      ],
-      "npc_buys": 0
-    },
-    {
-      "id": "vita_8_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_needed_to_enter_leviathan_quest_area_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_green_squirrels_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 8 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: Needed to enter Leviathan Quest area Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Green squirrels Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "path": [
-        "Peasant"
-      ],
-      "level_tier": "",
-      "stats": {
-        "Vita": 8,
-        "Mana": 0
-      },
-      "stack_size": 1,
-      "other_uses": [
-        "Needed to enter Leviathan Quest area"
-      ],
-      "effect": "Vita restoration",
-      "obtain": [
-        "Green squirrels"
-      ],
-      "npc_buys": 0
-    },
-    {
-      "id": "vita_8_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_butcher_shops_comments_none_shop_prices_npc_sells_1_npc_buys_1",
-      "name": "Vita : 8 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Butcher shops Comments: None Shop prices: NPC Sells: 1 NPC Buys: 1",
-      "category": "item",
-      "path": [
-        "Peasant"
-      ],
-      "level_tier": "",
-      "stats": {
-        "Vita": 8,
-        "Mana": 0
-      },
-      "stack_size": 1,
-      "effect": "Vita restoration",
-      "obtain": [
-        "Butcher shops"
-      ],
-      "npc_buys": 1
-    },
-    {
-      "id": "vita_8_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_butcher_shops_comments_none_shop_prices_npc_sells_2_npc_buys_1",
-      "name": "Vita : 8 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Butcher shops Comments: None Shop prices: NPC Sells: 2 NPC Buys: 1",
-      "category": "item",
-      "path": [
-        "Peasant"
-      ],
-      "level_tier": "",
-      "stats": {
-        "Vita": 8,
-        "Mana": 0
-      },
-      "stack_size": 1,
-      "effect": "Vita restoration",
-      "obtain": [
-        "Butcher shops"
-      ],
-      "npc_buys": 1
-    },
-    {
-      "id": "vita_8_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_lost_mines_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 8 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Lost Mines Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "path": [
-        "Peasant"
-      ],
-      "level_tier": "",
-      "stats": {
-        "Vita": 8,
-        "Mana": 0
-      },
-      "stack_size": 1,
-      "effect": "Vita restoration",
-      "obtain": [
-        "Lost Mines"
-      ],
-      "npc_buys": 0
-    },
-    {
-      "id": "vita_8_mana_0_level_0_path_peasant_max_held_in_1_slot_10_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_spawns_in_town_gardens_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 8 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 10 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Spawns in town gardens Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "path": [
-        "Peasant"
-      ],
-      "level_tier": "",
-      "stats": {
-        "Vita": 8,
-        "Mana": 0
-      },
-      "stack_size": 10,
-      "effect": "Vita restoration",
-      "obtain": [
-        "Spawns in town gardens"
-      ],
-      "npc_buys": 0
-    },
-    {
-      "id": "vita_8_mana_0_level_0_path_peasant_max_held_in_1_slot_100_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_various_foxes_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 8 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 100 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: Various foxes Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "level_tier": "",
-      "stats": {
-        "Vita": 8,
-        "Mana": 0
-      },
-      "stack_size": 100,
-      "crafts": [],
-      "other_uses": [],
-      "effect": null,
-      "obtain": [
-        "Various foxes"
-      ],
-      "comments": null,
-      "npc_buys": 0,
-      "path": [
-        "Peasant"
-      ]
-    },
-    {
-      "id": "vita_8_mana_0_level_0_path_peasant_max_held_in_1_slot_100_uses_1_crafts_none_other_uses_vita_restoration_merchant_suggested_price_minimum_0_maximum_0_effect_fun_to_throw_at_people_how_to_obtain_taverns_comments_none_shop_prices_npc_sells_10_npc_buys_5",
-      "name": "Vita : 8 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 100 Uses: 1 Crafts: None Other Uses: Vita restoration Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Fun to throw at people! How to Obtain: Taverns Comments: None Shop prices: NPC Sells: 10 NPC Buys: 5",
-      "category": "item",
-      "path": [
-        "Peasant"
-      ],
-      "level_tier": "",
-      "stats": {
-        "Vita": 8,
-        "Mana": 0
-      },
-      "stack_size": 100,
-      "other_uses": [
-        "Vita restoration"
-      ],
-      "effect": "Fun to throw at people!",
+      "effect": "Return to Taverns",
       "obtain": [
         "Taverns"
       ],
-      "npc_buys": 5
+      "comments": "Buy in Taverns",
+      "npc_buys": 1
     },
     {
-      "id": "vita_8_mana_0_level_0_path_peasant_max_held_in_1_slot_12_uses_1_crafts_food_preparation_other_uses_needed_for_food_preparation_skill_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_dropped_by_various_chickens_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 8 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 12 Uses: 1 Crafts: Food preparation Other Uses: Needed for food preparation skill Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Dropped by various chickens Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "id": "young_ginseng",
+      "name": "Young ginseng",
       "category": "item",
       "level_tier": "",
       "stats": {
-        "Vita": 8,
-        "Mana": 0
-      },
-      "stack_size": 12,
-      "crafts": [
-        "Food preparation"
-      ],
-      "other_uses": [
-        "Needed for food preparation skill"
-      ],
-      "effect": "Vita restoration",
-      "obtain": [
-        "Dropped by various chickens"
-      ],
-      "comments": null,
-      "npc_buys": 0,
-      "path": [
-        "Peasant"
-      ]
-    },
-    {
-      "id": "vita_8_mana_0_level_0_path_peasant_max_held_in_1_slot_201_uses_1_crafts_none_other_uses_spells_merchant_suggested_price_minimum_0_maximum_0_effect_needed_for_spells_how_to_obtain_squirrel_and_green_squirrels_comments_none_shop_prices_npc_sells_10_npc_buys_10",
-      "name": "Vita : 8 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 201 Uses: 1 Crafts: None Other Uses: Spells Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Needed for spells How to Obtain: Squirrel and Green squirrels Comments: None Shop prices: NPC Sells: 10 NPC Buys: 10",
-      "category": "item",
-      "path": [
-        "Peasant"
-      ],
-      "level_tier": "",
-      "stats": {
-        "Vita": 8,
-        "Mana": 0
-      },
-      "stack_size": 201,
-      "other_uses": [
-        "Spells"
-      ],
-      "effect": "Needed for spells",
-      "obtain": [
-        "Squirrel and Green squirrels"
-      ],
-      "npc_buys": 10
-    },
-    {
-      "id": "vita_80_mana_0_level_0_path_peasant_max_held_in_1_slot_100_uses_1_crafts_none_other_uses_trade_for_items_in_chum_s_fish_hut_hamgyong_nam_do_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_river_ogres_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 80 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 100 Uses: 1 Crafts: None Other Uses: Trade for items in Chum's Fish Hut, Hamgyong nam-do Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: River Ogres Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "level_tier": "",
-      "stats": {
-        "Vita": 80,
-        "Mana": 0
-      },
-      "stack_size": 100,
-      "crafts": [],
-      "other_uses": [
-        "Trade for items in Chum's Fish Hut",
-        "Hamgyong nam-do"
-      ],
-      "effect": "Vita restoration",
-      "obtain": [
-        "River Ogres"
-      ],
-      "comments": null,
-      "npc_buys": 0,
-      "path": [
-        "Peasant"
-      ]
-    },
-    {
-      "id": "vita_800_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_halloween_events_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 800 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Halloween events Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "level_tier": "",
-      "stats": {
-        "Vita": 800,
+        "Vita": 40,
         "Mana": 0
       },
       "stack_size": 1,
@@ -1316,124 +879,28 @@
       "other_uses": [],
       "effect": "Vita restoration",
       "obtain": [
-        "Halloween events"
+        "Chu rua"
       ],
       "comments": null,
-      "npc_buys": 0,
-      "path": [
-        "Peasant"
-      ]
-    },
-    {
-      "id": "vita_800_mana_0_level_0_path_peasant_max_held_in_1_slot_25_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_created_by_food_preparation_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 800 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 25 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Created by food preparation Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "path": [
-        "Peasant"
-      ],
-      "level_tier": "",
-      "stats": {
-        "Vita": 800,
-        "Mana": 0
-      },
-      "stack_size": 25,
-      "effect": "Vita restoration",
-      "obtain": [
-        "Created by food preparation"
-      ],
       "npc_buys": 0
     },
     {
-      "id": "vita_900_mana_0_level_0_path_peasant_max_held_in_1_slot_0_uses_1_crafts_chef_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_mana_restoration_how_to_obtain_chefs_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 900 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 0 Uses: 1 Crafts: Chef Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Mana restoration How to Obtain: Chefs Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "id": "yuri_s_love",
+      "name": "Yuri's love",
       "category": "item",
-      "path": [
-        "Peasant"
-      ],
       "level_tier": "",
       "stats": {
-        "Vita": 900,
-        "Mana": 0
-      },
-      "stack_size": 0,
-      "crafts": [
-        "Chef"
-      ],
-      "effect": "Mana restoration",
-      "obtain": [
-        "Chefs"
-      ],
-      "npc_buys": 0
-    },
-    {
-      "id": "vita_900_mana_0_level_0_path_peasant_max_held_in_1_slot_50_uses_1_crafts_none_other_uses_for_husbands_to_use_next_to_their_wives_merchant_suggested_price_minimum_0_maximum_0_effect_causes_husband_and_wife_to_wink_how_to_obtain_chapels_comments_if_a_wife_eats_this_while_standing_next_to_her_husband_she_gets_960_vita_all_other_uses_give_20_vita_shop_prices_npc_sells_20_npc_buys_0",
-      "name": "Vita : 900 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 50 Uses: 1 Crafts: None Other Uses: For husbands to use next to their wives Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Causes husband and wife to wink. How to Obtain: Chapels Comments: If a wife eats this while standing next to her husband, she gets 960 vita. All other uses give 20 vita. Shop prices: NPC Sells: 20 NPC Buys: 0",
-      "category": "item",
-      "path": [
-        "Peasant"
-      ],
-      "level_tier": "",
-      "stats": {
-        "Vita": 900,
-        "Mana": 0
-      },
-      "stack_size": 50,
-      "other_uses": [
-        "For husbands to use next to their wives"
-      ],
-      "effect": "Causes husband and wife to wink.",
-      "obtain": [
-        "Chapels"
-      ],
-      "comments": "If a wife eats this while standing next to her husband, she gets 960 vita. All other uses give 20 vita.",
-      "npc_buys": 0
-    },
-    {
-      "id": "vita_900_mana_0_level_0_path_peasant_max_held_in_1_slot_50_uses_1_crafts_none_other_uses_for_wives_to_use_next_to_their_husbands_merchant_suggested_price_minimum_0_maximum_0_effect_causes_husband_and_wife_to_wink_how_to_obtain_chapels_comments_if_a_husband_eats_this_while_standing_next_to_his_wife_he_gets_960_vita_all_other_uses_give_20_vita_shop_prices_npc_sells_20_npc_buys_0",
-      "name": "Vita : 900 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 50 Uses: 1 Crafts: None Other Uses: For wives to use next to their husbands Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Causes husband and wife to wink. How to Obtain: Chapels Comments: If a husband eats this while standing next to his wife, he gets 960 vita. All other uses give 20 vita. Shop prices: NPC Sells: 20 NPC Buys: 0",
-      "category": "item",
-      "path": [
-        "Peasant"
-      ],
-      "level_tier": "",
-      "stats": {
-        "Vita": 900,
-        "Mana": 0
-      },
-      "stack_size": 50,
-      "other_uses": [
-        "For wives to use next to their husbands"
-      ],
-      "effect": "Causes husband and wife to wink.",
-      "obtain": [
-        "Chapels"
-      ],
-      "comments": "If a husband eats this while standing next to his wife, he gets 960 vita. All other uses give 20 vita.",
-      "npc_buys": 0
-    },
-    {
-      "id": "vita_960_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_fishing_other_uses_needed_for_food_preparation_skill_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_none_comments_none_shop_prices_npc_sells_0_npc_buys_0",
-      "name": "Vita : 960 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: Fishing Other Uses: Needed for food preparation skill Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: None Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
-      "category": "item",
-      "path": [
-        "Peasant"
-      ],
-      "level_tier": "",
-      "stats": {
-        "Vita": 960,
+        "Vita": 0,
         "Mana": 0
       },
       "stack_size": 1,
-      "crafts": [
-        "Fishing"
-      ],
       "other_uses": [
-        "Needed for food preparation skill"
+        "Make bouquets"
       ],
-      "effect": "Vita restoration",
       "obtain": [
-        "None"
+        "Created by Druids"
       ],
+      "comments": "These were created when King Yuri fell in love with Malady. Druids can create them.",
       "npc_buys": 0
     }
   ]
