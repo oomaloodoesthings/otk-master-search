@@ -60,22 +60,32 @@ async function loadManifest() {
 
 async function loadChunks(files) {
   setLoadStatus(`Loading ${files.length} data file(s)…`);
-  dbg('loadChunks: files', files);
-  const all = [];
+  // Progress bar by files; subtext by items loaded
+  setLoader('Loading data files…', '0 items loaded', 0, files.length);
+
+  // Make sure you have a place to put everything
+  if (!state.allItems) state.allItems = [];
+
+  let itemsLoaded = 0;
+  let i = 0;
+
   for (const file of files) {
-    const res = await fetch('data/' + file, {cache: 'no-store'});
-    if (!res.ok) {
-      console.warn('Missing chunk:', file);
-      setLoadStatus(`Missing chunk: ${file}`);
-      dbg('missing chunk', {file, status: res.status});
-      continue;
-    }
+    const res = await fetch('data/' + file, { cache: 'no-store' });
     const json = await res.json();
-    dbg('chunk loaded', {file, count: Array.isArray(json.items)? json.items.length : 0});
-    if (Array.isArray(json.items)) all.push(...json.items);
+
+    const arr = Array.isArray(json.items) ? json.items : [];
+    state.allItems.push(...arr);
+
+    itemsLoaded += arr.length;
+    i += 1;
+
+    // progress bar uses files; subtext shows items count
+    setLoader('Loading data files…', `${itemsLoaded} items loaded`, i, files.length);
   }
-  return all;
+
+  setLoadStatus(`Loaded ${state.allItems.length} items from ${files.length} files.`);
 }
+
 
 function initEls() {
   els.q = document.querySelector('#q');
