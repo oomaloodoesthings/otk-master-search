@@ -532,7 +532,8 @@ async function main() {
 
 main().catch(err => {
   console.error(err);
-  dbg('main error', {message: err?.message  try { hideLoader(); } catch {}
-});
+  dbg('main error', { message: err?.message });
+  try { hideLoader(); } catch {}
   alert('Failed to initialize. See console for details.');
 });
+
