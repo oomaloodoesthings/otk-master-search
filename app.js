@@ -483,7 +483,6 @@ function bind() {
     els.tiers.forEach(t => t.checked = false);
     applyFilters();
   });
-  }
   if (els.debugCopy && els.debugLog){
     els.debugCopy.addEventListener('click', async () => {
       try { await navigator.clipboard.writeText(els.debugLog.textContent || ''); } catch(e) {}
