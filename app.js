@@ -1,3 +1,8 @@
+
+// Helper to check if an entry is an Item category
+function isItem(entry) {
+  return entry.category && entry.category.toLowerCase() === 'item';
+}
 // Clean app.js with: chunked loading, filters, stat sorting (AC special), indicator, reset, theme, debug, infinite scroll, 20-per page
 const state = {
   items: [],
@@ -420,6 +425,91 @@ function ensureItemCardStyles() {
 }
 `;
   document.head.appendChild(style);
+}
+
+
+function ensureFilterChipStyles() {
+  if (document.getElementById('otk-chip-styles')) return;
+  const style = document.createElement('style');
+  style.id = 'otk-chip-styles';
+  style.textContent = `
+.filter-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0 12px; }
+.filter-chips .chip {
+  border-radius: 999px; padding: 6px 12px; font-size: 13px;
+  background: rgba(127,127,127,0.16); border: 1px solid rgba(127,127,127,0.22);
+  cursor: pointer; user-select: none;
+}
+.filter-chips .chip[aria-pressed="true"] {
+  background: rgba(59,130,246,0.18); border-color: rgba(59,130,246,0.42);
+}
+.filter-row { margin: 6px 0 10px; }
+.filter-row .title { font-weight: 600; margin-right: 8px; opacity: .9; }
+.visually-hidden { position: absolute !important; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); border:0; }
+:root[data-theme="light"] .filter-chips .chip { background:#f3f4f6; border-color:#e5e7eb; }
+:root[data-theme="light"] .filter-chips .chip[aria-pressed="true"] { background:#dbeafe; border-color:#93c5fd; }
+`;
+  document.head.appendChild(style);
+}
+
+
+function enhanceFilterChips() {
+  ensureFilterChipStyles();
+
+  // Helper to build a chip row from a NodeList of inputs
+  function buildChips(inputs, title, targetContainer) {
+    if (!inputs || inputs.length === 0) return null;
+    const row = document.createElement('div');
+    row.className = 'filter-row';
+    const label = document.createElement('span');
+    label.className = 'title';
+    label.textContent = title;
+    const chips = document.createElement('div');
+    chips.className = 'filter-chips';
+    row.appendChild(label); row.appendChild(chips);
+
+    inputs.forEach((inp) => {
+      // normalize 0-99 -> 1-99 for tiers
+      if (title === 'Level' && String(inp.value).trim().toLowerCase() === '0-99') {
+        inp.value = '1-99';
+        const lbl = inp.closest('label');
+        if (lbl) lbl.innerHTML = lbl.innerHTML.replace(/0-99/g, '1-99');
+      }
+      const chip = document.createElement('button');
+      chip.type = 'button';
+      chip.className = 'chip';
+      const txt = (inp.closest('label')?.textContent || inp.value || '').trim();
+      chip.textContent = txt.replace(/Level\s*Tiers?\s*:\s*/i, '').replace(/\s+/g,' ');
+      chip.setAttribute('aria-pressed', inp.checked ? 'true' : 'false');
+      chip.addEventListener('click', (ev) => {
+        const active = chip.getAttribute('aria-pressed') === 'true';
+        chip.setAttribute('aria-pressed', active ? 'false' : 'true');
+        inp.checked = !active;
+        // fire change so existing listeners run
+        inp.dispatchEvent(new Event('change', { bubbles: true }));
+      });
+      chips.appendChild(chip);
+      // hide original input+label but leave for screen-readers
+      if (inp.closest('label')) inp.closest('label').classList.add('visually-hidden');
+      else inp.classList.add('visually-hidden');
+    });
+
+    // Place chip row near the old inputs (before first input's parent) or at top of filters panel
+    const anchor = inputs[0]?.closest('.filter-group') || inputs[0]?.parentElement || targetContainer || document.getElementById('filters');
+    if (anchor && anchor.parentElement) anchor.parentElement.insertBefore(row, anchor);
+    else document.body.insertBefore(row, document.body.firstChild);
+    return row;
+  }
+
+  // Build rows
+  const catRow = buildChips(Array.from(els.categories || []), 'Category');
+  const pathRow = buildChips(Array.from(els.paths || []), 'Paths');
+  const tierRow = buildChips(Array.from(els.tiers || []), 'Level');
+
+  // If there's a textual "Level Tiers:" title hanging around, rename it
+  document.querySelectorAll('.filter-group h3, .filter-group legend, .filter-group-label').forEach(el => {
+    const t = (el.textContent || '').trim();
+    if (/^level\s*tiers?/i.test(t)) el.textContent = 'Level';
+  });
 }
 
 async function main() {
