@@ -81,7 +81,7 @@ function hideLoader() {
   if (overlay) overlay.classList.remove('visible');
 }
 
-function setLoadStatus(msg){ if (els.loadStatus) els.loadStatus.textContent = msg; try{ setLoader(msg); }catch(e){} }
+function setLoadStatus(msg){ if (els.loadStatus) els.loadStatus.textContent = msg;  try{ setLoader(msg); }catch(e){} }
 function dbg(msg, obj){
   try { const line = (obj!==undefined) ? msg + ' ' + JSON.stringify(obj) : msg;
         if (els.debugLog){ els.debugLog.textContent += line + '\n'; } }
@@ -104,6 +104,28 @@ function inferCategory(item){
   return 'item';
 }
 
+
+// --- Cache helpers ---
+function simpleHash(str){
+  let h = 2166136261 >>> 0;
+  for (let i=0;i<str.length;i++){ h ^= str.charCodeAt(i); h = Math.imul(h, 16777619); }
+  return (h>>>0).toString(36);
+}
+async function loadCache(versionKey){
+  try {
+    const raw = localStorage.getItem('otk_cache_items_' + versionKey);
+    if (!raw) return null;
+    const parsed = JSON.parse(raw);
+    if (!parsed || !Array.isArray(parsed.items)) return null;
+    return parsed.items;
+  } catch { return null; }
+}
+function saveCache(versionKey, items){
+  try {
+    localStorage.setItem('otk_cache_items_' + versionKey, JSON.stringify({ items, savedAt: Date.now() }));
+  } catch {}
+}
+
 async function loadManifest() {
   setLoadStatus('Loading manifest…');
   dbg('loadManifest: start');
@@ -114,10 +136,15 @@ async function loadManifest() {
   return manifest.files || [];
 }
 
+
 async function loadChunks(files) {
   setLoadStatus(`Loading ${files.length} data file(s)…`);
   dbg('loadChunks: files', files);
   const all = [];
+  let filesLoaded = 0;
+  let itemsLoaded = 0;
+  setLoader('Loading data files…', '0 items loaded', 0, files.length);
+
   for (const file of files) {
     const res = await fetch('data/' + file, {cache: 'no-store'});
     if (!res.ok) {
@@ -127,11 +154,17 @@ async function loadChunks(files) {
       continue;
     }
     const json = await res.json();
-    dbg('chunk loaded', {file, count: Array.isArray(json.items)? json.items.length : 0});
-    if (Array.isArray(json.items)) all.push(...json.items);
+    const count = Array.isArray(json.items) ? json.items.length : 0;
+    if (Array.isArray(json.items)) { all.push(...json.items); itemsLoaded += count; }
+    filesLoaded += 1;
+
+    setLoader('Loading data files…', `${itemsLoaded} items loaded`, filesLoaded, files.length);
+    setLoadStatus(`Loading data… ${itemsLoaded} item(s) loaded`);
+    dbg('chunk loaded', {file, count});
   }
   return all;
 }
+
 
 function initEls() {
   els.q = document.querySelector('#q');
@@ -409,8 +442,6 @@ function bind() {
     els.tiers.forEach(t=>t.checked=true);
     state.sortKey='name'; state.sortDir='asc'; state.statKey=null;
     applyFilters();
-    syncFilterChips();
-  hideLoader();
   });
   if (els.selectNone) els.selectNone.addEventListener('click', () => {
     els.q.value='';
@@ -419,8 +450,6 @@ function bind() {
     els.tiers.forEach(t=>t.checked=false);
     state.sortKey='name'; state.sortDir='asc'; state.statKey=null;
     applyFilters();
-    syncFilterChips();
-  hideLoader();
   });
 
   // Debug panel
@@ -610,7 +639,6 @@ function ensureFilterChipStyles() {
 }
 
 function syncFilterChips(){
-  // Keep chip pressed state in sync with underlying inputs
   document.querySelectorAll('.filter-chips .chip[data-input-id]').forEach(chip => {
     const id = chip.getAttribute('data-input-id');
     const inp = document.getElementById(id);
@@ -620,20 +648,6 @@ function syncFilterChips(){
 }
 
 function enhanceFilterChips() {
-  // Clean up redundant captions like "Category:", "Paths:", "Level Tiers:" near the filter form
-  try{
-    document.querySelectorAll('#filters .filter-group h3, #filters .filter-group legend').forEach(el=>{
-      const t=(el.textContent||'').trim();
-      if(/^level\s*tiers?/i.test(t)) el.textContent='Level';
-    });
-    document.querySelectorAll('#filters .filter-group, #filters').forEach(group=>{
-      group.querySelectorAll(':scope > *').forEach(child=>{
-        const txt=(child.textContent||'').trim();
-        if(/^(Category|Paths|Level(\s*Tiers)?)\s*:?$/.test(txt) && child.tagName!=='DIV'){ child.classList.add('visually-hidden'); }
-      });
-    });
-  }catch(e){}
-
   ensureFilterChipStyles();
 
   function buildChips(inputs, title) {
@@ -654,7 +668,7 @@ function enhanceFilterChips() {
         inp.value = '1-99';
         const lbl = inp.closest('label'); if (lbl) lbl.innerHTML = lbl.innerHTML.replace(/0-99/g, '1-99');
       }
-      const chip = document.createElement('button'); chip.type='button'; chip.className='chip'; chip.dataset.inputId = inp.id;
+      const chip = document.createElement('button'); chip.type='button'; chip.className='chip';
       const txt = (inp.closest('label')?.textContent || inp.value || '').trim();
       chip.textContent = txt.replace(/Level\s*Tiers?\s*:\s*/i, '').replace(/:\s*$/, '');
       chip.setAttribute('aria-pressed', inp.checked ? 'true' : 'false');
@@ -669,31 +683,22 @@ function enhanceFilterChips() {
     });
 
     const anchor = inputs[0]?.closest('.filter-group') || document.getElementById('filters');
-    if (anchor){
-      const head = anchor.querySelector('h3,legend');
-      if (head && head.parentElement){ head.parentElement.insertBefore(row, head.nextSibling); }
-      else { anchor.appendChild(row); }
-    } else { document.body.insertBefore(row, document.body.firstChild); }
+    if (anchor && anchor.parentElement) anchor.parentElement.insertBefore(row, anchor);
+    else document.body.insertBefore(row, document.body.firstChild);
   }
 
   buildChips(Array.from(els.categories || []), 'Category');
   buildChips(Array.from(els.paths || []), 'Paths');
   buildChips(Array.from(els.tiers || []), 'Level');
 
-  
-  // Extra cleanup: hide duplicate inline labels and native checkbox rows (keep a11y)
+  // Hide duplicate labels inside the controls container
   try {
-    const texts = /^(Category|Paths|Level(\s*Tiers)?)\s*:?$/i;
-    document.querySelectorAll('#filters * , #search * , .filters *').forEach(el => {
-      const t = (el.textContent || '').trim();
-      if (texts.test(t) && el.tagName !== 'DIV') el.classList.add('visually-hidden');
+    const ctr = document.getElementById('controls') || document;
+    ctr.querySelectorAll('.filter-group h3, .filter-group legend, .group-label, label').forEach(el => {
+      const t=(el.textContent||'').trim();
+      if (/^(Category|Paths|Level(\s*Tiers)?)\s*:?$/i.test(t)) el.classList.add('visually-hidden');
     });
-    // Hide native checkbox containers (labels) once chips exist
-    if (document.querySelector('.filter-chips')) {
-      document.querySelectorAll('label > input[type="checkbox"]').forEach(inp => inp.closest('label')?.classList.add('visually-hidden'));
-    }
   } catch(e) {}
-
   // Rename any leftover "Level Tiers" labels
   document.querySelectorAll('.filter-group h3, .filter-group legend, .filter-group-label').forEach(el => {
     const t = (el.textContent || '').trim(); if (/^level\s*tiers?/i.test(t)) el.textContent = 'Level';
@@ -740,8 +745,6 @@ async function main() {
   setLoadStatus(`Loaded ${state.items.length} item(s)`);
   if (state.items.length === 0 && els.debugPanel) els.debugPanel.classList.remove('hidden');
   applyFilters();
-    syncFilterChips();
-  hideLoader();
 }
 
 main().catch(err => {
