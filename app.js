@@ -131,7 +131,11 @@ function applyFilters() {
     if (!catHit) return false;
     const pathHit = it.path.length === 0 || it.path.some(p => checkedPaths.has(p));
     if (!pathHit) return false;
-    const tierHit = checkedTiers.size === 0 || checkedTiers.has((it.level_tier || '').toLowerCase());
+    const tierRaw = String(it.level_tier || '').toLowerCase();
+    const isNumericLevel = /^\d{1,3}$/.test(tierRaw);
+    const tierHit = checkedTiers.size === 0
+      || checkedTiers.has(tierRaw)
+      || (isNumericLevel && checkedTiers.has('1-99'));
     return tierHit;
   });
 
