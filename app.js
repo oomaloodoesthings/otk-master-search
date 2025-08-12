@@ -20,7 +20,9 @@ const els = {
   exportJson: null, exportCsv: null,
   themeToggle: null, resetBtn: null, sortedIndicator: null,
   debugToggle: null, debugPanel: null, debugLog: null, debugCopy: null, debugClear: null, debugMeta: null,
-  sentinel: null
+  sentinel: null,
+  selectAll: null,
+  selectNone: null
 };
 
 function setLoadStatus(msg){ if (els.loadStatus) els.loadStatus.textContent = msg; }
@@ -87,6 +89,18 @@ function initEls() {
   els.exportCsv = document.querySelector('#export-csv');
   els.themeToggle = document.querySelector('#theme-toggle');
   els.resetBtn = document.querySelector('#reset-filters');
+  // Replace Reset with Select all / Select none buttons
+  if (els.resetBtn && !document.getElementById('select-all')) {
+    const noneBtn = document.createElement('button');
+    noneBtn.id = 'select-none'; noneBtn.className = 'btn'; noneBtn.textContent = 'Select none';
+    const allBtn = document.createElement('button');
+    allBtn.id = 'select-all'; allBtn.className = 'btn'; allBtn.textContent = 'Select all';
+    els.resetBtn.insertAdjacentElement('beforebegin', allBtn);
+    els.resetBtn.insertAdjacentElement('beforebegin', noneBtn);
+    els.resetBtn.style.display = 'none';
+    els.selectAll = allBtn; els.selectNone = noneBtn;
+  }
+
   els.sortedIndicator = document.querySelector('#sorted-indicator');
   els.debugToggle = document.querySelector('#debug-toggle');
   els.debugPanel = document.querySelector('#debug-panel');
@@ -136,7 +150,10 @@ function applyFilters() {
     if (!catHit) return false;
     const pathHit = it.path.length === 0 || it.path.some(p => checkedPaths.has(p));
     if (!pathHit) return false;
-    const tierHit = checkedTiers.size === 0 || checkedTiers.has((it.level_tier || '').toLowerCase());
+    const isItemCat = (it.category || inferCategory(it)) === 'item';
+    const levelRaw = (it.level_tier || '').toLowerCase();
+    const isNumericLevel = /^\d{1,3}$/.test(levelRaw);
+    const tierHit = isItemCat || checkedTiers.size === 0 || checkedTiers.has(levelRaw) || (isNumericLevel && checkedTiers.has('1-99'));
     return tierHit;
   });
 
@@ -204,7 +221,7 @@ function render() {
     const obtain = (it.obtain || []).map(o => `<div>${escapeHtml(String(o))}</div>`).join('');
 
 
-    if (isItem) {
+    if (isItem(it)) {
       const vitaBadge = (it.stats && it.stats.Vita != null) ? `<span class="badge stat" data-stat="Vita" title="Sort by Vita">Vita: ${escapeHtml(String(it.stats.Vita))}</span>` : '';
       const manaBadge = (it.stats && it.stats.Mana != null) ? `<span class="badge stat" data-stat="Mana" title="Sort by Mana">Mana: ${escapeHtml(String(it.stats.Mana))}</span>` : '';
       const stackBadge = (it.stack_size != null) ? `<span class="badge">Stack Size: ${escapeHtml(String(it.stack_size))}</span>` : '';
@@ -363,12 +380,20 @@ function bind() {
     });
   }
 
-  // Reset filters
-  els.resetBtn.addEventListener('click', () => {
+  // Select all / Select none
+  if (els.selectAll) els.selectAll.addEventListener('click', () => {
     els.q.value = '';
     els.categories.forEach(c => c.checked = true);
     els.paths.forEach(p => p.checked = true);
     els.tiers.forEach(t => t.checked = true);
+    state.sortKey = 'name'; state.sortDir = 'asc'; state.statKey = null;
+    applyFilters();
+  });
+  if (els.selectNone) els.selectNone.addEventListener('click', () => {
+    els.q.value = '';
+    els.categories.forEach(c => c.checked = false);
+    els.paths.forEach(p => p.checked = false);
+    els.tiers.forEach(t => t.checked = false);
     state.sortKey = 'name'; state.sortDir = 'asc'; state.statKey = null;
     applyFilters();
   });
@@ -517,6 +542,7 @@ async function main() {
   setTheme(getTheme());
   setupInfiniteScroll();
   bind();
+  enhanceFilterChips();
 
   const files = await loadManifest();
   const items = await loadChunks(files);
