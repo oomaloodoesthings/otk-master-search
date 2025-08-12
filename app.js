@@ -77,7 +77,18 @@ function showLoader(text) {
   if (label && text) label.textContent = text;
   overlay?.classList.add('visible');
 }
-function hideLoader() {
+f
+
+function setLoader(text){
+  // Back-compat shim: update overlay text if present; no-op if overlay missing
+  try {
+    ensureLoader();
+    const overlay = document.getElementById('otk-loader-overlay');
+    const label = overlay ? overlay.querySelector('.text') : null;
+    if (label && text) label.textContent = String(text);
+  } catch {}
+}
+unction hideLoader() {
   const overlay = document.getElementById('otk-loader-overlay');
   overlay?.classList.remove('visible');
 }
@@ -318,7 +329,23 @@ function patchUILevelsAndStyles() {
   } catch {}
 
 
-  // Update '0-99' checkbox label/value -> '1-99'
+  
+
+  // Hide duplicate filter labels like "Category:" / "Paths:" / "Level:" that appear next to headings
+  try {
+    const hideIfMatches = (el) => {
+      const t = (el.textContent || '').trim();
+      if (/^(Category|Paths|Level)\s*:?$/i.test(t)) el.classList.add('visually-hidden');
+    };
+    document.querySelectorAll('.filter-group label, .filter-group .group-label, .filter-group .title').forEach(hideIfMatches);
+    // Ensure we have visually-hidden helper
+    if (!document.getElementById('vh-style')) {
+      const s = document.createElement('style'); s.id='vh-style';
+      s.textContent = '.visually-hidden{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}';
+      document.head.appendChild(s);
+    }
+  } catch {}
+// Update '0-99' checkbox label/value -> '1-99'
   try {
     document.querySelectorAll('input[name="tier"]').forEach(input => {
       if (String(input.value).trim().toLowerCase() === '0-99') {
