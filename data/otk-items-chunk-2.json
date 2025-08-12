@@ -1,0 +1,1630 @@
+{
+  "items": [
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_100_to_999_coins_how_to_obtain_none_comments_none_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: 100 to 999 coins How to Obtain: None Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "100 to 999 coins",
+      "obtain": [
+        "None"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_1000_coins_in_1_stack_how_to_obtain_none_comments_none_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: 1000+ coins in 1 stack How to Obtain: None Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "1000+ coins in 1 stack",
+      "obtain": [
+        "None"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_2_to_99_coins_how_to_obtain_none_comments_none_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: 2 to 99 coins How to Obtain: None Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "2 to 99 coins",
+      "obtain": [
+        "None"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_allows_the_character_to_morph_into_a_serpentine_dragon_how_to_obtain_go_to_the_final_room_of_nexus_museum_and_talk_to_the_caretaker_click_caretaker_s_gift_to_obtain_one_comments_the_color_of_the_morphed_dragon_depends_on_the_dye_the_character_is_using_on_his_armor_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Allows the character to morph into a Serpentine Dragon How to Obtain: Go to the final room of Nexus Museum and talk to the Caretaker. Click \"Caretaker's gift\" to obtain one. Comments: The color of the morphed dragon depends on the dye the character is using on his armor Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Allows the character to morph into a Serpentine Dragon",
+      "obtain": [
+        "Go to the final room of Nexus Museum and talk to the Caretaker. Click \"Caretaker's gift\" to obtain one."
+      ],
+      "comments": "The color of the morphed dragon depends on the dye the character is using on his armor",
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_captures_the_winds_how_to_obtain_weave_using_10_fine_cloth_and_1_red_potion_comments_needed_to_capture_the_winds_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Captures the winds How to Obtain: Weave using 10 fine cloth and 1 red potion Comments: Needed to capture the winds Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Captures the winds",
+      "obtain": [
+        "Weave using 10 fine cloth and 1 red potion"
+      ],
+      "comments": "Needed to capture the winds",
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_cash_how_to_obtain_lost_mines_comments_none_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Cash How to Obtain: Lost Mines Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Cash",
+      "obtain": [
+        "Lost Mines"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_casts_sanctuary_how_to_obtain_buy_in_kugnae_baek_s_shop_comments_none_shop_prices_npc_sells_2_500_npc_buys_1_350",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Casts Sanctuary How to Obtain: Buy in Kugnae, Baek's shop Comments: None Shop prices: NPC Sells: 2,500 NPC Buys: 1,350",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Casts Sanctuary",
+      "obtain": [
+        "Buy in Kugnae, Baek's shop"
+      ],
+      "npc_buys": 1
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_keep_your_hair_neat_how_to_obtain_taverns_comments_none_shop_prices_npc_sells_10_npc_buys_5",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Keep your hair neat! How to Obtain: Taverns Comments: None Shop prices: NPC Sells: 10 NPC Buys: 5",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Keep your hair neat!",
+      "obtain": [
+        "Taverns"
+      ],
+      "npc_buys": 5
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_key_held_by_buya_goverment_used_to_secure_palace_doors_how_to_obtain_none_comments_used_by_buya_royals_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Key held by Buya goverment, used to secure palace doors How to Obtain: None Comments: Used by Buya royals Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Key held by Buya goverment, used to secure palace doors",
+      "obtain": [
+        "None"
+      ],
+      "comments": "Used by Buya royals",
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_key_held_by_koguryo_goverment_used_to_secure_palace_doors_how_to_obtain_none_comments_used_by_koguryo_royals_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Key held by Koguryo goverment, used to secure palace doors How to Obtain: None Comments: Used by Koguryo royals Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Key held by Koguryo goverment, used to secure palace doors",
+      "obtain": [
+        "None"
+      ],
+      "comments": "Used by Koguryo royals",
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_key_held_by_nangen_goverment_used_to_secure_palace_doors_how_to_obtain_none_comments_used_by_nangen_royals_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Key held by Nangen goverment, used to secure palace doors How to Obtain: None Comments: Used by Nangen royals Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Key held by Nangen goverment, used to secure palace doors",
+      "obtain": [
+        "None"
+      ],
+      "comments": "Used by Nangen royals",
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_key_used_to_open_various_locks_how_to_obtain_spy_subpath_comments_those_who_helped_rescue_elders_from_spy_dungeon_in_yuri_58_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Key used to open various locks How to Obtain: Spy subpath Comments: Those who helped rescue elders from Spy Dungeon in Yuri 58 Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Key used to open various locks",
+      "obtain": [
+        "Spy subpath"
+      ],
+      "comments": "Those who helped rescue elders from Spy Dungeon in Yuri 58",
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_needed_to_make_nagn_how_to_obtain_taverns_comments_none_shop_prices_npc_sells_10_npc_buys_5",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Needed to make Nagn How to Obtain: Taverns Comments: None Shop prices: NPC Sells: 10 NPC Buys: 5",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Needed to make Nagn",
+      "obtain": [
+        "Taverns"
+      ],
+      "npc_buys": 5
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_dropped_by_mud_snake_in_kugnae_snake_cave_comments_none_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: Dropped by Mud snake in Kugnae snake cave Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "obtain": [
+        "Dropped by Mud snake in Kugnae snake cave"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_mythic_dog_key_bosses_comments_needed_for_lesser_alliance_with_mythic_sheep_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: Mythic Dog Key Bosses Comments: Needed for Lesser Alliance with Mythic Sheep Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "obtain": [
+        "Mythic Dog Key Bosses"
+      ],
+      "comments": "Needed for Lesser Alliance with Mythic Sheep",
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_mythic_horse_key_bosses_comments_needed_for_lesser_alliance_with_mythic_rat_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: Mythic Horse Key Bosses Comments: Needed for Lesser Alliance with Mythic Rat Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "obtain": [
+        "Mythic Horse Key Bosses"
+      ],
+      "comments": "Needed for Lesser Alliance with Mythic Rat",
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_mythic_monkey_key_bosses_comments_needed_for_lesser_alliance_with_mythic_tiger_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: Mythic Monkey Key Bosses Comments: Needed for Lesser Alliance with Mythic Tiger Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "obtain": [
+        "Mythic Monkey Key Bosses"
+      ],
+      "comments": "Needed for Lesser Alliance with Mythic Tiger",
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_mythic_ox_key_bosses_comments_needed_for_lesser_alliance_with_mythic_sheep_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: Mythic Ox Key Bosses Comments: Needed for Lesser Alliance with Mythic Sheep Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "obtain": [
+        "Mythic Ox Key Bosses"
+      ],
+      "comments": "Needed for Lesser Alliance with Mythic Sheep",
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_mythic_pig_key_bosses_comments_needed_for_lesser_alliance_with_mythic_sheep_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: Mythic Pig Key Bosses Comments: Needed for Lesser Alliance with Mythic Sheep Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "obtain": [
+        "Mythic Pig Key Bosses"
+      ],
+      "comments": "Needed for Lesser Alliance with Mythic Sheep",
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_mythic_rabbit_key_bosses_comments_needed_for_lesser_alliance_with_mythic_rooster_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: Mythic Rabbit Key Bosses Comments: Needed for Lesser Alliance with Mythic Rooster Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "obtain": [
+        "Mythic Rabbit Key Bosses"
+      ],
+      "comments": "Needed for Lesser Alliance with Mythic Rooster",
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_mythic_rat_key_bosses_comments_needed_for_lesser_alliance_with_mythic_horse_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: Mythic Rat Key Bosses Comments: Needed for Lesser Alliance with Mythic Horse Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "obtain": [
+        "Mythic Rat Key Bosses"
+      ],
+      "comments": "Needed for Lesser Alliance with Mythic Horse",
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_mythic_rooster_key_bosses_comments_needed_for_lesser_alliance_with_mythic_rabbit_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: Mythic Rooster Key Bosses Comments: Needed for Lesser Alliance with Mythic Rabbit Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "obtain": [
+        "Mythic Rooster Key Bosses"
+      ],
+      "comments": "Needed for Lesser Alliance with Mythic Rabbit",
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_sute_comments_none_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: Sute Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "crafts": [],
+      "other_uses": [],
+      "effect": null,
+      "obtain": [
+        "Sute"
+      ],
+      "comments": null,
+      "npc_buys": 0,
+      "path": [
+        "Peasant"
+      ]
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_white_wolf_comments_needed_for_mage_dog_spell_shop_prices_npc_sells_0_npc_buys_600",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: White wolf Comments: Needed for mage dog spell Shop prices: NPC Sells: 0 NPC Buys: 600",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "crafts": [],
+      "other_uses": [],
+      "effect": null,
+      "obtain": [
+        "White wolf"
+      ],
+      "comments": "Needed for mage dog spell",
+      "npc_buys": 600,
+      "path": [
+        "Peasant"
+      ]
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_woodlands_bear_cave_comments_none_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: Woodlands Bear Cave Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "crafts": [],
+      "other_uses": [],
+      "effect": null,
+      "obtain": [
+        "Woodlands Bear Cave"
+      ],
+      "comments": null,
+      "npc_buys": 0,
+      "path": [
+        "Peasant"
+      ]
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_woodlands_dog_cave_comments_none_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: Woodlands Dog Cave Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "crafts": [],
+      "other_uses": [],
+      "effect": null,
+      "obtain": [
+        "Woodlands Dog Cave"
+      ],
+      "comments": null,
+      "npc_buys": 0,
+      "path": [
+        "Peasant"
+      ]
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_woodlands_lobster_cave_comments_none_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: Woodlands Lobster Cave Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "crafts": [],
+      "other_uses": [],
+      "effect": null,
+      "obtain": [
+        "Woodlands Lobster Cave"
+      ],
+      "comments": null,
+      "npc_buys": 0,
+      "path": [
+        "Peasant"
+      ]
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_woodlands_rabbit_cave_comments_none_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: Woodlands Rabbit Cave Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "crafts": [],
+      "other_uses": [],
+      "effect": null,
+      "obtain": [
+        "Woodlands Rabbit Cave"
+      ],
+      "comments": null,
+      "npc_buys": 0,
+      "path": [
+        "Peasant"
+      ]
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_woodlands_raheem_desert_cave_comments_none_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: Woodlands Raheem Desert Cave Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "crafts": [],
+      "other_uses": [],
+      "effect": null,
+      "obtain": [
+        "Woodlands Raheem Desert Cave"
+      ],
+      "comments": null,
+      "npc_buys": 0,
+      "path": [
+        "Peasant"
+      ]
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_open_close_clan_hall_doors_how_to_obtain_none_comments_key_held_by_clan_primogen_and_council_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Open/close clan hall doors How to Obtain: None Comments: Key held by Clan Primogen and council Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Open/close clan hall doors",
+      "obtain": [
+        "None"
+      ],
+      "comments": "Key held by Clan Primogen and council",
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_open_close_doors_of_carnage_games_how_to_obtain_none_comments_key_held_by_carnage_hosts_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Open/close doors of carnage games How to Obtain: None Comments: Key held by Carnage hosts Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Open/close doors of carnage games",
+      "obtain": [
+        "None"
+      ],
+      "comments": "Key held by Carnage hosts",
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_open_close_doors_of_fox_hunt_games_how_to_obtain_none_comments_key_held_by_fox_hunt_hosts_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Open/close doors of fox hunt games How to Obtain: None Comments: Key held by Fox hunt hosts Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Open/close doors of fox hunt games",
+      "obtain": [
+        "None"
+      ],
+      "comments": "Key held by Fox hunt hosts",
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_opens_treasure_boxes_in_iron_labs_how_to_obtain_dropped_by_giant_iron_tiger_comments_none_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Opens treasure boxes in Iron Labs How to Obtain: Dropped by Giant Iron Tiger Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Opens treasure boxes in Iron Labs",
+      "obtain": [
+        "Dropped by Giant Iron Tiger"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_read_diviner_s_scroll_how_to_obtain_library_comments_none_shop_prices_npc_sells_1_000_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Read Diviner's Scroll How to Obtain: Library Comments: None Shop prices: NPC Sells: 1,000 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Read Diviner's Scroll",
+      "obtain": [
+        "Library"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_read_druid_s_scroll_how_to_obtain_library_comments_none_shop_prices_npc_sells_1_000_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Read Druid's Scroll How to Obtain: Library Comments: None Shop prices: NPC Sells: 1,000 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Read Druid's Scroll",
+      "obtain": [
+        "Library"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_read_monk_s_scroll_how_to_obtain_library_comments_none_shop_prices_npc_sells_1_000_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Read Monk's Scroll How to Obtain: Library Comments: None Shop prices: NPC Sells: 1,000 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Read Monk's Scroll",
+      "obtain": [
+        "Library"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_read_muse_s_scroll_how_to_obtain_library_comments_none_shop_prices_npc_sells_1_000_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Read Muse's Scroll How to Obtain: Library Comments: None Shop prices: NPC Sells: 1,000 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Read Muse's Scroll",
+      "obtain": [
+        "Library"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_read_ranger_s_scroll_how_to_obtain_library_comments_none_shop_prices_npc_sells_1_000_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Read Ranger's Scroll How to Obtain: Library Comments: None Shop prices: NPC Sells: 1,000 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Read Ranger's Scroll",
+      "obtain": [
+        "Library"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_sanctuary_185_seconds_how_to_obtain_zombies_comments_none_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Sanctuary, 185 seconds How to Obtain: Zombies Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Sanctuary, 185 seconds",
+      "obtain": [
+        "Zombies"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_tales_of_history_and_legendsprovides_clues_to_many_quests_how_to_obtain_library_comments_none_shop_prices_npc_sells_1_000_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Tales of history and legendsProvides clues to many quests How to Obtain: Library Comments: None Shop prices: NPC Sells: 1,000 NPC Buys: 0",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "crafts": [],
+      "other_uses": [],
+      "effect": "Tales of history and legendsProvides clues to many quests",
+      "obtain": [
+        "Library"
+      ],
+      "comments": null,
+      "npc_buys": 0,
+      "path": [
+        "Peasant"
+      ]
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_how_to_obtain_early_pirate_events_comments_none_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration How to Obtain: Early Pirate Events Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Vita restoration",
+      "obtain": [
+        "Early Pirate Events"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_1_500_maximum_3_000_effect_none_how_to_obtain_woodlands_lobster_boss_comments_none_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 1,500 Maximum: 3,000 Effect: None How to Obtain: Woodlands Lobster Boss Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "obtain": [
+        "Woodlands Lobster Boss"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_spells_merchant_suggested_price_minimum_0_maximum_0_effect_needed_for_spells_how_to_obtain_buy_from_messenger_shops_comments_none_shop_prices_npc_sells_10_npc_buys_5",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: Spells Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Needed for spells How to Obtain: Buy from Messenger shops Comments: None Shop prices: NPC Sells: 10 NPC Buys: 5",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "crafts": [],
+      "other_uses": [
+        "Spells"
+      ],
+      "effect": "Needed for spells",
+      "obtain": [
+        "Buy from Messenger shops"
+      ],
+      "comments": null,
+      "npc_buys": 5,
+      "path": [
+        "Peasant"
+      ]
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_scribe_other_uses_needed_to_make_most_scrolls_merchant_suggested_price_minimum_0_maximum_0_effect_needed_for_spells_and_the_scribe_craft_how_to_obtain_buy_in_messenger_shops_comments_none_shop_prices_npc_sells_100_npc_buys_50",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: Scribe Other Uses: Needed to make most Scrolls Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Needed for spells and the Scribe craft How to Obtain: Buy in Messenger shops Comments: None Shop prices: NPC Sells: 100 NPC Buys: 50",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "crafts": [
+        "Scribe"
+      ],
+      "other_uses": [
+        "Needed to make most Scrolls"
+      ],
+      "effect": "Needed for spells and the Scribe craft",
+      "obtain": [
+        "Buy in Messenger shops"
+      ],
+      "npc_buys": 50
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_scribe_other_uses_needed_to_make_most_scrolls_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_buy_in_messenger_shops_comments_none_shop_prices_npc_sells_100_npc_buys_50",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: Scribe Other Uses: Needed to make most Scrolls Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: Buy in Messenger shops Comments: None Shop prices: NPC Sells: 100 NPC Buys: 50",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "crafts": [
+        "Scribe"
+      ],
+      "other_uses": [
+        "Needed to make most Scrolls"
+      ],
+      "obtain": [
+        "Buy in Messenger shops"
+      ],
+      "npc_buys": 50
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_scribe_other_uses_needed_to_make_scroll_of_defense_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_buy_in_kugnae_baek_s_shop_comments_none_shop_prices_npc_sells_5_000_npc_buys_2_500",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: Scribe Other Uses: Needed to make Scroll of defense Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: Buy in Kugnae, Baek's shop Comments: None Shop prices: NPC Sells: 5,000 NPC Buys: 2,500",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "crafts": [
+        "Scribe"
+      ],
+      "other_uses": [
+        "Needed to make Scroll of defense"
+      ],
+      "obtain": [
+        "Buy in Kugnae, Baek's shop"
+      ],
+      "npc_buys": 2
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_1_crafts_woodcutting_other_uses_crafts_merchant_suggested_price_minimum_50_maximum_50_effect_used_for_cutting_wood_how_to_obtain_shops_comments_used_for_cutting_wood_shop_prices_npc_sells_50_npc_buys_25",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: Woodcutting Other Uses: Crafts Merchant suggested price: Minimum: 50 Maximum: 50 Effect: Used for cutting wood How to Obtain: Shops Comments: Used for cutting wood Shop prices: NPC Sells: 50 NPC Buys: 25",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "crafts": [
+        "Woodcutting"
+      ],
+      "other_uses": [
+        "Crafts"
+      ],
+      "effect": "Used for cutting wood",
+      "obtain": [
+        "Shops"
+      ],
+      "comments": "Used for cutting wood",
+      "npc_buys": 25
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_2_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_woodlands_dog_cave_comments_none_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 2 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: Woodlands Dog Cave Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "obtain": [
+        "Woodlands Dog Cave"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_1_uses_4_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_woodlands_dog_cave_comments_none_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 1 Uses: 4 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: Woodlands Dog Cave Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "obtain": [
+        "Woodlands Dog Cave"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_10_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_woodlands_snake_cave_comments_none_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 10 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: Woodlands Snake Cave Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 10,
+      "crafts": [],
+      "other_uses": [],
+      "effect": null,
+      "obtain": [
+        "Woodlands Snake Cave"
+      ],
+      "comments": null,
+      "npc_buys": 0,
+      "path": [
+        "Peasant"
+      ]
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_100_uses_1_crafts_gemcutting_other_uses_crafts_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_dropped_by_many_creatures_comments_none_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 100 Uses: 1 Crafts: Gemcutting Other Uses: Crafts Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: Dropped by many creatures Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 100,
+      "crafts": [
+        "Gemcutting"
+      ],
+      "other_uses": [
+        "Crafts"
+      ],
+      "effect": null,
+      "obtain": [
+        "Dropped by many creatures"
+      ],
+      "comments": null,
+      "npc_buys": 0,
+      "path": [
+        "Peasant"
+      ]
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_100_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_return_to_taverns_how_to_obtain_taverns_comments_buy_in_taverns_shop_prices_npc_sells_1_npc_buys_1",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 100 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Return to Taverns How to Obtain: Taverns Comments: Buy in Taverns Shop prices: NPC Sells: 1 NPC Buys: 1",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 100,
+      "effect": "Return to Taverns",
+      "obtain": [
+        "Taverns"
+      ],
+      "comments": "Buy in Taverns",
+      "npc_buys": 1
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_100_uses_1_crafts_scribe_other_uses_crafts_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_dropped_by_many_creatures_comments_none_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 100 Uses: 1 Crafts: Scribe Other Uses: Crafts Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: Dropped by many creatures Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 100,
+      "crafts": [
+        "Scribe"
+      ],
+      "other_uses": [
+        "Crafts"
+      ],
+      "effect": null,
+      "obtain": [
+        "Dropped by many creatures"
+      ],
+      "comments": null,
+      "npc_buys": 0,
+      "path": [
+        "Peasant"
+      ]
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_2_uses_1_crafts_none_other_uses_need_to_weave_magical_net_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_100_how_to_obtain_potion_shops_comments_restores_all_vitaeach_attempt_to_weave_a_magical_net_needs_1_of_these_shop_prices_npc_sells_15_000_npc_buys_7_500",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 2 Uses: 1 Crafts: None Other Uses: Need to weave magical net Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration - 100% How to Obtain: Potion Shops Comments: Restores all vitaEach attempt to weave a Magical Net needs 1 of these Shop prices: NPC Sells: 15,000 NPC Buys: 7,500",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 2,
+      "crafts": [],
+      "other_uses": [
+        "Need to weave magical net"
+      ],
+      "effect": "Vita restoration - 100%",
+      "obtain": [
+        "Potion Shops"
+      ],
+      "comments": "Restores all vitaEach attempt to weave a Magical Net needs 1 of these",
+      "npc_buys": 7,
+      "path": [
+        "Peasant"
+      ]
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_2_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_woodlands_dog_cave_comments_none_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 2 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: Woodlands Dog Cave Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 2,
+      "obtain": [
+        "Woodlands Dog Cave"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_20_uses_1_crafts_gemcutting_other_uses_crafts_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_dropped_by_many_creatures_comments_none_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 20 Uses: 1 Crafts: Gemcutting Other Uses: Crafts Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: Dropped by many creatures Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 20,
+      "crafts": [
+        "Gemcutting"
+      ],
+      "other_uses": [
+        "Crafts"
+      ],
+      "effect": null,
+      "obtain": [
+        "Dropped by many creatures"
+      ],
+      "comments": null,
+      "npc_buys": 0,
+      "path": [
+        "Peasant"
+      ]
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_20_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_woodlands_snake_cave_comments_none_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 20 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: Woodlands Snake Cave Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 20,
+      "obtain": [
+        "Woodlands Snake Cave"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_28_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_woodlands_snake_cave_comments_none_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 28 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: Woodlands Snake Cave Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 28,
+      "obtain": [
+        "Woodlands Snake Cave"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_3_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_woodlands_dog_cave_comments_none_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 3 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: Woodlands Dog Cave Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 3,
+      "crafts": [],
+      "other_uses": [],
+      "effect": null,
+      "obtain": [
+        "Woodlands Dog Cave"
+      ],
+      "comments": null,
+      "npc_buys": 0,
+      "path": [
+        "Peasant"
+      ]
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_4_uses_1_crafts_none_other_uses_gives_up_to_33_vita_restoration_when_used_merchant_suggested_price_minimum_0_maximum_0_effect_vita_restoration_33_how_to_obtain_lost_mines_comments_dropped_by_leeches_in_lost_mine_events_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 4 Uses: 1 Crafts: None Other Uses: Gives up to 33% vita restoration when used Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Vita restoration - 33% How to Obtain: Lost Mines Comments: Dropped by Leeches in Lost Mine events Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 4,
+      "crafts": [],
+      "other_uses": [
+        "Gives up to 33% vita restoration when used"
+      ],
+      "effect": "Vita restoration - 33%",
+      "obtain": [
+        "Lost Mines"
+      ],
+      "comments": "Dropped by Leeches in Lost Mine events",
+      "npc_buys": 0,
+      "path": [
+        "Peasant"
+      ]
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_5_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_casts_kwi_sin_whirlwind_leaving_you_at_10_vita_how_to_obtain_dropped_during_april_fools_by_creatures_called_lag_minion_and_deecee_comments_none_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 5 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Casts Kwi-Sin Whirlwind, leaving you at 10 vita How to Obtain: Dropped during April Fools' by creatures called Lag minion and DeeCee Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 5,
+      "effect": "Casts Kwi-Sin Whirlwind, leaving you at 10 vita",
+      "obtain": [
+        "Dropped during April Fools' by creatures called Lag minion and DeeCee"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_5_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_makes_a_player_use_the_sleep_emotion_casts_naptime_on_others_how_to_obtain_dropped_during_april_fools_by_creatures_called_lag_minion_and_deecee_comments_none_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 5 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: makes a player use the sleep Emotion, Casts Naptime on others. How to Obtain: Dropped during April Fools' by creatures called Lag minion and DeeCee Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 5,
+      "effect": "makes a player use the sleep Emotion, Casts Naptime on others.",
+      "obtain": [
+        "Dropped during April Fools' by creatures called Lag minion and DeeCee"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_5_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_woodlands_snake_cave_comments_none_shop_prices_npc_sells_0_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 5 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: Woodlands Snake Cave Comments: None Shop prices: NPC Sells: 0 NPC Buys: 0",
+      "category": "item",
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 5,
+      "crafts": [],
+      "other_uses": [],
+      "effect": null,
+      "obtain": [
+        "Woodlands Snake Cave"
+      ],
+      "comments": null,
+      "npc_buys": 0,
+      "path": [
+        "Peasant"
+      ]
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_52_uses_1_crafts_none_other_uses_used_to_play_g_oh_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_g_oh_shopkeepers_comments_none_shop_prices_npc_sells_20_npc_buys_10",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 52 Uses: 1 Crafts: None Other Uses: Used to play G'oh Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: G'oh Shopkeepers Comments: None Shop prices: NPC Sells: 20 NPC Buys: 10",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 52,
+      "other_uses": [
+        "Used to play G'oh"
+      ],
+      "obtain": [
+        "G'oh Shopkeepers"
+      ],
+      "npc_buys": 10
+    },
+    {
+      "id": "vita_0_mana_0_level_0_path_peasant_max_held_in_1_slot_52_uses_1_crafts_none_other_uses_used_to_play_g_oh_merchant_suggested_price_minimum_0_maximum_0_effect_none_how_to_obtain_g_oh_shopkeepers_comments_used_to_play_g_oh_shop_prices_npc_sells_20_npc_buys_10",
+      "name": "Vita : 0 Mana : 0 Level: 0 Path: Peasant Max. Held in 1 Slot: 52 Uses: 1 Crafts: None Other Uses: Used to play G'oh Merchant suggested price: Minimum: 0 Maximum: 0 Effect: None How to Obtain: G'oh Shopkeepers Comments: Used to play G'oh Shop prices: NPC Sells: 20 NPC Buys: 10",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 52,
+      "other_uses": [
+        "Used to play G'oh"
+      ],
+      "obtain": [
+        "G'oh Shopkeepers"
+      ],
+      "comments": "Used to play G'oh",
+      "npc_buys": 10
+    },
+    {
+      "id": "vita_0_mana_0_level_15_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_allows_you_to_approach_your_beloved_merchant_suggested_price_minimum_0_maximum_0_effect_brings_you_to_your_mate_s_side_how_to_obtain_received_when_you_are_married_can_be_bought_in_chapels_comments_none_shop_prices_npc_sells_10_000_npc_buys_0",
+      "name": "Vita : 0 Mana : 0 Level: 15 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: Allows you to approach your beloved Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Brings you to your mate's side. How to Obtain: Received when you are married. Can be bought in Chapels Comments: None Shop prices: NPC Sells: 10,000 NPC Buys: 0",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "other_uses": [
+        "Allows you to approach your beloved"
+      ],
+      "effect": "Brings you to your mate's side.",
+      "obtain": [
+        "Received when you are married. Can be bought in Chapels"
+      ],
+      "npc_buys": 0
+    },
+    {
+      "id": "vita_0_mana_0_level_26_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_used_to_make_hot_coal_for_lanterns_merchant_suggested_price_minimum_0_maximum_0_effect_used_by_peasent_level_6_how_to_obtain_arena_shops_comments_none_shop_prices_npc_sells_5_npc_buys_2",
+      "name": "Vita : 0 Mana : 0 Level: 26 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: Used to make hot coal for lanterns Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Used by Peasent Level 6+ How to Obtain: Arena Shops Comments: None Shop prices: NPC Sells: 5 NPC Buys: 2",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "other_uses": [
+        "Used to make hot coal for lanterns"
+      ],
+      "effect": "Used by Peasent Level 6+",
+      "obtain": [
+        "Arena Shops"
+      ],
+      "npc_buys": 2
+    },
+    {
+      "id": "vita_0_mana_0_level_30_path_rogue_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_used_by_rogue_level_30_how_to_obtain_arena_shops_comments_none_shop_prices_npc_sells_16_npc_buys_8",
+      "name": "Vita : 0 Mana : 0 Level: 30 Path: Rogue Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Used by Rogue Level 30+ How to Obtain: Arena Shops Comments: None Shop prices: NPC Sells: 16 NPC Buys: 8",
+      "category": "item",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Used by Rogue Level 30+",
+      "obtain": [
+        "Arena Shops"
+      ],
+      "npc_buys": 8
+    },
+    {
+      "id": "vita_0_mana_0_level_40_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_used_by_peasent_level_80_can_be_used_as_a_star_item_in_mage_armor_quest_how_to_obtain_arena_shops_comments_none_shop_prices_npc_sells_100_npc_buys_50",
+      "name": "Vita : 0 Mana : 0 Level: 40 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Used by Peasent Level 80+Can be used as a star item in Mage Armor Quest How to Obtain: Arena Shops Comments: None Shop prices: NPC Sells: 100 NPC Buys: 50",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Used by Peasent Level 80+Can be used as a star item in Mage Armor Quest",
+      "obtain": [
+        "Arena Shops"
+      ],
+      "npc_buys": 50
+    },
+    {
+      "id": "vita_0_mana_0_level_50_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_used_by_peasent_level_50_how_to_obtain_arena_shops_comments_none_shop_prices_npc_sells_40_npc_buys_20",
+      "name": "Vita : 0 Mana : 0 Level: 50 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Used by Peasent Level 50+ How to Obtain: Arena Shops Comments: None Shop prices: NPC Sells: 40 NPC Buys: 20",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Used by Peasent Level 50+",
+      "obtain": [
+        "Arena Shops"
+      ],
+      "npc_buys": 20
+    },
+    {
+      "id": "vita_0_mana_0_level_55_path_warrior_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_explosion_how_to_obtain_arena_shops_comments_none_shop_prices_npc_sells_80_npc_buys_40",
+      "name": "Vita : 0 Mana : 0 Level: 55 Path: Warrior Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Explosion How to Obtain: Arena Shops Comments: None Shop prices: NPC Sells: 80 NPC Buys: 40",
+      "category": "item",
+      "path": [
+        "Warrior"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Explosion",
+      "obtain": [
+        "Arena Shops"
+      ],
+      "npc_buys": 40
+    },
+    {
+      "id": "vita_0_mana_0_level_6_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_used_by_peasent_level_6_needed_to_make_hot_coal_how_to_obtain_arena_shops_comments_none_shop_prices_npc_sells_5_npc_buys_2",
+      "name": "Vita : 0 Mana : 0 Level: 6 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Used by Peasent Level 6+Needed to make Hot coal How to Obtain: Arena Shops Comments: None Shop prices: NPC Sells: 5 NPC Buys: 2",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Used by Peasent Level 6+Needed to make Hot coal",
+      "obtain": [
+        "Arena Shops"
+      ],
+      "npc_buys": 2
+    },
+    {
+      "id": "vita_0_mana_0_level_60_path_poet_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_explosion_how_to_obtain_arena_shops_comments_none_shop_prices_npc_sells_60_npc_buys_30",
+      "name": "Vita : 0 Mana : 0 Level: 60 Path: Poet Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Explosion How to Obtain: Arena Shops Comments: None Shop prices: NPC Sells: 60 NPC Buys: 30",
+      "category": "item",
+      "path": [
+        "Poet"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Explosion",
+      "obtain": [
+        "Arena Shops"
+      ],
+      "npc_buys": 30
+    },
+    {
+      "id": "vita_0_mana_0_level_62_path_rogue_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_used_by_rogue_level_62_how_to_obtain_buya_arena_shop_comments_none_shop_prices_npc_sells_80_npc_buys_40",
+      "name": "Vita : 0 Mana : 0 Level: 62 Path: Rogue Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Used by Rogue Level 62+ How to Obtain: Buya Arena Shop Comments: None Shop prices: NPC Sells: 80 NPC Buys: 40",
+      "category": "item",
+      "path": [
+        "Rogue"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Used by Rogue Level 62+",
+      "obtain": [
+        "Buya Arena Shop"
+      ],
+      "npc_buys": 40
+    },
+    {
+      "id": "vita_0_mana_0_level_70_path_geomancer_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_explosion_how_to_obtain_arena_shops_comments_none_shop_prices_npc_sells_100_npc_buys_50",
+      "name": "Vita : 0 Mana : 0 Level: 70 Path: Geomancer Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Explosion How to Obtain: Arena Shops Comments: None Shop prices: NPC Sells: 100 NPC Buys: 50",
+      "category": "item",
+      "path": [
+        "Geomancer"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Explosion",
+      "obtain": [
+        "Arena Shops"
+      ],
+      "npc_buys": 50
+    },
+    {
+      "id": "vita_0_mana_0_level_70_path_spy_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_explosion_how_to_obtain_arena_shops_comments_none_shop_prices_npc_sells_100_npc_buys_50",
+      "name": "Vita : 0 Mana : 0 Level: 70 Path: Spy Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Explosion How to Obtain: Arena Shops Comments: None Shop prices: NPC Sells: 100 NPC Buys: 50",
+      "category": "item",
+      "path": [
+        "Spy"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Explosion",
+      "obtain": [
+        "Arena Shops"
+      ],
+      "npc_buys": 50
+    },
+    {
+      "id": "vita_0_mana_0_level_99_path_geomancer_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_explosion_how_to_obtain_kugnae_arena_shop_comments_none_shop_prices_npc_sells_1_000_npc_buys_500",
+      "name": "Vita : 0 Mana : 0 Level: 99 Path: Geomancer Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Explosion How to Obtain: Kugnae Arena Shop Comments: None Shop prices: NPC Sells: 1,000 NPC Buys: 500",
+      "category": "item",
+      "path": [
+        "Geomancer"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Explosion",
+      "obtain": [
+        "Kugnae Arena Shop"
+      ],
+      "npc_buys": 500
+    },
+    {
+      "id": "vita_0_mana_0_level_99_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_explosion_how_to_obtain_arena_shops_comments_none_shop_prices_npc_sells_200_npc_buys_100",
+      "name": "Vita : 0 Mana : 0 Level: 99 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Explosion How to Obtain: Arena Shops Comments: None Shop prices: NPC Sells: 200 NPC Buys: 100",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Explosion",
+      "obtain": [
+        "Arena Shops"
+      ],
+      "npc_buys": 100
+    },
+    {
+      "id": "vita_0_mana_0_level_99_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_explosion_how_to_obtain_arena_shops_comments_none_shop_prices_npc_sells_500_npc_buys_250",
+      "name": "Vita : 0 Mana : 0 Level: 99 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Explosion How to Obtain: Arena Shops Comments: None Shop prices: NPC Sells: 500 NPC Buys: 250",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Explosion",
+      "obtain": [
+        "Arena Shops"
+      ],
+      "npc_buys": 250
+    },
+    {
+      "id": "vita_0_mana_0_level_99_path_peasant_max_held_in_1_slot_1_uses_1_crafts_none_other_uses_none_merchant_suggested_price_minimum_0_maximum_0_effect_used_by_peasent_level_99_how_to_obtain_arena_shops_comments_none_shop_prices_npc_sells_150_npc_buys_75",
+      "name": "Vita : 0 Mana : 0 Level: 99 Path: Peasant Max. Held in 1 Slot: 1 Uses: 1 Crafts: None Other Uses: None Merchant suggested price: Minimum: 0 Maximum: 0 Effect: Used by Peasent Level 99 How to Obtain: Arena Shops Comments: None Shop prices: NPC Sells: 150 NPC Buys: 75",
+      "category": "item",
+      "path": [
+        "Peasant"
+      ],
+      "level_tier": "",
+      "stats": {
+        "Vita": 0,
+        "Mana": 0
+      },
+      "stack_size": 1,
+      "effect": "Used by Peasent Level 99",
+      "obtain": [
+        "Arena Shops"
+      ],
+      "npc_buys": 75
+    }
+  ]
+}
