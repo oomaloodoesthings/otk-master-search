@@ -81,7 +81,7 @@ function hideLoader() {
   if (overlay) overlay.classList.remove('visible');
 }
 
-function setLoadStatus(msg){ if (els.loadStatus) els.loadStatus.textContent = msg; }
+function setLoadStatus(msg){ if (els.loadStatus) els.loadStatus.textContent = msg; try{ setLoader(msg); }catch(e){} }
 function dbg(msg, obj){
   try { const line = (obj!==undefined) ? msg + ' ' + JSON.stringify(obj) : msg;
         if (els.debugLog){ els.debugLog.textContent += line + '\n'; } }
@@ -405,6 +405,7 @@ function bind() {
     els.tiers.forEach(t=>t.checked=true);
     state.sortKey='name'; state.sortDir='asc'; state.statKey=null;
     applyFilters();
+  hideLoader();
   });
   if (els.selectNone) els.selectNone.addEventListener('click', () => {
     els.q.value='';
@@ -413,6 +414,7 @@ function bind() {
     els.tiers.forEach(t=>t.checked=false);
     state.sortKey='name'; state.sortDir='asc'; state.statKey=null;
     applyFilters();
+  hideLoader();
   });
 
   // Debug panel
@@ -601,6 +603,20 @@ function ensureFilterChipStyles() {
   document.head.appendChild(style);
 }
 function enhanceFilterChips() {
+  // Clean up redundant captions like "Category:", "Paths:", "Level Tiers:" near the filter form
+  try{
+    document.querySelectorAll('#filters .filter-group h3, #filters .filter-group legend').forEach(el=>{
+      const t=(el.textContent||'').trim();
+      if(/^level\s*tiers?/i.test(t)) el.textContent='Level';
+    });
+    document.querySelectorAll('#filters .filter-group, #filters').forEach(group=>{
+      group.querySelectorAll(':scope > *').forEach(child=>{
+        const txt=(child.textContent||'').trim();
+        if(/^(Category|Paths|Level(\s*Tiers)?)\s*:?$/.test(txt) && child.tagName!=='DIV'){ child.classList.add('visually-hidden'); }
+      });
+    });
+  }catch(e){}
+
   ensureFilterChipStyles();
 
   function buildChips(inputs, title) {
@@ -635,8 +651,11 @@ function enhanceFilterChips() {
     });
 
     const anchor = inputs[0]?.closest('.filter-group') || document.getElementById('filters');
-    if (anchor && anchor.parentElement) anchor.parentElement.insertBefore(row, anchor);
-    else document.body.insertBefore(row, document.body.firstChild);
+    if (anchor){
+      const head = anchor.querySelector('h3,legend');
+      if (head && head.parentElement){ head.parentElement.insertBefore(row, head.nextSibling); }
+      else { anchor.appendChild(row); }
+    } else { document.body.insertBefore(row, document.body.firstChild); }
   }
 
   buildChips(Array.from(els.categories || []), 'Category');
@@ -688,6 +707,7 @@ async function main() {
   setLoadStatus(`Loaded ${state.items.length} item(s)`);
   if (state.items.length === 0 && els.debugPanel) els.debugPanel.classList.remove('hidden');
   applyFilters();
+  hideLoader();
 }
 
 main().catch(err => {
